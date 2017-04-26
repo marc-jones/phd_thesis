@@ -12,6 +12,9 @@ ${CHAPTERS}: %: pre
 	cd ./content/$* && \
 	pandoc -o ../../build/$*.md \
 		$$(ls *.md)
+	cd ./build/ && \
+		sed -ie 's/figuredirectory/..\/content\/$*\/figures/' \
+		$*.md
 
 tex: ${CHAPTERS}
 	cd ./content/ && \
@@ -19,19 +22,20 @@ tex: ${CHAPTERS}
 		--bibliography=references.bib \
 		--csl=../source/nature.csl \
 		--template=../source/base.tex \
-		meta.yaml $$(sed -e 's/^/..\/build\//' -e 's/$$/\.md/' ../source/CHAPTERS | tr '\n\r' ' ' | tr '\n' ' ' )
+		meta.yaml $$(sed -e 's/^/..\/build\//' -e 's/$$/\.md/' \
+		../source/CHAPTERS | tr '\n\r' ' ' | tr '\n' ' ' )
 
 pdf: tex
-# 	sed -e 's/^/\\input{/' -e 's/$$/}\n/' ./source/CHAPTERS > ./build/chapters
 	cd ./content/ && \
 	pandoc -o ../build/david_marc_jones_thesis.pdf \
 		--bibliography=references.bib \
 		--csl=../source/nature.csl \
 		--template=../source/base.tex \
-		meta.yaml $$(sed -e 's/^/..\/build\//' -e 's/$$/\.md/' ../source/CHAPTERS | tr '\n\r' ' ' | tr '\n' ' ' )
+		meta.yaml $$(sed -e 's/^/..\/build\//' -e 's/$$/\.md/' \
+		../source/CHAPTERS | tr '\n\r' ' ' | tr '\n' ' ' )
 
 wordcount: tex
 	cd ./build/ && \
-	../bin/texcount.pl david_marc_jones_thesis.tex
+	../bin/texcount.pl -subcount=chapter david_marc_jones_thesis.tex
 
 default: tex

@@ -15,11 +15,21 @@ Here I discuss how the samples were collected, justifications for the experiment
 
 Investigating the control mechanisms for flowering was the main motivation for this experiment, and this drove many of the key decisions during the design.
 As discussed in subsection TODO, genes involved with flowering are expressed in many tissues throughout the plant.
-This is in part due to the coordination of flowering with the environment requiring inputs from many plant structures, and partly a result of some flowering genes having pleiotropic effects throughout the plant.
-In order to capture the expression dynamics of as many flowering genes as possible, it was decided to sample leaf and apex tissues across development.
+This is in part due to coordinating flowering with the environment requires inputs from many plant structures.
+Pleiotropic effects of flowering genes may also result in their expression in many different plant tissues.
+In order to capture the expression dynamics of as many flowering genes as possible with a limited number of tissues, it was decided to sample leaf and apex tissues across development.
 There is evidence for the vernalization, aging, autonomous, and ambient temperature pathways having genes expressed in both of these tissue types.
 Additionally, due to the role leaves play in light capture and plant primary metabolism, samples from that tissue allow for the circadean clock and photoperiod pathways to be studied.
-Floral integrators are genes expressed in the shoot apical meristem and integrate signals from the various flowering time pathways into a robust and coherent response.
+Floral integrators are genes expressed in the shoot apical meristem that interact in a highly interconnected way to integrate signals from the various flowering time pathways.
+Measuring gene expression in the leaf and apex allows for the genes from the key flowering pathways to be studied throughout the floral transition.
+Although the regulation of some genes affecting flowering are missed, such as signals from the root, the two key tissues involved with flowering time control are considered.
 
+![**The sampling scheme for the developmental transcriptome.** Red numbers displayed below the bottom axis indicate the time points during which the plants were sampled. The representations of the plants indicate the approximate number of full leaves at those time points.](figuredirectory/01_sampling_scheme.pdf){#figure:2_01_sampling_scheme}
+
+The time points during development that we sampled were chosen to minimise the period between time points during periods where we expected rapid changes to be occuring.
+A schematic of the sampling scheme is displayed in Figure \ref{figure:2_01_sampling_scheme}.
 Seeds from both varieties were sown and the plants grown under long day conditions with controlled temperatures of 18 &deg;C during the day and 15 &deg;C at night.
 
+
+Sample collection
+first true leaf, dissected apex

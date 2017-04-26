@@ -40,6 +40,10 @@ texcount.pl [homepage](http://app.uio.no/ifi/texcount/)
         TFL1
             Promoter analysis
 
+    Discussion
+        Apex dissection means that in some cases repressors and their targets are 'expressed' together
+        Lighting during the cold likely kept Westar vegetative.
+
 ## Comparisons to a winter variety
 
     General trends
