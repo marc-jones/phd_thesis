@@ -30,6 +30,14 @@ The time points during development that we sampled were chosen to minimise the p
 A schematic of the sampling scheme is displayed in Figure \ref{figure:2_01_sampling_scheme}.
 Seeds from both varieties were sown and the plants grown under long day conditions with controlled temperatures of 18 &deg;C during the day and 15 &deg;C at night.
 
+![**Gene density is increased consistently across chromosomes with the AUGUSTUS derived gene models relative to the published gene models.** Gene count is calculated using a 100 kbp sliding window across the chromosome. The patterns shown here are representative of the patterns seen across all chromosomes.](figuredirectory/02_gene_position.pdf){#figure:2_02_gene_position}
+
+![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/03_gene_length.pdf){#figure:2_03_gene_length}
 
 Sample collection
 first true leaf, dissected apex
+
+67 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.3 % mappted are multiple mapped > 20
+
+33 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.4 % mappted are multiple mapped > 20
+
