@@ -8,11 +8,12 @@ texcount.pl [homepage](http://app.uio.no/ifi/texcount/)
 ## Introduction
     BBCH
     Winter and Spring
+    RNA-Seq
 
 ## Flowering time control and evolution in a spring variety
 
     Developmental transcriptome design and quality control of the RNA-Seq data
-        Justifying experimental design decisions
+        ~~Justifying experimental design decisions~~
         Darmor reference sequence and gene model comparisons
         Percentage of mapped reads
         Effect of running leaf and apex samples separately

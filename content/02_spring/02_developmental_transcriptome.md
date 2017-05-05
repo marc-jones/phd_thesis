@@ -63,10 +63,26 @@ The *A. thaliana* shoot apical meristem is composed of a relatively small subset
 There are also transcriptionally distinct zones within the shoot apical meristem, which require laser microdissection in order to accurately separate[@brooks_microdissection_2009].
 Unfortunately the means to perform laser dissection of the samples was not available to us.
 Therefore, the entire shoot apical meristem, as well as surrounding tissue, was sampled using a razor blade.
-The amount of surrounding tissue was minimised by cutting the growing tip of the plant as close to the shoot apical meristem as possible and by cutting away the developing leaves surrounding the meristem.
+The amount of surrounding tissue was minimised by cutting the growing tip of the plant as close to the shoot apical meristem as possible and removing the developing leaves surrounding the meristem.
 Although the method does not achieve the spatial resolution achievable with laser microdissection[@elhiti_gene_2013], it is still able to suitably enrich for apex tissue.
+The downside of sampling the shoot apical meristem is the destructive nature of the sampling, in that we could not take samples from the same plant over the course of development.
+This potentially introduces noise into the data if the plants sampled at different time points do not have synchronized development.
+It was felt that the potential insights made possible by having transcriptome data from the apex would offset this downside.
+Additionally, the plants were grown together and there was sufficient replication and sample pooling that factoring in this noise was not an issue.
 
+### Reference genome sequence and gene models {#section:spring:genomegenemodels}
 
+In order to carry out RNA-Seq, a reference sequence is required to map the short reads obtained from the extracted RNA.
+The choice of reference sequence largely depends on what resources are available for the organism on which the work is being done.
+For *Brassica napus* there were three main options available to us when aligning the reads.
+The *Brassica napus* uniqenes are a community resource generated using expressed sequence tags from *Brassica napus*, *Brassica oleracea*, and *Brassica rapa*[@trick_unigene_2009].
+The aim with the unigene construction was to resolve gene models of orthologous genes, such as homoeologous genes on the A and C genome, and paralogous genes, which arose from the ancestral genome triplication event in the *Brassica* lineage.
+The pan-transcriptome resource is in many ways an updated version of the unigenes, utilizing published coding DNA sequences (CDS) for *Brassica napus*, *Brassica oleracea*, and *Brassica rapa*[@he_construction_2015].
+CDS models from the two diploid species were mapped onto their respective reference genomes.
+Gene models from the Darmor-*bzh* reference genome[@napus_genome_2014] were then compared to the CDS models from the diploid species, and any *B. napus* gene models which did not match any CDS model from the diploid species was added to the pan-transcriptome[@he_construction_2015].
+The final main reference available was the Darmor-*bzh* reference genome sequence itself[@napus_genome_2014].
+While the unigenes and the pan-transcriptome consist of tens of thousands of individual gene models, the reference genome consists of genomic sequence arranged into chromosomes.
+The advantage of such a reference is that gene models can be viewed in genomic context.
 
 ![**Gene density is increased consistently across chromosomes with the AUGUSTUS derived gene models relative to the published gene models.** Gene count is calculated using a 100 kbp sliding window across the chromosome. The patterns shown here are representative of the patterns seen across all chromosomes.](figuredirectory/02_gene_position.pdf){#figure:202:geneposition}
 
