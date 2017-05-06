@@ -82,11 +82,62 @@ CDS models from the two diploid species were mapped onto their respective refere
 Gene models from the Darmor-*bzh* reference genome[@napus_genome_2014] were then compared to the CDS models from the diploid species, and any *B. napus* gene models which did not match any CDS model from the diploid species was added to the pan-transcriptome[@he_construction_2015].
 The final main reference available was the Darmor-*bzh* reference genome sequence itself[@napus_genome_2014].
 While the unigenes and the pan-transcriptome consist of tens of thousands of individual gene models, the reference genome consists of genomic sequence arranged into chromosomes.
-The advantage of such a reference is that gene models can be viewed in genomic context.
+The advantage of such a reference is that gene models can be viewed in a genomic context, the advantages of which will be exemplified in a later section (Section TODO).
+In addition, the Tuxedo suite of tools used to perform the quantification can more readily estimate total gene expression, combining the expression from all isoforms of a gene, when a genomic reference is used[@trapnell_differential_2012].
+It was therefore decided that the Darmor-*bzh* genome sequence would be used as a reference sequence to align the RNA-Seq reads to.
+
+The Tuxedo suite of RNA-Seq tools is able to predict gene models from RNA-Seq reads without prior knowledge of gene models[@trapnell_differential_2013].
+This is possible due to TopHat aligning reads in a splice aware manner, allowing the intron structure and the splice variants of genes to be discovered[@kim_tophat2_2013].
+I initially aligned the RNA-Seq reads from the developmental transcriptome in this manner, although there were two main problems with this approach.
+The first resulted from neighbouring genes being transcribed in a convergent manner, that is, the genes are located on opposite strands.
+Due to transcriptional read-through, reads were obtained that spanned the gap between the genes, causing the prediction algorithm to combine the genes into a single gene model.
+These chimeric gene models were resulting in aberrant expression traces being generated.
+The other problem arose as a result of genes which had undergone tandem multiplication events, such that multiple copies of the gene were located relatively close to each other in the genome.
+In this case, reads that spanned across two exons would occasionally be aligned partially to one gene in the tandem array and partially to another.
+This lead to large gene models being predicted which spanned multiple genes in the tandem array.
+Both of these issues were especially problematic as they were affecting the calculation of expression level, chimeric gene models lead to additional reads mapping to these gene models.
+
+In order to overcome these issues it was decided to run the Tuxedo suite of tools with predetermined gene models.
+The Darmor-*bzh* reference genome has gene models predicted by combining mapping of *A. thaliana*, *B. rapa*, *B. oleracea*, and *Oryza sativa* protein sequences, *ab inito* gene prediction, and RNA-Seq data[@napus_genome_2014].
+The RNA-Seq reads used to direct the gene model creation were taken from roots, stems, leaves, and flower buds in low and high nitrogen conditions.
+As we were focussing on the transcriptome in the apex and leaves across the floral transition, we wished to take an approach driven by the data we had collected to overcome the issue of potentially important genes being missed due to them not being expressed in the tissues used to predict the Darmor-*bzh* gene models.
+This was achieved using the gene model prediction software AUGUSTUS[@stanke_augustus_2008].
+Chalhoub et al. performed *ab inito* gene prediction and combined it with other sources of gene evidence using GAZE[@howe_gaze_2002; @napus_genome_2014].
+The different data sources were weighted differently based on the researchers confidence in the data[@napus_genome_2014].
+This potentially introduces subjectivity into the gene models and does not reflect the data driven approach we wished to take.
+As we wished to incorporate just RNA-Seq data and not protein alignment data into the predictions of gene models, the AUGUSTUS software was deemed the most appropriate tool to do this.
+The algorithm combines evidence of gene models from the RNA-Seq data directly into the Hidden Markov model based prediction process.
+RNA-Seq reads from the entire developmental transcriptome, from both tissues and both varieties, was pooled and used to aid the AUGUSTUS algorithm predict the locations of exon-inton boundaries.
 
 ![**Gene density is increased consistently across chromosomes with the AUGUSTUS derived gene models relative to the published gene models.** Gene count is calculated using a 100 kbp sliding window across the chromosome. The patterns shown here are representative of the patterns seen across all chromosomes.](figuredirectory/02_gene_position.pdf){#figure:202:geneposition}
 
+Comparing the AUGUSTUS derived gene models to the gene models published with the Darmor-*bzh* reference genome reveals a certain level of correspondence.
+The gene density across the chromosomes is correlated between the two sets of gene models (Figure \ref{figure:202:geneposition}), indicating that the two sets find similar proportions of genes in the same regions of the genome.
+However, the overall number of gene models is increased with the AUGUSTUS derived gene models.
+Therefore, although the gene densities are correlated across the genome, the overall gene density is greater with the AUGUSTUS derived gene models.
+
 ![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/03_gene_length.pdf){#figure:203:genelength}
+
+As the density of gene models is greater, one may expect that the length of the gene models would be reduced, suggesting that gene models are being split up into smaller parts.
+The distribution of gene model lengths, however, reveals that the AUGUSTUS derived gene models are on average longer than the gene models published with the Darmor-*bzh* genome sequence (Figure \ref{figure:203:genelength}).
+Therefore, the AUGUSTUS derived gene models seem to represent the genes present in the *Brassica napus* genome well.
+There are more gene models than the published set of gene models which does not seem to be due to gene model splitting.
+Additionally, the AUGUSTUS derived gene models were able to resolve gene transcribed in a convergent manner as well as multiple copies of a gene in tandem.
+As a result, the AUGUSTUS derived gene models were used to guide the RNA-Seq quantification process.
+
+### Aligning reads and quantification of expression levels {#section:spring:alignreadexplevel}
+
+There are now a number of methods for quantifying the expression level of genes using short read data.
+A frequently used pipeline involves the Tuxedo suite of tools[@trapnell_differential_2012].
+The pipeline consists of first aligning the short reads using Bowtie, an alignment algorithm which makes use of the Burrows-Wheeler transform of genome DNA sequence to allow for very efficient alignment[@langmead_bowtie2_2012; @langmead_bowtie_2009].
+Bowtie is run indirectly using another part of the Tuxedo suite called TopHat.
+TopHat is a splice aware aligner, such that if a particular read does not map to the genome then the read is segmented and the individual segments are aligned separately[@kim_tophat2_2013].
+In this way, reads that span exon-exon boundaries can be detected, allowing different splicing isoforms to be detected and their expression quantified.
+Finally, once the reads are aligned, Cufflinks is used to quantify gene expression[@trapnell_differential_2013].
+This is done in a probabilistic manner which takes into account both the error measured from different biological replicates and the uncertainty in read mismapping.
+The latter arises when reads align with equally high scores in multiple places in the genome.
+Instead of removing these reads from further analysis, which has the potential to discard a lot of the sequencing data collected, Cufflinks is able to incorporate this uncertainty into the error associated with the expression measurement[@trapnell_differential_2013].
+
 
 67 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.3 % mappted are multiple mapped > 20
 
