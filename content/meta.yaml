@@ -3,4 +3,5 @@ title: Elucidating the gene regulatory network underlying flowering time in *Bra
 author: D. Marc Jones
 documentclass: book
 toc: true
+numbersections: true
 ---

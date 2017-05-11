@@ -137,9 +137,37 @@ Finally, once the reads are aligned, Cufflinks is used to quantify gene expressi
 This is done in a probabilistic manner which takes into account both the error measured from different biological replicates and the uncertainty in read mismapping.
 The latter arises when reads align with equally high scores in multiple places in the genome.
 Instead of removing these reads from further analysis, which has the potential to discard a lot of the sequencing data collected, Cufflinks is able to incorporate this uncertainty into the error associated with the expression measurement[@trapnell_differential_2013].
+A more recent RNA-Seq analysis pipeline involves the pseudoalignment of reads to a reference transcriptome.
+Kallisto assigns reads to transcrips based on *k*-mer matching between the read and the transcript[@bray_kallisto_2016].
+In order to take into account ambiguous read mapping, kallisto implements a bootstrap technique which resamples the assignments.
+This bootstrapping technique is made possible due to the speed with which kallisto runs and allows for the technical variation within a sequencing run to be estimated.
+While the speed and technical variation estimation of kallisto are advantages over the Tuxedo suite, the software requires transcript sequences in order to be run.
+In the case of *Brassica napus* splice isoforms are less well categorized than for other species, such as *Arabidopsis thaliana*.
+Additionally, the downstream statistics pipeline for kallisto[@pimentel_sleuth_2016] is designed around carrying out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
+We therefore decided to use the Tuxedo suite of tools to carry out quantification of the RNA-Seq data we had collected.
+
+![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+
+![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+
+Reads were aligned to the Darmor-*bzh* reference genome using the AUGUSTUS derived gene models (as discussed in Section \ref{section:spring:genomegenemodels}).
+Initially only the first sequencing run was available to be aligned.
+In the first sequencing run, an average of 67 million reads per sample were obtained.
+Of these total reads, 82% were able to be mapped to the reference genome.
 
 
-67 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.3 % mappted are multiple mapped > 20
+In the absence of repeat measurements for samples, Cufflinks treats all samples as repeats of each other to parametrize the error model it uses to predict confidence intervals for expression measurements.
+The consequence of this were that
 
 33 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.4 % mappted are multiple mapped > 20
 
+![**Multiply mapping reads have little effect on the estimated gene expression levels.** The vertical axis corresponds to ](figuredirectory/06_all_vs_unique_sequencing_fpkm.pdf){#figure:206:uniquefpkm}
+
+![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/07_all_vs_unique_sequencing_conf_interval.pdf){#figure:207:uniqueconf}
+
+A potential issue with RNA-Seq is the problem of reads mapping equally likely to multiple positions in the genome.
+As discussed in this section, Cufflinks is able to incorporate the uncertainty introduced by ambiguously mapping reads into the calculation of expression level confidence intervals.
+Of the reads mapped to the genome, 14% were mapped to multiple positions in the genome and 0.3% mapped to over twenty positions.
+To test if these ambiguously mapped reads would affect the expression levels estimated, Cufflinks was run with all reads and with multiply mapping reads removed.
+Comparisons of FPKM and the confidence intervals both reveal very little difference when reads that map to multiple position in the genome are excluded from the analysis (Figures \ref{figure:206:uniquefpkm} and \ref{figure:207:uniqueconf}).
+This result demonstrates that multiply mapping reads are not adversely affecting the estimation of expression levels and are therefore included in the expression level quantification used throughout this study.
