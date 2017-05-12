@@ -146,9 +146,9 @@ In the case of *Brassica napus* splice isoforms are less well categorized than f
 Additionally, the downstream statistics pipeline for kallisto[@pimentel_sleuth_2016] is designed around carrying out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
 We therefore decided to use the Tuxedo suite of tools to carry out quantification of the RNA-Seq data we had collected.
 
-![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline but using different amounts of data. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
 
-![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm}](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
 
 Reads were aligned to the Darmor-*bzh* reference genome using the AUGUSTUS derived gene models (as discussed in Section \ref{section:spring:genomegenemodels}).
 Initially only the first sequencing run was available to be aligned.
