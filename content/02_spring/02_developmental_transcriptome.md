@@ -146,24 +146,26 @@ In the case of *Brassica napus* splice isoforms are less well categorized than f
 Additionally, the downstream statistics pipeline for kallisto[@pimentel_sleuth_2016] is designed around carrying out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
 We therefore decided to use the Tuxedo suite of tools to carry out quantification of the RNA-Seq data we had collected.
 
-![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline but using different amounts of data. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline. RNA-Seq data from either the first or both biological repeats was used. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
 
-![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm}](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm} with the transformed 95% confidence interval plotted. The confidence intervals are calculated directly by Cufflinks.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
 
 Reads were aligned to the Darmor-*bzh* reference genome using the AUGUSTUS derived gene models (as discussed in Section \ref{section:spring:genomegenemodels}).
 Initially only the first sequencing run was available to be aligned.
 In the first sequencing run, an average of 67 million reads per sample were obtained.
 Of these total reads, 82% were able to be mapped to the reference genome.
-
-
+The confidence intervals calculated when using the first sequencing run only were too large to allow for robust assessment of differential expression and determining whether two expression traces were distinct from one another.
+This was due to Cufflinks not having information from biological repeats to properly parametrize its error model.
 In the absence of repeat measurements for samples, Cufflinks treats all samples as repeats of each other to parametrize the error model it uses to predict confidence intervals for expression measurements.
-The consequence of this were that
+The confidence intervals predicted were so large, therefore, because samples from different tissues, different varieties, and different points in development we being used to estimate the error.
+In an attempt to reduce this variance I split the samples into apex and leaf samples, with normalization and error estimation being carried out separately.
+Although this prevented the comparison of
 
 33 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.4 % mappted are multiple mapped > 20
 
-![**Multiply mapping reads have little effect on the estimated gene expression levels.** The vertical axis corresponds to ](figuredirectory/06_all_vs_unique_sequencing_fpkm.pdf){#figure:206:uniquefpkm}
+![**Multiply mapping reads have little effect on the estimated gene expression levels.** As for Figure \ref{figure:204:repsfpkm}. Reads that mapped to multiple locations in the genome were removed from the alignment and gene expression values were quantified using the filtered alignment.](figuredirectory/06_all_vs_unique_sequencing_fpkm.pdf){#figure:206:uniquefpkm}
 
-![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/07_all_vs_unique_sequencing_conf_interval.pdf){#figure:207:uniqueconf}
+![**Multiply mapping reads have little effect on the estimated confidence interval range.** As for Figure \ref{figure:205:repsconf}, comparing the estimated confidence interval ranges calculated using all of the mapped reads and only those reads that map to a single position in the genome.](figuredirectory/07_all_vs_unique_sequencing_conf_interval.pdf){#figure:207:uniqueconf}
 
 A potential issue with RNA-Seq is the problem of reads mapping equally likely to multiple positions in the genome.
 As discussed in this section, Cufflinks is able to incorporate the uncertainty introduced by ambiguously mapping reads into the calculation of expression level confidence intervals.
