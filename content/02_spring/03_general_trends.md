@@ -62,4 +62,38 @@ In order to do this, gene ontology (GO) terms were used.
 GO terms are a precise, fixed vocabulary for describing where in an organism a gene acts, the molecular function of that gene, and the biological process the gene is involved in.
 When GO gene annotations are available for a particular organism, the proportion of genes annotated with a particular GO term across the entire genome can be determined.
 If a subset of genes are annotated with a GO term at a significantly higher proportion than the across genome proportion then that subset of genes is said to be enriched for that GO term.
-As GO terms are available for the biological process a particular gene is 
+I used GO term enrichment to determine the overall behaviour of a number of developmental pathways in
+
+### Protein domain enrichment {#section:spring:proteinenrichment}
+
+Particular classes of protein can be associated with certain developmental pathways or activities.
+This can be a result of a protein domain having a particular molecular activity in the plant, or due to transcription factor duplication and subsequent divergence within a pathway.
+Following these previous studies[@adryan_developmental_2010], I labelled the *Brassica napus* gene models with protein domains.
+These protein domains were detected in an automated manner using previously published tools.
+The two case studies that illustrate the insights such an analysis facilitates are MADS-box containing proteins and DELLA proteins.
+
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/protein_enrichment.pdf){#figure:2xx:proteinsom}
+
+The MADS-box domain is a protein domain conserved across a diverse array of species.
+Indeed, the MADS-box takes its name from the *MINICHROMOSOME MAINTENANCE 1* genes in yeast, the *AGAMOUS* gene in *Arabidopsis thaliana*, *DEFICIENS* in *Antirrhinum majus* and serum response factor in humans.
+In *Arabidopsis thaliana*, MADS-box containing genes have been found to control a wide range of roles related to flowering (reviewed in [@ng_mads_review_2001]).
+In the leaf samples, 35 *Brassica napus* genes with detectable MADS-box domains are expressed, with 85 MADS-box containing genes expressed in the apex.
+The patterns of expression
+
+MADS - two different types of MADS containing protein expressed.
+Those in the leaf are primarily controlling flowering time, while those in the apex are involved with floral organ specificity.
+
+Meristem identiy function - AP1, FUL
+A genes - AP1
+B genes - AP3, PI
+C genes - AG
+E genes - SEP1, SEP2, SEP4
+
+> unique(a_w_mads_proteins$symbols)
+ [1] "AGL42"       "PI"          "SEP2, AGL4"  "AP1, AGL7"   "SEP1, AGL2"
+ [6] "AP3, ATAP3"  "SEP4, AGL3"  "AGL12, XAL1" "AGL8, FUL"   "AG"
+> unique(l_w_mads_proteins$symbols)
+[1] "SVP, AGL22"          "FLC, FLF, AGL25"     "AGL20, SOC1, ATSOC1"
+[4] "AGL24"
+
+
