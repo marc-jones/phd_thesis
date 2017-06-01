@@ -173,3 +173,7 @@ Of the reads mapped to the genome, 14% were mapped to multiple positions in the 
 To test if these ambiguously mapped reads would affect the expression levels estimated, Cufflinks was run with all reads and with multiply mapping reads removed.
 Comparisons of FPKM and the confidence intervals both reveal very little difference when reads that map to multiple position in the genome are excluded from the analysis (Figures \ref{figure:206:uniquefpkm} and \ref{figure:207:uniqueconf}).
 This result demonstrates that multiply mapping reads are not adversely affecting the estimation of expression levels and are therefore included in the expression level quantification used throughout this study.
+
+![**Description**.](figuredirectory/08_tissue_split_sequencing_fpkm.pdf){#figure:208:tissuesplitfpkm}
+
+![**Description**.](figuredirectory/09_tissue_split_sequencing_confidence_interval.pdf){#figure:209:tissuesplitconf}

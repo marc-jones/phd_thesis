@@ -131,7 +131,7 @@ Finally, some copies may be deleted through mutation or be silenced and become a
 ![**Not all copies of genes are expressed in *Brassica napus*.** Copies of *Arabidopsis thaliana* genes were identified in the *Brassica napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/l_w_som_count.pdf){#figure:2xx:somlw}
 
 In order to detect regulatory divergence between copies of genes in *Brassica napus* I compared the number of annotated *Brassica napus* copies of *Arabidopsis thaliana* genes to the number of these copies that were expressed during the developmental transcriptome.
-For both the apex and leaf, there are many copies of 
+For both the apex and leaf, there are many copies of
 
 ### Self-organizing map based clustering of expression data {#section:spring:experimentaldesign}
 
@@ -178,6 +178,8 @@ Additionally, that we see many genes that increase towards the final time point 
 
 ### Gene ontology term enrichment {#section:spring:gotermenrichment}
 
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_1.pdf){#figure:2xx:go1som}
+
 Genes that play a role in the same developmental pathway will generally tend to have correlated expression patterns.
 Clustering genes by their developmental expression traces, therefore, will tend to group together genes that are part of the same pathways.
 By determining which expression trace clusters are enriched for genes involved in particular pathways one can make inferences about the activity of those pathways during the time series.
@@ -222,7 +224,7 @@ The two case studies that illustrate the insights such an analysis facilitates a
 ![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/protein_enrichment.pdf){#figure:2xx:proteinsom}
 
 The MADS-box domain is a protein domain conserved across a diverse array of species.
-Indeed, the MADS-box takes its name from the *MINICHROMOSOME MAINTENANCE 1* genes in yeast, the *AGAMOUS* gene in *Arabidopsis thaliana*, *DEFICIENS* in *Antirrhinum majus* and serum response factor in humans.
+Indeed, the MADS-box takes its name from the *MINICHROMOSOME MAINTENANCE 1* genes in yeast, the *AGAMOUS* gene in *Arabidopsis thaliana*, *DEFICIENS* in *Antirrhinum majus* and serum response factor in humans [@schwarz_sommer_genetic_1990].
 In *Arabidopsis thaliana*, MADS-box containing genes have been found to control a wide range of roles related to flowering (reviewed in [@ng_mads_review_2001]).
 In the leaf samples, 35 *Brassica napus* genes with detectable MADS-box domains are expressed, with 85 MADS-box containing genes expressed in the apex.
 The patterns of expression for the SOM clusters most highly enriched for MADS-box containing proteins are quite different between the leaf and apex (Figure \ref{igure:2xx:proteinsom}).
@@ -245,8 +247,14 @@ The plants were transferred from long day growth conditions prior to the cold tr
 *SVP* expression has been found to be dependent on photoperiod[@andres_short_2014], while *SOC1* and *AGL24* are downstream of the photoperiod pathway.
 Therefore, potentially these genes are being upregulated during the cold treatment as a result of this shift in the day length.
 
-Plant homeodomain (PHD) zinc fingers are a protein domain found primarily in proteins that modify chromatin[@sanchez_phd_2011].
-Proteins containing the domain are able to recognise epigenetic histone modifications and recruit transcriptional regulators or chromatin modifiers to particular types of chromatin[@sanchez_phd_2011].
-A particular example of this is the stable epigenetic silencing of the floral repressor *FLC* during cold conditions[@lucia_phd_polycomb_2008].
-Polycomb Repressive Complex 2 associates with three related PHD containing proteins to deposit a histone modification associated with silenced heterochromatin along the length of the *FLC* locus.
-SOM clusters enriched for PHD containing proteins
+Another A class gene inportant for the specification of flower organ identity is the homeotic gene *APETALA2* (*AP2*)[@bowman_genes_1989].
+Unlike the genes discussed above, *AP2* does not contain a MADS-box domain.
+The function of the gene instead is dependent upon a 68 amino acid repeated motif called the AP2 domain[@jofuku_ap2_1994].
+This domain has been found to be present in a wide range of plant transcription factors that have been divided into three familities; Ethylene Responsive Factors (ERF), AP2 and RAV families[@licausi_ap2erf_2013].
+These proteins are involved in a wide range of developmental processes as well as regulating metabolism and stress responses (reviewed in [@licausi_ap2erf_2013]).
+Investigating SOM clusters enriched for proteins with the *AP2* domain reveals cluster 40 in the leaf-derived SOM as being highly enriched.
+The expression trace of cluster 40 exhibits low expression initially and during cold with a large increase in expression at the penultimate and final time points (Figure \ref{figure:2xx:proteinsom}).
+The *AP2* containing genes mapping to this particular cluster are primarily members of the ERF family.
+Genes in this family are frequently induced in response to stresses, and as their name suggests, are responsive to plant hormones associated with stress; ethylene, jasmonic acid and abscisic acid[@licausi_ap2erf_2013].
+The expression trace of the cluster is remarkably similar to the expression trace of cluster 19, found to be enriched for the GO term "leaf senescence" (Figure \ref{figure:2xx:go1som}).
+These *AP2* domain genes are therefore potentially upregulated in response to the leaves undergoing senescence, which would makes biological sense given the role ethylene plays in leaf senescence[@ferrante_ethylene_2006].
