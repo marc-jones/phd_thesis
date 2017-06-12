@@ -258,3 +258,10 @@ The *AP2* containing genes mapping to this particular cluster are primarily memb
 Genes in this family are frequently induced in response to stresses, and as their name suggests, are responsive to plant hormones associated with stress; ethylene, jasmonic acid and abscisic acid[@licausi_ap2erf_2013].
 The expression trace of the cluster is remarkably similar to the expression trace of cluster 19, found to be enriched for the GO term "leaf senescence" (Figure \ref{figure:2xx:go1som}).
 These *AP2* domain genes are therefore potentially upregulated in response to the leaves undergoing senescence, which would makes biological sense given the role ethylene plays in leaf senescence[@ferrante_ethylene_2006].
+
+
+
+
+### CLUSTERING
+
+Copies exhibiting *gradated* patterns of regulatory module assignment exhibit intransitivity.
