@@ -8,7 +8,6 @@ We therefore wished to focus on elucidating the effect the vernalization pathway
 To this end, a developmental transcriptome for both a spring and winter variety was studied.
 A key challenge resulting from the decision to compare winter and spring varieties is synchronizing the development of these varieties and taking developmentally comparable samples.
 Once the samples were collected, a number of downstream decisions were made regarding the computational methods necessary to quantify the level of expression genome wide.
-
 Here I discuss how the samples were collected, justifications for the experimental design, and the downstream quantification and quality control steps.
 
 ### Experimental design and sample collection {#section:spring:experimentaldesign}
@@ -48,7 +47,7 @@ The final time point sampled 19 days post-vernalization was chosen such that the
 Therefore, although the plants developed at different rates, the developmental time period sampled for the two varieties is very comparable.
 
 The choice of which tissues to sample to form the developmental transcriptome was made based on knowledge of floral pathways from model species.
-As a result of flowering being a tightly regulated process, signals from many different pathways are integrated to effect a particular flowering response.
+As a result of flowering being a tightly regulated process, signals from many different pathways are integrated to affect a particular flowering response.
 A number of these pathways occur in the leaf of the plant, with the signals being integrated in the shoot apical meristem of the plant.
 Therefore, leaves and the growing apex of the plant were chosen as the tissues to sample during development.
 The leaf sample chosen was the first true leaf, which is the first leaf formed after the cotyledons.
@@ -129,7 +128,7 @@ As a result, the AUGUSTUS derived gene models were used to guide the RNA-Seq qua
 
 There are now a number of methods for quantifying the expression level of genes using short read data.
 A frequently used pipeline involves the Tuxedo suite of tools[@trapnell_differential_2012].
-The pipeline consists of first aligning the short reads using Bowtie, an alignment algorithm which makes use of the Burrows-Wheeler transform of genome DNA sequence to allow for very efficient alignment[@langmead_bowtie2_2012; @langmead_bowtie_2009].
+The pipeline consists of first aligning the short reads using Bowtie, an alignment algorithm which makes use of the Burrows-Wheeler transform of genomic DNA sequence to allow for very efficient alignment[@langmead_bowtie2_2012; @langmead_bowtie_2009].
 Bowtie is run indirectly using another part of the Tuxedo suite called TopHat.
 TopHat is a splice aware aligner, such that if a particular read does not map to the genome then the read is segmented and the individual segments are aligned separately[@kim_tophat2_2013].
 In this way, reads that span exon-exon boundaries can be detected, allowing different splicing isoforms to be detected and their expression quantified.
@@ -138,17 +137,17 @@ This is done in a probabilistic manner which takes into account both the error m
 The latter arises when reads align with equally high scores in multiple places in the genome.
 Instead of removing these reads from further analysis, which has the potential to discard a lot of the sequencing data collected, Cufflinks is able to incorporate this uncertainty into the error associated with the expression measurement[@trapnell_differential_2013].
 A more recent RNA-Seq analysis pipeline involves the pseudoalignment of reads to a reference transcriptome.
-Kallisto assigns reads to transcrips based on *k*-mer matching between the read and the transcript[@bray_kallisto_2016].
+Kallisto assigns reads to transcripts based on *k*-mer matching between the read and the transcript[@bray_kallisto_2016].
 In order to take into account ambiguous read mapping, kallisto implements a bootstrap technique which resamples the assignments.
 This bootstrapping technique is made possible due to the speed with which kallisto runs and allows for the technical variation within a sequencing run to be estimated.
 While the speed and technical variation estimation of kallisto are advantages over the Tuxedo suite, the software requires transcript sequences in order to be run.
-In the case of *Brassica napus* splice isoforms are less well categorized than for other species, such as *Arabidopsis thaliana*.
+In the case of *Brassica napus*, splice isoforms are less well categorized than for other species, such as *Arabidopsis thaliana*.
 Additionally, the downstream statistics pipeline for kallisto[@pimentel_sleuth_2016] is designed around carrying out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
 We therefore decided to use the Tuxedo suite of tools to carry out quantification of the RNA-Seq data we had collected.
 
-![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline. RNA-Seq data from either the first or both biological repeats was used. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+![**Description**.](figuredirectory/08_tissue_split_sequencing_fpkm.pdf){#figure:208:tissuesplitfpkm}
 
-![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm} with the transformed 95% confidence interval plotted. The confidence intervals are calculated directly by Cufflinks.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+![**Description**.](figuredirectory/09_tissue_split_sequencing_confidence_interval.pdf){#figure:209:tissuesplitconf}
 
 Reads were aligned to the Darmor-*bzh* reference genome using the AUGUSTUS derived gene models (as discussed in Section \ref{section:spring:genomegenemodels}).
 Initially only the first sequencing run was available to be aligned.
@@ -159,9 +158,21 @@ This was due to Cufflinks not having information from biological repeats to prop
 In the absence of repeat measurements for samples, Cufflinks treats all samples as repeats of each other to parametrize the error model it uses to predict confidence intervals for expression measurements.
 The confidence intervals predicted were so large, therefore, because samples from different tissues, different varieties, and different points in development we being used to estimate the error.
 In an attempt to reduce this variance I split the samples into apex and leaf samples, with normalization and error estimation being carried out separately.
-Although this prevented the comparison of
+Carrying out the analysis in this way did not affect the expression level estimations for genes (Figure \ref{figure:208:tissuesplitfpkm}) while leading to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:209:tissuesplitconf}).
+Despite the reduction when carrying out the analysis in this manner, the confidence intervals calculated were still very large.
 
-33 million reads per sample, average of 82 % mapped, 14 % mapped are multiple mapped, 0.4 % mappted are multiple mapped > 20
+![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline. RNA-Seq data from either the first or both biological repeats was used. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+
+![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm} with the transformed 95% confidence interval plotted. The confidence intervals are calculated directly by Cufflinks.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+
+As a consequence of the confidence interval sizes, a second pool of biological tissue was sequenced for a certain time points.
+The goal of resequencing the tissue at certain time points was to provide a biological repeat, allowing confidence intervals to be assigned to the expression level estimates.
+The read depth of the second sequencing run was less, with an average of 33 million reads per sample being obtained.
+As with the first sequencing run, an average of 82% of these reads mapped to the reference sequence.
+Although not all time points were resequenced, performing the downstream analysis using the results from the second sequencing run in addition to the first lead to a decrease in the confidence interval sizes estimated for all time points.
+This is due to Cufflinks using the samples for which repeat measurements were available to parameterize an error model that the algorithm is then able to apply to samples whether there are repeats available or not.
+Use of the repeat measurements caused a large reduction in the size of the confidence intervals estimated (Figure \ref{figure:205:repsconf}) while having little effect on the expression levels estimated for the majority of time points (Figure \ref{figure:204:repsfpkm}).
+Therefore, the second sequencing run was able to provide enough additional data to adequately estimate the uncertainty in the expression level estimates.
 
 ![**Multiply mapping reads have little effect on the estimated gene expression levels.** As for Figure \ref{figure:204:repsfpkm}. Reads that mapped to multiple locations in the genome were removed from the alignment and gene expression values were quantified using the filtered alignment.](figuredirectory/06_all_vs_unique_sequencing_fpkm.pdf){#figure:206:uniquefpkm}
 
@@ -169,11 +180,15 @@ Although this prevented the comparison of
 
 A potential issue with RNA-Seq is the problem of reads mapping equally likely to multiple positions in the genome.
 As discussed in this section, Cufflinks is able to incorporate the uncertainty introduced by ambiguously mapping reads into the calculation of expression level confidence intervals.
-Of the reads mapped to the genome, 14% were mapped to multiple positions in the genome and 0.3% mapped to over twenty positions.
-To test if these ambiguously mapped reads would affect the expression levels estimated, Cufflinks was run with all reads and with multiply mapping reads removed.
+Of the reads mapped to the genome, 14% were mapped to multiple positions in the genome, with 0.3% in the first sequencing run and 0.4% in the second sequencing run mapping to over twenty positions.
+To test if these ambiguously mapped reads would affect the expression levels estimated, the downstream expression level estimation was run with the reads mapping to multiple positions in the genome removed.
 Comparisons of FPKM and the confidence intervals both reveal very little difference when reads that map to multiple position in the genome are excluded from the analysis (Figures \ref{figure:206:uniquefpkm} and \ref{figure:207:uniqueconf}).
 This result demonstrates that multiply mapping reads are not adversely affecting the estimation of expression levels and are therefore included in the expression level quantification used throughout this study.
 
-![**Description**.](figuredirectory/08_tissue_split_sequencing_fpkm.pdf){#figure:208:tissuesplitfpkm}
+### Conclusion
 
-![**Description**.](figuredirectory/09_tissue_split_sequencing_confidence_interval.pdf){#figure:209:tissuesplitconf}
+The developmental time series was designed to allow for the adequate dissection of the flowering time pathways that play a role in determining the flowering time of two *Brassica napus* varieties.
+Having both the spring and winter varieties experience a vernalization treatment, while potentially not physiological for the spring variety, allows for the effects of the ambient temperature pathway and the vernalization pathway to be teased apart.
+Sampling from both the leaf and the apex allows a much richer view into the flowering time pathway than just taking samples from one of these tissues, as both tissues are involved with different aspects of the flowering response.
+The reference genome, as well as the gene models and downstream expression analysis pipeline chosen, were all chosen to make the best use of the data as possible.
+The final dataset is of good quality, with uncertainty estimates that allow for the similarity of expression traces across time to be quantified and for differential expression analysis to be carried out in a statistically sound manner.

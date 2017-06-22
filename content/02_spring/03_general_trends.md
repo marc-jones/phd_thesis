@@ -18,7 +18,7 @@ Previous studies of gene expression in polyploid species have generally focussed
 To determine whether such a bias was observed in the expression data from the developmental transcriptome, separate density plots of the gene expression data for each of the two genomes was generated.
 Due to the range of expression values, the data was log~10~ transformed prior to generating the density plots.
 In order to qualitatively determine whether the differences observed between the density curves were meaningful, empirical confidence intervals were calculated.
-These were calculated by resampling the expression data and computing the density curve for each sample, with the mean and 95% confidence intervals being calculated using these multiple density curves.
+These were calculated by resampling the expression data and computing the density curve for each sample, with the mean and 95% confidence intervals being calculated using these resampled density curves.
 Different regions of the density curves will hereafter be referred to as very low (below -1), low (between -1 and 0), high (between 0 and 1), and very high (above 1), relating to the expression of genes within those regions.
 The density curves displayed in Figure \ref{figure:2xx:genomeexp} are computed from the apex at 22 days post-sowing, although the density curves are representative of those at other time points and in the leaf samples.
 
@@ -107,6 +107,26 @@ At the genome level, a higher proportion of genes on the C genome are expressed 
 As this pattern is less apparent when *Brassica napus* genes lacking sequence conservation to a corresponding *Arabidopsis thaliana* gene are removed, this potentially indicates a higher proportion of pseudogenes on the C genome.
 The bias seen at the genome level is not seen in the same direction at the homoeologue level as genes in the very low region of expression tend to lack detectable homoeologues (Figure TODO).
 
+### Tissue specific expression is biased towards the apex {#section:spring:tissuespecfic}
+
+![**Description.**](figuredirectory/expressed_gene_venn_diagram.pdf){#figure:2xx:venn}
+
+The genome level analysis uncovered expression biased expression between the two genomes of *Brassica napus*.
+In order to investigate other forms of expression bias in the data, I investigated the number of genes exhibiting tissue specific expression during the developmental time series.
+Genes were classified as expressed during the time series if the expression of the gene exceeded 2.0 FPKM at at least one time point.
+By this definition, 32% of annotated *Brassica napus* genes were classified as expressed in the developmental time series (Figure \ref{figure:2xx:venn}).
+This percentage increases to 57% and 67% when only *Brassica napus* genes with Arabidopsis homologues or *Brassica napus* flowering time genes were considered, respectively.
+The finding that there are many lowly expressed *Brassica napus* that lack an Arabidopsis homologue is consistent with the results presented in section \ref{section:spring:genomelevel}.
+Potentially these lowly expressed genes that lack sequence similarity to annotated Arabidopsis genes are pseudogenes.
+Taking all *Brassica napus* genes, regardless of whether they have an Arabidopsis homologue or not, reveals that of the 49,125 genes that are expressed during the developmental time series, 17% are expressed specifically in the apex and 12% are expressed specifically in the leaf, with the remaining 71% of genes expressed in both tissues (Figure \ref{figure:2xx:venn}d).
+These percentages remain largely unchanged when *Brassica napus* genes lacking an Arabidopsis homologue are removed (Figure \ref{figure:2xx:venn}e).
+For flowering time genes the percentage of genes exhibiting tissue specific expression shifts towards the apex.
+Of the 931 expressed *Brassica napus* flowering time genes, 23% are specifically expressed in the apex and 7% of genes are leaf specific (Figure \ref{figure:2xx:venn}).
+This analysis reveals that the majority of genes do not exhibit tissue specific expression.
+Of those that do, there are more genes specifically expressed in the apex than the leaf, perhaps as a result of the apex undergoing a greater developmental change during the time series than the leaf.
+The percentage of genes exhibiting tissue specific expression changes based on the subset of genes taken, with *Brassica napus* flowering time genes having 76% of tissue-specific genes expressed in the apex compared to 63% for all genes.
+This supports the hypothesis that it is the apex transitioning to vegetative to floral growth that results in more genes having an apex specific expression domain.
+
 ### Multiple copies of flowering time genes have been retained in the *Brassica napus* genome {#section:spring:floweringretained}
 
 ![**Title.** Description.](figuredirectory/retention_distributions.pdf){#figure:2xx:retentiondistribution}
@@ -115,29 +135,29 @@ Genes that have undergone multiplication in the genome and have been subsequentl
 To investigate whether the flowering time genes have been retained in the genome, distributions of *Arabidopsis thaliana* gene copies was calculated.
 These distributions are derived by assigning *Brassica napus* genes to the *Arabidopsis thaliana* gene with the highest sequence similarity, then counting the number of copies of each *Arabidopsis thaliana* gene in the *Brassica napus* genome.
 This was done separately for all *Arabidopsis thaliana* genes and for the subset that have been identified as genes involved with flowering[@bouche_florid_2016] and the distributions compared.
-Significant differences between the distributions are observed at low copy numbers, with there being fewer *Arabidopsis thaliana* flowering time genes with one or two copies in *Brassica napus* than expected given the distribution for all genes (Figure \ref{figure:2xx:retentiondistribution}).
+Significant differences between the distributions are observed at low copy numbers, with there being fewer *Arabidopsis thaliana* flowering time genes with one or two copies in *Brassica napus* than expected given the distribution for all genes (Figure \ref{figure:2xx:retentiondistribution}a).
 At higher copy numbers a significantly higher proportion of *Arabidopsis thaliana* flowering time genes have five and eight *Brassica napus* copies relative to the distribution for all genes.
 In general, flowering time genes tend to have a lower proportion of genes present at low copy numbers (three and below) and higher proportions at higher copy numbers.
 This is indicative of the flowering time genes in *Brassica napus* having been retained in the genome following the genome multiplication events that have occurred throughout the evolutionary history of *Brassica napus*.
 
 ### Expression divergence in the number of expressed copies of annotated genes {#section:spring:expressedvsannotated}
 
-Genes present as multiple copies have a number of potential fates after a genome duplication event.
-Some will undergo neofunctionalization, acquiring novel functions in the plant.
-When a protein has many diverse roles in a plant, the duplicated genes that encode the protein may undergo subfunctionalization, partitioning the functions of the ancestral gene among the multiple copies of genes.
-Alternatively, genes may act redundantly, in which case they are likely maintained in the genome through gene dosage effects.
-Finally, some copies may be deleted through mutation or be silenced and become a pseudogene.
+![**Not all copies of genes are expressed in *Brassica napus*.** Copies of *Arabidopsis thaliana* genes were identified in the *Brassica napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/all_vs_exp_all_genes.pdf){#figure:2xx:allvsexp}
 
-![**Not all copies of genes are expressed in *Brassica napus*.** Copies of *Arabidopsis thaliana* genes were identified in the *Brassica napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/l_w_som_count.pdf){#figure:2xx:somlw}
 
-In order to detect regulatory divergence between copies of genes in *Brassica napus* I compared the number of annotated *Brassica napus* copies of *Arabidopsis thaliana* genes to the number of these copies that were expressed during the developmental transcriptome.
-For both the apex and leaf, there are many copies of
+![**Not all copies of flowering time genes are expressed in *Brassica napus*.** As for figure \ref{figure:2xx:allvsexp}, but only using *Brassica napus* genes that have sequence similarity to annotated *Arabidopsis thaliana* flowering time genes.](figuredirectory/all_vs_exp_flower_genes.pdf){#figure:2xx:allvsexpflower}
+
+In order to detect regulatory divergence between copies of genes in *Brassica napus*, I compared the number of annotated *Brassica napus* homologues of Arabidopsis genes to the number of these genes that were expressed during the developmental transcriptome.
+In both the apex and the leaf, the majority (66% in the apex, 70% in the leaf) of Arabidopsis genes have a *Brassica napus* homologue that does not exhibit expression in the tissues sampled during the floral transition (Figure \ref{figure:2xx:allvsexp}).
+These percentage of Arabidopsis flowering time genes that have a *Brassica napus* homologue that is not expressed are similar to the results genome-wide (61% in the apex, 69% in the leaf).
+This indicates widespread expression divergence among the homologues of Arabidopsis genes across the floral transition in terms of whether a particular homologue is expressed or not.
 
 ### Self-organizing map based clustering of expression data {#section:spring:experimentaldesign}
 
-![**Self-organaizing maps (SOM) are trained to represent datasets.** SOMs are randomly initiated. Clusters are assigned neighbours based on their Euclidean distances from one another, such that neighbouring clusters have a lower Euclidean distance between them. During the training process, the SOM (black grid) is trained to represent the dataset (blue shape). The training process begins by selecting a random data point. The SOM cluster closest to that data point (yellow triangle), determined by Euclidean distance, is modified to be closer to the data point. At the same time, the neighbouring clusters are also modified. Another data point is selected and the process repeats. The training process continues until the SOM accurately represents the dataset. Image adapted from a diagram by Mcld[@som_explanation], distributed under a CC BY-SA 3.0 license](figuredirectory/som_explanation.pdf){#figure:2xx:somexplanation}
+![**Self-organaizing maps (SOMs) are trained to represent datasets.** SOMs are randomly initiated. Clusters are assigned neighbours based on their Euclidean distances from one another, such that neighbouring clusters have a lower Euclidean distance between them. During the training process, the SOM (black grid) is trained to represent the dataset (blue shape). The training process begins by selecting a random data point. The SOM cluster closest to that data point (yellow triangle), determined by Euclidean distance, is modified to be closer to the data point. At the same time, the neighbouring clusters are also modified. Another data point is selected and the process repeats. The training process continues until the SOM accurately represents the dataset. Image adapted from a diagram by Mcld[@som_explanation], distributed under a CC BY-SA 3.0 license](figuredirectory/som_explanation.pdf){#figure:2xx:somexplanation}
 
-A self-organizing map is a clustering construct that is able to adaptively take into account the variation present in the data being clustered.
+To quantify regulatory divergence using a more fine grain approach, methods to assess divergence between across time expression patterns were developed.
+This was achieved using self-organizing maps (SOMs), a clustering technique that is able to adaptively take into account the variation present in the data being clustered.
 When used to cluster time series data, each cluster represents a particular expression trace across time.
 Due to how the training process (Figure \ref{figure:2xx:somexplanation}) is executed, neighbouring clusters will tend to have similar expression traces to each other.
 If particular parts of the dataset are more dense in terms of the number of data points present then the training process will explore that part of the dataset more, leading to a higher density of clusters in that area.
@@ -169,17 +189,55 @@ This pattern again emphasises that a large number of genes are responding to the
 Unlike the other responses, however, the genes in this region of the SOM do not return to pre-cold levels of expression upon returning to growth in warm conditions.
 This could either point towards the vernalization treatment as permanently affecting the expression of these genes, or an effect due to the plants ageing.
 
-Both of the SOMs for the leaf and apex reveal that a large number of genes are exhibiting responses to the change in growth conditions that occurs when the plants are grown in short days at 5 &deg;C in the vernalization room.
+Both of the SOMs for the leaf and apex reveal that a large number of genes are exhibiting responses to the change in growth conditions that occurs when the plants are grown in short days at 5&deg;C in the vernalization room.
 This is not a surprising result as large transcriptional changes would be expected when plants are subjected to a different photoperiod and temperature regime.
 This result does highlight the importance of subjecting both the spring and winter varieties to vernalization.
 As discussed in section \ref{section:spring:experimentaldesign}, being able to study vernalization responsive genes requires differentiating between those genes and genes that are affected by ambient temperature and photoperiod changes.
 That we see many genes in Westar, a spring variety, showing different patterns of expression during the vernalization treatment suggests that we will be able to differentiate between these two groups of genes.
 Additionally, that we see many genes that increase towards the final time point in both tissues suggests that the transcriptional changes that accompany the floral transition have been captured by the developmental transcriptome we have collected.
 
+### Expressed copies of flowering time genes exhibit regulatory divergence during the floral transition {#section:spring:somdivergence}
+
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/som_similarity_measure.pdf){#figure:2xx:somsimilarity}
+
+Having developed SOMs for both the apex and leaf, I then was able to use them to quantify the level of similarity between any two expression traces.
+By determining the level of similarity between different *Brassica napus* copies of flowering time genes the level of regulatory divergence they exhibit could be quantified.
+The similarity between expression traces was calculated using a sampling method that was able to take into account the error calculated for the expression values (Figure \ref{figure:2xx:somsimilarity}a).
+The output of the method are empirical probabilities of two expression traces mapping to the same SOM cluster.
+These probabilities are normalized to give a clustering coefficient.
+The higher the coefficient, the higher the probability of two expression traces mapping to the same cluster.
+*Brassica napus* copies of Arabidopsis genes are grouped into regulatory modules based on the clustering coefficients, with copies that have high clustering coefficients between them being assigned to the same regulatory module.
+Unlike some methods, genes have the potential to be assigned to multiple regulatory modules.
+This allows more subtle patterns of divergence to be detected.
+There are five different possible patterns of regulatory module assignment using the SOM based resampling method (Figure \ref{figure:2xx:somsimilarity}b).
+A *distinct* pattern represents the identification of multiple regulatory modules whose membership does not overlap.
+In contrast, a *gradated* pattern indicates that multiple regulatory modules were identified, but the membership of those modules overlap.
+*Redundant* patterns occur when all *Brassica napus* copies of an Arabidopsis gene are assigned to the same regulatory module as a result of their expression traces across the developmental time series being similar to each other.
+The *unique* pattern is a special case of the *distinct* pattern, where only one gene is assigned to each regulatory module identified.
+Finally, the *mixed* pattern is observed when at least three regulatory modules are identified when some genes are assigned to multiple regulatory modules and others are not.
+The benefit of allowing genes to occupy multiple regulatory modules is that subtle patterns can be detected.
+For example, copies exhibiting *gradated* patterns of regulatory module assignment exhibit intransitivity; although gene A and gene B are in the same regulatory module, and gene B and gene C are in the same regulatory module, gene A and gene C are not necessarily mapped to the same module.
+In this case that gene A and gene C are not in the same module, it is clear that gene B exhibits a regulatory trace that is intermediate between gene A and gene C.
+
+Quantifying the number of these patterns observed for sets of homologues within *Brassica napus* allowed me to assess the extent of regulatory divergence.
+A null hypothesis for the fate of gene expression after a gene multiplication event is that identical genes will have the same pattern of regulation.
+This is based on the idea that the regulatory sequences that modulate the expression of the gene will be the same for the additional copies of the gene.
+In the SOM based analysis performed here, this hypothesis would correspond to observing a *redundant* regulatory module assignment.
+Data from the developmental time series reveals that as the number of *Brassica napus* copies of an Arabidopsis gene increases, the occurance of *redundant* patterns decreases in both the apex and the leaf (Figures \ref{figure:2xx:somsimilarity}c and \ref{figure:2xx:somsimilarity}d).
+When three or more copies of a gene are present in the genome, other regulatory module patterns are observed in the majority of cases in both tissues, with no redundant patterns seen above 5 copies in the apex or 4 copies in the leaf.
+As with *redundant* patterns, *unique* patterns are observed less at higher numbers of copies.
+In the apex and leaf, *mixed* and *gradated* patterns are seen at a lower frequency than *distinct* patterns, revealing that genes exhibiting intermediary regulatory behaviour relative to the other copies of that gene are observed less frequently as genes occupying distinct regulatory modules.
+Gene copies with intermediate regulatory behaviour may indicate that particular copies are more susceptible to regulatory cross-talk than others.
+The low number of *gradated* patterns at three genes copies in both tissues suggests that these genes tend to have expression traces that are detectably different to one another.
+As *distinct* patterns are more prevalent than *unique* patterns at three gene copies, the data reveals that the majority of genes that have three homologues in the *Brassica napus* genome have one copy that is has a different regulatory pattern than the other two.
+
+The patterns of regulatory module assignment reveal divergence in the expression traces of flowering time genes copies in *Brassica napus*.
+As the spatiotemporal expression pattern of a gene plays a crucial role in its function, this therefore suggests functional divergence of homologues.
+The SOM based regulatory module assignments also reveal that gene dosage hypothesis is not an adequate explanation for the retention of flowering time genes in *Brassica napus*.
+
 ### Gene ontology term enrichment {#section:spring:gotermenrichment}
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_1.pdf){#figure:2xx:go1som}
-
+To further determine general trends that the SOM reveals, enrichment analyses were carried out for gene ontology terms of interest.
 Genes that play a role in the same developmental pathway will generally tend to have correlated expression patterns.
 Clustering genes by their developmental expression traces, therefore, will tend to group together genes that are part of the same pathways.
 By determining which expression trace clusters are enriched for genes involved in particular pathways one can make inferences about the activity of those pathways during the time series.
@@ -187,10 +245,26 @@ In order to do this, gene ontology (GO) terms were used.
 GO terms are a precise, fixed vocabulary for describing where in an organism a gene acts, the molecular function of that gene, and the biological process the gene is involved in.
 When GO gene annotations are available for a particular organism, the proportion of genes annotated with a particular GO term across the entire genome can be determined.
 If a subset of genes are annotated with a GO term at a significantly higher proportion than the across genome proportion then that subset of genes is said to be enriched for that GO term.
-I used GO term enrichment to determine the overall behaviour of a number of developmental pathways in
+I used GO term enrichment to determine the overall behaviour of a number of developmental pathways in *Brassica napus* to better understand the expression dynamics captured in the developmental time series.
+
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_1.pdf){#figure:2xx:go1som}
+
+I first wanted to establish that GO term enrichment analysis would provide reliable results.
+To test this, I looked for SOM clusters enriched in the GO terms "leaf senescence" in the leaf data and for SOM clusters related to flowering time in the apex data.
+The most highly enriched cluster identified in the leaf data for the term "leaf senescence" exhibits an expression pattern that gradually increases across the entire time series with a large increase at the final time point.
+This is expected given that the leaf samples were always taken from the first true leaf at each time point.
+Therefore, the leaves being sampled were ageing throughout the experiment.
+It is therefore expected that the expression of genes associated with leaf senescence would increase at the time series progressed.
+This also agrees with observations taken during the sampling, as a number of the leaves were beginning to yellow and visibly senescence towards the end of the time series.
+For the apex, GO terms relating to flower development were used to confirm enrichment analyses.
+The expression of genes annotated with the GO term "positive regulation of flower development" increased during the time series, while genes associated with the negative regulation of flower development decreased in expression across the time series in the apex.
+These responses are expected, given that the plants were beginning to flower towards the end of the time series.
+An additional observation for the expression traces of the cluster enriched for genes associated with the positive regulation of flower development is the slight decrease in expression during the vernalization treatment.
+As will be discussed later in this chapter when the behaviour of key floral integrators are investigated (Section \ref{section:spring:ft}), this is likely a result of the short day conditions the plants were grown in not being conducive to flowering.
 
 ![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_2.pdf){#figure:2xx:go2som}
 
+Having established that GO term enrichment analysis was giving results that made were physiologically sensible, the enrichment of other GO terms was investigated.
 Controlling the cell cycle is an integral aspect of growth which plants need to tightly control.
 In terms of flowering, a sudden burst in the expression of genes controlling the cell cycle was observed during the floral transition in the shoot apical meristem of *Arabidopsis thaliana*[@klepikova_rnaseq_2015].
 This behaviour was hypothesised to be a result of large scale meristem reorganization initiated by the floral transition.
@@ -213,8 +287,27 @@ The other cluster enriched for genes involved with down regulating plant defence
 This cluster is not affected by the cold treatment, but shows a steady increase in expression after the treatment.
 Both of these observations point towards the *Brassica napus* defence response being modulated by temperature and flowering as in *Arabidopsis thaliana*.
 
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_3.pdf){#figure:2xx:go3som}
+
+The decision to subject the spring variety Westar to the vernalization treatment alongside the winter variety of *Brassica napus* was taken to allow for the effects of the treatment to be differentiated from the effects of vernalization, as discussed in section \ref{section:spring:experimentaldesign}).
+The vernalization treatment was carried out in short days at 5&deg;C.
+To investigate the effects of this treatment on a variety that is insensitive to vernalization I determined the SOM clusters enriched for the GO term "circadian rhythm".
+The most highly enriched clusters in both the leaf and the apex exhibit very similar expression traces (Figure \ref{figure:2xx:go3som}).
+Both undergo increases in expression during the cold treatment, with expression returning to pre-treatment levels on the first day of growth post-treatment.
+The expression of genes associated with the circadian rhythm are expressed differently during the vernalization period likely as a result of the altered photoperiod the plants are subjected to.
+This can be considered a confounding factor, as the effects of changing the temperature at which the plant are grown cannot be disentangled from the effects of changing the photoperiod under which the plants are grown.
+However, as argued in section \ref{section:spring:experimentaldesign}, this illustrates the importance of subjecting both the spring and winter variety to the vernalization treatment so that transcriptional changes such as those illustrated in figure \ref{figure:2xx:go3som} can be distinguished to effects due to vernalization.
+
+Although GO term enrichment is a relatively high level analysis that does not investigate the gene level responses across the developmental time series, it is still a useful analysis for investigating the overall behaviour of key developmental pathways.
+The results presented here reveal a number of general trends that are in agreement with observations in Arabidopsis and that justify the experimental design decisions taken in the planning of the experiment.
+The response of the cell cycle and the defence response genes to the period of cold the plants were subjected to is in line with findings from Arabidopsis.
+In the case of the behaviour of defence genes, the observation that the response seems to be conserved between Arabidopsis and *Brassica napus* may have a future agronomic benefit as the links between flowering time, defence and growth temperature are beginning to be elucidated.
+The response of genes associated with the circadian rhythm validates the experimental design decision to subject both the spring and winter varieties to the vernalization treatment.
+
 ### Protein domain enrichment {#section:spring:proteinenrichment}
 
+GO term enrichment allows for the behaviour of particular developmental pathways to be investigated.
+Another form of 
 Particular classes of protein can be associated with certain developmental pathways or activities.
 This can be a result of a protein domain having a particular molecular activity in the plant, or due to transcription factor duplication and subsequent divergence within a pathway.
 Following these previous studies[@adryan_developmental_2010], I labelled the *Brassica napus* gene models with protein domains.
@@ -262,6 +355,3 @@ These *AP2* domain genes are therefore potentially upregulated in response to th
 
 
 
-### CLUSTERING
-
-Copies exhibiting *gradated* patterns of regulatory module assignment exhibit intransitivity.

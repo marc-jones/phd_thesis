@@ -48,6 +48,8 @@ It is likely that the genome assembly is not able to adequately resolve the sequ
 
 ![**Title.** Description.](figuredirectory/exp_ft_leaf.pdf){#figure:2xx:ftleaf}
 
+![**Title.** Description.](figuredirectory/exp_pif4_leaf.pdf){#figure:2xx:pif4leaf}
+
 As FT protein is suspected to be the florigen that moves from leaves to the apex to promote flowering[@aksenova_florigen_2006], I first looked at *FT* expression in the leaf.
 The expression of all four *FT* copies in *Brassica napus* show a somewhat similar expression pattern (Figure \ref{figure:2xx:ftleaf}).
 Expression is detectable prior to the vernalization treatment.
@@ -66,7 +68,7 @@ As *Brassica napus* is a long day plant also[@nelson_quantitative_2014], I suspe
 An alternative explanation could be that *FT* is responding to temperature during the vernalization period, both the ambient temperature response[@kumar_transcription_2012] and the vernalization response[@helliwell_arabidopsis_2006] have been implicated in the control of *FT*.
 The support for these alternative hypotheses, however, is not very strong.
 The ambient temperature control of *FT* expression is via the transcription factor, with constitutive expression of *PIF4* resulting in the upregulation of *FT* in *Arabidopsis thaliana*[@kumar_transcription_2012].
-In the *Brassica napus* expression data there are five expressed copies of *PIF4*.
+In the *Brassica napus* expression data there are four expressed copies of *PIF4* (Figure \ref{figure:2xx:pif4leaf}).
 If the expression patterns of *FT* were to be explained by their response to ambient temperature changes, you would expect the expression of some of the *PIF4* genes to drop during the cold to explain the drop in *FT* expression levels.
 That this is not observed in the copies of *PIF4* expressed in *Brassica napus* suggests that the ambient temperature response is not having an effect on the expression of *FT* during the developmental transcriptome.
 In the vernalization response in *Arabidopsis thaliana*, *FLC* represses the expression of *FT* by binding to a site within the first promoter of *FT*[@helliwell_arabidopsis_2006].
@@ -126,7 +128,7 @@ A potential explanation is provided by looking at the expression patterns of SVP
 The A4, C4, and Ann copies of SVP all show a similar expression response during the vernalization period as A2, C2a, and Cnn.
 As AP1 and SVP are known to form dimers[@gregis_arabidopsis_2009] in *Arabidopsis thaliana*, potentially this response is a consequence of those interactions.
 
-## *SUPPRESSOR OF OVEREXPRESSION OF CO 1* (*SOC1*) {#section:spring:soc1}
+### *SUPPRESSOR OF OVEREXPRESSION OF CO 1* (*SOC1*) {#section:spring:soc1}
 
 *SOC1* is a gene involved with integrating the inputs from an array of different flowering time pathways[@lee_regulation_2010].
 The gene was discovered and rediscovered in Arabidopsis through a number of different experimental methods.
@@ -179,6 +181,8 @@ In the leaf all copies of *BrSOC1* are highly expressed at the midpoint of verna
 However, as the expression of *FT* is low in Westar plants during the vernalization treatment it is unlikely to be *FT* mediating the increase in *SOC1* expression during the cold.
 *SOC1* has been found to increase in expression with as vernalization progresses in an *FLC*-independent manner[@moon_soc1_2003].
 
+![**Title.** Description.](figuredirectory/exp_agl24_apex.pdf){#figure:2xx:agl24apex}
+
 *AGL24* and *SOC1* are proposed to form a positive feedback loop in the shoot apical meristem.
 If we look at the expression of *Brassica napus* homologues of *AGL24* during the developmental time series, two types of trace are observed in the apex.
 The first type of expression trace is shared by the A3 and C7 copies of *BrAGL24*.
@@ -191,3 +195,81 @@ It is known from *Arabidopsis thaliana* that *SOC1* and *AGL24* regulate the exp
 By comparing the expression of copies of *BrALG24* and *BrSOC1* during the developmental time series we are able to predict whether this positive feedback loop is maintained in *Brassica napus*, and if so, which copies of the two genes are likely to still mediate this feedback loop.
 As discussed, all but the C4 copy of *BrSOC1* show peak expression post-cold at day 69 post sowing.
 Therefore, it is possible that the positive feedback loop is maintained in *Brassica napus*, but that the interaction is only present in five of the six *BrSOC1* homologues and two of the four *BrAGL24* homologues.
+
+### *FD* {#section:spring:fd}
+
+![**Title.** Description.](figuredirectory/exp_fd_apex.pdf){#figure:2xx:fdapex}
+
+Despite being one of the central floral integrators, *FT* does not possess DNA binding activity and is therefore not itself a transcription factor.
+To determine how *FT* acts, a screen was carried out to find mutations that would suppress the phenotype of an *FT* overexpression line[@abe_fd_2005].
+A late flowering mutation identified in a mutation screen[@koornneef_genetic_1991] and called *FD* was found to suppress the precocious flowering phenotype of the *FT* overexpression line[@abe_fd_2005].
+In a parallel experiment, *FD* was identified as interacting partner of *FT* in a yeast-two hybrid screen[@wigge_integration_2005], and was found to also bind *FT* *in vitro*[@abe_fd_2005].
+*FD* expression in Arabidopsis is highly expressed at the shoot apex and does not exhibit circadian oscillations or photoperiod dependent expression, with *FD* expression decreasing soon after *AP1* expression begins to increase[@abe_fd_2005; @wigge_integration_2005].
+The upregulation of *FD* was found to be mediated by LFY, with two LEAFY binding sites being found in the *FD* promoter[@jaeger_interlocking_2013].
+Two lines of evidence point towards *FT* and *FD* interacting to promote *AP1* expression.
+The first is the ectopic expression of *AP1* observed in *FD* overexpression lines that is dependent on the presence of *FT*[@abe_fd_2005].
+The second line of evidence are chromatin immunoprecipitation experiments in an *FD* overexpression line.
+Antibodies for the FT protein were used to enrich DNA and *AP1* promoter sequence was found[@wigge_integration_2005].
+As FD is a bZIP transcription factor[@abe_fd_2005], it is proposed that the interaction of the two proteins mediates the activity of FT, with the interaction found to depend upon a phosphorylation site within the FD protein[@abe_fd_2005].
+In addition to *AP1*, *FUL* was also found to be ectopically expressed in leaves in the *FD* overexpression line, but only in long days.
+This suggests that the expression of *FT* is also required for *FUL* expression mediated by *FD*[@wigge_integration_2005].
+As *TFL1* and *FT* are closely related genes[@hanzawa_single_2005], it might be expected that *TFL1* and *FD* also interact.
+Although only weak interactions between *TFL1* and *FD* were identified in yeast two hybrid screens[@abe_fd_2005; jang_genetic_2009], a *FD* null mutant was able to suppress the phenotype of *TFL1* null and overexpression lines[@jaeger_interlocking_2013].
+
+Within the developmental transcriptome dataset there are six copies of *BnaFD* expressed in the apex that fall into two regulatory modules (Figure \ref{figure:2xx:fdapex}).
+One of the regulatory modules consists of a single gene; the *BnaFD.A1* copy.
+This copy shows a relatively noisy expression trace that exhibits a slight decrease towards the end of the cold treatment relative to the levels at the start of the time series.
+Expression increases after the cold treatment until day 67 post sowing after which expression decreases again.
+The expression of the other copies is somewhat similar to the *BnaFD.A1* copy, although the decrease during cold is more pronounced, and the peak of expression is approximately double that of the pre-cold expression level which is not the case for the *BnaFD.A1* copy.
+However, the peak at day 67 post sowing and the decrease in expression after this point are conserved across all six copies.
+The *BnaFD.Ann.Random* and *BnaFD.C3.Random* copies show a somewhat different expression pattern at the start of the time series relative to the other *BnaFD* genes in the same regulatory module.
+These two copies have their lowest expression before cold and exhibit a gradual increase during cold, relative to a decrease in expression during the vernalization treatment observed in the other copies.
+This expression difference was not drastic enough to cause these copies to be in their own regulatory module as defined by the SOM based analysis, and suggests that validation of these expression differences are required.
+The expression of the *BnaFD* copies shows exhibits very similar expression patterns as the *FD* gene in Arabidopsis; apex specific growth with an increase in expression during the floral transition[@abe_fd_2005; @wigge_integration_2005].
+The timing of the decrease in *FD* expression after the day 67 post sowing time point corresponds with the increase in four *AP1* copies (Figure \ref{figure:2xx:ap1apex}), as observed in Arabidopsis[@wigge_integration_2005], and also with the increase in *BnaLFY* gene expression (Figure \ref{figure:2xx:lfyapex}), which is also consistent with the direct repression of *FD* by *LFY*[@jaeger_interlocking_2013].
+Therefore, five of the six *BnaFD* copies seem to be similarly regulated to *FD* in Arabidopsis, with the *BnaFD.A1* copy also showing aspects of the same regulation.
+The expression levels of all six of the copies of *BnaFD* are relatively similar in the plant.
+Both the similar expression patterns and the similar expression magnitudes suggest that the *FD* is a dosage sensitive gene, with this dosage sensitivity driving the retention of the additional copies of *FD* after a gene multiplication event.
+
+### **LEAFY**
+
+A homeotic mutation in Arabidopsis that severely impacts the transition from vegetative to floral growth is in the *LEAFY* (*LFY*) gene.
+*LFY* was identified in a mutant screen as a mutant that produced leafy shoots in the place of flowers and the flowers that were produced often lacked petals and stamens[@schultz_leafy_1991].
+The gene was found to play a role both in the transition to flowering, but also in specifying the determinacy of the floral meristem[huala_leafy_1992], much like *AP1*.
+Indeed, *AP1* and *LFY* double null mutants had a significantly more severe phenotype than either of the single mutants, indicating that these genes seem to act synergistically[@weigel_leafy_1992].
+The transcriptional responses to *LFY* are due to its role as a transcription factor, that binds to DNA as a dimer.
+The cooperativity that results from the protein binding as a dimer is suggested to facilitate a sharp developmental transition[@hames_structural_2008].
+*LFY* has been found to regulate or interact with a number of other genes involved with the floral transition.
+Increasing *LFY* expression precedes an increase in *AP1* expression[@hempel_floral_1997], with additional evidence suggesting that *AP1* is a direct target of *LFY*[@wagner_transcriptional_1999; @william_genomic_2004].
+Other genes important for flowering that are regulated by *LFY* are *TFL1*[@weigel_developmental_1995], *AG*[@weigel_activation_1993; @hong_regulatory_2003], and *CAL*[@william_genomic_2004], with *LFY* itself being regulated by *SOC1* and *AGL24*[@lee_soc1_2008].
+In addition, a suite of transcription factors and signalling molecules, both related to flowering time and not, were found to respond to *LFY* activation or have *LFY* binding detected in promoter regions[@william_genomic_2004; @winter_leafy_2011].
+*LFY* is therefore capable of initiating large transcriptional changes in the plant.
+*LFY* is expressed in the floral primordia and increases during flower development[@weigel_leafy_1992].
+Interactions between *LFY* and the photoperiod pathway[huala_leafy_1992; @blazquez_leafy_1997], and the GA pathway[@okamuro_flowers_1996; eriksson_ga4_2006], suggest that many environmental pathways that regulate flowering converge on *LFY*, underpinning its role as a floral integrator.
+
+![**Title.** Description.](figuredirectory/exp_lfy_apex.pdf){#figure:2xx:lfyapex}
+
+There are four expressed copies of *LFY* detected in the Westar apex samples, that all fall into the same regulatory module due to the copies exhibiting very similar expression traces (Figure \ref{figure:2xx:lfyapex}).
+All copies are expressed at relatively low levels at the first time point and during the cold treatment.
+When the plants are removed from the cold, the expression of all copies increases to peak expression at day 69 post sowing and decreases at the final time point.
+Both the expression traces and the apex-specific expression is similar to the expression of *AtLFY*, with a gradual increase during development until flowering[@weigel_leafy_1992; @blazquez_leafy_1997].
+The expression traces of the *BnaLFY* genes are also consistent with the regulatory interactions that the *AtLFY* gene has been found to possess.
+Five of the six *BnaSOC1* genes expressed in the apex exhibit a peak in expression at day 69 (Figure \ref{figure:2xx:soc1apex}), in agreement with *AtLFY* being regulated by *AtSOC1*[@lee_soc1_2008; @moon_analysis_2005].
+In terms of the genes *AtLFY* is likely to regulate, as determined through transcriptional comparisons and DNA binding data[@william_genomic_2004; @winter_leafy_2011], we find remarkable agreement between Arabidopsis and *Brassica napus*.
+*AtAP1*, *AtTFL1*, *AtAG*, *AtCAL*, *AtPI*, and *AtSEP3* are all floweirng related genes found to be directly regulated by *AtLFY*.
+The majority of the *Brassica napus* homologues of these genes exhibit expression patterns that increase in a concomitant manner with the *BnaLFY* copies (Figures \ref{figure:2xx:ap1apex}, \ref{figure:2xx:tfl1apex}, and TODO).
+Indeed, a polycomb regulator that was found to be repressed by *AtLFY* as a single apex expressed homologue in *Brassica napus* that decreases in expression as the *BnaLFY* copies increase in expression (Figure TODO).
+This evidence suggests that the *BnaLFY* genes are similarly regulated to their homologue in Arabidopsis.
+Additionally, the regulatory roles *AtLFY* has also seem to be conserved.
+
+The *redundant* pattern of regulatory module assignment suggests that dosage effects have potentially driven the retention of the four expressed *BnaLFY* genes.
+Indeed, such dosage effects have been found for the *AtLFY* gene.
+The *LFY* null mutation was found to be haploinsufficient under short day conditions[@okamuro_flowers_1996].
+Insertion of additional copies of *AtLFY* into Arabidopsis altered the flowering time of the transformed plants, with an additional shortening of the flowering time observed with each additional copy of *AtLFY*[@blazquez_leafy_1997].
+These findings suggest that potentially the copies of *BnaLFY* have been maintained in the *Brassica napus* genome as their loss, or an alteration of their expression, results in a change in flowering time.
+A prediction that arises from this is that a *Brassica napus* plant lacking a copy of *BnaLFY* would have increased flowering time.
+*AtLFY* has a dual role in both determining the timing of the floral transition and mediating correct floral patterning.
+Assuming that the copies of *BnaLFY* are redundant, a single inactive copy could potentially alter flowering time without altering floral patterning, due to the other copies being able to complement the inactive copy.
+These findings therefore provide a potential avenue for altering flowering time in *Brassica napus*.
+
+### *TERMINAL FLOWER 1* {#section:spring:tfl1}

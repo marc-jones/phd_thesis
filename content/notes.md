@@ -92,3 +92,86 @@ FLC binds to the SOC1 promoter and to the first intron of FT, consistent with FL
 CO::GUS expression detected in the vascular tissue of the hypocotyl, the cotyledons and the leaves. Expression also detected at the apex and in the cells of young leaves, restricted to vascular tissue in older leaves. CO expression in the phloem is sufficient to trigger flowering and that expression in the leaf and meristem was not required. ft mutation delayed flowering of phloem expressed CO, but was not as delayed as a ft mutation. CO is vasculature expressed; doesn't move to leaf or meristem. [@an_constans_2004]
 
 Response of FUL, SOC1, SPL3-5 and LFY were only attenuated by co and ft knockouts in a short-long day shift experiment, indicating a CO-independent photoperiod response of these genes [@schmid_dissection_2003]
+
+
+### FD
+
+late flowering mutation @koornneef_genetic_1991
+
+Screened for suppressors of FT overexpression, a line that causes precocious-flowering. screened late-flowering mutants for their effect on the FT overexpression phenotype. fd mutant only had a weak effect on the precocious flowering phenotype of soc1 activation tagged line or LFY overexpression. FD expression mainly in the shoot apex, did not show circadian oscillation and was not affected by photoperiods. under both long and short days FD mRNA increased with time after germination. localized in nucleus. FT interacts with FD in yeast cells and in vitro. FD showed weak interaction with TFL1 in yeast. Ectopic expression of AP1 was observed in 35S::FD seedlings, with AP1 activation requiring the function of FT. phosphorylation site important for interaction with FT. [@abe_fd_2005]
+
+found FD in an interaction screen with FT. FD is highly expressed at the shoot apex. levels of FD decrease soon after floral primordia start to express AP1. proposed that FD effectively provides spatial specificity for FT action. AP1 and FUL are ectopically activated in leaves in 35S:FD plants, but only during long days. ChIP analysis in a 35S:FD line with FT antibodies pulls out AP1 promoter. [@wigge_integration_2005]
+
+FT and TSF are partially redundant. TSF and FD interact found using Y2H. Didn't find TFL1 interacted with FD. Increase of SOC1 mRNA in the SAM of svp mutants occurs idependently of FT and TSF. SVP binds directly to FT and SOC1. Time course shows that SOC1 expression rises before SVP mRNA has disappeared form the meristem. jang_genetic_2009
+
+phenotype of tfl1 mutant and 35S:TFL1 line is suppressed in the fd mutant background. Upregulation of FD during floral transition in the SAM. Two LFY binding sites are essential for FD upregulation, with LFY found to bind the FD promoter. oscillations in FT are buffered at the AP1 level. Model predicts that TFL1 overexpression lines would suppress flowering. TFL1 is not expressed in the shoot apex under noninductive conditions in WT, and is strongly upregulated upon floral induction. TFL1 is highly expressed in the vasculature in pny pnf, a double mutant that never completes the floral transition. suggests PNY and PNF restrict TFL1 expression to the apex. jaeger_interlocking_2013
+
+### LFY
+
+schultz_leafy_1991
+EMS mutant screen identified plants that produced leafy shoots in the place of flowers. Normal flowers are never produced. In place of flowers, coflorescence type structures are produced, although they do not produce flowers. petals and stamens are never produced even in the most flowerlike shoots. Bract formation was also affected by LFY. LFY mutation is epistatic to AP2. LFY is required for lateral shoots to develop as flowers.
+
+weigel_leafy_1992
+transformation of flowers into inflorescence shoots is more complete when lfy mutatiuons are combined with ap1 mutations. LFY RNA is expressed strongly in young flower primordia, but not in inflorescence meristems. Number of inflorescence shoots subtended by cauline leaves is increased. In strong lfy mutants, secondary flowers arise from the axils of outer floral organs. LFY expression appears in the floral primordia and increases during flower development. Shortly after the sepals have started to arise, LFY expression abates in the center of the flower. LFY is expressed normally in the apex of ap1 mutant inflorescences. LFY and AP1 act synergistically to promote floral over inflorescence development. LFY is inportant in the conversion of inflorescence meristems to floral meristems. Conversion of flowers into inflorescence shoots is more complete in ap1; lfy double mutants. LFY expression is detected much earlier than AG and AP3. LFY becomes ectopically expressed in tfl shoot meristems.
+
+huala_leafy_1992
+LFY mutation causes cauline leaves with axillary buds to develop in many of the positins that would be occupied by flowers in WT. LFY mutation is proposed to block the transition from early inflorescence state, which initiates cauline leaves, to the late inflorescence state, which initiates flowers. Looked at interactions of LFY with other genes that participate in the differentiation of primordia. short days exaggerate the phenotype of lfy mutants. The most flowerlike structures produced in the lfy mutant show a conversion of petals into sepals and stamens to carpels. The similarity to PI and AP3 mutants suggests a similar role for LFY. The sharp boundary between the second and third whorls is maintained through negative regulation of AG expression by AP2 and vice versa. As this sharp boundary is not apparent in a lfy mutant, LFY must play a role in establishing the boundary. LFY plays an important role in determining the developmental fate of a floral meristem. In addition, LFY may also play a tole in maintenance of inflorescence meristems. Apparently contradictory role, in that floral meristems are converted to inflorescence meristems in early plants but inflorescence meristems are converted to floral meristems in older lfy plants, as meristems that are usually indeterminate develop a terminal carpel like structure.
+
+weigel_activation_1993
+AP3 and PI not detected at all in ap1; lfy double mutants. Onset of AG expression is delayed in lfy mutant. AG also becomes ectopically expressed in the stem of lfy mutants, as well as in some of the bracts that subtend lfy flowers. In a ap1; lfy mutant, the ag null mutation has no effect.
+
+weigel_developmental_1995
+Analysed LFY overexpressor lines. Secondary shoots that arise in lateral positions are consistently replaced by solitary flowers and higher order shoots are absent. In addition the primary shoot terminates in a flower, consistent with LFY repressing TFL1. Secondary meristems immediately get converted to flowers while the primary meristem still develops some leaves, which the authors take as evidence that meristems have to be receptive to LFY activity. The effects of constitutive LFY activity are attenuated in short days. ap2 and ufo null mutants cause additive phenotypes. The ap1 null mutant suppresses the LFY overexpression phenotype, although terminal flowers are still produced. LFY can induce AP1.
+
+blazquez_leafy_1997
+The increase in LFY expression was slow in short days, and the rate increased when the plants were moved to long, inductive photoperiods. LFY seems to have a dosage effect. Altering copy number of WT LFY changes flowering time.
+
+okamuro_flowers_1996
+can induce floral meristem reversion by manipulating photoperiod in the floral homeotic mutant AG and in plants hereozygous for LFY. in lfy null heteozygotes, switching from long to short days causes floral meristem reversion. LFY is important for the maintainance of flower meristem identity. LFY is haplo-insufficient for the maintenance of flower meristem identity under SDs. treatment of GA during the short days prevented floral meristem reversion, indicating that the GA pathway plays a role.
+
+hempel_floral_1997
+Only AP1 was a qualitative marker for floral determination, while expression of AGL8 and LFY was detected before floral determination. LFY, AGL8 and AP1 GUS lines. AP1 and AGL are not expressed early in development. LFY is expressed in young apices of vegetative plants. Both LFY and AGL8 activity increases within the first 4 hours of photoinduction. AP1 induced after LFY and AGL8 (FUL) when given inductive photoperiods.
+
+wagner_transcriptional_1999
+Inducible LFY. When activated AP1 expression increased, in presense of protein synthesis inhibitor.
+
+william_genomic_2004
+AG and AP3 are potentially indirect targets. AP1 is a direct target. CAL seems to be a direct target but not FUL. Used microarray analysis with inducible line to identify likely LFY targets. Performed ChIP to identify which were bound by LFY in their promoter. CAL and four of the five candidates showing greatest expression differences were bound. Main targets, for which ChIP data showed binding were: At5g60630, At5g49770, At5g03790, At3g61250, At1g16070
+
+eriksson_ga4_2006
+GA4 induces LFY expression.
+
+hames_structural_2008
+Crystal structure of LFY bound to two target promoter elements. LFY binds as a cooperative dimer. Cooperativity potentially aids LFY in mediating sharp developmental transitions.
+
+Looked for suppressor of SOC1 overexpression. Found mutations disrupting the SOC1 protein. SOC1 binds LFY promoter. SOC1 is cytosolic, expression with AGL24 allows it to enter the nucleus. The MADS and I domain were found to be important for AGL24 dimerization. AGL24 binds with SOC1 at the LFY promoter. AGL24 is expressed in shoots, stems and inflorescence, but not expressed in roots and young leaves. LFY is only expressed where AGL24 and SOC1 are coexpressed. [@lee_soc1_2008]
+
+winter_leafy_2011
+ChIP-chip with LFY. Selected high-confidence targets as differentially expressed genes in a lfy null mutant. Transcriptional regulators highly enriched in targets. PI, SEP3, EMF1. PI and SEP3 activated by LFY, EMF1 repressed. Also found LFY to modulate stress responses. LFY represses responses to flg22 and pathogen challenge. Reduce resistance to bacterial colonization. SEP3 is a LFY cofactor, which makes sense why LFY would upregulate it.
+
+hong_regulatory_2003
+LFY binds the AG promoter
+
+liu_regulation_2009
+SOC1, AGL24 and SVP control floral patterning by directly preventing the ectopic expression of SEP3. SEP3 acts with LFY to activate class B and C gene expression. SVP interacts with TFL2 to modulate trimethylation of H3K27me3, while SOC1 and AGL24 interact with a histone deacetylase to modulate H3 acetylation. Ectopic expression of SEP3 in a soc1; agl24; svp triple mutant. In a soc1; agl24; svp; lfy mutant, ectopic expression of class B and C genes was greatly reduced. lfy;sep3 null mutant showed drastic floral defects. A pull down assay also showed their physical interaction in vitro.
+
+sayou_promiscuous_2014
+Found LFY homologs in six species of streptophyte green algae. DNA binding domain was conserved. SELEX experiments to analyse DNA binding specificity. Moss LFY binds to a different motif despite possessing the same 15 DNA binding amino acids as AtLFY. Moss LFY makes additional contact with DNA. Found two amino acid changes that mediated the different DNA motif affinities. Propose that LFY evolved new DNA binding modes independently of changes in copy number. Suggest an evolutionary route from one form of LFY to another through a promiscuous intermediate.
+
+irish_flowering_2010
+
+### TFL1
+
+kobayashi_pair_1999
+FT gradually increased in with time under both LD and SD photoperiods, although upregulation was delayed and reduced under SD conditions. In the CO mutant, upregulation of FT expression was delayed. Activation of inducible CO causes upregulation of FT, indicating regulation. As upregulation of FT occurs eventually in co mutants and in SD photoperiods there is likely a photoperiod independent pathway. Early flowering of FT overexpressers was correlated with FT mRNA levels. LFY and FT overexpressers produced a terminal flower as soon as the plant germinated. 
+
+hanzawa_single_2005
+Found a single amino acid residue change conferred TFL1 activity to FT and vica versa.
+
+shannon_mutation_1991
+TFL1 mutation causes early flowering and limits the development ofthe normally indeterminate inflorescence by promoting a terminal flower. Screened for early flowering mutants then analysed those mutants for defects in inflorescence development. Only 1-5 flowers, ending in a terminal floral structure that appeared to be the fusion of two or three flowers in the tfl1 mutant. This is compared to 30-40 flowers in the WT. Flowering acceleration in long and short days. heterozygous tfl1 mutant had a flowering time intermediate with WT and homozygous mutant but did not have a terminal flower, suggesting a dosage effect. Placed tfl1 mutant in ap1, ag and ap2 mutant lines. Additive phenotypes, suggesting TFL1 acts independently. However, TFL1 is epistatic to the indeterminate nature of AP1 mutant flowers.
+
+shannon_genetic_1993
+inflorescence meristem identity is promoted by TFL1 and that floral meristem identity is promoted by parallel pathways, one defined by LFY, the other by AP1/AP2. TFL1 is responsible for suppressing LFY function in the cells of the inflorescence meristem. TFL1 is required for the indeterminate lateral meristem phenotype of lfy mutant, suggesting that LFY suppresses TFL1 function in floral meristems. Interactions between TFL1 and AP1/AP2 are also detected, with them repressing each other. AP1/AP2 and LFY are proposed to promote floral meristems in separate pathways.
+
+
