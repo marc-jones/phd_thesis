@@ -1,5 +1,7 @@
 ## Discussion
 
+Whole genome triplication and interspecific hybridization have resulted 
+
 Duplicate gene pais show extensive divergence in DNase 1 regulatory footprints. Vast majority of paralogous pairs are either partly of fully diverged in their regulatory elements.[@arsovski_evolution_2015]
 
 Review of regulatory rewiring following gene multiplication events. first, we discussed how the gene dosage balance

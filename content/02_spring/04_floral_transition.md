@@ -231,7 +231,7 @@ Therefore, five of the six *BnaFD* copies seem to be similarly regulated to *FD*
 The expression levels of all six of the copies of *BnaFD* are relatively similar in the plant.
 Both the similar expression patterns and the similar expression magnitudes suggest that the *FD* is a dosage sensitive gene, with this dosage sensitivity driving the retention of the additional copies of *FD* after a gene multiplication event.
 
-### **LEAFY**
+### *LEAFY* {#section:spring:lfy}
 
 A homeotic mutation in Arabidopsis that severely impacts the transition from vegetative to floral growth is in the *LEAFY* (*LFY*) gene.
 *LFY* was identified in a mutant screen as a mutant that produced leafy shoots in the place of flowers and the flowers that were produced often lacked petals and stamens[@schultz_leafy_1991].
@@ -272,4 +272,65 @@ A prediction that arises from this is that a *Brassica napus* plant lacking a co
 Assuming that the copies of *BnaLFY* are redundant, a single inactive copy could potentially alter flowering time without altering floral patterning, due to the other copies being able to complement the inactive copy.
 These findings therefore provide a potential avenue for altering flowering time in *Brassica napus*.
 
-### *TERMINAL FLOWER 1* {#section:spring:tfl1}
+### *TERMINAL FLOWER 1* (*TFL1*) {#section:spring:tfl1}
+
+A gene found to act in an antagonistic manner to *FT* in determining the floral transition is *TFL1*.
+Wild type Arabidopsis flowers develop in an indeterminate manner[@alvarez_terminal_1992].
+When the transition to flowering occurs, the vegetative meristem is converted into an inflorescence meristem.
+This inflorescence meristem generates the floral structure, producing additional inflorescence meristems, and eventually floral meristems, that develop on the side of the inflorescence stem.
+However, the primary inflorescence meristem remains an inflorescence meristem, and hence the floral growth is indeterminate.
+Mutants in *TFL1* result in the primary inflorescence meristem converting into a floral meristem, such that the floral structure terminates in a flower as opposed to maintaining an indeterminate state[@shannon_mutation_1991].
+In addition, *TFL1* null mutant plants also undergo the floral transition earlier than wild type plants[@bradley_inflorescence_1997].
+*TFL1*, therefore, influences meristem identity and also regulates the timing of the floral transition.
+The expression domain of *TFL1* is just below the growing meristem at the apex, and also in the axillary meristems[@conti_terminal_2007; @ratcliffe_separation_1999].
+The expression is initially low, with an increase when the floral transition occurs[@conti_terminal_2007; @ratcliffe_separation_1999; @bradley_inflorescence_1997; @liljegren_interactions_1999].
+The inflorescence meristem identity is maintained by TFL1 protein through limiting the activity of *AP1* and *LFY*[@shannon_genetic_1993; @gustafson_brown_regulation_1994; @ratcliffe_separation_1999].
+In addition to transcriptional repression, TFL1 protein also limits the activity of AP1 and LFY, as shown by Arabidopsis lines that overexpressed *TFL1* and either *AP1* or *LFY*[@ratcliffe_separation_1999].
+Likewise, *AP1* and *LFY* repress *TFL1*, with the mutual antagonism likely leading to the sharp expression boundaries required to accurately specify floral development[@shannon_genetic_1993; @liljegren_interactions_1999]
+*TFL1* and *FT* are very closely related proteins, with only 39 amino acid changes that distinguish the two proteins[@ho_structural_2014].
+Indeed, mutations have been found that produce TFL1 proteins that are FT-like and vice versa [@ahn_divergent_2006; @hanzawa_single_2005; @ho_structural_2014].
+Although initial evidence suggested that FD protein does not interact with *TFL1*[@abe_fd_2005; @jang_genetic_2009], more recent studies[@ho_structural_2014; @jaeger_interlocking_2013] have found that TFL1 protein is able to interact with the protein.
+
+
+![**Title.** Description.](figuredirectory/exp_tfl1_apex.pdf){#figure:2xx:tfl1apex}
+
+In *Brassica napus* there are four expressed copies of *BnaTFL1*.
+The expression traces of the four copies are distinct from each other, as illustrated from the *distinct* pattern of regulatory module assignment (Figure \ref{figure:2xx:tfl1apex}).
+The *BnaTFL1.A10* copy is very lowly expressed initially and remains at that level until after the cold treatment.
+At the day 67 time point, the expression of this copy begins to increase and continues to do so until the final time point.
+Conversely, the *BnaTFL1.C2* copy effectively exhibits the inverse response, with expression before, during and after the cold treatment being comparatively high before a decrease after the day 67 time point.
+*BnaTFL1.C3* is the most highly expressed copy of *BnaTFL1*, with expression levels an order of magnitude higher than the A10 and C2 copies.
+The expression of the C3 copy increases during the cold treatment with a return to pre-treatment levels after the treatment.
+The copy exhibits an increase in expression to a peak at day 69 of the time series, before decreasing in expression to its lowest levels at the final time point.
+Finally, the *BnaTFL1.Cnn.Random* copy shows a transient peak of expression towards the end of the vernalization treatment, with a continued decrease in expression until the final time point after.
+
+The expression of *TFL1* in Arabidopsis increases in the apex when the floral transition occurs[@bradley_inflorescence_1997].
+In this respect, *BnaTFL1.A10* and *BnaTFL1.C3* are the copies in *Brassica napus* with the most similar patterns of expression, with both copies exhibiting an increase after the cold treatment.
+These copies differ in their behaviour during the cold treatment and at the final time point.
+In Arabidopsis, the floral structure is indeterminate and this requires continued expression of *AtTFL1* at the apex[@bradley_inflorescence_1997].
+This pattern of expression is exhibited most clearly by *BnaTFL1.A10*, with expression increasing after the vernalization treatment, peaking at the final time point.
+However, that *BnaTFL1.C3* exhibits a decrease at the final time point does not preclude the gene from having the same role in development as *AtTFL1* in Arabidopsis.
+Potentially the *BnaTFL1.C3* copy only maintains inflorescence meristem identity early in development, and later in development this role is performed by another gene.
+Alternatively, perhaps the decrease in expression is required for the *Brassica napus* floral structure to form correctly.
+It is interesting that both *BnaTFL1.C3* and the *BnaLFY* genes (Figure \ref{figure:2xx:lfyapex}) exhibit a decrease in expression at the final time point.
+As *AtLFY* and *AtTFL1* are thought to maintain different meristem states[@shannon_genetic_1993], the reduction in *BnaLFY* activity potentially results in less *BnaTFL1.C3* being required to maintain the inflorescence meristem state.
+In relation to the regulatory interactions *AtTFL1* partakes in, the mutual antagonism between *AtTFL1* and the floral meristem determinants *AtAP1* and *AtLFY* is not clearly observed in the developmental time series when comparing the expression traces from *Brassica napus* copies of the three genes (Figures \ref{figure:2xx:ap1apex}, \ref{figure:2xx:lfyapex}, and \ref{figure:2xx:tfl1apex}).
+This is likely due to the scale at which tissue dissection took place.
+The expression of *AtTFL1*, *AtAP1*, and *AtLFY* is tightly regulated and localized to a relatively small region[@bradley_inflorescence_1997].
+The level of dissection used to sample the apex from *Brassica napus* would have sampled multiple expression domains simultaneously, with the effect of this being that the spatial expression domains of these genes would not be resolved.
+Alternatively, it might be that the repression we observe for the Cnn and C2 copies of *BnaTFL1* is mediated by copies of *BnaAP1* and *BnaLFY*, with some copies exhibiting increases in expression concomitantly with decreases in expression of the Cnn and C2 copies (Figures \ref{figure:2xx:ap1apex} and \ref{figure:2xx:lfyapex}).
+The expression traces of the four *BnaTFL1* copies suggests that the functions of the genes have diverged from each other.
+In order to dissect the roles these four copies play in the plant, detailed analysis of their expression domains within the apical structure, combined with the same analysis for *BnaAP1* and *BnaLFY* copies, would be required.
+In addition, analyses of *Brassica napus* plants with null mutations in each of the *BnaTFL1* copies will help to determine whether the C3 or the A10 copy of *BnaTFL1* has greatest functional similarity to *AtTFL1*, as both show expression patterns that are somewhat consistent with the expression of *AtTFL1* in Arabidopsis.
+
+### Conclusions
+
+In depth analysis of six key flowering time genes in Arabidopsis suggests broad similarities between the regulatory behaviour of the floral integrators between *Brassica napus* and the model species.
+All the flowering time genes have at least one copy that exhibits regulatory behaviour in *Brassica napus* that is consistent with the expression of the corresponding gene in Arabidopsis.
+It is striking, however, that the observed regulatory divergence between the *Brassica napus* copies of flowering time genes varies so much within this small subset of genes.
+For example, the behaviour of the four *BnaLFY* copies across the time series reveals a *redundant* pattern of regulatory module assignment, suggesting that the copies are similarly regulated.
+Other genes, such as the *BnaTFL1* copies, exhibit a *unique* pattern of regulatory module assignment, suggesting that these genes have functionally diverged in *Brassica napus*.
+The factors that have driven regulatory divergence in some cases but not others provide interesting avenues for future work.
+The regulatory divergence for the *BnaSOC1* genes is interesting in that the regulatory module assignments are tissue dependent, with genes that exhibit similar expression in the apex not necessarily having similar expression traces in the leaf.
+Not only does this illustrate the utility of having a developmental transcriptome of both the *Brassica napus* apex and leaf, it may also help direct research into the cis-regulatory elements that result in tissue specific expression.
+An example of the use of the developmental time series to investigate the effects of cis-regulatory elements will be discussed in the following section (section \ref{section:spring:sequence}).
