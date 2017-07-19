@@ -196,3 +196,103 @@ Specific mutations in at least four different residues were sufficient to conver
 
 phenotype of tfl1 mutant and 35S:TFL1 line is suppressed in the fd mutant background. Upregulation of FD during floral transition in the SAM. Two LFY binding sites are essential for FD upregulation, with LFY found to bind the FD promoter. oscillations in FT are buffered at the AP1 level. Model predicts that TFL1 overexpression lines would suppress flowering. TFL1 is not expressed in the shoot apex under noninductive conditions in WT, and is strongly upregulated upon floral induction. TFL1 is highly expressed in the vasculature in pny pnf, a double mutant that never completes the floral transition. suggests PNY and PNF restrict TFL1 expression to the apex. jaeger_interlocking_2013
 
+## FLC
+
+Sanda et al 1996
+Some late flowering mutants in Ler required an active FLC allele (from Col) to be crossed into the plant in order for the phenotype to be seen, or causing the phenotype to be enhanced. fca, fpa, and fve mutations are synergistic: the late-flowering phenotype is enhanced by FLC-Col. fd, gi, fwa, ft, fe, and fha showed an additive effect on the flowering time when FLC-Col was crossed in. fd and fe were more dominant in the presense of FLC-Col, in that they mediated a delay even when heterozygous
+
+Lee 1994
+Additional locus required to confer late flowering to an active FRI containing Ler line. That locus was FLC. In the presence of Ler-FLC (inactive) Sf2-FRI has a greatly reduced influence on flowering time. FLC-Sf2 acts semi-dominantly in Ler to delay flowering. FLC's effect on active FRI and ld mutant plants is dosage dependent.
+
+Lee 1993
+Late flowering phenotype of Sf-2 was vernalization responsive. Crossed the line to Col to determine the factor conferring late flowering phenotype. FRI is dominant. Vernalization abolishes the effect of an active FRI allele
+
+Clarke and Dean 1994
+Phenotype conferred by active FRI in a Ler background is dependent on the presence of other loci.
+
+Koornneef et al 1994
+FLC is required for FRI action.
+
+Michaels and Amasino 1999
+flc null mutants result in early flowering, indicating that FLC is a repressor of flowering. LUMINIDEPENDENS negatively regulates the levels of FLC mRNA. FRI increases the levels of FLC. Overexpression of FLC confers a late flowering phenotype in the absence of an active FRI allele. Extreme late flowering of Col-FRI-sf2 is eliminated in the presence of flc null mutants. FLC mRNA not affected by photoperiod or plant age during vegetative development. FLC is expressed most highly in the vegetative apex and in root tissue but is also detectable in leaves and stems. Found FLC to be downregulated in the apex after the transition to flowering. FLC not detected in the inflorescence meristem of FRI containing lines. FLC transcript reduced after vernalization treatment. FLC was first identified as a suppressor of the late-flowering phenotype conferred by FRI and ld mutations. Late flowering, autonomous pathway mutants are likely to affect FLC expression.
+
+Sheldon 1999
+FLC integrates the vernalization and autonomous pathway. FLC downregulated with a reduction in DNA methylation. FLC activator tagged line. Expression is lower in reproductive tissues than it is in vegetative tissues. A longer vernalization period was required to accellerate flowering of a FLC activator tagged line. Additional applications of GA were also required to downregulate FLC in the activator line. Activator line shows dosage dependence. Correlation was found between ecotypes with vernalization requirement and expression level of FLC.
+
+Koornneef et al 1998
+Double mutants of late flowering mutants to identify epistasis groups. Two groups of late flowering mutants; those that continue to respond to environmental signals (autonomous pathway) and those that don't (photoperiod pathway).
+
+Levy and Dean 1998 - Review
+Four pathways regulating flowering, two endogenous (autonomous and repressive) and two that mediate environmental cues (photoperiod and vernalization). Site of vernalization perception is the shoot apex.
+
+Michaels and Amasino 2001
+Late flowering of lines containing active FRI is mediates entirely by FLC using a flc null mutant. The null flc mutant (in a Col background with inactive FRI) did not affect flowering in LD but caused earlier flowering in SD. Late flowering of autonomous mutants is also dependent on FLC. The null mutant still flowered, suggesting that there are FLC-independent vernalization pathways. Downregulation of SOC1 in active FRI or autonomous pathway lines is mediated by active FLC. Overexpression of FLC is sufficient to downregulate SOC1.
+
+Sheldon et al 2002
+Used a FLC-GUS line to dissect the regulatory regions directing FLC control. FLC repression is mitotically stable but not stable across generations, suggesting epigenetic control. Identified regions in the first intron necessary for vernalization directed repression. Promoter was also required for downregulation during vern. Region in intron I required for stable repression. Promoter region also required for nonvernalized expression of FLC.
+
+Michaels et al 2003
+Found that the summer-annual accessions had that phenology as a result of FLC alleles that are more lowly expressed. Da (1)-12 and Shakhdara accessions have a spring-annual habit, that is converted to a winter-annual habit when an active allele of FLC is introduced. Coding sequence was not different between Col and the other accessions within FLC. Insertion within the first intron causes the weak Ler FLC allele. A similar insertion does not result in the weak FLC alleles of Da (1)-12 and Shakhdara
+
+Lim et al 2004
+Activator tagging mutagenesis. Identified FLK, a RNA-binding protein. FLC was 10 times more highly expressed in the flk mutant. Althought the 35S promoter was used for the insertion, the flk mutant lacks expression of FLK. flk is responsive to both vernalization and GA treatment, and is therefore part of the autonomous pathway
+
+Zhao et al 2005
+H3K36 methylation is an activating epigenetic mark. Identified mutants in methyltransferases. Mutants were early flowering. Vernalization had no effect on the plants. In the methyltransferase mutants FLC expression was reduced. Found increased H3K4 methylation at FLC. Largest changes in the promoter and the first intron of FLC.
+
+Edwards et al 2006
+Temperature compensation of the clock. The period of the clock doesn't change when measured over a broad range of constant temperatures. QTL for temperature-dependent circadean period changes. Compared transcription across time in FRI;FLC lines and fri;flc lines to identify FLC-responsive genes. They then looked at the period of oscillation for this subset of genes, and compared it to FLC. In flc mutants, the period of the clock at 27oC is shortened. The gene LUX seems to mediate FLC's effect on the clock.
+
+Deal 2007
+High level expression of FLC requires H2A.Z
+
+Pien 2008
+ATX1 deposits activating H3K4me3 at the FLC locus; mutants are early flowering due to a decrease in FLC expression.
+
+Swiezewski1 et al 2009
+Increase of antisense RNA in cold treated plants. This was transient, returning to pre-cold levels after the treatment. COOLAIR is induced prior to VIN3. COOLAIR promoter was able to silence a reporter gene in a cold-dependent manner. COOLAIR might act through promoter interferance.
+
+De Lucia 2008
+PRC2 complex mediates H3K27me3. VRN2 associates across all of FLC. VRN5 associates in a position in intron 1 during cold. After subsequent growth in the warm, VRN5 association spreads across the locus. VIN3 and VEL1 are part of a vernalization specific PHD-PRC2 complex. After cold, H3K27me3 redistributed across the FLC locus.
+
+Sun et al 2008
+R-loop
+
+Yang et al 2014
+H3K36me3 and H3K27me3 show opposing profiles in the FLC nucleation region and gene body and that they rarely coexist on the same histone tail. H3K27me3 correlated with the presence of PHD-PRC2 at the nucleation region and across the gene body. H3K36me3 initially peaks at the nucleation region, but this is gradually suppressed with increasing cold treatment. Pull downs found that the two histone marks could not coexist on the same histone tail.
+
+Mateos et al. 2015
+Identified targets of SVP in the presence and absence of its partner FLC, with FLC ChIP-Seq being performed in the svp null mutant. Transcriptome analysis in SDs. Looked at differentially expressed genes in leaves and apicies as a result of mutating svp and flc. Found more DEGs in the leaf rather than the apex. FLC regulated twice as many genes as SVP in leaves, while the relationship was reversed in apicies. FLC and SVP were required for 30 to 40% of the DEGs identified during the transition from SDs to LDs in WT. Signalling allocation analysis was performed, which is a linear model with SVP, FLC, and FLC:SVP as terms. SVP and FLC control different genes in different tissues (leaf and apex) when acting individually. Presence of FLC increases the number of SVP targets. TEM1, COL1, and COL4 were only bound when both proteins were present. SVP genome-wide targets approximately doubled in the presence of FLC. On the other hand, FLC binding sites were greatly altered by the presence of SVP, but in a qualitative rather than a quantitative manner, as the total number of targets did not increase. Heterodimer binds to different sequences. Inidividually the genes regulate flower development, whereas as a complex they regulate flowering time. Degeneracy, different members can perform similar functions in one condition but distinct functions in another. Supports robustness within biological processes while also providing flexibility for adaptation and evolution of the system.
+
+Duncan et al. 2015
+Average autumn temperature of Lov1 corresponds to the optimum vernalization temperature. This difference is mediated by FLC. Early vernalization allows the plant to vernalize before snowfall, and flower upon snowmelt in the spring.
+
+Bouché et al. 2015
+A period of hot temperature (30oC) after vernalization removes the repressive H3K27me3.
+
+Deng et al 2011
+Performed ChIP-seq and -chip with FLC. FD promoter is not bound by FLC. Predominantly acts as a repressor, but seemingly also activates the expression of some genes (looked at targets identified from ChIP in the flc mutant). Targets two SPL genes, SPL15 and SPL3. FLC delays progression from juvenile to adult phase. Large number of FLC targets in hormone repsonse pathways.
+
+Coustham et al 2012
+Accumulation of the H3K27me3 repressive mark is delayed in Lov one, leading to it requiring a longer period of cold in order to become stably repressed.
+
+Searle et al 2006
+Misexpressed flowering genes in specfic tissues to understand the spatial roles of the genes. FLC acts to repress both the expression of systemic flowering signals in the leaf and the response to these signals at the meristem. Expressed FLC in the phloem and meristem. Expression of FLC in the phloem in a flc mutant delayed flowering. FLC expression in the meristem caused a less pronounced difference. Expression from root specific promoter has no effect. Expression in the phloem represses FT and SOC1 in the leaf. FLC expression in the apex had no impact on leaf levels of FT and SOC1. The delayed flowering of phloem expressed FLC was mostly due to FT. SOC1 expression the phloem was able to partially recover a soc1 mutant. SOC1 is one of the earliest indicators of flower initiation. SOC1 mRNA was detected in the meristem by in situ hybridization within 18 h of transfer of 6-wk-old Columbia plants from SDs to LDs (Borner et al. 2000). FLC expression in the phloem delays expression of SOC1 in the meristem. FD expression at the meristem did not increase after floral initiation in SUC2::FLC plants. In ft mutants SOC1 expression in the meristem is delayed. FT is required for early activation of SOC1 in the meristem under LDs and FT function in the phloem increases SOC1 activity in the meristem. FD is also required for SOC1 expression. FLC expression in the meristem delays and reduces the expression of SOC1. FLC in the meristem delays the increase in FD expression. Expression of SOC1 in the phloem causes an early flowering phenotype which is more severe than the expression of SOC1 in the phloem. SOC1 promotes flowering from the phloem and the meristem. SOC1 in the meristem is capable of accelerating flowering independently of CO and FT. Abundance of SOC1 and FT mRNA was reduced in leaves of FRI FLC plants. FLC expression in the shoot meristem is repressed by vernalization. ChIP experiments show FLC binding to FT, SOC1 and FD. FLC prevents FT expression in the leaf and also represses FD in the meristem, the latter being independent of FT. Phloem expressed SOC1 accelerates flowering, but an ft mutation suppresses this. FD is expressed at a low level during development. FLC maintains FD expression at a low level.
+
+## VIN3
+
+sung_vernalization_2004
+Mutagenized Col-FRI and screened for mutants insensitive to vernalization. In vin3 mutant the vernalization response was completely blocked. vin3 blocks the effects of an autonomous pathway mutant in a summer-annual background. VIN3 required for FLC independent vernalization. VIN3 is only expressed during the vernalization period; quickly repressed afterwards. Plant homeodomain, often found in proteins in chromatin remodelling complexes. VIN3 is expressed only after a duration of cold exposure that is effective for vernalization. levels of VIN3 expression is negatively correlated with FLC levels. Vernalization mediated decrease in histone acetylation is not seen in vin3 mutant. Increase in H3K9me3 not seen in vin3. Consititutive VIN3 is not sufficient to substitute for cold treatment; thus VIN3 must interface with other cold-induced changes.
+
+wood_arabidopsis_2006
+VRN2 is part of a PRC2-like complex in plants and this complex acts to regulate FLC expression in both nonvernalized and vernalized conditions. PHD protein VIN3 can be in the same complex as VRN2. Complex accumulates during cold. VRN2, FIE, CLF, and SWN proteins increase in abundance, but not mRNA. POLYCOMB REPRESSION COMPLEX2 mediates H3K27 methylation.
+
+kim_vernalization_mediated_2010
+VIN3 is in a region of heterochromatin due to a transposable element upstream of the gene. Observed a significantly elevated level of VIN3 mRNA expression prior to cold exposute in lhp1 mutants. LHP1 and CLF associate with VIN3 chromatin, but do not dissociate during cold. Do not observe change in H3K27me3 at VIN3. H3K4me3 is highly enriched during VIN3 activation during cold. Bivalent state established. Suggest that the slow response of VIN3 to cold is due to LHP1-mediated repression. Activating complexes are PAF1 and EFS.
+
+jean_finnegan_polycomb_2011
+Induction of VIN3 does not require removal of H3K27me3. H3 acetylation, an active mark, increases within 24h of VIN3 induction. H3K4me3, increased around the VIN3 transcription start site within 24 h at low temperatures, and the level of H3K36me3 had increased up to 2.5-fold within the coding region. H3K4me3 returned to basal levels upon move to warmer conditions. H3 acetylation remained at the promoter when moving to warm conditions. Bivalently marked histones. VIN3 activation during cold was more rapid in PRC2 mutants.
+
+kim_coordination_2013
+FLC family - FLM and MAF1-5
+VIN3 is expressed only during vernilizing cold, VIL1/VRN5 is consititutively expressed. Slight upregulation of VIL2/VEL1 during vernilization. VIL3/VEL2 is increased after cold exposure. FLC, FLM, MAF2, and MAF3 are repressed as a result of vernalization. MAF4 and MAF5 are increased during early periods of cold exposure. maf4 and maf5 mutants have a precocious vernalization response.

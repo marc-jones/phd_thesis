@@ -12,7 +12,7 @@ The pathway insights will allow us to view gene level behaviours in light of the
 
 ### Genome level expression differences between the A and C genomes {#section:spring:genomelevel}
 
-![**The *Brassica napus* A and C genomes show different overall patterns of gene expression.** Density plots of transformed expression levels (log~10~(FPKM)) calculated using different subsets of genes. The expression data was sampled 1000 times using a Gaussian error model. The density plot of log~10~(FPKM) values was calculated for each sample. The mean density and the 95% confidence interval estimated using the 1000 samples is displayed. Tabulated below each density plot are the number of Brassica napus genes used to calculate the density plot, separated by their genome of origin. The data used to generate the density plots consisted of expression data from: **a** all annotated Brassica napus genes, **b** *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene, and **c** *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene that is present in the FLOR-ID database[@bouche_florid_2016]. These plots are generated using apex expression data from the time point taken at day 22, but are representative of the density plots obtained for all time points across both tissue types sampled.](figuredirectory/genome_level.pdf){#figure:2xx:genomeexp}
+![**The *Brassica napus* A and C genomes show different overall patterns of gene expression.** Density plots of transformed expression levels (log~10~(FPKM)) calculated using different subsets of genes. The expression data was sampled 1000 times using a Gaussian error model. The density plot of log~10~(FPKM) values was calculated for each sample. The mean density and the 95% confidence interval estimated using the 1000 samples is displayed. Tabulated below each density plot are the number of Brassica napus genes used to calculate the density plot, separated by their genome of origin. The data used to generate the density plots consisted of expression data from: **a** all annotated Brassica napus genes, **b** *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene, and **c** *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene that is present in the FLOR-ID database[@bouche_florid_2016]. These plots are generated using apex expression data from the time point taken at day 22, but are representative of the density plots obtained for all time points across both tissue types sampled.](figuredirectory/10_genome_level.pdf){#figure:210:genomeexp}
 
 Previous studies of gene expression in polyploid species have generally focussed on comparing the expression of genes on the different genomes to determine whether expression was biased[@akhunova_homoeolog_2010; @bardil_genomic_2011; @ilut_comparative_2012; @wang_genomewide_2006; @yoo_homoeolog_2013].
 To determine whether such a bias was observed in the expression data from the developmental transcriptome, separate density plots of the gene expression data for each of the two genomes was generated.
@@ -20,12 +20,12 @@ Due to the range of expression values, the data was log~10~ transformed prior to
 In order to qualitatively determine whether the differences observed between the density curves were meaningful, empirical confidence intervals were calculated.
 These were calculated by resampling the expression data and computing the density curve for each sample, with the mean and 95% confidence intervals being calculated using these resampled density curves.
 Different regions of the density curves will hereafter be referred to as very low (below -1), low (between -1 and 0), high (between 0 and 1), and very high (above 1), relating to the expression of genes within those regions.
-The density curves displayed in Figure \ref{figure:2xx:genomeexp} are computed from the apex at 22 days post-sowing, although the density curves are representative of those at other time points and in the leaf samples.
+The density curves displayed in Figure \ref{figure:210:genomeexp} are computed from the apex at 22 days post-sowing, although the density curves are representative of those at other time points and in the leaf samples.
 
-Considering the expression of all genes, we see that in the high expression region the confidence interval for the A genome density curve is above the C genome confidence interval (Figure \ref{figure:2xx:genomeexp}a)
+Considering the expression of all genes, we see that in the high expression region the confidence interval for the A genome density curve is above the C genome confidence interval (Figure \ref{figure:210:genomeexp}a)
 In the very low expression region this pattern is reversed with the C genome density curve confidence interval being above the A genome confidence interval.
-Similar patterns are observed when subsets of *Brassica napus* genes are taken, however the differences are less apparent (Figures \ref{figure:2xx:genomeexp}b and \ref{figure:2xx:genomeexp}c).
-These subsets are *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene model (Figure \ref{figure:2xx:genomeexp}b), and *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene known to be involved with a floral control pathway (Figures \ref{figure:2xx:genomeexp}c).
+Similar patterns are observed when subsets of *Brassica napus* genes are taken, however the differences are less apparent (Figures \ref{figure:210:genomeexp}b and \ref{figure:210:genomeexp}c).
+These subsets are *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene model (Figure \ref{figure:210:genomeexp}b), and *Brassica napus* genes that show sequence conservation to an annotated *Arabidopsis thaliana* gene known to be involved with a floral control pathway (Figures \ref{figure:210:genomeexp}c).
 Interestingly, the proportions of genes represented from each genome change when these subsets of genes are taken.
 When no subset is taken, approximately 40% (60%) of *Brassica napus* gene models are located on the A (C) genome.
 When the discussed subsets are taken, however, the percentage of genes on the A (C) genome is 48% (52%).
@@ -59,7 +59,7 @@ Additionally, these genes also tend to have very low expression values, as indic
 \end{tabular}%
 }
 \caption{\textbf{Number of genes expressed 2-fold higher than their homoeologue for all homoeologue pairs.} Homoeologue pairs were determined and filtered at each time point for those which both had expression levels above 2 FPKM. The number and percentage of these genes expressed 2-fold higher than their homoeologue is indicated. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all homoeologue pairs is 1.12 in the apex and 1.11 in the leaf.}
-\label{spring:table2xx:homoeologues}
+\label{spring:table201:homoeologues}
 \end{table}
 
 \begin{table}[htp]
@@ -89,18 +89,18 @@ Additionally, these genes also tend to have very low expression values, as indic
 \end{tabular}%
 }
 \caption{\textbf{Number of genes expressed 2-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}
-As for Table \ref{spring:table1:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to \emph{Arabidopsis thaliana} flowering time genes from the FLOR-ID database. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 the leaf.}
-\label{spring:table2xx:floweringhomoeologues}
+As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to \emph{Arabidopsis thaliana} flowering time genes from the FLOR-ID database. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 the leaf.}
+\label{spring:table202:floweringhomoeologues}
 \end{table}
 
 To compare expression changes between genes on each of the genomes sharing a common lineage, as has been done previously[@grover_homoeolog_2012], I generated a list of homoeologues using synteny and sequence similarly following a published method[@napus_genome_2014].
-Using this list I was able to count the number of genes expressed two-fold higher than their predicted homoeologue (Table \ref{spring:table2xx:homoeologues}).
+Using this list I was able to count the number of genes expressed two-fold higher than their predicted homoeologue (Table \ref{spring:table201:homoeologues}).
 Hereafter, a homoeologous pair is referred to as showing biased expression in the direction of a particular genome if the gene on that genome has an FPKM expression value at least two-fold higher than the gene on the other genome.
 Biased expression occurs in the direction of both genomes, although there is a clear preference, with approximately double the number of pairs showing biased expression towards the C genome rather than towards the A genome.
 This pattern is maintained across the entire time series and for both tissue types sampled.
 Taking the geometric mean of the fold differences of the C genome gene relative to their A genome homoeologues should reveal a value of 1 if the overall expression of homoeologues was balanced between the two genomes.
-That we obtain a value above 1 (Table \ref{spring:table2xx:homoeologues}) demonstrates that, on average, expression is biased towards the C genome.
-When pairs of homoeologue identified as *Brassica napus* flowering time genes are tested in the same way, patterns are largely maintained although are less consistent across the time series due to fewer genes being considered (Table \ref{spring:table2xx:floweringhomoeologues}).
+That we obtain a value above 1 (Table \ref{spring:table201:homoeologues}) demonstrates that, on average, expression is biased towards the C genome.
+When pairs of homoeologue identified as *Brassica napus* flowering time genes are tested in the same way, patterns are largely maintained although are less consistent across the time series due to fewer genes being considered (Table \ref{spring:table202:floweringhomoeologues}).
 
 Although the results from the genome level and homoeologue level analysis may initially seem contradictory, this is due to the comparisons being made at different scales.
 At the genome level, a higher proportion of genes on the C genome are expressed at very low levels relative to the A genome.
@@ -109,19 +109,19 @@ The bias seen at the genome level is not seen in the same direction at the homoe
 
 ### Tissue specific expression is biased towards the apex {#section:spring:tissuespecfic}
 
-![**Description.**](figuredirectory/expressed_gene_venn_diagram.pdf){#figure:2xx:venn}
+![**The majority of annotated *Brassica napus* genes are not expressed.** **a-c** Euler diagrams indicating the percentage of genes that are expressed and those that are not in the developmental time series. A gene was regarded as expressed if the expression level of the gene exceeded 2.0 FPKM at at least one time point in either the leaf or apex sample. **d-f** Venn diagrams indicating the number of expressed genes showing tissue specific expression. **a and d** All annotated *Brassica napus* genes; **b and e** Only *Brassica napus* genes with an identified Arabidopsis homologue are considered; **c and f** Only *Brassica napus* genes with an identified Arabidopsis homologue that is in the FLOR-ID database[@bouche_florid_2016] are considered.](figuredirectory/11_expressed_gene_venn_diagram.pdf){#figure:211:venn}
 
 The genome level analysis uncovered expression biased expression between the two genomes of *Brassica napus*.
 In order to investigate other forms of expression bias in the data, I investigated the number of genes exhibiting tissue specific expression during the developmental time series.
 Genes were classified as expressed during the time series if the expression of the gene exceeded 2.0 FPKM at at least one time point.
-By this definition, 32% of annotated *Brassica napus* genes were classified as expressed in the developmental time series (Figure \ref{figure:2xx:venn}).
+By this definition, 32% of annotated *Brassica napus* genes were classified as expressed in the developmental time series (Figure \ref{figure:211:venn}).
 This percentage increases to 57% and 67% when only *Brassica napus* genes with Arabidopsis homologues or *Brassica napus* flowering time genes were considered, respectively.
 The finding that there are many lowly expressed *Brassica napus* that lack an Arabidopsis homologue is consistent with the results presented in section \ref{section:spring:genomelevel}.
 Potentially these lowly expressed genes that lack sequence similarity to annotated Arabidopsis genes are pseudogenes.
-Taking all *Brassica napus* genes, regardless of whether they have an Arabidopsis homologue or not, reveals that of the 49,125 genes that are expressed during the developmental time series, 17% are expressed specifically in the apex and 12% are expressed specifically in the leaf, with the remaining 71% of genes expressed in both tissues (Figure \ref{figure:2xx:venn}d).
-These percentages remain largely unchanged when *Brassica napus* genes lacking an Arabidopsis homologue are removed (Figure \ref{figure:2xx:venn}e).
+Taking all *Brassica napus* genes, regardless of whether they have an Arabidopsis homologue or not, reveals that of the 49,125 genes that are expressed during the developmental time series, 17% are expressed specifically in the apex and 12% are expressed specifically in the leaf, with the remaining 71% of genes expressed in both tissues (Figure \ref{figure:211:venn}d).
+These percentages remain largely unchanged when *Brassica napus* genes lacking an Arabidopsis homologue are removed (Figure \ref{figure:211:venn}e).
 For flowering time genes the percentage of genes exhibiting tissue specific expression shifts towards the apex.
-Of the 931 expressed *Brassica napus* flowering time genes, 23% are specifically expressed in the apex and 7% of genes are leaf specific (Figure \ref{figure:2xx:venn}).
+Of the 931 expressed *Brassica napus* flowering time genes, 23% are specifically expressed in the apex and 7% of genes are leaf specific (Figure \ref{figure:211:venn}).
 This analysis reveals that the majority of genes do not exhibit tissue specific expression.
 Of those that do, there are more genes specifically expressed in the apex than the leaf, perhaps as a result of the apex undergoing a greater developmental change during the time series than the leaf.
 The percentage of genes exhibiting tissue specific expression changes based on the subset of genes taken, with *Brassica napus* flowering time genes having 76% of tissue-specific genes expressed in the apex compared to 63% for all genes.
@@ -129,61 +129,60 @@ This supports the hypothesis that it is the apex transitioning to vegetative to 
 
 ### Multiple copies of flowering time genes have been retained in the *Brassica napus* genome {#section:spring:floweringretained}
 
-![**Title.** Description.](figuredirectory/retention_distributions.pdf){#figure:2xx:retentiondistribution}
+![**Multiple *Brassica napus* flowering time gene homologues are expressed during the floral transition.** This plot shows the proportions of Arabidopsis genes that have particular numbers of homologues identified and expressed in *B. napus*. *B. napus* genes were considered to be expressed if their maximal expression level within a tissue across the time series was above 2.0 FPKM. False discovery corrected *p-values* were computed by taking 1000 samples of genes from the All distribution. The mean and standard deviation of these samples were used to perform a two-tailed test of observing a proportion as extreme as the FLOR-ID value. **a** *B. napus* genes that show sequence conservation to an annotated Arabidopsis gene. **b** *B. napus* genes expressed in the apex tissue that show sequence conservation to an annotated Arabidopsis gene. **c** *B. napus* genes expressed in the leaf tissue that show sequence conservation to an annotated Arabidopsis gene.](figuredirectory/12_retention_distributions.pdf){#figure:212:retentiondistribution}
 
 Genes that have undergone multiplication in the genome and have been subsequently retained are likely under a selective pressure to be maintained.
 To investigate whether the flowering time genes have been retained in the genome, distributions of *Arabidopsis thaliana* gene copies was calculated.
 These distributions are derived by assigning *Brassica napus* genes to the *Arabidopsis thaliana* gene with the highest sequence similarity, then counting the number of copies of each *Arabidopsis thaliana* gene in the *Brassica napus* genome.
 This was done separately for all *Arabidopsis thaliana* genes and for the subset that have been identified as genes involved with flowering[@bouche_florid_2016] and the distributions compared.
-Significant differences between the distributions are observed at low copy numbers, with there being fewer *Arabidopsis thaliana* flowering time genes with one or two copies in *Brassica napus* than expected given the distribution for all genes (Figure \ref{figure:2xx:retentiondistribution}a).
+Significant differences between the distributions are observed at low copy numbers, with there being fewer *Arabidopsis thaliana* flowering time genes with one or two copies in *Brassica napus* than expected given the distribution for all genes (Figure \ref{figure:212:retentiondistribution}a).
 At higher copy numbers a significantly higher proportion of *Arabidopsis thaliana* flowering time genes have five and eight *Brassica napus* copies relative to the distribution for all genes.
 In general, flowering time genes tend to have a lower proportion of genes present at low copy numbers (three and below) and higher proportions at higher copy numbers.
 This is indicative of the flowering time genes in *Brassica napus* having been retained in the genome following the genome multiplication events that have occurred throughout the evolutionary history of *Brassica napus*.
 
 ### Expression divergence in the number of expressed copies of annotated genes {#section:spring:expressedvsannotated}
 
-![**Not all copies of genes are expressed in *Brassica napus*.** Copies of *Arabidopsis thaliana* genes were identified in the *Brassica napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/all_vs_exp_all_genes.pdf){#figure:2xx:allvsexp}
+![**Not all copies of genes are expressed in *B. napus*.** Copies of Arabidopsis genes were identified in the *B. napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/13_all_vs_exp_all_genes.pdf){#figure:213:allvsexp}
 
-
-![**Not all copies of flowering time genes are expressed in *Brassica napus*.** As for figure \ref{figure:2xx:allvsexp}, but only using *Brassica napus* genes that have sequence similarity to annotated *Arabidopsis thaliana* flowering time genes.](figuredirectory/all_vs_exp_flower_genes.pdf){#figure:2xx:allvsexpflower}
+![**Not all copies of flowering time genes are expressed in *Brassica napus*.** As for figure \ref{figure:213:allvsexp}, but only using *Brassica napus* genes that have sequence similarity to annotated Arabidopsis flowering time genes in the FLOR-ID database[@bouche_florid_2016].](figuredirectory/14_all_vs_exp_flower_genes.pdf){#figure:214:allvsexpflower}
 
 In order to detect regulatory divergence between copies of genes in *Brassica napus*, I compared the number of annotated *Brassica napus* homologues of Arabidopsis genes to the number of these genes that were expressed during the developmental transcriptome.
-In both the apex and the leaf, the majority (66% in the apex, 70% in the leaf) of Arabidopsis genes have a *Brassica napus* homologue that does not exhibit expression in the tissues sampled during the floral transition (Figure \ref{figure:2xx:allvsexp}).
-These percentage of Arabidopsis flowering time genes that have a *Brassica napus* homologue that is not expressed are similar to the results genome-wide (61% in the apex, 69% in the leaf).
+In both the apex and the leaf, the majority (66% in the apex, 70% in the leaf) of Arabidopsis genes have a *Brassica napus* homologue that does not exhibit expression in the tissues sampled during the floral transition (Figure \ref{figure:213:allvsexp}).
+These percentage of Arabidopsis flowering time genes that have a *Brassica napus* homologue that is not expressed are similar to the results genome-wide (61% in the apex, 69% in the leaf) (Figure \ref{figure:214:allvsexpflower}).
 This indicates widespread expression divergence among the homologues of Arabidopsis genes across the floral transition in terms of whether a particular homologue is expressed or not.
 
 ### Self-organizing map based clustering of expression data {#section:spring:experimentaldesign}
 
-![**Self-organaizing maps (SOMs) are trained to represent datasets.** SOMs are randomly initiated. Clusters are assigned neighbours based on their Euclidean distances from one another, such that neighbouring clusters have a lower Euclidean distance between them. During the training process, the SOM (black grid) is trained to represent the dataset (blue shape). The training process begins by selecting a random data point. The SOM cluster closest to that data point (yellow triangle), determined by Euclidean distance, is modified to be closer to the data point. At the same time, the neighbouring clusters are also modified. Another data point is selected and the process repeats. The training process continues until the SOM accurately represents the dataset. Image adapted from a diagram by Mcld[@som_explanation], distributed under a CC BY-SA 3.0 license](figuredirectory/som_explanation.pdf){#figure:2xx:somexplanation}
+![**Self-organaizing maps (SOMs) are trained to represent datasets.** SOMs are randomly initiated. Clusters are assigned neighbours based on their Euclidean distances from one another, such that neighbouring clusters have a lower Euclidean distance between them. During the training process, the SOM (black grid) is trained to represent the dataset (blue shape). The training process begins by selecting a random data point. The SOM cluster closest to that data point (yellow triangle), determined by Euclidean distance, is modified to be closer to the data point. At the same time, the neighbouring clusters are also modified. Another data point is selected and the process repeats. The training process continues until the SOM accurately represents the dataset. Image adapted from a diagram by Mcld[@som_explanation], distributed under a CC BY-SA 3.0 license](figuredirectory/15_som_explanation.pdf){#figure:215:somexplanation}
 
 To quantify regulatory divergence using a more fine grain approach, methods to assess divergence between across time expression patterns were developed.
 This was achieved using self-organizing maps (SOMs), a clustering technique that is able to adaptively take into account the variation present in the data being clustered.
 When used to cluster time series data, each cluster represents a particular expression trace across time.
-Due to how the training process (Figure \ref{figure:2xx:somexplanation}) is executed, neighbouring clusters will tend to have similar expression traces to each other.
+Due to how the training process (Figure \ref{figure:215:somexplanation}) is executed, neighbouring clusters will tend to have similar expression traces to each other.
 If particular parts of the dataset are more dense in terms of the number of data points present then the training process will explore that part of the dataset more, leading to a higher density of clusters in that area.
 The ratio of grid dimensions are set as the same ratio as the eigenvalues of the first two principal components of the data, to try and maximise the variation captured by the SOM (Materials and Methods).
 These properties lead to a clustering method which allows for the time series data to be summarised and visualized in an intuitive manner.
 
-![**SOM generated using the apex developmental transcriptome in Westar.** The size of the SOM was chosen such that it captured ~85% of the global squared distance from the mean (Materials and Methods). The grey lines within each SOM cluster indicate the normalized expression trace that particular cluster represents. The SOM is toroidal, such that clusters on the top and bottom rows are adjacent, as are clusters on the left and right hand columns. The colour of the cluster represents the number of genes mapped to that particular cluster.](figuredirectory/a_w_som_count.pdf){#figure:2xx:somaw}
+![**SOM generated using the apex developmental transcriptome in Westar.** The size of the SOM was chosen such that it captured ~85% of the global squared distance from the mean (Materials and Methods). The grey lines within each SOM cluster indicate the normalized expression trace that particular cluster represents. The SOM is toroidal, such that clusters on the top and bottom rows are adjacent, as are clusters on the left and right hand columns. The colour of the cluster represents the number of genes mapped to that particular cluster.](figuredirectory/16_a_w_som_count.pdf){#figure:216:somaw}
 
-Within the SOM generated using the developmental transcriptome from the apex (Figure \ref{figure:2xx:somaw}, there are two regions that have a higher number of genes mapped to them relative to the average.
+Within the SOM generated using the developmental transcriptome from the apex (Figure \ref{figure:216:somaw}, there are two regions that have a higher number of genes mapped to them relative to the average.
 The cluster with the most genes mapped to it is located in the bottom left hand corner of the map (cluster 19).
 The expression trace of that cluster is low during the vernalization period, an increase during the cold, with the expression levels returning to pre-vernalization levels when the plants were returned to warmer conditions.
 This indicates that in the apex a large number of genes are responding to the growth conditions in the vernalization treatment, that is, short days and 5 &deg;C temperatures.
-The other region of the map with a high number of genes mapped to it are the clusters towards the centre of the map (cluster 46), which exhibit an expression pattern that remains largely constant throughout the developmental time series, with an increase in expression towards the final time point (Figure \ref{figure:2xx:somaw}).
+The other region of the map with a high number of genes mapped to it are the clusters towards the centre of the map (cluster 46), which exhibit an expression pattern that remains largely constant throughout the developmental time series, with an increase in expression towards the final time point (Figure \ref{figure:216:somaw}).
 This is expected given that at the final time point flower buds were being formed in the apex, which would require the coordinated expression of many genes.
 
-![**SOM generated using the leaf developmental transcriptome in Westar.** As for Figure \ref{figure:2xx:somaw}, generated using expression data collected from Westar leaf tissue.](figuredirectory/l_w_som_count.pdf){#figure:2xx:somlw}
+![**SOM generated using the leaf developmental transcriptome in Westar.** As for Figure \ref{figure:216:somaw}, generated using expression data collected from Westar leaf tissue.](figuredirectory/17_l_w_som_count.pdf){#figure:217:somlw}
 
-The SOM to cluster leaf data (Figure \ref{figure:2xx:somlw})was constructed in the same way at the SOM for the apex data (Materials and Methods).
+The SOM to cluster leaf data (Figure \ref{figure:217:somlw})was constructed in the same way at the SOM for the apex data (Materials and Methods).
 Comparing the SOMs for the apex and leaf expression data we see that the dimensions of the maps are different.
 This illustrates the adaptive nature of the SOM method for clustering time series, allowing the variation present in the two datasets to be accurately represented.
 The cluster with the most genes mapped to it in the SOM generated using leaf data is a cluster at the bottom of the map in the centre (cluster 19).
 This cluster shows a very similar pattern of expression as the second region of the apex SOM discussed above; low expression throughout the time series with an increase towards the final time point.
-The second region of the SOM with a high number of mapped genes is are the clusters in the top left of the visualization (cluster 99, Figure \ref{figure:2xx:somlw}).
+The second region of the SOM with a high number of mapped genes is are the clusters in the top left of the visualization (cluster 99, Figure \ref{figure:217:somlw}).
 The cluster with the most mapped genes in this region exhibits an expression trace that is low initially, shows a gradual increase during the cold with a quick return to pre-vernalization treatment levels when the plants were returned to glasshouse growth conditions.
 As with the SOM generated using the apex expression data, this reveals that a large number of genes are responding to growth in the cold, short day conditions of the vernalization room.
-A third region with a high number of genes mapped to it is a region in the upper left of centre (cluster 82, Figure \ref{figure:2xx:somlw}).
+A third region with a high number of genes mapped to it is a region in the upper left of centre (cluster 82, Figure \ref{figure:217:somlw}).
 The expression traces in the two clusters with the highest number of mapped genes in this region both show high expression initially with a decrease in expression upon growth in the cold conditions.
 This pattern again emphasises that a large number of genes are responding to the change in growth conditions.
 Unlike the other responses, however, the genes in this region of the SOM do not return to pre-cold levels of expression upon returning to growth in warm conditions.
@@ -198,18 +197,18 @@ Additionally, that we see many genes that increase towards the final time point 
 
 ### Expressed copies of flowering time genes exhibit regulatory divergence during the floral transition {#section:spring:somdivergence}
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/som_similarity_measure.pdf){#figure:2xx:somsimilarity}
+![**Self-organizing map (SOM) based assessment of expression trace divergence uncovers widespread regulatory divergence and subtle patterns of divergence.** **a** A schematic of the SOM based clustering approach. The approach consists of two overlapping sampling loops. In loop 1, expression data from flowering time gene copies is sampled assuming a Gaussian error model. Sampled expression traces are zero mean and unit variance normalized and mapped to the SOM. This procedure is repeated 500 times to give two density plots of where in the SOM the copies map. These density plots are used to calculate the probability of the copies mapping to the same SOM cluster. As SOM clustering has a random component, loop 2 consists of regenerating the SOM using all expression data and calculating the probability of copies clustering to the same cluster 100 times. Using this, an average probability of mapping to the same cluster is calculated. **b** Representations of the five patterns of regulatory module assignment detected by the SOM based method. High clustering coefficients between two different genes indicates that those genes have similar expression traces. Clustering coefficients between a gene and itself represent how robustly a gene maps to the SOM. A *distinct* pattern indicates multiple regulatory modules being identified, with no gene occupying more than one module. A *gradated* pattern represents multiple regulatory modules being detected, but genes occupy multiple modules. *Redundant* patterns occur when only one regulatory module is detected, and all copies of a gene are assigned to that module. *Unique* patterns are a special case of a *distinct* pattern where each copy of a gene is assigned to a different regulatory module. *Mixed* patterns consist of a mixture of *distinct* and *gradated* patterns, where the gene assignment of some modules overlap while others do not show overlap. When assessing the regulatory module assignment, gene copies that do not robustly map to the SOM are removed. **c and d** The relationships between the number of expressed *B. napus* copies of Arabidopsis flowering time genes and the number of different types of regulatory module assignment patterns exhibited by those gene copies. This relationship is calculated using expression data from the apex (**c**) and the leaf (**d**).](figuredirectory/18_som_similarity_measure.pdf){#figure:218:somsimilarity}
 
 Having developed SOMs for both the apex and leaf, I then was able to use them to quantify the level of similarity between any two expression traces.
 By determining the level of similarity between different *Brassica napus* copies of flowering time genes the level of regulatory divergence they exhibit could be quantified.
-The similarity between expression traces was calculated using a sampling method that was able to take into account the error calculated for the expression values (Figure \ref{figure:2xx:somsimilarity}a).
+The similarity between expression traces was calculated using a sampling method that was able to take into account the error calculated for the expression values (Figure \ref{figure:218:somsimilarity}a).
 The output of the method are empirical probabilities of two expression traces mapping to the same SOM cluster.
 These probabilities are normalized to give a clustering coefficient.
 The higher the coefficient, the higher the probability of two expression traces mapping to the same cluster.
 *Brassica napus* copies of Arabidopsis genes are grouped into regulatory modules based on the clustering coefficients, with copies that have high clustering coefficients between them being assigned to the same regulatory module.
 Unlike some methods, genes have the potential to be assigned to multiple regulatory modules.
 This allows more subtle patterns of divergence to be detected.
-There are five different possible patterns of regulatory module assignment using the SOM based resampling method (Figure \ref{figure:2xx:somsimilarity}b).
+There are five different possible patterns of regulatory module assignment using the SOM based resampling method (Figure \ref{figure:218:somsimilarity}b).
 A *distinct* pattern represents the identification of multiple regulatory modules whose membership does not overlap.
 In contrast, a *gradated* pattern indicates that multiple regulatory modules were identified, but the membership of those modules overlap.
 *Redundant* patterns occur when all *Brassica napus* copies of an Arabidopsis gene are assigned to the same regulatory module as a result of their expression traces across the developmental time series being similar to each other.
@@ -223,7 +222,7 @@ Quantifying the number of these patterns observed for sets of homologues within 
 A null hypothesis for the fate of gene expression after a gene multiplication event is that identical genes will have the same pattern of regulation.
 This is based on the idea that the regulatory sequences that modulate the expression of the gene will be the same for the additional copies of the gene.
 In the SOM based analysis performed here, this hypothesis would correspond to observing a *redundant* regulatory module assignment.
-Data from the developmental time series reveals that as the number of *Brassica napus* copies of an Arabidopsis gene increases, the occurance of *redundant* patterns decreases in both the apex and the leaf (Figures \ref{figure:2xx:somsimilarity}c and \ref{figure:2xx:somsimilarity}d).
+Data from the developmental time series reveals that as the number of *Brassica napus* copies of an Arabidopsis gene increases, the occurance of *redundant* patterns decreases in both the apex and the leaf (Figures \ref{figure:218:somsimilarity}c and \ref{figure:218:somsimilarity}d).
 When three or more copies of a gene are present in the genome, other regulatory module patterns are observed in the majority of cases in both tissues, with no redundant patterns seen above 5 copies in the apex or 4 copies in the leaf.
 As with *redundant* patterns, *unique* patterns are observed less at higher numbers of copies.
 In the apex and leaf, *mixed* and *gradated* patterns are seen at a lower frequency than *distinct* patterns, revealing that genes exhibiting intermediary regulatory behaviour relative to the other copies of that gene are observed less frequently as genes occupying distinct regulatory modules.
@@ -247,7 +246,7 @@ When GO gene annotations are available for a particular organism, the proportion
 If a subset of genes are annotated with a GO term at a significantly higher proportion than the across genome proportion then that subset of genes is said to be enriched for that GO term.
 I used GO term enrichment to determine the overall behaviour of a number of developmental pathways in *Brassica napus* to better understand the expression dynamics captured in the developmental time series.
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_1.pdf){#figure:2xx:go1som}
+![**Expression traces for SOM clusters enriched for leaf senescence and regulation of flower development.** SOM clusters that are significantly enriched for each GO term and that also contain the most *B. napus* genes annotated with that GO term are displayed.](figuredirectory/19_go_term_enrichment_1.pdf){#figure:219:go1som}
 
 I first wanted to establish that GO term enrichment analysis would provide reliable results.
 To test this, I looked for SOM clusters enriched in the GO terms "leaf senescence" in the leaf data and for SOM clusters related to flowering time in the apex data.
@@ -262,7 +261,7 @@ These responses are expected, given that the plants were beginning to flower tow
 An additional observation for the expression traces of the cluster enriched for genes associated with the positive regulation of flower development is the slight decrease in expression during the vernalization treatment.
 As will be discussed later in this chapter when the behaviour of key floral integrators are investigated (Section \ref{section:spring:ft}), this is likely a result of the short day conditions the plants were grown in not being conducive to flowering.
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_2.pdf){#figure:2xx:go2som}
+![**Expression traces for SOM clusters enriched for regulation of cell cycle and defence response.** As for Figure \ref{figure:219:go1som} with the top two clusters displayed.](figuredirectory/20_go_term_enrichment_2.pdf){#figure:220:go2som}
 
 Having established that GO term enrichment analysis was giving results that made were physiologically sensible, the enrichment of other GO terms was investigated.
 Controlling the cell cycle is an integral aspect of growth which plants need to tightly control.
@@ -280,23 +279,23 @@ The energetic costs of growth and the maintenance of an active immune response i
 In *Arabidopsis thaliana*, mutants in a particular negative regulator of defence had reduced seed production, indicating that negative regulation of defence during the reproductive phase of plant development is important[@shi_salicylic_2013].
 The *PIF4* transcription factor in *Arabidopsis thaliana* is not only important for the the thermal acceleration of flowering[@kumar_transcription_2012] but also for mediating the balance between growth and pathogen immunity at different temperatures[@gangappa_pif4_2017].
 At low temperatures, immune responses are upregulated and growth is inhibited, while at warmer temperatures the immune response is downreagulated and growth and flowering is promoted.
-The expression traces of SOM clusters enriched for genes with the GO term "negative regulation of defence response" reflect this (Figure \ref{figure:2xx:go2som}.
+The expression traces of SOM clusters enriched for genes with the GO term "negative regulation of defence response" reflect this (Figure \ref{figure:220:go2som}.
 Cluster 71 in the leaf-derived SOM exhibits high expression initially with a rapid reduction in expression during the cold.
 The expression level increases three days after the plants were returned to warmer growth conditions.
 The other cluster enriched for genes involved with down regulating plant defence responses is cluster 29.
 This cluster is not affected by the cold treatment, but shows a steady increase in expression after the treatment.
 Both of these observations point towards the *Brassica napus* defence response being modulated by temperature and flowering as in *Arabidopsis thaliana*.
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/go_term_enrichment_3.pdf){#figure:2xx:go3som}
+![**Expression traces for SOM clusters enriched for circadian rhythm.** As for Figure \ref{figure:219:go1som} with the top two clusters displayed.](figuredirectory/21_go_term_enrichment_3.pdf){#figure:221:go3som}
 
 The decision to subject the spring variety Westar to the vernalization treatment alongside the winter variety of *Brassica napus* was taken to allow for the effects of the treatment to be differentiated from the effects of vernalization, as discussed in section \ref{section:spring:experimentaldesign}).
 The vernalization treatment was carried out in short days at 5&deg;C.
 To investigate the effects of this treatment on a variety that is insensitive to vernalization I determined the SOM clusters enriched for the GO term "circadian rhythm".
-The most highly enriched clusters in both the leaf and the apex exhibit very similar expression traces (Figure \ref{figure:2xx:go3som}).
+The most highly enriched clusters in both the leaf and the apex exhibit very similar expression traces (Figure \ref{figure:221:go3som}).
 Both undergo increases in expression during the cold treatment, with expression returning to pre-treatment levels on the first day of growth post-treatment.
 The expression of genes associated with the circadian rhythm are expressed differently during the vernalization period likely as a result of the altered photoperiod the plants are subjected to.
 This can be considered a confounding factor, as the effects of changing the temperature at which the plant are grown cannot be disentangled from the effects of changing the photoperiod under which the plants are grown.
-However, as argued in section \ref{section:spring:experimentaldesign}, this illustrates the importance of subjecting both the spring and winter variety to the vernalization treatment so that transcriptional changes such as those illustrated in figure \ref{figure:2xx:go3som} can be distinguished to effects due to vernalization.
+However, as argued in section \ref{section:spring:experimentaldesign}, this illustrates the importance of subjecting both the spring and winter variety to the vernalization treatment so that transcriptional changes such as those illustrated in figure \ref{figure:221:go3som} can be distinguished to effects due to vernalization.
 
 Although GO term enrichment is a relatively high level analysis that does not investigate the gene level responses across the developmental time series, it is still a useful analysis for investigating the overall behaviour of key developmental pathways.
 The results presented here reveal a number of general trends that are in agreement with observations in Arabidopsis and that justify the experimental design decisions taken in the planning of the experiment.
@@ -314,13 +313,13 @@ Following these previous studies[@adryan_developmental_2010], I labelled the *Br
 These protein domains were detected in an automated manner using previously published tools.
 The two case studies that illustrate the insights such an analysis facilitates are MADS-box containing proteins and DELLA proteins.
 
-![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.**](figuredirectory/protein_enrichment.pdf){#figure:2xx:proteinsom}
+![**Expression traces for SOM clusters enriched for MADS and DELLA protein domains.** SOM clusters that are significantly enriched for each protein domain and that also contain the most *B. napus* genes containing that protein domain are displayed.](figuredirectory/22_protein_enrichment.pdf){#figure:222:proteinsom}
 
 The MADS-box domain is a protein domain conserved across a diverse array of species.
 Indeed, the MADS-box takes its name from the *MINICHROMOSOME MAINTENANCE 1* genes in yeast, the *AGAMOUS* gene in *Arabidopsis thaliana*, *DEFICIENS* in *Antirrhinum majus* and serum response factor in humans [@schwarz_sommer_genetic_1990].
 In *Arabidopsis thaliana*, MADS-box containing genes have been found to control a wide range of roles related to flowering (reviewed in [@ng_mads_review_2001]).
 In the leaf samples, 35 *Brassica napus* genes with detectable MADS-box domains are expressed, with 85 MADS-box containing genes expressed in the apex.
-The patterns of expression for the SOM clusters most highly enriched for MADS-box containing proteins are quite different between the leaf and apex (Figure \ref{igure:2xx:proteinsom}).
+The patterns of expression for the SOM clusters most highly enriched for MADS-box containing proteins are quite different between the leaf and apex (Figure \ref{figure:222:proteinsom}).
 The leaf cluster shows a peak of expression at the time point during cold, with expression at the other time points, before and after cold, being somewhat similar.
 The SOM cluster enriched in the apex exhibits an expression trace that is lowly expressed before and during cold but steadily increases after the cold to peak expression at the final time point.
 The MADS-box containing genes within these clusters represent different functional classes of MADS-box genes.
@@ -346,10 +345,10 @@ The function of the gene instead is dependent upon a 68 amino acid repeated moti
 This domain has been found to be present in a wide range of plant transcription factors that have been divided into three familities; Ethylene Responsive Factors (ERF), AP2 and RAV families[@licausi_ap2erf_2013].
 These proteins are involved in a wide range of developmental processes as well as regulating metabolism and stress responses (reviewed in [@licausi_ap2erf_2013]).
 Investigating SOM clusters enriched for proteins with the *AP2* domain reveals cluster 40 in the leaf-derived SOM as being highly enriched.
-The expression trace of cluster 40 exhibits low expression initially and during cold with a large increase in expression at the penultimate and final time points (Figure \ref{figure:2xx:proteinsom}).
+The expression trace of cluster 40 exhibits low expression initially and during cold with a large increase in expression at the penultimate and final time points (Figure \ref{figure:222:proteinsom}).
 The *AP2* containing genes mapping to this particular cluster are primarily members of the ERF family.
 Genes in this family are frequently induced in response to stresses, and as their name suggests, are responsive to plant hormones associated with stress; ethylene, jasmonic acid and abscisic acid[@licausi_ap2erf_2013].
-The expression trace of the cluster is remarkably similar to the expression trace of cluster 19, found to be enriched for the GO term "leaf senescence" (Figure \ref{figure:2xx:go1som}).
+The expression trace of the cluster is remarkably similar to the expression trace of cluster 19, found to be enriched for the GO term "leaf senescence" (Figure \ref{figure:219:go1som}).
 These *AP2* domain genes are therefore potentially upregulated in response to the leaves undergoing senescence, which would makes biological sense given the role ethylene plays in leaf senescence[@ferrante_ethylene_2006].
 
 

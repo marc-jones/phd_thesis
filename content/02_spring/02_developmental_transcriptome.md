@@ -145,9 +145,9 @@ In the case of *Brassica napus*, splice isoforms are less well categorized than 
 Additionally, the downstream statistics pipeline for kallisto[@pimentel_sleuth_2016] is designed around carrying out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
 We therefore decided to use the Tuxedo suite of tools to carry out quantification of the RNA-Seq data we had collected.
 
-![**Description**.](figuredirectory/08_tissue_split_sequencing_fpkm.pdf){#figure:208:tissuesplitfpkm}
+![**Calculating FPKM values for the apex and leaf separately has little effect.** FPKM values were calculated using the same quantification pipeline for both the leaf and the apex samples from the first sequencing run combined (x-axis) or separately (y-axis). The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_tissue_split_sequencing_fpkm.pdf){#figure:204:tissuesplitfpkm}
 
-![**Description**.](figuredirectory/09_tissue_split_sequencing_confidence_interval.pdf){#figure:209:tissuesplitconf}
+![**Calculating FPKM values for the apex and leaf separately reduces the size of the confidence intervals.** As for Figure \ref{figure:204:tissuesplitfpkm} with the transformed 95% confidence interval plotted. ](figuredirectory/05_tissue_split_sequencing_confidence_interval.pdf){#figure:205:tissuesplitconf}
 
 Reads were aligned to the Darmor-*bzh* reference genome using the AUGUSTUS derived gene models (as discussed in Section \ref{section:spring:genomegenemodels}).
 Initially only the first sequencing run was available to be aligned.
@@ -158,12 +158,12 @@ This was due to Cufflinks not having information from biological repeats to prop
 In the absence of repeat measurements for samples, Cufflinks treats all samples as repeats of each other to parametrize the error model it uses to predict confidence intervals for expression measurements.
 The confidence intervals predicted were so large, therefore, because samples from different tissues, different varieties, and different points in development we being used to estimate the error.
 In an attempt to reduce this variance I split the samples into apex and leaf samples, with normalization and error estimation being carried out separately.
-Carrying out the analysis in this way did not affect the expression level estimations for genes (Figure \ref{figure:208:tissuesplitfpkm}) while leading to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:209:tissuesplitconf}).
+Carrying out the analysis in this way did not affect the expression level estimations for genes (Figure \ref{figure:204:tissuesplitfpkm}) while leading to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:205:tissuesplitconf}).
 Despite the reduction when carrying out the analysis in this manner, the confidence intervals calculated were still very large.
 
-![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** FPKM values were calculated using the same quantification pipeline. RNA-Seq data from either the first or both biological repeats was used. The data is displayed as a two dimentional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_both_vs_first_sequencing_fpkm.pdf){#figure:204:repsfpkm}
+![**Including data from the second sequencing run does not affect the majority of estimated FPKM values.** As for Figure \ref{figure:204:tissuesplitfpkm}. FPKM values calculated using RNA-Seq data from either the first sequencing run (x-axis) or both sequencing runs (y-axis).](figuredirectory/06_both_vs_first_sequencing_fpkm.pdf){#figure:206:repsfpkm}
 
-![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval ranges.** As for Figure \ref{figure:204:repsfpkm} with the transformed 95% confidence interval plotted. The confidence intervals are calculated directly by Cufflinks.](figuredirectory/05_both_vs_first_sequencing_conf_interval.pdf){#figure:205:repsconf}
+![**Including data from the second sequencing run causes a reduction in the majority of estimated confidence interval sizes.** As for Figure \ref{figure:206:repsfpkm} with the transformed 95% confidence interval plotted.](figuredirectory/07_both_vs_first_sequencing_conf_interval.pdf){#figure:207:repsconf}
 
 As a consequence of the confidence interval sizes, a second pool of biological tissue was sequenced for a certain time points.
 The goal of resequencing the tissue at certain time points was to provide a biological repeat, allowing confidence intervals to be assigned to the expression level estimates.
@@ -171,18 +171,18 @@ The read depth of the second sequencing run was less, with an average of 33 mill
 As with the first sequencing run, an average of 82% of these reads mapped to the reference sequence.
 Although not all time points were resequenced, performing the downstream analysis using the results from the second sequencing run in addition to the first lead to a decrease in the confidence interval sizes estimated for all time points.
 This is due to Cufflinks using the samples for which repeat measurements were available to parameterize an error model that the algorithm is then able to apply to samples whether there are repeats available or not.
-Use of the repeat measurements caused a large reduction in the size of the confidence intervals estimated (Figure \ref{figure:205:repsconf}) while having little effect on the expression levels estimated for the majority of time points (Figure \ref{figure:204:repsfpkm}).
+Use of the repeat measurements caused a large reduction in the size of the confidence intervals estimated (Figure \ref{figure:207:repsconf}) while having little effect on the expression levels estimated for the majority of time points (Figure \ref{figure:206:repsfpkm}).
 Therefore, the second sequencing run was able to provide enough additional data to adequately estimate the uncertainty in the expression level estimates.
 
-![**Multiply mapping reads have little effect on the estimated gene expression levels.** As for Figure \ref{figure:204:repsfpkm}. Reads that mapped to multiple locations in the genome were removed from the alignment and gene expression values were quantified using the filtered alignment.](figuredirectory/06_all_vs_unique_sequencing_fpkm.pdf){#figure:206:uniquefpkm}
+![**Multiply mapping reads have little effect on the estimated gene expression levels.** As for Figure \ref{figure:204:tissuesplitfpkm}. Reads that mapped to multiple locations in the genome were removed from the alignment and gene expression values were quantified using the filtered alignment.](figuredirectory/08_all_vs_unique_sequencing_fpkm.pdf){#figure:208:uniquefpkm}
 
-![**Multiply mapping reads have little effect on the estimated confidence interval range.** As for Figure \ref{figure:205:repsconf}, comparing the estimated confidence interval ranges calculated using all of the mapped reads and only those reads that map to a single position in the genome.](figuredirectory/07_all_vs_unique_sequencing_conf_interval.pdf){#figure:207:uniqueconf}
+![**Multiply mapping reads have little effect on the estimated confidence interval range.** As for Figure \ref{figure:208:uniquefpkm} with the transformed 95% confidence interval plotted.](figuredirectory/09_all_vs_unique_sequencing_conf_interval.pdf){#figure:209:uniqueconf}
 
 A potential issue with RNA-Seq is the problem of reads mapping equally likely to multiple positions in the genome.
 As discussed in this section, Cufflinks is able to incorporate the uncertainty introduced by ambiguously mapping reads into the calculation of expression level confidence intervals.
 Of the reads mapped to the genome, 14% were mapped to multiple positions in the genome, with 0.3% in the first sequencing run and 0.4% in the second sequencing run mapping to over twenty positions.
 To test if these ambiguously mapped reads would affect the expression levels estimated, the downstream expression level estimation was run with the reads mapping to multiple positions in the genome removed.
-Comparisons of FPKM and the confidence intervals both reveal very little difference when reads that map to multiple position in the genome are excluded from the analysis (Figures \ref{figure:206:uniquefpkm} and \ref{figure:207:uniqueconf}).
+Comparisons of FPKM and the confidence intervals both reveal very little difference when reads that map to multiple position in the genome are excluded from the analysis (Figures \ref{figure:208:uniquefpkm} and \ref{figure:209:uniqueconf}).
 This result demonstrates that multiply mapping reads are not adversely affecting the estimation of expression levels and are therefore included in the expression level quantification used throughout this study.
 
 ### Conclusion

@@ -57,6 +57,7 @@ texcount.pl [homepage](http://app.uio.no/ifi/texcount/)
     * Vernalization pathway
         * FLC
         * VIN3
+        * SVP
 5. Data dissemination
     * Website creation
     * Website features
