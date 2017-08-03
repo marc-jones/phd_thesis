@@ -179,7 +179,7 @@ This is also evident in the magnitude of expression observed for each copy, with
 In the leaf all copies of *BrSOC1* are highly expressed at the midpoint of vernalization, and in the apex this is true for all but the *BrSOC1.A3.Random* copy.
 *SOC1* in Arabidopsis is activated by *CO* expression both directly[@samach_distinct_2000], and indirectly via *FT*[@michaels_integration_2005; @moon_analysis_2005].
 However, as the expression of *FT* is low in Westar plants during the vernalization treatment it is unlikely to be *FT* mediating the increase in *SOC1* expression during the cold.
-*SOC1* has been found to increase in expression with as vernalization progresses in an *FLC*-independent manner[@moon_soc1_2003].
+*SOC1* has been found to increase in expression as vernalization progresses in an *FLC*-independent manner[@moon_soc1_2003].
 
 ![**Expression traces for the *BnAGL24* genes in the apex.** As for Figure \ref{figure:223:ftleaf}.](figuredirectory/29_exp_agl24_apex.pdf){#figure:229:agl24apex}
 

@@ -110,7 +110,7 @@ The *BnFLC.C9a* copy shows a partial increase in expression halfway through the 
 Like the A2, C2, and A3a copies of *BnFLC*, *BnFLC.C9b* shows a decrease during the cold treatment, but also displays a reactivation after the cold treatment.
 Although the *BnFLC.C9a* copy is expressed in the leaf in Westar and not Tapidor, the expression of the gene only marginally exceeds the 2.0 FPKM at a single time point.
 
-![**Expression traces for the *BnFLC* genes commonly expression in both the leaf of Westar and the apex of Tapidor.** As for Figure \ref{figure:3xx:flcleaf}.](figuredirectory/flc_comparison_apex_leaf.pdf){#figure:3xx:flcapexcgenome}
+![**Expression traces for the *BnFLC* genes commonly expression in both the leaf of Westar and the apex of Tapidor.** As for Figure \ref{figure:3xx:flcleaf}.](figuredirectory/flc_comparison_leaf.pdf){#figure:3xx:flcapexcgenome}
 
 Comparing the magnitude of expression, I see similar between-variety differences and comparisons in the leaf as were observed for the apex.
 Although *BnFLC.A2* demonstrates a similar response to cold in both Tapidor and Westar, expression is approximately four fold higher in Tapidor across the entire time series.
@@ -169,9 +169,92 @@ How does this fit into the expression traces for FT in the leaf and FD and SOC1 
 
 How does this relate to vernalization QTL studies
 
-### *VERNALIZATION INSENSITIVE 3* (*VIN3*) {#section:winter:vin3}
+### Polycomb repressive complex 2 (PRC2) Proteins
 
+First identified in *Drosophila melanogaster*, Polycomb group (PcG) proteins regulate gene expression in both animal and plant kingdoms[@kohler_programming_2008; @margueron_polycomb_2011].
+The PcG proteins form multiple families of protein complexes that possess different biochemical activities[@muller_biochemical_2009].
+Polycomb repressive complex 2 (PRC2) is one such complex that is involved with chromatin compaction through the methylation of lysine 27 of histone protein H3[@margueron_polycomb_2011].
+PRC2 is composed of four core units: Enhancer of zeste (E[z]) confers histone methyltransferase activity[@czermin_drosophila_2002]; Suppressor of zeste (Su[z]12); Extra sex combs (Esc) and Nucleosome remodelling factor 55 (Nurf55)[@kohler_programming_2008].
+In *A. thaliana*, there are three identified E(z) homologues, three Su(z)12 homologues, five Nurf55 homologues, and one Esc homologue[@kohler_programming_2008; @hennig_diversity_2009], leading to a much more complex role for PRC2 during development[@hennig_diversity_2009; @pien_polycomb_2007].
+Despite this complexity, it seems that one particular combination of proteins that form a PRC2 is involved with vernalization[@gendall_vernalization_2001; @lucia_phd_polycomb_2008].
+*VRN2* is the Su[z]12 homologue in *A. thaliana* that associates with the Arabidopsis homologues of Esc (*FERTILIZATION INDEPENDENT ENDOSPERM 1* (*FIE1*)), E[z] (*SWINGER* (*SWN*)/*EZA1*), and Nurf55 (MSI1)[@gendall_vernalization_2001; @lucia_phd_polycomb_2008].
+The gene was identified in a mutant screen for plants that had an impaired vernalization response[@chandler_arabidopsis_1996].
+Variation in this complex therefore has the potential to influence the stability of the vernalized chromatin state.
+
+All four of the PRC2 core components were represented by at least one *B. napus* homologue.
+Between the two varieties all copies of the genes exhibited very similar regulatory behaviour, although the *MSI1* genes showed some differences in the magnitude of expression.
+
+![**VRN2 EZA1 Apex**](figuredirectory/vrn2_eza1_apex.pdf){#figure:3xx:vrn2eza1apex}
+
+The expression of *VRN2* in *A. thaliana* was found to be relatively unaltered by vernalization, being consistently expressed throughout development[@gendall_vernalization_2001].
+This pattern of expression is observed for both *BnaVRN2.A8* and *BnaVRN2.C8.Random* in both varieties in the apex (Figure \ref{figure:3xx:vrn2eza1apex}) and the leaf (Figure \ref{figure:3xx:vrn2eza1leaf}).
+However, a transient increase in expression is observed in all the expression traces, suggesting that *BnaVRN2* may respond to cold treatment more than the *A. thaliana* homologue.
+
+![**VRN2 EZA1 Leaf**](figuredirectory/vrn2_eza1_leaf.pdf){#figure:3xx:vrn2eza1leaf}
+
+The histone methyltransferase *SWN* is associated with the PRC2 complex that influences the vernalization response in *A. thaliana*.
+As with *B. napus* copies of *VRN2*, the *BnSWN* genes are relatively consistent in their expression in both varieties and tissues, with slight increases in expression during the cold treatment (Figures \ref{figure:3xx:vrn2eza1apex} and \ref{figure:3xx:vrn2eza1leaf}).
+Although an additional *BnSWN* copy is expressed above the expression threshold in the leaf (Figure \ref{figure:3xx:vrn2eza1leaf}) the expression is very low and only just above the 2.0 FPKM threshold.
+Due to this low expression the relevance of the gene to the vernalization response is likely to be low.
+
+![**FIE1 MSI1 Leaf**](figuredirectory/fie1_msi1_leaf.pdf){#figure:3xx:fie1msi1leaf}
+
+The homologue of *D. melanogaster* Esc, *FIE1*, is the only annotated *A. thaliana* homologue of the gene, and is a component of all identified PRC2 complexes in the plant[@pien_polycomb_2007; @kohler_programming_2008].
+In *B. napus* there are three copies of the gene expressed; the A1 and C1 copies are expressed in both tissues while the Ann copy is only expressed in the apex (Figure \ref{figure:3xx:fie1msi1leaf}).
+Although the copies are expressed very similarly in both varieties, the genes show tissue specific expression.
+In the leaf, *BnFIE1.A1* is relatively lowly expressed and exhibits a gradual increase across development.
+*BnFIE1.C1* is more highly expressed than the A1 copy, and shows more pronounced increase in expression during the time series.
+
+![**FIE1 Apex**](figuredirectory/fie1_apex.pdf){#figure:3xx:fie1apex}
+
+In the apex all copies of *BnFIE1* are expressed more highly.
+The expression profiles exhibited by the A1 and C1 copies decrease across development, in contrast to their behaviour in the leaf.
+Although *BnFIE1.Ann.Random* is above the expression threshold, the expression is 3 to 4 fold lower relative the the A1 and C1 copies.
+
+
+
+
+![**MSI1 Apex**](figuredirectory/msi1_apex.pdf){#figure:3xx:msiapex}
+
+Finally, *MSI1* is part of a family of WD40 repeat proteins that bind to histones and are thought to act as a protein scaffold[@hennig_msi1_like_2005].
+*MSI1* has been involved with the vernalization response in *A. thaliana*[@derkacheva_arabidopsis_2013]
+
+hennig_arabidopsis_2003
+kohler_arabidopsis_2003
+
+### PHD domain containing proteins {#section:winter:phd}
+
+The PHD domain has been found to bind methylated histone and phosphoiodites.
+A family of PHD domain containing proteins in Arabidopsis have been named the VEL family.
 *VIN3* is a PHD domain containing protein that mediates the recognition of methylated histones.
 It is upregulated during the cold before the repression of *FLC* expression begins.
 
-Across all tissues and varieties, *VIN3* is expressed highly at both time points during the cold 
+![**VIN3 Apex**](figuredirectory/apex_vin3.pdf){#figure:3xx:vin3apex}
+
+Across all tissues and varieties, *VIN3* is expressed highly at both time points during the cold
+
+![**VIN3 Leaf**](figuredirectory/leaf_vin3.pdf){#figure:3xx:vin3leaf}
+
+FLC reactivates in vrn mutants.
+VRN2 encodes a protein with homology to Su(z)12, a zinc finger protein that is a component of the E(z)/ESC Polycomb complex in Drosophila and humans.
+VEL family - VIN3, VRN5, VEL1, VEL2, VEL3
+
+PHD found in proteins that associate with chromatin and bind H3K4me3.
+
+VIL1, VRN5 mutants showed reduced vernalization response based on flowering time, expressed at similar levels before, during and after accumulates in root and shoot apicies and generally in the leaf. vin3 vrn5 form heterodimers. VIN3 has a prominant role in FLC expression in the apex whereas VRN2 has greatest effect on FLC expression in petioles and vasculature. suggest that different phd-prc2 complexes mediate different flc responses. [@greb_phd_2007]
+
+![**VIL1**](figuredirectory/vil1.pdf){#figure:3xx:vil1}
+
+VEL1, VIL2 does not play a role in vernalization, found in a knockdown experiment. doesn't change in expression during cold [@greb_phd_2007]
+
+![**VIL2 Apex**](figuredirectory/vil2_apex.pdf){#figure:3xx:vil2apex}
+
+![**VIL2 Leaf**](figuredirectory/vil2_leaf.pdf){#figure:3xx:vil2leaf}
+
+### FRIGIDA
+
+*FRI* was discovered in 
+
+![**FRI Apex**](figuredirectory/fri_apex.pdf){#figure:3xx:friapex}
+
+![**FRI Leaf**](figuredirectory/fri_leaf.pdf){#figure:3xx:frileaf}
