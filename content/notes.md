@@ -296,3 +296,297 @@ Induction of VIN3 does not require removal of H3K27me3. H3 acetylation, an activ
 kim_coordination_2013
 FLC family - FLM and MAF1-5
 VIN3 is expressed only during vernilizing cold, VIL1/VRN5 is consititutively expressed. Slight upregulation of VIL2/VEL1 during vernilization. VIL3/VEL2 is increased after cold exposure. FLC, FLM, MAF2, and MAF3 are repressed as a result of vernalization. MAF4 and MAF5 are increased during early periods of cold exposure. maf4 and maf5 mutants have a precocious vernalization response.
+
+# crop modelling
+
+## Weir et al 1984
+Winter wheat crop simulation model, that takes into account max min daily temperatures and daylength to predict date of emergence, double ridge, anthesis and maturity of the crops and the growth and senescence of tillers and leaves.
+
+## boote et al
+simple models hypothesis of system behaviour. complex models - how a given process works or how a crop responds to a particular factor.
+using models to optimize planting date, planting density, row spacing, choice of cultivar and fertilizer application for diffent soil types.
+
+Modelling can be a research tool - assisting in integrating knowledge across disciplines
+
+Crop system management - increase yields
+
+Policy analysis tool - to determine whether pesticide use and soil erosion can affect the model. yield evalutate climage change effects
+
+Simple models can be limited in their ability to describe genotypic differences, limited in use for process level physiology and limited in ability to respond to a wide range of management practices. Simple models often have parameters that are site specific.
+
+Complex models are better able to model genotype by environment differences, to include intrinsic feedback mechanisms and to handle variable management conditions. Require more input information and parameterization and may be more unstable.
+
+
+## whisler et al.
+fig 1
+undesirable to build a model at more than one, or at most two, levels of hierarchy below the one at which predictions are made.
+
+empirical models describe relationships between variables without referring to any underlying biological or physical structure that may exist between the variables. mechanistic models attempt to explicitly represent causality between variables. The more mechanism in the model, the more it is capable of extrapolative predictions and interpretation.
+You need to incorporate gene analogues into crop simulation models, that take the form of rate coefficients or other system constants.
+
+
+
+## aggarwal et al 1994
+model of spring wheat growth in sub-tropical india with interactions with soil water and nitrogen availability, radiation and temperature. found yields to be most sensitive to temperature as well as to the time to anthesis, and that rainfed yields were more sensitive to temperature.
+
+## al-gaadi et al 2016
+empirical model for potato yield using satellite imaging and calculation of vegetation indicies
+
+## bouman 1996
+crop modelling initially was a method of integrating knowledge about plant physiological processes. de Wit "photosynthesis of leaf canopies"
+organ growth rates were incorporated - quantification of energy requirements for growth and maintenance processes, related to crop respiration. transpiration rates.
+Funding changes resulted in the focus of crop models changing, from understanding and explanations to practical applications, summary models.
+
+## deryng et al 2011
+explicitly simulates crop phenology and the influence of irrigation and fertilizer use. simulate planting and cultivar choice decisions as functions of climate variables. light use efficiency and soil water budget, daily biomass allocation model. Losses due to climate change were predicted for maize, spring wheat and soybean, and it was found that altered farming practises in terms of when the crop were planted and cultivar choices could reduce these losses by up to 18%.
+
+## dingkuhn et al 1993
+used models to see how modifications to leaf/stem assimilate partitioning, nitrogen particioning, duration of phenological phases and method of planting (direct seed or transplanting) affected rice growth and yield.
+
+## hammer and muchow 2994
+sorghum model - phenology, crop leaf area and soil water integrated to give biomass accumulation and grain yield.
+
+## hodges 1987
+maize model that takes into account photosyntehsis respiration, phenology, leaf initiation and growth, stem growth, root growth, soil water extraction, evapotranspiration, light interception, grain initiation, and grain growth.
+
+## Horie 1987
+using model to determine how harvesting date affects yield.
+
+## Keating et al 2003
+On farm decision making, farming systems design for production, assessment of the value of seasonal climate forecasting, analysis of supply chain issues, waste management guidelines, risk assessment for government policy making.
+Takes into account rotations, fallows, residues, crop establishment, crop death, soil erosion, soil acidification.
+yield estimation in response to management and the long term consequences of farming practice on the soil resource.
+The main differences between crops are the thresholds and shapes of their response functions.
+Each crop parameterised separately. Crop and weed relationships can be modelled.
+
+## kersebaum 2007
+Nitrogen dynamics. soil texture characteristics. crop specific evapotranspiration. effects of fertilization. effect of water on the nitrogen content. mineralization of nitrogen
+
+## lobell and burke 2010
+statistical models more useful at broader spatial scales. process based models require extensive input data on cultivar, management and soil conditions that are often unavailable. three main types of statistical model: time series from a single point or area, variations in time and space (panel models), variations in space (cross-section methods). Time series models can capture the behaviour in a particular area, while panel and cross-section methods must assume common parameters values for all locations. This also means that TS models often lack data, whereas the others can combine data from multiple sites. parameter co-linearity between predictor avriables, assumptions of past relationships holding, low signal to noise rations in yield. statistical models can reproduce key aspects of more complex models. time series models seem better at predicting precipitation, whereas panel and crosssection models are better for estimating temperature responses. in general, statistical models become more appropriate as the scale of interest increases.
+
+## Marcelis 1998
+Often descriptive and explanatory models are distinguished. Descriptive models, also
+called statistical, regression, empirical or black-box models, reflect little or none of the
+mechanisms that are the cause of the behaviour of a system, whereas explanatory models
+consist of a quantitative description of these mechanisms and processes ŽPenning de
+Vries et al., 1989..
+statistical models can capture data not suitable for process models, such as predicting rose yields from previous year's data.
+Leaf area development -> photosyntehsis rate -> respiration, conversion of photosyntehsis products to dry matter  -> partitioning of assimilates.
+Leaf area can either be a function of plant developmental stage or a function of dry matter. Light interception.
+
+## Rosenzweig 2014
+combine multiple models - find that low latitude areas are more susceptible to temperature changes at a global scale, with models not incorporating nitrogen underestimating the effect. looked at projected climate change
+
+## shibu et al 2010
+incorporated nitrogen limiting conditions into their model, with nitrogen shortage affecting leaf expansion, leaf senescence, and the rate of photo-
+synthesis per unit area of leaves
+are able to model fertilizer application
+
+## stone and meinke 2005
+operational seasonal forecasting review
+current policies may have been put in place to overcome climate variability, but with better predictions they could be revisited. in addition, incentives such as income subsidies may act as ddisincentives for the adoption of better climate risk management strategies.
+Pannell et al. (2000) stressed the importance of
+getting the big decisions right in crop management,
+such as land purchase, machinery investment and
+resource improvement. They pointed out that farmers
+are usually better off, ‘if they solve the whole problem
+roughly, rather than to attempt to solve part of
+the problem extremely well’.
+tactical decisions (planting and sowing) and policy decisions (land use) (Meinke & Stone 2005)
+These types of
+issues must be taken into account in order to improve
+the relevance and potential adoption of seasonal
+climate or crop forecasts. For example, for effective
+management systems to be put into place, integrated
+climate–crop modelling systems need to be developed
+at the appropriate farm or regional scale suitable for the
+decision-makers needs (Meinke & Stone 2005).
+using models to give probability distributions for yield, which can be factored into risk assessment tools.
+advances in production systems will have no value unless they are capable of changing management decisions.
+
+
+
+
+### BRASSICA INTRODUCTION
+
+# 1
+
+hexaploid ancestor 7.9 - 14.6 mya lysak 2005
+
+Beilstein MA, Nagalingum NS, Clements MD, Manchester SR, Mathews S:
+Dated molecular phylogenies indicate a Miocene origin for Arabidopsis
+thaliana. Proc Natl Acad Sci (USA) 2010, 107:18724-18728.
+Arabidopsis and Brassica diverged 43 Mya with a triplication event occurring in the Brassica lineage around 23 Mya.
+
+bancroft 2011 http://faostat.fao.org/; The
+use of B. napus in rotation farming boosts the yields of cereal crops
+grown in subsequent seasons. Its oil can substitute for mineral oil in
+industrial applications and the straw it produces can be exploited as
+a biomass feedstock for biofuel production.
+
+interspecies hybridization of rapa and olereacea parkin 1995
+
+parkin 2005
+synteny between arabiopsis and brassica napus support hexaploid history
+
+Rana 2004
+Hybridization of rapa and oleracea to form napus likely happened less than 10,000 years ago, with the genome of napus and its diploid relatives being very similar.
+
+Brassica species are also an important model for investigating gene retention.
+wang et al 2011 - brassica genome sequencing consortium
+mesohexaploid state of brassica rapa 5-9 MYA
+90000-41174 - substantial gene loss
+gene retention of genes that underlie environmental adaptability.
+
+allender and king 2010
+Highly unlikely that B. oleracea or any of the C genome species are closely related to the maternal progenitor of most napus accessions. Found evidence for multiple hybridization events.
+
+the genomes of B. rapa and B. oleracea diverged from each other 3.7 Mya (Inaba and Nishio, 2002) or 1.37–0.12 Mya (Cheung et al., 2009)
+
+Mediteranean origin of Rapa and Oleracea, with rapa and oleracea diverged from nigra for 20 mya arias 2014
+
+nelson 2014
+qtl from a population created from crossing two summer annual lines identified qtls near FLCA2 TFL1A2 COA2 VIN3A2, FTAA7, FLCC3
+
+# 2
+
+shi et al 2009
+yield qtl overlapped with flowering time qtl in a brassica napus population
+
+Franks et al 2007
+Rapid evolution of early flowering time as an adaptive response to changing climate.
+
+Flowering time (circadian rhythms) regulate hybrid vigour in allopolyploids Ni 2009
+
+Salehi 2004
+Expression of FLC in Tobacco delayed flowering leading to an increase in leaf size and biomass yeild
+
+schiessel 2015
+flowering time qtl overlapped with yield qtl, with one being over FRUITFUL on A9. a3a fri associated with flowering time
+
+A linear relationship between seed density and dry matter production of the crop during flowering, with individual seed weight per flower bud showing a sigmoid pattern against the temperature sum from the onset of flowering until maturity. remobilization of carbohydrates contributed at most 12% to final seed yield.
+Assimilate availability to the crop during various growth stages before the end of flowering is a major determinant of the number of flowers and seed-bearing pods.
+Prolonging the flowering period might improve seed set, with the potential problem of there being pods of different maturity levels during harvesting. Habekotte 1993
+
+
+# 3
+
+Two copies of *TFL1* were identified in both *B. rapa* and *B. oleracea*, with three found in *B. napus*(Mimida 1999).
+As was found in Arabidopsis, *BnTFL1* was expressed in the flowers.
+While very few nonsynonomous mutations were found between the copies within *B. napus*, sequence variation was identified within the first intron of the gene and in the 3' regulatory regions(Mimida 1999).
+Mutations in the A10 copy of *BnTFL1* caused a delay in flowering, affected internode elongation, and potentially caused an increase in seed number and weight (guo et al 2014).
+
+Chandler 2005
+Overexpression of a mustard MADS box containing gene resulted in accellerated flowering time, and also produced more solid pods.
+
+lou et al preferential
+Retention of circadean clock genes in brassica rapa
+
+BrFLC2 (FLOWERING LOCUS C) as a candidate gene for a vernalization response QTL in Brassica rapa
+zhao 2010
+A02 FLC explained 64% of the variation in unvernalized experiments Showed a decrease during vernalization Expression of the gene correlates with vernalization duration
+
+kim et al 2007
+BrFLC1 (A10), BrFLC2 (A2), BrFLC3 (A3a). A10 and A2 were ubiquitously expressed in leaves, shoot tips and roots. A3a was lower than A10 and A2, and not expressed in roots. All seemed to show a vernalization response.
+All delay flowering when overexpressed in Arabidopsis, and A3a delays flowering when expressed in Rapa. Also caused short stamens, reduced pollen production and larger carpels.
+
+irwin 2012
+FRI in oleracea have different numbers of coiled coil domains. Oleracea FRI is able to complement Arabidopsis FRI mutant Col-0
+
+irwin et al 2016
+major determinant of heading date variation in oleracea is from variation in vern response through allelic variation at FLC.C2. One allele results in consistently later heading as a result of reduced environmental sensitivity. Used a dh population between two oleracea plants that had different vernalization requirements.
+
+bohuon et al 1998
+qtl using rapid cycling brassica oleracea identified region around CO homologue
+
+guo et al 2014
+napus - Before vern, c6 and a7 ft copies were weakly expressed whereas the a2 and c2 copies were not expressed. A2 was only highly expressed after the floral transition. C6b showed the largest relative expression level immediately after cold, with both the A7b and C6b copies showing the highest expression when floral buds were visible. c6a mutant lines flowered as control, whereas the C6b mutants showed a flowering delay. c6b mutant affected the expression of AP1 and SOC1 (non specific primers). lack of expression of C2.
+
+flc conserved in brassica
+ Tadege, M. et al. (2001) Control of flowering time by FLC orthologues
+in Brassica napus. Plant J. 28, 545–553
+17 Schranz, M.E. et al. (2002) Characterization and effects of the
+replicated flowering time gene FLC in Brassica rapa. Genetics 162,
+1457–1468
+18 Kim, S.Y. et al. (2007) Delayed flowering time in Arabidopsis and
+Brassica rapa by the overexpression of FLOWERING LOCUS C
+(FLC) homologs isolated from Chinese cabbage (Brassica rapa L.
+ssp pekinensis). Plant Cell Rep. 26, 327–336
+
+Schranz 2002
+
+Fadina 2013
+A3 A4 C3 C9 copies. slow evolution of FRI genes in Napus.
+
+kole 2001
+rapa qtl from osborn 1997 found to likely be FLC
+
+lagercrantz 1996
+CO underlies flowering time QTL in Nigra. Used colinearity between Arabidopsis and Brassica. further looked at in Österberg 2002
+
+Li et al 2005
+FLC responds to length of cold in Rapa
+
+lin et al 2005
+C2 responds to vernalization, with the rate of decrease being inversely proportional to the length of vernalization required by particular lines
+
+lou et al 2007
+qtl study. identified flc a2 as a major flowering time qtl. Also found flowering time qtl to assoicate with seed and leaf related traits, that might have an effect on the yeild. ft qtl also are found around FT and VRN2
+
+Matschegewski 2015
+QTL for curd induction. floral transition
+
+Okazaki 2007
+Four FLC copies detected. BoFLC.C2 associated with vernalization.
+
+osborn 1997
+propose flc and fri are the origins of vern qtl in rapa and napus
+
+Razi 2007
+FLC.C3b likely to be a pseudogene. Found that FLC might not be responsible for the observed flowering time differences.
+
+ridge 2015
+BoFLC.C2 accounts for 65% of flowering time variation in cauliflower, showed a vernalization response and affected FT expression. BoVIN3 also behaved similarly to Arabidopsis. FLC.C3a also decreases during vernalization. C3a independent regulation and functionality to C2.
+
+schranz 2002
+flc a10, a2 and a3b cosegregate with loci controlling flowering time derived from a population of backcrossing alleles from an biennial rapa into an annual. found a10 and a2 acted additively
+
+wang evolution 2009
+a2 and c2 seem to lack FLC binding sites. inverted duplicated blocks result in two ft copies on A7 and c6
+
+wang promoter 2012
+transposable element insertion into the C2 FT promoter has resulted in its silencing. A7/C6 were all silenced prior to vernalization in winter type napus. A2 expressed prior to vernalization in winter type napus
+
+wang flowering 2011
+FRI in napus. fri.a (A3) and fri.d (C3) were expressed in flowers but barely expressed in leafs. fri.b (A) fri.c (C). A3 colocalized with a major qtl for flowering (long 2007)
+
+zhang transposon 2015
+transposon in a7 ft related to flowering time in rapa
+
+axelsson 2001
+qtl timing of flowering identified co and flc.
+
+xiao et al 2013 zhao 2010
+BrFLC2 seems to be related to vernalization
+
+zou et al 2012
+cloned nine FLCs from napus. C2 and C3a were only isolated from Westar. C3b might be a pseudogene. A10, A2, A3a-C3a, and A3b all showed a vernalization response. A3b and A10 colocalized with flowering time qtl in the TN DH population (Ningyou7 is a semi-winter). A3b more highly expressed in Tapidor relative to Ningyou7. A3a and C2 FLC were found in a Skipton / Ag-Spectrum DH population (two springs)
+
+carr and irish 1997
+AP1 expression in cauliflower shows a more gradual restriction of expression.
+
+duclos 2008
+LFY and TFL1 have expression that is not consistent with them causing the arrest of flowering in cauliflower. Instead, the presense of LFY at all stages is consistent with
+
+Franks 2015
+Assoication between flowering time and expression of SOC1 was only seen in 2 out of the 3 copies in rapa.
+
+sri 2015
+Brassica juncea SOC1 differential expression
+
+Dhakate et al. 2017
+juncea LFY. Brassica LFY expression was strongly induced in apical regions particularly in primary floral buds, subsiding gradually as buds attain maturity. LFY maintained similar role when ectopically expressed, although was also detected as expressed in the root.
+
+qi et al 2015
+BrLFY expression increased in the shoot apex, reached a peak during flower bud differentiation, then decreased as flowers matured.

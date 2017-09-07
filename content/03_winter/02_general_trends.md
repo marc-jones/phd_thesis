@@ -1,6 +1,6 @@
 ## General trends
 
-### Number of expressed gene copies {#section:winter:expcopies}
+### Variety specific expression {#section:winter:varspecexp}
 
 Expression divergence in the previous chapter was initially discussed in terms of presence or absence of expression (Section \ref{section:spring:expressedvsannotated}).
 Similar patterns were observed in the winter variety as they were in the spring variety (Figure TODO).
@@ -22,13 +22,28 @@ This suggests that the retention of flowering time genes in the genome has not i
 On the contrary, in the apex a higher percentage of *A. thaliana* genes have the same number of homologues expressed in both tissues (78.4%) relative to the global percentage (75.0%).
 Therefore, in the apex, variety specific expression of homologues is less frequently observed than at the global scale, suggesting that the functions of multiple copies of flowering time genes may tend to be more conserved between varieties that the rest of the genes in the genome.
 
+![**Spearman correlation coefficients between apex samples.**](figuredirectory/var_specific_distribution_all.pdf){#figure:3xx:varspecificall}
+
+An aspect of variety specific expression this analysis obscures is the case where variety specific copies of a gene are present for both varieties.
+For example, if one copy of a gene is specifically expressed in Westar and another specifically expressed in Tapidor, then the same number of copies of the gene are expressed in each variety, despite variety specific expression being present.
+In this situation the point would still lie on the diagonal line in figures \ref{figure:3xx:tapvswesall} and \ref{figure:3xx:tapvswesflor} despite variety specific expression being observed.
+To determine the extent of this, gene with the same number of copies expressed in both varieties (points on the diagonal lines in Figures \ref{figure:3xx:tapvswesall} and \ref{figure:3xx:tapvswesflor}) were analysed for cases where *B. napus* genes exhibited variety specific expression.
+For the vast majority of cases (98% in the apex, 97% in the leaf) the same complement of gene copies were expressed in both varieties (Figure \ref{figure:3xx:varspecificall}).
+The maximal number of copies showing compensatory variety specific expression is two, although the occurrence of these examples are low.
+
+![**Spearman correlation coefficients between apex samples.**](figuredirectory/var_specific_distribution_flowering.pdf){#figure:3xx:varspecificflor}
+
+Similar patterns are observed with the floral genes, with 98% of genes in both tissues having the same complement of gene copies expressed in both varieties (Figure \ref{figure:3xx:varspecificflor}).
+
 When the FPKM distribution of the genes exhibiting variety specific expression were considered, TODO
 
-### Venn diagrams to show variety specific effects
+![**Venn diagrams**](figuredirectory/variety_venn_diagram.pdf){#figure:3xx:varietyvenn}
 
-The analysis conducted in the previous section (Section \ref{section:winter:expcopies}) is not able to give an adequate picture of the extent of variety specific expression.
-This is due to the analysis not taking into account cases where two copies of a gene have variety specific expression towards each of the two varieties.
-In this situation the point would still lie on the diagonal line in figures \ref{figure:3xx:tapvswesall} and \ref{figure:3xx:tapvswesflor} despite variety specific expression being observed.
+Calculating the overlap in expressed *B. napus* genes between the varieties reveals between 4% to 9% of genes exhibit variety specific expression (Figure \ref{figure:3xx:varietyvenn}).
+As with the comparisons made above (Figure \ref{figure:3xx:tapvswesall}), a bias is seen towards Tapidor in the leaf expression data, with a higher percentage of genes showing Tapidor specific expression in that tissue. Interestingly, the percentage of genes expressed in both varieties is larger than the percentage of genes expressed in both tissues in Westar (Figure \ref{figure:211:venn}).
+This reveals that between variety expression specificity is lower than that for between tissue expression specificity.
+
+Overall, this analysis reveals that the occurrence of variety specific copy expression is relatively uncommon between Westar and Tapidor.
 
 ### Self-organizaing map analysis {#section:winter:som}
 

@@ -200,7 +200,7 @@ Due to this low expression the relevance of the gene to the vernalization respon
 ![**FIE1 MSI1 Leaf**](figuredirectory/fie1_msi1_leaf.pdf){#figure:3xx:fie1msi1leaf}
 
 The homologue of *D. melanogaster* Esc, *FIE1*, is the only annotated *A. thaliana* homologue of the gene, and is a component of all identified PRC2 complexes in the plant[@pien_polycomb_2007; @kohler_programming_2008].
-In *B. napus* there are three copies of the gene expressed; the A1 and C1 copies are expressed in both tissues while the Ann copy is only expressed in the apex (Figure \ref{figure:3xx:fie1msi1leaf}).
+In *B. napus* there are three copies of the gene expressed; the A1 and C1 copies are expressed in both tissues while the Ann copy is only expressed in the apex (figure:3xx:fie1msi1leaf
 Although the copies are expressed very similarly in both varieties, the genes show tissue specific expression.
 In the leaf, *BnFIE1.A1* is relatively lowly expressed and exhibits a gradual increase across development.
 *BnFIE1.C1* is more highly expressed than the A1 copy, and shows more pronounced increase in expression during the time series.
@@ -209,47 +209,79 @@ In the leaf, *BnFIE1.A1* is relatively lowly expressed and exhibits a gradual in
 
 In the apex all copies of *BnFIE1* are expressed more highly.
 The expression profiles exhibited by the A1 and C1 copies decrease across development, in contrast to their behaviour in the leaf.
-Although *BnFIE1.Ann.Random* is above the expression threshold, the expression is 3 to 4 fold lower relative the the A1 and C1 copies.
-
-
-
-
-![**MSI1 Apex**](figuredirectory/msi1_apex.pdf){#figure:3xx:msiapex}
+Although *BnFIE1.Ann.Random* is above the expression threshold, the expression is 3 to 4 fold lower relative the the A1 and C1 copies, suggesting this copy does not play as important a role in the function of PRC2 in *B. napus*.
 
 Finally, *MSI1* is part of a family of WD40 repeat proteins that bind to histones and are thought to act as a protein scaffold[@hennig_msi1_like_2005].
 *MSI1* has been involved with the vernalization response in *A. thaliana*[@derkacheva_arabidopsis_2013]
+*AthMSI1* was found to be important for the regulation of plant homeotic genes in the apex, but was expressed in many plant tissues[@hennig_arabidopsis_2003].
+It was also found to be important for seed development[@kohler_arabidopsis_2003].
+When the expression of the gene is impaired, a number of floral and developmental processes are affected[@hennig_arabidopsis_2003], highlighting the importance of the gene during development.
+In total there are six expressed copies of *BnaMSI1* in both Tapidor and Westar; two from the A genome and four from the C genome.
+In the leaf, three copies are expressed; the A2, C2, and C3a copies.
+However, the C2 copy is not expressed in Westar, and is only barely over the expression threshold in Tapidor, so will not be discussed further.
+The A3 and C3a copies exhibit very similar expression profiles to each other and between varieties, with an increase in expression during the vernalization period with expression returning to pre-cold levels after the treatment(Figure \ref{figure:3xx:fie1msi1leaf}).
+The upregulation during cold suggests that *BnaMSI1.A3* and *BnaMSI1.C3a* play a role in either or both the cold acclimation pathway and the response to photoperiod.
 
-hennig_arabidopsis_2003
-kohler_arabidopsis_2003
+![**MSI1 Apex**](figuredirectory/msi1_apex.pdf){#figure:3xx:msiapex}
+
+In the apex, six copies of *BnaMSI1* are expressed; in addition to the three expressed in the leaf there are also copies expressed from the A10, C5, and C9 chromosomes.
+Unlike in the leaf, *BnaMSI1.C3a* is the second most highly expressed copy, suggesting that the C3a copy may play a more prominent role in the apex than in the leaf.
+*BnaMSI1.A3* is the most highly expressed, with it and the C5 copy exhibiting slight increases in expression during the vernalization period but relatively constant expression otherwise (Figure \ref{figure:3xx:msiapex}).
+In contrast the A10, C2, and C5 copies decrease in expression during the cold treatment.
+Although the *BnaMSI1* copies have very similar expression profiles across development in both varieties, the magnitude of expression does vary between the varieties.
+For example, the maximal expression value for *BnaMSI1.A3* in Tapidor apex is 3 - 4 fold higher than the expression maxima in Westar, in both tissues.
+Whether this expression difference is sufficient to result in altered function of PRC2 during vernalization would require additional work.
+Reduction of *MSI1* expression in *A. thaliana* resulted in increased expression of target genes[@hennig_arabidopsis_2003].
+Therefore, potentially the higher expression of *BnaMSI1* genes is necessary for the stable repression of *BnaFLC* copies, with the repression not necessary in Westar.
+
+The expression of the PRC2 components in the two *B. napus* varieties suggests that they are not responsible for the variation in vernalization requirement between the varieties.
+Although there is variation in the magnitude of expression for the *BnaMSI1* genes between the varieties, it does not account for the altered vernalization requirement between the varieties.
+If *BnaMSI1* was repressing *BnaFLC*, higher expression of *BnaMSI1* before the cold treatment, as observed in Tapdior, would result in lower *BnaFLC* expression.
+However, this is not observed (Section \ref{section:winter:flc}).
+An alternative hypothesis is that higher expression of *BnaMSI1* is required in Tapdior to mediate the decrease in *BnaFLC* when other factors are present.
+This is 
+*MSI1* in *A. thaliana* represses floral activators[@hennig_arabidopsis_2003].
+Therefore, potentially the differences in *BnaMSI1* do impact the delay in flowering observed in Tapidor, but not via the vernalization pathways.
 
 ### PHD domain containing proteins {#section:winter:phd}
 
-The PHD domain has been found to bind methylated histone and phosphoiodites.
-A family of PHD domain containing proteins in Arabidopsis have been named the VEL family.
-*VIN3* is a PHD domain containing protein that mediates the recognition of methylated histones.
-It is upregulated during the cold before the repression of *FLC* expression begins.
+Proteins containing plant homeodomain (PHD)-finger proteins have been found to mediate histone interactions[@wysocka_phd_2006] and hence induce structural changes to chromatin.
+In *A. thaliana*, a PHD finger protein was found in a mutant screen for plants insensitive to vernalization[@sung_vernalization_2004].
+The gene, *VERNALIZATION INSENSITIVE 3* (*VIN3*), is required for both *FLC*-dependent and *FLC*-independent vernalization, and and changes to the expression of *VIN3* result in histone modifications at the *FLC* locus.
+These modifications were found to be a consequence of PRC2 activity, with *VIN3* associating with the complex during vernalization[@wood_arabidopsis_2006].
+Further work identified additional PHD-finger proteins that associate with the PRC2 implicated with vernalization, namely, *VIN3-LIKE1* (*VIL1*), and *VIL2*[@hennig_diversity_2009].
+With *VIN3*, these *VIL* proteins form a family of proteins called the (*VERNALIZATION5*/*VIN3-LIKE*) VEL family[@mylne_epigenetic_2004].
+In line with their roles with the vernalization PRC2 complex, these three PHD-finger proteins have been found to associate[@de_lucia_phd_polycomb_2008; @sung_phd_2006]
+In addition to the vernalization pathway, *VIL1* and *VIL2* have also been found to influence the photoperiod flowering pathway[@sung_phd_2006; @kim_plant_2010]
+As a result of the key roles these genes play in mediating the vernalization response, their expression profiles in the two *B. napus* varieties were investigated.
 
 ![**VIN3 Apex**](figuredirectory/apex_vin3.pdf){#figure:3xx:vin3apex}
 
-Across all tissues and varieties, *VIN3* is expressed highly at both time points during the cold
-
 ![**VIN3 Leaf**](figuredirectory/leaf_vin3.pdf){#figure:3xx:vin3leaf}
 
-FLC reactivates in vrn mutants.
-VRN2 encodes a protein with homology to Su(z)12, a zinc finger protein that is a component of the E(z)/ESC Polycomb complex in Drosophila and humans.
-VEL family - VIN3, VRN5, VEL1, VEL2, VEL3
-
-PHD found in proteins that associate with chromatin and bind H3K4me3.
-
-VIL1, VRN5 mutants showed reduced vernalization response based on flowering time, expressed at similar levels before, during and after accumulates in root and shoot apicies and generally in the leaf. vin3 vrn5 form heterodimers. VIN3 has a prominant role in FLC expression in the apex whereas VRN2 has greatest effect on FLC expression in petioles and vasculature. suggest that different phd-prc2 complexes mediate different flc responses. [@greb_phd_2007]
+Across all tissues and varieties, *VIN3* is expressed highly at both time points during the cold, returning to pre-cold expression levels at the first time point after cold (Figures \ref{figure:3xx:vin3apex} and \ref{figure:3xx:vin3leaf}).
+This is exactly in line with the expression of *VIN3* in *A. thaliana*[@sung_vernalization_2004].
+Interestingly, *VIN3* expression in *A. thaliana* was only observed when the duration of cold was sufficient to promote vernalization, suggesting the process of vernalization was taking place, in line with the findings from the *BnaFLC* expression (section \ref{section:winter:flc}).
 
 ![**VIL1**](figuredirectory/vil1.pdf){#figure:3xx:vil1}
 
-VEL1, VIL2 does not play a role in vernalization, found in a knockdown experiment. doesn't change in expression during cold [@greb_phd_2007]
+In contrast to *VIN3*, *VIL1* shows only a slight decrease in expression during the vernalization period, with relatively constant expression after the cold (Figure \ref{figure:3xx:vil1}).
+This is the case in both varieties, with the magnitude of expression of both copies being very similar in both the winter and the spring.
+The A7b copy is expressed in both the apex and the leaf, while the C7b copy is only detected in the apex, suggesting potential tissue specific expression of the copies.
+The expression patterns of *BnaVIL1* deviate from that of *AthVIL1* in *A. thaliana*, in that the expression was found to increase during short day growth[@sung_phd_2006].
+However, the expression in both leaf and apex is consistent with results from the model species[@greb_phd_2007].
 
 ![**VIL2 Apex**](figuredirectory/vil2_apex.pdf){#figure:3xx:vil2apex}
 
+Finally, *VIL2* has been found to be associated with the vernalization associated PRC2[@hennig_diversity_2009], although down regulation of the gene did not affect flowering time of vernalized plants[@greb_phd_2007].
+However, an increase in expression of the gene during vernalization has also been reported[@kim_coordination_2013], making the role of the gene during vernalization somewhat ambiguous.
+Five copies of the gene are expressed in *B. napus*, all of which show remarkable similarities in both expression profile and magnitude in the apex (Figure \ref{figure:3xx:vil2apex}) and leaf (Figure \ref{figure:3xx:vil2leaf}).
+
 ![**VIL2 Leaf**](figuredirectory/vil2_leaf.pdf){#figure:3xx:vil2leaf}
+
+Interestingly, three of the copies exhibit tissue specific responses to the cold treatment.
+The A1, A8, and Ann, and C1 copies all exhibit increases during the vernalization period in the apex (Figure \ref{figure:3xx:vil2apex}), yet show expression decreases in the leaf (Figure \ref{figure:3xx:vil2leaf}).
+As the behaviours of these genes are so similar between the varieties, however, it is unlikely that they directly contribute to the flowering time differences observed between Westar and Tapidor.
 
 ### FRIGIDA
 
