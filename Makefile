@@ -33,6 +33,10 @@ pdf: tex
 		--template=../source/base.tex \
 		meta.yaml $$(sed -e 's/^/..\/build\//' -e 's/$$/\.md/' \
 		../source/CHAPTERS | tr '\n\r' ' ' | tr '\n' ' ' )
+# 	cd ./content/ && \
+# 	pdfmerge ../build/david_marc_jones_thesis.pdf \
+# 		10_appendix_c/figures/bioxriv.pdf \
+# 		../build/david_marc_jones_thesis_with_paper.pdf
 
 wordcount: tex
 	cd ./build/ && \

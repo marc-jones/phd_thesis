@@ -1,1 +1,1 @@
-# Materials and Methods {#chapter:materialsandmethods}
+# Methods {#chapter:materialsandmethods}

@@ -207,6 +207,9 @@ $endif$
 % PREAMBLE START
 \pagestyle{plain}
 
+\usepackage{rotating}
+
+\usepackage{nextpage}
 \usepackage{textcomp}
 
 % Needed for nice tables
@@ -217,19 +220,70 @@ $endif$
 \usepackage{chemformula}
 
 % Margins
-\addtolength{\oddsidemargin}{-.5in}
-\addtolength{\evensidemargin}{-.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1in}
+% \addtolength{\oddsidemargin}{-.5in}
+% \addtolength{\evensidemargin}{-.5in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.5in}
+% \addtolength{\textheight}{1in}
 
 % Line spacing
 \linespread{1.25}
+
+$if(epigraph)$
+\usepackage{epigraph}
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
+$endif$
+
+\usepackage{pdfpages}
 % PREAMBLE END
 
 \begin{document}
 $if(title)$
-\maketitle
+% \maketitle
+$endif$
+\begin{titlepage}
+    \begin{center}
+
+        \vspace*{1.5cm}
+
+        \huge
+        $title$
+
+        \vspace{1.5cm}
+
+        \Large
+        $author$
+
+        \vspace{1.5cm}
+
+        \normalsize
+        A thesis presented for the degree of\\
+        Doctor of Philosophy
+        \vfill
+
+        % Uncomment the following line
+        % to add a centered university logo
+        % \includegraphics[width=0.4\textwidth]{style/univ_logo.eps}
+
+        \normalsize
+        John Innes Centre, UK\\
+        University of East Anglia, UK\\
+        September 2017
+
+        \vspace{1.5cm}
+
+        © This copy of the thesis has been supplied on condition that anyone who consults it is understood to recognise that its copyright rests with the author and that use of any information derived there from must be in accordance with current UK Copyright Law. In addition, any quotation or extract must include full attribution.
+
+    \end{center}
+
+\end{titlepage}
+
+$if(epigraph)$
+\clearpage
+\vspace*{\fill}
+\epigraph{\itshape $epigraph$}{$epigraphauthor$, \textit{$epigraphsource$}}
+\vspace*{\fill}
 $endif$
 $if(abstract)$
 \begin{abstract}
@@ -251,9 +305,15 @@ $endif$
 }
 $endif$
 $if(lot)$
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 $endif$
 $if(lof)$
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 $endif$
 $body$

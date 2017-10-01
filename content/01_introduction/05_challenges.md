@@ -1,7 +1,7 @@
 ## Challenges of knowledge transfer from Arabidopsis to Brassicas
 
 The central challenge of moving gene regulatory networks from Arabidopsis to *B. napus* is a consequence of the genome multiplication events that have occurred in the crop[@beilstein_dated_2010; @lysak_chromosome_2005; @rana_conservation_2004; @napus_genome_2014].
-Genome multiplication events have contributed to adaptive radiations, speciation and increases in organism complexity, as a result of the additional copies of genes.
+Genome multiplication events have contributed to adaptive radiations[@mcgrath_evolutionary_2012], speciation[@werth_model_1991] and increases in organism complexity, as a result of the additional copies of genes.
 The presence of additional copies reduce the selective pressure on genes, allowing mutations to occur in genes with limited phenotypic effect.
 Over time these mutations can result in genes acquiring novel functions, (neofunctionalization), losing a subset of their original function (subfunctionalization), or becoming nonfunctional[@conant_turning_2008].
 In this way, genome multiplication events provide evolutionary 'raw material'.

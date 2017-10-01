@@ -590,3 +590,338 @@ juncea LFY. Brassica LFY expression was strongly induced in apical regions parti
 
 qi et al 2015
 BrLFY expression increased in the shoot apex, reached a peak during flower bud differentiation, then decreased as flowers matured.
+
+pires 2004
+resynthesised napus, then went through rounds of crossing the earliest flowering lines and the latest flowering lines to make two populations.
+Rapid evolution in resynthesised napus. A2 FLC was present as two copies in the early flowering and not the late flowering. A3 copy linked to flowering time. A10 not found to differ between early and late flowering lines.
+
+long 2007
+ningyou (semi-winter) and tapidor (winter) mapping population. spring cropped and winter cropped. Ningyou flowered in spring cropped environment, whereas tapidor did not.
+
+## Deleted from intro spring chapter
+
+One consideration for seed development are the environmental conditions during which the seeds develop[@penfield_effects_2017], with light quality and temperature both affecting the germination of Arabidopsis seeds.
+
+In plants grown in natural conditions, having heterogeneous flowering times among a population of plants of the same species likely confers an advantage at the population level.
+However, in an agronomic setting having a heterogeneous flowering time makes the maintenance of the crop more difficult.
+For example, pollen beetles are simultaneously a pollinator and a pest of *Brassica napus*.
+When the flowers are in the bud stage they are susceptible to damage from the beetles, but later in development the beetles act as pollinators to the plant[@williams_feeding_1978].
+Application of pesticides to control pollen beetles are therefore complicated if plants are at different stages of the floral transition.
+RICHARD'S COMMENT: How can flowering be tightly controlled and yet heterogeneous
+
+Dosage balancing is a result of certain proteins being required in the correct stoichiometry in order to function.
+The formation of a protein complex is a good example.
+In whole genome multiplication events there will be additional copies of all the genes whose products form the complex.
+This will maintain the stoichiometry of the proteins, allowing the protein complex to form.
+If failure to form a viable protein complex leads to a deleterious phenotype, the genes will then tend to be retained in the genome in order to maintain the stoichiometry of the complex.
+Conversely, small scale multiplication events are likely to only result in additional copies of one of the genes that encode a protein from the complex.
+As the stoichiometry of the proteins that form the complex have been altered this can lead to a deleterious phenotype.
+In such a situation, selective pressures will lead to the loss of such a multiplied gene.
+An expectation of the gene dosage hypothesis is that genes retained in the genome as a result of dosage effects will be similarly regulated.
+Studying the expression of genes can therefore suggest what evolutionary forces have driven their retention in the genome.
+
+    #### potentially include this in discussion
+
+    The downside of sampling the shoot apical meristem is the destructive nature of the sampling, in that we could not take samples from the same plant over the course of development.
+    This potentially introduces noise into the data if the plants sampled at different time points do not have synchronized development.
+    It was felt that the potential insights made possible by having transcriptome data from the apex would offset this downside.
+    Additionally, the plants were grown together and there was sufficient replication and sample pooling that factoring in this noise was not an issue.
+
+## winter - global
+
+ the majority of cold-induced alterations
+to the transcriptome are not maintained when plants are shifted to
+warm conditions after prolonged cold treatment.
+Found relatively few genes showed differential expression one day after prolonged cold relative to control.
+Barley (Hordeum vulgare)
+Greenup1,2,
+
+Found high correlation between non-vernalized gene expression and post-vernalization expression in Brachy.
+
+villacora-martin 2015
+Easter Lily bulb vernalization - expression pattern changes with different lengths of cold Lilium longiflorum
+(cultivar White Heaven) bulbs
+
+Li et al 2016
+
+
+## Deleted from FLC
+
+### intro
+*FLC* is expressed most highly in the vegetative apex but was also detectable in leaves and stems[@michaels_flowering_1999].
+However, the activity of the gene in the leaves and apical meristem was found to differ[@searle_transcription_2006].
+In elegant experiments expressing *FLC* from tissue specific promoters, Searle et al. showed that *FLC* has a dual role repressing *FT* in leaves and *FD* and *SOC1* in the apex[@searle_transcription_2006].
+Repression of both the floral signal (*FT*) and the means by which that signal is integrated by the plant (*FD* and *SOC1*) likely contributes to the repressive effects of the gene.
+Finally, in terms of specific target genes, FLC binds the floral integrators *FT*, *SOC1*, and *FD*, suggesting that the repression of flowering by FLC is through direct regulation of these three floral activators[@searle_transcription_2006].
+DNA binding studies have identified many targets across the genome for *FLC*.
+As MADS box transcription factors dimerize in order to bind to DNA, the binding of FLC protein in the presence and absence of another MADS box containing protein called SHORT VEGETATIVE PHASE (SVP) was investigated[@mateos_combinatorial_2015].
+The results found that the targets of the FLC homodimer and the SVP:FLC heterodimer varied, with the heterodimer tending to regulate genes associated with floral induction, while the FLC homodimer was biased towards targets involved with floral development.
+FLC protein was also found to bind targets in the hormone response pathways[@deng_flowering_2011], while also influencing the periodicity of the circadean clock[@edwards_flowering_2006].
+
+### discussion
+The *BnFLC* genes show a range of different expression patterns, with certain copies varying between the winter and spring variety more than others.
+The expression of *FLC* in *A. thaliana* can be thought of a typical response for a vernalization sensitive gene; low expression in spring varieties and high initial expression in winter, vernalization-requiring varieties that decreases upon cold treatment.
+The *Brassica napus* copies that exhibit this typical response are the A2, A3b, C2, C3c, and A10 copies, in both the leaf and the apex.
+*BnFLC.C3a* also exhibits this response in the leaf, but the expression of the gene is only just over the expression threshold used in this study, calling into question whether the gene has a role in the vernalization response in *B. napus*.
+Of the six copies exhibiting the typical vernalization response in both tissues, the C2, A3b, C3c copies in the apex and all six copies in the leaf undergo some level of expression reactivation after the vernalization period.
+Based on this, the A2 and A10 copies are left as the most plausible *BnFLC* copies mediating the vernalization response in Tapidor, due to both having a typical vernalization expression profile and stable repression in the apex.
+Of the genes in which reactivation occurs, however, only *BnFLC.C2* in Tapidor apex fully reactivates to pre-cold levels.
+Therefore the potential effect on the vernalization requirement of Tapidor by copies showing partial reactivation should not be discounted.
+
+Although there are some *BnFLC* copies that show expression behaviour indicative of a vernalization response, there are other copies that do not.
+The assignment of regulatory modules identifies *BnFLC.C9b* as being assigned to a module unique to the gene in three of the four tissue-accession combinations.
+This is a result of a very different pattern of regulation relative to other *BnFLC* copies.
+A decrease in expression during the cold is only observed in the leaf tissues in both varieties, while increases in expression post-cold, to levels above pre-cold levels, are observed in all varieties and tissues.
+In addition, the expression of the gene is higher in the spring variety Westar than the winter variety Tapidor.
+It is therefore unlikely that *BnFLC.C9b* mediates the vernalization response in *B. napus*, and potentially has acquired a novel function in the plant.
+A *BnFLC* copy unlikely to mediate the different vernalization requirements between Tapidor and Westar, despite displaying a typical vernalization response, is *BnFLC.A3a*.
+This copy displays very similar pre-cold expression levels in both varieties, and exhibits cold induced expression repression that is stable upon further growth in warm conditions.
+This is the case in both tissues.
+Potentially this *BnFLC* copy mediates a very mild vernalization response that is not usually evident in the spring variety.
+Alternatively, perhaps this copy mediates a response to a period of cold that does not influence flowering time.
+One way of testing this hypothesis would be transgenic studies with *A. thaliana*, similar to a previous study[@tadege_control_2001].
+
+There are broad similarities in the behaviour of *BnFLC* copies between tissues.
+For example, a copy seems to maintain a response to vernalization and a post-cold reactivation regardless of whether it is expressed in the apex or leaf.
+These between tissue similarities even extend to the between variety comparisons.
+*BnFLC.A10* is expressed in Tapidor but not in Westar in both tissues, and *BnFLC.A2* is highly expressed pre-cold in Tapidor relative to Westar in both tissues.
+This is reflected in the regulatory module assignments, where in all conditions the largest regulatory module corresponds to *BnFLC* copies that decrease in expression during the cold period.
+However, there are a number of differences between the leaf and apex that potentially point towards some level of tissue specific divergence between the copies.
+Although the expression levels cannot be compared directly between the apex and leaf due to the normalization procedure employed (Section \ref{section:spring:alignreadexplevel}), ranking the copies based on their maximal expression value leads to different rankings.
+The genes that change most in their ranking in Tapidor are *BnFLC.A10* and *BnFLC.C9b*, that have a higher rank in the leaf and apex respectively.
+Such changes in expression rank between the genes are not observed in Westar, potentially indicating that tissue specific changes to the regulation of *BnFLC* genes are not present in the spring variety.
+Aside from these expression rank changes, tissue specific differences in *BnFLC.C2* result in the gene sharing regulatory modules with different copies.
+The slight reactivation in the Tapidor leaf is not sufficient to result in the gene being assigned to a different regulatory module than other genes that decrease in expression during the cold, such as *BnFLC.A3a*.
+However, the more severe reactivation in Tapidor apex does result in *BnFLC.C2* being assigned to a different regulatory module than *BnFLC.A3a*.
+Interestingly the opposite is true in Westar, with *BnFLC.C2* lacking expression reactivation in the apex and possessing it in the leaf, leading to the gene not being grouped with *BnFLC.A3a*.
+Although there are additional differences between copies, these copies are generally lowly expressed relative to other the *BnFLC* copies discussed above, and therefore the expression differences observed are likely to be caused by noise in the data.
+
+The reactivation of expression following vernalization is a behaviour observed for *FLC* in some *A. thaliana* accessions[@shindo_variation_2006; @coustham_quantitative_2012].
+Indeed, in perennial species of *Arabidopsis* the expression of *FLC* increases after the floral transition in order to resensitize the plant to vernalization[@satake_forecasting_2013].
+The observation of expression reactivation in some of the copies of *BnFLC* raises the question of whether the behaviour of these genes reflects an ancestral perennial nature, or whether the reactivation corresponds to the particular *BnFLC* locus requiring a longer period of cold in order to become stably repressed.
+Having multiple *FLC* genes responding to different lengths of vernalization has the potential to allow the plant to respond to different lengths of winter.
+
+How does this fit into the expression traces for FT in the leaf and FD and SOC1 in the apex?
+
+How does this relate to vernalization QTL studies
+
+Interestingly, a copy of *FLC* on A3 was found to affect flowering time in a resynthesised *B. napus* line generated from spring *B. rapa* and *B. oleracea* varieties[@pires_flowering_2004].
+However, in this case the replacement of the C3 copy FLC with an additional A3 copy resulted in an earlier flowering time.
+
+## transcriptomes
+
+schmid - transition from short to long days - apex transcriptomes - ft and co mutants.
+although they compared two spring varieties (Col and Ler), they found Ler had lower FLC. They found that floral markers were induced more quickly in Ler. In addition, SOC1 induction was still detectable, but diminished. the authors concluded that *FLC* and photoperiod are additive, with floral marker genes having similar expression profiles but lower levels in the presence of FLC.
+
+torti - apex transcriptome but focus on long and short days. laser dissection.
+
+guo - leaf scenescence - no dynamics
+
+muller - focus on phosphorus and sugar metabolism
+
+singh  - chickpea - flower development, germinating seedlings, young leaves and shoot apical meristem
+
+woo - found the expression of different gene ontology terms to be more highly correlated during leaf senescence
+
+
+
+## retention
+
+kafri 2005
+Found that highly dispensible genes tended to have paralogues with similar function.
+high correlation between the essentiality of genes and the similarity of molecular function between themselves and their paralogs
+
+Calculated correlation coefficients for pairs across 40 different experiments. As the mean of these correlations in increases (the genes become more correlated) the proportion of dispensible genes decreases.
+The standard deviation of these correlations is a measure of how consistently the paralogues are correlated, or not. As this increases, dispensibility increases, suggesting that dispensible genes show greater variation in whether they're correlated or not.
+Among remote paralogs, we found that the essentiality of coexpressed
+pairs was very high, implying that there is little backup activity among
+them. In remote pairs, backup was most efficient among transcrip-
+tionally noncorrelated pairs, as their essentiality was substantially
+lower than that of single genes.
+Expression similarity increases for pairs with protein-protein interactions.
+With close pairs, dispensability increased somewhat with expression similarity.
+Optimal backup is obtained when two paralogs share some, but not all, motifs.
+The more essential of the two genes tended to have more motifs.
+Backup increases with coexpression, as those genes have not yet evolved reprogramming.
+
+davis and petrov 2004
+proteins that evolve slowly and are expressed boardly when in single copy appear to be more likely to become preserved as duplicates than rapidly evolving or narrowly expressed proteins.
+
+lynch and katju 2004
+Ohno's neofunctionalization
+Adaptive-conflict - subgenization
+Comparative sequence data is not conclusive when it comes to proving Ohno's hypothesis that neofunctionalization is the dominant mechanism of duplicate-gene retention.
+For small scale duplications, potentially spatial effects might result in genes not being 'born' equal.
+
+Nowak 1997
+When mutation rates are unequal, and the functions of the genes identical, then the copy with the higher mutation rate will be lost due to selection. A certain amount of redundancy could be the consequence of recent gene duplication events. Even when the rates are equal, genetic drift can result in loss of one.
+
+Lynch and Conery 2000
+The fate awaiting duplicated genes is often silencing rather than preservation, with the average half-life being 4 million years. the authors note, however, that the high level of duplicate gene retention may be due to
+
+kafri 2006
+Functional redundancy and compensation were found to be most prevalent among gene duplicates that are regulated differently from one another - kafri 2005
+Genes that are functionally redundant are not often independently controlled but rather they are regulated by a system that both monitors and responds to their intactness.
+Responsive backup circuits may allow for the filtering of noise.
+
+Birchler and Veitia 2012
+The longer retention of du-
+plicate pairs after WGD through gene balance might allow greater
+periods of evolutionary time to provide the opportunity for gradual
+divergence of dosage-sensitive genes, among them being those
+genes with critical regulatory functions.
+
+## spring chapter reading
+
+Two populations of A. arenosa; one perrenial and a weedy population that has lost perrenial nature.
+Perrenial had high FLC expression which decreased during cold and returned to precold levels after cold. No expression in weedy population
+VIN3 expressed lowly in non-perrenial plant verses perrenial plant.
+
+
+## deleted from spring genes FT
+
+Grafting experiments in a number of plant species lead to the conclusion that a floral inducer, referred to as florigen, was transported from leaves to the shoot apex to initiate flowering[@aksenova_florigen_2006; @lang_promotion_1977].
+These experiments revealed that plants grown in photoperiods conducive to flowering were able to promote the flowering of plants not induced to flower by day length when grafted to them.
+In these initial studies florigen was thought to be a plant hormone produced in the leaves when the plant experienced day lengths that promoted flowering, with the hormone moving to the growing shoot meristem to promote the formation of an influorescence, rather than a vegetative, meristem.
+*FT* was identified as a null mutant that caused a delay in flowering when *Arabidopsis thaliana* plants were grown in long days, with a moderate delay observed when mutant plants were grown in short days [@koornneef_genetic_1991].
+A *Arabidopsis thaliana* line that expressed *FT* under the control of a highly active viral promoter flowered earlier than wild type regardless of the day length the plants had been grown in, with the *FT* overexpressing plants also having terminal flowers[@kardailsky_activation_1999; @kobayashi_pair_1999].
+It is likely that the transport of *FT* through the phloem is also conserved in *Brassica napus*, as *FT* like proteins were found in a proteomic analysis of sap from a spring oilseed rape[@giavalisco_towards_2006].
+![**Expression traces for the *BnPIF4* genes in the leaf.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. The two most highly expressed copies on A3 and C3 exhibit a transient increase during the cold, with expression quickly returning to pre-cold levels. This expression is not consistent with the decrease in expression observed for *BnFT* genes in the leaf.](figuredirectory/24_exp_pif4_leaf.pdf){#figure:224:pif4leaf}
+The ambient temperature control of *FT* expression is via the transcription factor, with constitutive expression of *PIF4* resulting in the upregulation of *FT* in *Arabidopsis thaliana*[@kumar_transcription_2012].
+In the *B.\ napus* expression data there are four expressed copies of *PIF4* (Figure \ref{figure:224:pif4leaf}).
+If the expression patterns of *FT* were to be explained by their response to ambient temperature changes, you would expect the expression of some of the *PIF4* genes to drop during the cold to explain the drop in *FT* expression levels.
+That this is not observed in the copies of *PIF4* expressed in *B.\ napus* suggests that the ambient temperature response is not having an effect on the expression of *FT* during the developmental transcriptome.
+In the vernalization response in *Arabidopsis thaliana*, *FLC* represses the expression of *FT* by binding to a site within the first promoter of *FT*[@helliwell_arabidopsis_2006].
+
+Jiao
+transferases and binding proteins, transcription factors and protein kinases retained
+
+In addition a crystal structure of the plant MADS-box is not available, although structures of proteins containing MADS-box domains are available from humans[@pellegrini_structure_1995] and yeast[@tan_crystal_1998].
+
+### potentially move back to intro
+
+The presence of multiple gene homologues in the genome complicates efforts to translate knowledge from Arabidopsis to *B. napus*.
+This is due to a lack of knowledge regarding the unique function, if any, of each homologue.
+Genes that are present as multiple copies following gene multiplication events can either retain the same function as the ancestral gene, partition the ancestral gene's function among the different copies, or acquire novel functions[@lynch_evolutionary_2000].
+Alternatively, the genes may be lost as a consequence of genomic rearrangements, such as those that occur after genome multiplication events[TODO].
+
+Given the amount of gene loss in *B. napus* the question arises: why have some copies been retained while others have been lost?
+Initial discussions about the methods of gene retention following gene multiplication focused on the aquisition of novel, evolutionarily advantageous, functions to drive gene retention[@ohno_creation_1970].
+However, as deleterious mutations occur more frequently than beneficial mutations[@lynch_genetics_1998], this hypothesis is not sufficient to explain gene retention.
+A refinement of this thinking was the duplication-degeneration-complementation (DCC) hypothesis[@force_preservation_1999].
+The DCC hypothesis posits that multiple copies of genes are maintained through a partitioning of the ancestral gene's functions.
+In this hypothesis, different functions (such as expression domains) are determined by the regulatory elements that control expression of the gene.
+Deleterious mutations in the regulatory elements of one gene alter the expression of that gene, with the deleterious phenotype of that mutation complemented by the other gene lacking the mutation.
+Over evolutionary time regulatory elements continue to accumulate deleterious mutations, with the multiple copies of genes complimenting each other.
+In Arabidopsis, 85% of regulatory genes sharing an ancestral gene were found to exhibit expression divergence in agreement with the DCC hypothesis[@duarte_expression_2006].
+Using DNase I regulatory footprints to identify regulatory elements upstream of genes, Arsovski et al. (2015) found that the vast majority of paralogous gene pairs were either partly or fully divergence in the regulatory elements they possessed[@arsovski_evolution_2015].
+Cis-regulatory element changes are therefore thought to be one of the most important driving factors for the evolution of novel gene functions.
+This question has been investigated in a number of species[TODO].
+The gene balance hypothesis has been proposed to answer this question, which posits that dosage effects play a role.
+Dosage effects may result if the gene product acts as part of a protein complex, where an incorrect stoichiometry of proteins can result in deleterious phenotypes[TODO].
+Whether these dosage effects act to retain genes in the genome, or provide selective pressure for their loss, is dependent on the type of multiplication event.
+Whole genome multiplication events will maintain the stoichiometry of the proteins, with selection acting to retain the multiplied copies[TODO].
+Small scale multiplication events, however, are likely to result in the stoichiometry of the proteins changing, leading to the additional copies of genes being selectively lost from the genome[TODO].
+The gene balance hypothesis is consistent with observations from a number of species[TODO], and with simulations of gene duplications[TODO].
+Studying the regulation of genes present as multiple copies can therefore provide clues for understanding their retention in the genome.
+
+The framework of responsive backup circuits proposes that duplicated genes may be retained in the genome as a backup if the original copy becomes non-functional due to mutation[@kafri_transcription_2005; @kafri_regulatory_2006].
+Although it may seem difficult for the evolutionary process to select for such mechanisms, given that the deleterious mutation is effectively masked from the effects of natural selection, in certain situations such a mechanism can be maintained in the genome[@nowak_evolution_1997].
+These mechanisms are also predicted to increase the robustness of a regulatory system, which is potentially another method by which evolution can act to maintain duplicates[@kafri_regulatory_2006].
+In a now classic model for the evolution of novel gene functions by gene duplication, Ohno proposed that relaxed selection pressure on duplicated genes either lead to novel functions, or to gene loss[@ohno_evolution_1970].
+However, given that deleterious mutations occur more frequently than beneficial mutations[@lynch_genetics_1998], this hypothesis is not sufficient to explain the extent of gene retention after duplication[@force_preservation_1999].
+The DDC hypothesis (section \ref{section:spring:genomedivergence}) is an attractive model as it does not rely on advantageous mutations to occur.
+Instead, mutations cause progressive loss of of function to duplicated genes until the ancestral functions are partitioned between the genes.
+Another possibility for the retention of is escape from adaptive conflict (EAC).
+Here, a single copy gene acquires a novel function that is detrimental to its original function.
+When duplicated, adaptive mutation can occur to allow these separate functions to be optimized[@des_marais_escape_2008].
+For example, an enzyme could acquire a mutation that allows it to catalyse a new reaction, at the expense of making it less efficient at its original function, but when duplicated each copy can become specialized to a particular reaction.
+
+Qian and Zhang showed that duplication can lead to apaptive changes, consistent with the adaptive conflict hypothesis
+
+Whole genome duplications have been an important part of angiosperm development[@soltis_polyploidy_2009].
+Adaptive radiations, speciation, the efficacy of invasive species[@te_beest_more_2012], and domestication are all influenced by polyploidy[@dubcovsky_genome_2007].
+
+The epigraph at the beginning of this thesis is a quote from Sir Winston Churchill.
+Churchill wrote this quote to encourage the reader to interpret observations in the context of the wider perspective.
+For me, this quote perfectly summarizes the field of systems biology, where large, multifaceted datasets are distilled into a handful of key insights.
+There are a number of instances where this has been the case when analysing the transcriptomic time series.
+The different expression patterns of floral integrator homologues, when viewed in the context of the expression of other genes and of the transcriptome as a whole, allow for understanding and generate hypotheses.
+The combinatorial explosion of regulatory possibilities that results from multiple gene copies being present leads to the "intense simplicity" of many of these genes potentially being redundant.
+Sequence differences that in isolation may not be of significance can be more accurately assessed for their function in light of expression data.
+
+Duplicated gene pairs exhibited extensive divergence in the DNase I footprints surrounding the genes, suggesting that regulatory elements controlling the expression of the duplicated genes have diverged[@arsovski_evolution_2015].
+
+This decision network has been extensively studied in a number of species, and has been modelled in the model plant *Arabidopsis thaliana*.
+The modelling considered a five gene network of *AP1*, *FT*, *TFL1*, *LFY*, and *FD*, with the interlocking feedback loops defined by these genes resulting in behaviours desirable of a decision network underlying flowering.
+Namely, these behaviours were irreversability and noise filtering properties.
+Mutants in the above set of five genes were used to parametrize the model, based on the number of rosette and cauline leaves the plants produced.
+Instead of modelling the actions of the individual genes, however, the model abstracted the regulatory network underlying the floral transition into regulatory hubs.
+These regulatory hubs represented the activity of groups of genes and proteins that were abstracted into hubs for the modelling to simplify the system and to capture the key dynamics of the system[@jaeger_interlocking_2013].
+Although the regulatory hubs in the *Arabidopsis thaliana* model represented groups of genes and proteins, the model was nonetheless parametrized based on the flowering behaviour of mutants in those genes listed.
+This, alongside previous results on the importance of those genes in integrating the signals that promote flowering in *Arabidopsis thaliana* justified understanding the behaviour of the copies of those genes in *Brassica napus*.
+This will allow us to investigate the extent of regulatory divergence within the flowering time genes that make up this important regulatory decision network.
+
+Dimerization as a mechanism of control within protein mediated signalling pathways has been discussed and reported for many years.
+In the case of DNA binding proteins, dimerization may have a number of effects.
+Monomers can have different DNA binding preferences, such that a heterodimer of two different monomers would bind to a different DNA recognition sequence than either homodimer.
+The production of non-functional transcription factor monomers, such as monomers without DNA-binding domains, may sequester functional monomers and alter the expression of the targets of the transcription factor.
+Finally, monomers may alter the composition of the protein complex recruited to the DNA through variation in protein-protein interaction domains.
+
+
+
+Schnable 2011
+Fractionation bias - one 
+In maize, it was proposed that gene loss and gene expression were intimately linked.
+propose that selection against loss of the gene responsible for the majority of total expression.
+5–12 million years ago
+
+
+blanc_functional_2004
+Arabidopsis retains signal transduction
+
+
+wang_genomewide_2006
+In synthetic Arabidopsis allopolyploids, Wang et al showed 
+They showed that genes originating from A. arenosa tend to dom-
+inate over homoeologous genes from A. thaliana by contributing
+more to total gene expression in the allotetraploid
+percentages of genes in the hormonal regulation and cell defense and aging
+
+seoighe and wolfe
+12.9% of yeast genes are part of duplicate pairs
+
+blomme
+looked at gene retention for different functional categories of genes between fish and land vertebrates
+considerable bias in gene retention of regulatory genes towards WGD or SSD
+the go terms for genes retained change depending on the species
+signal transduction, transcription, dna binding are more highly retained following WGD than small scale
+
+32 - Maere 2005
+arabidopsis
+modelling of gene duplications - gene decay is low for genes involved in kinase activity, transcription, protein binding and modification, and signal transduction when created in large-scale gene duplications, and very high for small scale duplications
+
+47 - seoighe and gehring 2004
+signal transduction, transcription regulation
+
+
+blanc_functional_2004
+arabidopsis
+high retention of genes with regulatory functions - TFs, kinases, phosphatases and calcium binding proteins
+
+freeling
+review on 
+
+simillion
+multiple rounds of gene duplication
+
+gu
+
+hakes
+
+Even in the model plant Arabidopsis, that has a comparatively small genome, there is evidence for 58\ % of the genome being present in duplicate[@the_arabidopsis_genome_initiative_analysis_2000; @blanc_extensive_2000; @blanc_recent_2003].
+
+
+An interesting parallel to the BnFD interaction was observed in allopolyploids of *Tragopogon* roose_genetic_1976
+soltis_polyploidy_2014
+

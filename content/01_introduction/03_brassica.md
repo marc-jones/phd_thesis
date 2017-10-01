@@ -16,7 +16,7 @@ Wheat grown following oilseed rape will yield 10% more than a wheat grown contin
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llll}
 \toprule
-Species & Group & Common name & Organ consumped \\
+Species & Group & Common name & Organ consumed \\
 \midrule
 \emph{Brassica oleracea} & \emph{acephala}          & Kale, collards           & Leaves \\
                          & \emph{capitata capitata} & Cabbage                  & Terminal leaf buds (heads) \\
@@ -92,14 +92,14 @@ Changes to flowering time will affect the pollinators that are available to the 
 This has been found to profoundly affect the reproductive success of perennial wildflowers[@rafferty_pollinator_2012].
 Therefore, as the yield of oilseed rape is influenced by pollinator availability[@stanley_pollinators_2013; @zou_wild_2017], the correct timing of flowering is required.
 
-### Work on the control of flowering in Brassica species
+### Work on the control of flowering in Brassica species {#section:intro:brassicafloweringgenes}
 
 Extensive work on how the floral response is controlled in Arabidopsis has facilitated understanding of floral control in a range of crop plants[@jung_flowering_2009].
 Homologues of the floral genes (section \ref{section:intro:arabidopsis}) have been detected in the genomes of *Brassica* species, which due to the gene multiplication events that have occurred in the Brassica lineage are often present as multiple copies[@schiessl_capturing_2014].
 However, identification of whether these *B. napus* homologues have similar functions to their counterparts in Arabidopsis, and of functional differences between the homologues, is often lacking.
 
 Likely as a result of both spring and winter varieties of *Brassica* crops being of such economic value, the vernalization pathway has arguably been the most well studied flowering pathway in Brassicas.
-Association studies focussing on mapping the vernalization response in *B. rapa*[@zhao_brflc2_2010; @kole_evidence_2001; @osborn_comparison_1997; @lou_quantitative_2007; @axelsson_multiple_2001; @schranz_characterization_2002], *B. oleracea*[@axelsson_multiple_2001; @okazaki_mapping_2007; @ridge_role_2015; @irwin_nucleotide_2016], and *B. napus*[@osborn_comparison_1997; @zou_comparative_2012; @wang_flowering_2011] have identified regions containing homologues of *FLC* and *FRI* as explaining flowering time variation.
+Association studies focussing on mapping the vernalization response in *B. rapa*[@zhao_brflc2_2010; @kole_evidence_2001; @osborn_comparison_1997; @lou_quantitative_2007; @axelsson_multiple_2001; @schranz_characterization_2002], *B. oleracea*[@axelsson_multiple_2001; @okazaki_mapping_2007; @ridge_role_2015; @irwin_nucleotide_2016], and *B. napus*[@osborn_comparison_1997; @zou_comparative_2012; @wang_flowering_2011; @long_flowering_2007] have identified regions containing homologues of *FLC* and *FRI* as explaining flowering time variation.
 These homologues exhibit similar decreases in expression during cold as their Arabidopsis counterpart[@li_molecular_2005; @lin_differential_2005] and have been investigated to determine if they have diverged in function or not.
 Expression of five different *FLC* homologues in Arabidopsis conferred a vernalization requirement in a rapid-cycling accession of Arabidopsis[@tadege_control_2001].
 Interestingly, the delay in flowering as a result of the transgenic gene varied depending on the homologue, suggesting that the genes have diverged roles in *B. napus*[@tadege_control_2001].

@@ -1,196 +1,193 @@
-## Divergence beyond expression {#section:spring:sequence}
+## Sequence divergence between copies of two floral integrators {#section:spring:sequence}
 
-The divergence between copies of flowering time genes discussed in this chapter has been in the context of expression differences.
-A different expression trace can result from altered cis-regulatory elements, or alternatively, from a change in the transcriptional activators that modulate the expression of the gene.
-In previous investigation of how gene function alters after a gene multiplication event, it was proposed that changes to cis-regulatory elements, rather than changes to the amino acid sequence of the protein, may be a common process driving new gene functions.
-In addition to changes to the regulation of genes, the molecular activity of the proteins genes encode can also be altered after a gene multiplication event.
-In the following section two case studies will be used to illustrate divergence at the sequence level between *Brassica napus* homologues.
-The first highlights differences in cis-regulatory elements downstream of the *BrTFL1* genes that correlate with differences observed within the developmental time series and which are supported by mutant studies carried out in Arabidopsis.
-The second case study reveals between homologue polymorphisms between the *BrFD* genes.
-The identified changes are predicted to influence the dimerization of the protein products, potentially acting as an additional layer of regulatory control that can be leveraged by the plant to coordinate complex flowering responses.
-Collectively these two case studies illustrate two ways that changes at the sequence level can lead to divergence of genes following a gene multiplication event.
+Comparative analysis of the gene DNA sequence of homologous genes in *Brassica* crops has been used to reveal divergence between the copies.
+A analysis of *Brassica* homologues of *FLC* found variation in the promoter of the gene, including some copies lacking a region of the promoter important for the expression of the gene in Arabidopsis[@zou_comparative_2012].
+For *FT* homologues in *B.\ napus* and *B.\ oleracea*, a transposable element and a retro-element in the upstream promoter of the gene on chromosome C2 was correlated with a lack of expression relative to the other copies of the gene[@wang_promoter_2012].
+Among *BnTFL1* genes, sequence variation was identified within the first intron of the gene and in the 3' regulatory regions[@mimida_terminal_1999].
+Other studies investigating sequence changes have instead focussed on polymorphisms between varieties, identifying regions of sequence important for gene function[@sri_sequence_2015; @zhang_transposon_2015; @franks_variation_2015; @schiessl_capturing_2014; @irwin_nucleotide_2016].
+A common theme between these analyses is that the amino acid sequences of the analysed homologues are often very similar[@sri_sequence_2015; @mimida_terminal_1999; @zou_comparative_2012].
+In the case of *BnTFL1* genes, for example, a maximum of 5 amino acid differences between the homologues was identified[@mimida_terminal_1999].
+However, it has been shown that in Arabidopsis that it only takes a single amino acid substitution to confer FT-like function onto TFL1 proteins, and vice versa[@hanzawa_single_2005].
+Therefore, although the observed differences between *B.\ napus* genes may be minor, they have the potential to severely impact the function of the gene.
 
-### *TFL1* cis-regulatory elements {#section:spring:tfl1regulation}
+The transcriptomic time series allows sequence differences between *B.\ napus* floral integrators to be viewed in the context of gene expression during the floral transition.
+To illustrate how the transcriptomic time series can be used to facilitate insights on sequence divergence, two case studies will be considered.
+For *BnTFL1* genes, sequence divergence downstream of the gene, in regions identified as cis-regulatory elements, correlates with the expression divergence observed between the genes during the time series.
+In the case of *BnFD*, sequence polymorphisms within the bZIP domain are predicted to alter the dimerization affinity of the genes.
+The observed sequence differences in bZIP proteins are also identified in other species, suggesting that this form of divergence is common among duplicated bZIP proteins.
+Given that the *BnFD* genes are co-regulated during the time series, modelling studies reveal that the observed sequence divergence may impact the expression of genes regulated by FD.
 
-Initial discussions about the methods of gene retention following gene multiplication focused on the aquisition of novel, evolutionarily advantageous, functions to drive gene retention[@ohno_creation_1970].
-However, as deleterious mutations occur more frequently than beneficial mutations[@lynch_genetics_1998], this hypothesis is not sufficient to explain gene retention.
-A refinement of this thinking was the duplication-degeneration-complementation (DCC) hypothesis[@force_preservation_1999].
-The DCC hypothesis posits that multiple copies of genes are maintained through a partitioning of the ancestral gene's functions.
-In this hypothesis, different functions (such as expression domains) are determined by the regulatory elements that control expression of the gene.
-Deleterious mutations in the regulatory elements of one gene alter the expression of that gene, with the deleterious phenotype of that mutation complemented by the other gene lacking the mutation.
-Over evolutionary time regulatory elements continue to accumulate deleterious mutations, with the multiple copies of genes complimenting each other.
-In Arabidopsis, 85% of regulatory genes sharing an ancestral gene were found to exhibit expression divergence in agreement with the DCC hypothesis[@duarte_expression_2006].
-Using DNase I regulatory footprints to identify regulatory elements upstream of genes, Arsovski et al. (2015) found that the vast majority of paralogous gene pairs were either partly or fully divergence in the regulatory elements they possessed[@arsovski_evolution_2015].
-Cis-regulatory element changes are therefore thought to be one of the most important driving factors for the evolution of novel gene functions.
+### *BnTFL1* cis-regulatory elements {#section:spring:tfl1regulation}
 
-Although DNase I footprinting is able to identify putative regulatory elements, determining the effects those regulatory elements have on gene expression requires more in depth investigation.
-Such an in depth analysis has recently been conducted in Arabidopsis for the *TFL1* gene[@serrano_mislata_separate_2016].
-Sequence conservation between the Arabidopsis *TFL1* gene and other *TFL1*-like genes from other species was used to identify conserved regions upstream and downstream of the gene.
-Through mutational analysis and transgenic experiments Serrano-Mislata et al. were able to determine that the regions of conservation corresponded to cis-regulatory elements.
-Moreover, the regulatory effects of each cis-regulatory element was uncovered, such that the spatiotemporal effects of removing elements was determined.
-These results from Arabidopsis, and the *unique* pattern of regulatory module assignment observed for the *BrTFL1* genes in *Brassica napus* (Figure \ref{figure:228:soc1leaf}), prompted me to investigate the cis-regulatory elements downstream of the *BrTFL1* genes.
+Cis-regulatory elements downstream of the *TFL1* gene in Arabidopsis have been found to direct different aspects of gene regulation[@serrano_mislata_separate_2016].
+In the study by Serrano-Mislata et al. (2016), regions of sequence conservation between the Arabidopsis *TFL1* and homologues in *Arabidopsis lyrata*, *Capsella bursa-pastoris*, *B. rapa*, and *Leavenworthia crassa* were identified up- and downstream of the gene.
+Further analysis of these regions determined that these areas of sequence conservation corresponded to cis-regulatory elements.
+Interestingly, different regions were found to influence *TFL1* expression in different ways.
+For example, one region identified 1.0\ -\ 1.3 kilobases (kb) downstream of the gene was required for *TFL1* expression in the vegetative meristem, while another region situated 1.6\ -\ 2.2 kb downstream of the gene was required for gene expression in lateral meristems[@serrano_mislata_separate_2016].
+These results are particularly interesting given the conservation of these cis-regulatory elements between Arabidopsis and *B.\ rapa*[@serrano_mislata_separate_2016], and previous identification of between homologue variation in the 3' regulatory regions of *BnTFL1* genes[@mimida_terminal_1999].
 
-#### Cis-regulatory element variation downstream of *BrTFL1* genes {#section:spring:tfl1conservation}
+#### Cis-regulatory element variation downstream of *BnTFL1* genes potentially explain observed regulatory divergence {#section:spring:tfl1conservation}
 
-![**Sequence analysis reveals that cis-regulatory modules identified in Arabidopsis are not present downstream of some *BnTFL1* genes.** **a** The degree of sequence conservation between the *BnTFL1* genes and *AtTFL1*. Sequence alignment and conservation calculations were performed using the mVISTA server[@mayor_vista_2000; @frazer_vista_2004] with a sliding window size of 100 bp. The seven regions of high interspecies sequence conservation (green bars) and the five cis-regulatory regions (blue boxes) identified by Serrano-Mislata et al. (2016) are shown relative to the *AtTFL1* gene model[@serrano_mislata_separate_2016] (black bars). The labelling of these regions follows the same conventions as the previous study. The pink shaded areas under the sequence conservation curves are regions above 70% sequence conservation. Genomic position upstream and downstream of the *AtTFL1* gene copies are given relative to the ATG and STOP codon sites respectively. **b** The unnormalized expression traces for the *BnTFL1* genes determined through RNA-Seq and qPCR. The expression values calculated for qPCR are normalized to *GAPDH* with the error determined from two biological replicates (Materials and methods).](figuredirectory/33_sequence_conservation_qpcr.pdf){#fig:233:tfl1conservation}
+![**Sequence analysis reveals that cis-regulatory modules identified in Arabidopsis are not present downstream of some *BnTFL1* genes.** **a** The degree of sequence conservation between the *BnTFL1* genes and *TFL1*. Sequence alignment and conservation calculations were performed using the mVISTA server[@mayor_vista_2000; @frazer_vista_2004] with a sliding window size of 100\ bp. The seven regions of high interspecies sequence conservation (green bars) and the five cis-regulatory regions (blue boxes) identified by Serrano-Mislata et al. (2016) are shown relative to the *TFL1* gene model[@serrano_mislata_separate_2016] (black bars). The labelling of these regions follows the same conventions as the previous study. The pink shaded areas under the sequence conservation curves are regions above 70\ % sequence conservation. Genomic position upstream and downstream of the *AtTFL1* gene copies are given relative to the ATG and STOP codon sites respectively. *Continued on Page \pageref{figure:233:tfl1conservationlegend}*](figuredirectory/33_sequence_conservation_qpcr.pdf){#figure:233:tfl1conservation}
 
-Sequence conservation between the *BrTFL1* genes and *AtTFL1* was calculated in the 5' and 3' intergenic regions surrounding the genes and within the gene itself.
-Several conserved regions within the intergenic regions were identified (Figure \ref{fig:233:tfl1conservation}).
-Serrano-Mislata et al. (2016) identified seven regions of interspecies sequence conservation surrounding the *AtTFL1* gene (denoted by green letters in figure \ref{fig:233:tfl1conservation}) and five regions that were experimentally verified to be cis-regulatory elements (denoted by blue numerals in figure \ref{fig:233:tfl1conservation}).
-Focussing the analysis on the five experimentally verified cis-regulatory elements, I find differences in the extent of sequence conservation within these regions between the *BrTFL1* genes.
-The high sequence conservation in region II and IV of *BrTFL1.C3* and *BrTFL1.A10* suggests these two copies of the gene possess Arabidopsis-like cis-regulatory elements.
-Conversely, the lack of sequence conservation in these two regions in the *BrTFL1.C2* and *BrTFL1.Cnn.Random* copies suggests these copies are lacking such regulatory sequence.
-Maximal sequence conservation within region III is below 50% in the *BrTFL1.Cnn.Random* copy, while this value is above 70% for the other three copies (81%, 87%, and 78% for *BnaTFL1.A10*, *BnaTFL1.C2*, and *BnaTFL1.C3* respectively.
-Interestingly, the area of significant sequence conservation in *BnaTFL1.C2* (154 bases) and *BnaTFL1.A10* (162 bases) is decreased compared to that of *BnaTFL1.C3* (273 bases) copies, potentially suggesting the cis-regulatory elements in the former are incomplete.
-Considering regions identified as conserved across species by Serrano-Mislata et al. (2016), but not experimentally implicated in the regulatory control of *AtTFL1* (green shading in Figure \ref{fig:233:tfl1conservation}), we observe sequence divergence in region G.
-*BnaTFL1.A10* exhibits high sequence conservation relative to Arabidopsis across this entire region, while *BnaTFL1.C3* shows conservation over ~50% of the region.
-As with regions II and IV, *BnaTFL1.C2* and *BnaTFL1.Cnn.Random* lack conserved sequence in region G.
-We also identify a region of conservation not annotated in the previous analysis of *AtTFL1* cis-regulatory elements. This region, situated ~600 bp upstream of the transcription start site of *AtTFL1*, shows ~80% sequence conservation relative to Arabidopsis in *BnaTFL1.A10*, *BnaTFL1.C2* and *BnaTFL1.Cnn.Random*.
-In *BnaTFL1.C3*, sequence conservation in this newly identified region is ~55%.
+\addtocounter{figure}{-1}
+\begin{figure} [t!]
+\caption{\emph{Continued from Page \pageref{figure:233:tfl1conservation}} \textbf{b} The unnormalized expression profiles for the *BnTFL1* genes determined through RNA-Seq and qPCR. The expression values calculated for qPCR are normalized to \emph{GAPDH} with the error determined from two biological replicates (section TODO).}%missing
+\label{figure:233:tfl1conservationlegend}
+\end{figure}
+
+To investigate whether the *BnTFL1* genes in the Darmor-*bzh* reference genome exhibit sequence variation in the 5' and 3' intergenic regions surrounding the genes, sequence conservation between the genes and *TFL1* was calculated.
+Several conserved regions within the intergenic regions were identified (Figure \ref{figure:233:tfl1conservation}a).
+Serrano-Mislata et al. (2016) identified seven regions of interspecies sequence conservation surrounding the *TFL1* gene (denoted by green letters in figure \ref{figure:233:tfl1conservation}a) and five regions that were experimentally verified to be cis-regulatory elements (denoted by blue numerals in figure \ref{figure:233:tfl1conservation}a).
+Focussing the analysis on the five experimentally verified cis-regulatory elements, differences in the extent of sequence conservation within these regions are found between the *BnTFL1* genes.
+The high sequence conservation in region II and IV of *BnTFL1.C3* and *BnTFL1.A10* suggests these two copies of the gene possess Arabidopsis-like cis-regulatory elements.
+Conversely, the lack of sequence conservation in these two regions in the *BnTFL1.C2* and *BnTFL1.Cnn.Random* copies suggests these copies are lacking such regulatory sequence.
+Maximal sequence conservation within region III is below 50\ % in the *BnTFL1.Cnn.Random* copy, while this value is above 70\ % for the other three copies (81\ %, 87\ %, and 78\ % for *BnTFL1.A10*, *BnTFL1.C2*, and *BnTFL1.C3* respectively.
+Interestingly, the area of significant sequence conservation in *BnTFL1.C2* (154\ bases) and *BnTFL1.A10* (162\ bases) is decreased compared to that of *BnTFL1.C3* (273\ bases) copies, potentially suggesting the cis-regulatory elements in the former are incomplete.
+Considering regions identified as conserved across species by Serrano-Mislata et al. (2016), but not experimentally implicated in the regulatory control of *TFL1* (green shading in Figure \ref{figure:233:tfl1conservation}a), sequence divergence is observed in region G.
+*BnTFL1.A10* exhibits high sequence conservation relative to Arabidopsis across this entire region, while *BnTFL1.C3* shows conservation over ~50% of the region.
+As with regions II and IV, *BnTFL1.C2* and *BnTFL1.Cnn.Random* lack conserved sequence in region G.
+We also identify a region of conservation not annotated in the previous analysis of *AtTFL1* cis-regulatory elements. This region, situated ~600\ bp upstream of the transcription start site of *AtTFL1*, shows ~80\ % sequence conservation relative to Arabidopsis in *BnTFL1.A10*, *BnTFL1.C2* and *BnTFL1.Cnn.Random*.
+In *BnTFL1.C3*, sequence conservation in this newly identified region is ~55\ %.
+These findings reveal that the *BnTFL1* genes identified in the transcriptomic time series exhibit sequence variation within potential cis-regulatory regions downstream of the gene.
 
 #### Variation in cis-regulatory elements correlates with expression divergence {#section:spring:tfl1expdivergence}
 
-The experiments conducted to identify the regulatory effects of the cis-regulatory elements downstream of *AtTFL1* consisted of transgenic and mutational studies[@serrano_mislata_separate_2016].
-Insertion lines that disrupted cis-regulatory elements and transgenic lines transformed with reporter genes whose expression was driven by different combinations of the regulatory elements were used to dissect the role each element played in directing the correct spatiotemporal expression domain of *AtTFL1*.
-As certain *BnaTFL1* genes lacked the identified downstream regulatory elements, I compared the expression of *AtTFL1* in the mutant and transgenic lines of Serrano-Mislata et al. to the expression of the *BnaTFL1* genes during the developmental transition.
-The *BnaTFL1* genes that increase in expression during the floral transition (*BnaTFL1.C3* and *BnaTFL1.A10*) both show high sequence conservation in region II.
-Conversely, *BnaTFL1.C2* and *BnaTFL1.Cnn.Random* both lack sequence conservation in region II and are not unregulated during the floral transition.
-Region II was found to be necessary for the upregulation of *AtTFL1* during the floral transition in Arabidopsis[@serrano_mislata_separate_2016], which correlates with the expression traces of *BnaTFL1* genes during the developmental time series.
-Another region showing a similar presence-absence pattern between the *BnaTFL1* genes as region II is region IV.
-In Arabidopsis, this region corresponds to a cis-regulatory element responsible for driving the expression of *AtTLF1* in the inflorescence meristem.
-Potentially the presence or absence of this region also contributes to the expression differences observed between the *BnaTFL1* genes.
-Region III was found to be important for the expression of *AtTFL1* in the lateral meristems of the plant[@serrano_mislata_separate_2016].
-Sequence conservation within region III is below 50% for the *BnaTFL1.Cnn.Random* gene.
-This finding predicts that this particular copy, therefore, would not be expressed in the lateral meristems in *Brassica napus*.
+The experiments conducted to identify the regulatory effects of the cis-regulatory elements downstream of *TFL1* in Arabidopsis consisted of transgenic and mutational studies[@serrano_mislata_separate_2016].
+Insertion lines that disrupted cis-regulatory elements and transgenic lines transformed with reporter genes whose expression was driven by different combinations of the regulatory elements were used to dissect the role each element played in directing the correct spatiotemporal expression domain of *TFL1*.
+A prediction arising from the finding that certain *BnTFL1* genes seemingly lack these downstream regulatory elements would be that the regulatory divergence observed between the genes (Figure \ref{figure:232:tfl1apex}) is a consequence of variation in cis-regulatory elements.
+To test this, expression patterns of *TFL1* in the mutant and transgenic lines of Serrano-Mislata et al. were compared to the expression of the *BnTFL1* genes during the transcriptomic time series.
+The *BnTFL1* genes that increase in expression during the floral transition (*BnTFL1.C3* and *BnTFL1.A10*) both show high sequence conservation in region II.
+Conversely, *BnTFL1.C2* and *BnTFL1.Cnn.Random* both lack sequence conservation in region II and are not unregulated during the floral transition.
+Region II was found to be necessary for the upregulation of *TFL1* during the floral transition in Arabidopsis[@serrano_mislata_separate_2016], which correlates with the expression profiles of *BnTFL1* genes during the developmental time series.
+Another region showing a similar presence-absence pattern between the *BnTFL1* genes as region II is region IV.
+In Arabidopsis, this region corresponds to a cis-regulatory element responsible for driving the expression of *TLF1* in the inflorescence meristem[@serrano_mislata_separate_2016].
+Potentially the presence or absence of this region also contributes to the expression differences observed between the *BnTFL1* genes.
+Region III was found to be important for the expression of *TFL1* in the lateral meristems of the plant[@serrano_mislata_separate_2016].
+Sequence conservation within region III is below 50% for the *BnTFL1.Cnn.Random* gene.
+This finding predicts that this particular copy, therefore, would not be expressed in the lateral meristems in *B./ napus*.
 
-#### Quantitative PCR validation of *BnaTFL1* RNA-Seq expression levels {#section:spring:tfl1qpcr}
+#### Quantitative PCR validation of *BnTFL1* RNA-Seq expression levels {#section:spring:tfl1qpcr}
 
 The above observations of gene expression correlating with the presence and absence of cis-regulatory elements is dependent on the accuracy of the RNA-Seq results.
-Although findings presented in section \ref{section:spring:alignreadexplevel} suggest that spurious expression levels as a result of read mismapping is a rare occurrence (Figure \ref{figure:208:uniquefpkm}), I wished to measure expression of the *BnaTFL1* genes in a copy specific manner.
-To do this, quantitative PCR (qPCR) primers were designed in a copy specific manner for the four copies of *BnaTFL1*.
-The qPCR results obtained show strong similarity to the expression traces derived from the RNA-Seq data (Figure \ref{fig:233:tfl1conservation}).
-As the qPCR primers designed were copy specific, I can therefore be confident that the expression trace divergence between the *BnaTFL1* copies observed in the RNA-Seq data is not an artefact of read mismapping or incomplete gene models.
+Although findings presented in section \ref{section:spring:alignreadexplevel} suggest that spurious expression levels as a result of read mismapping are a rare occurrence (Figure \ref{figure:208:uniquefpkm}), the expression profiles of the *BnTFL1* genes were confirmed in a copy specific manner.
+Quantitative PCR (qPCR) primers were designed to be specific to each of the four copies of *BnTFL1*, and qPCR performed (section TODO).
+The qPCR results obtained show strong similarity to the expression profiles derived from the RNA-Seq data (Figure \ref{figure:233:tfl1conservation}b).
+As the qPCR primers designed were copy specific, this suggests that the expression profile divergence observed for *BnTFL1* genes in the RNA-Seq data is not an artefact of read mismapping or incomplete gene models.
+
+Taken together this reveals that the presence and absence of cis-regulatory elements downstream of the *BnTFL1* genes may confer similar regulatory control in *B.\ anpus* as in Arabidopsis.
+*BnTFL1* genes contain different combinations of cis-regulatory elements, which have the potential to underlie the divergent expression profiles they exhibit. 
 
 ### *FD* dimerization {#section:spring:fdprotein}
 
-Dimerization as a mechanism of control within protein mediated signalling pathways has been discussed and reported for many years.
-In the case of DNA binding proteins, dimerization may have a number of effects.
-Monomers can have different DNA binding preferences, such that a heterodimer of two different monomers would bind to a different DNA recognition sequence than either homodimer.
-The production of non-functional transcription factor monomers, such as monomers without DNA-binding domains, may sequester functional monomers and alter the expression of the targets of the transcription factor.
-Finally, monomers may alter the composition of the protein complex recruited to the DNA through variation in protein-protein interaction domains.
-Transcription factor dimerization as a method of modulating gene expression has been reported previously.
-In mouse, it was found that the helix-loop-helix (HLH) protein Id formed protein-protein interactions with three other HLH proteins (MyoD, E12, and E47) and that the heterodimers involving Id were compromised in their ability to bind to the DNA recognition sequences[@benezra_protein_1990].
-In flower development, the ABCE model proposes that the composition of the protein tetramers directs the formation of different floral structures[@krizek_molecular_2005].
-Finally, *BROTHER OF FT AND TFL1* (*BFT*) produces a protein that competes with FT for binding to FD, and this cometition mediates the delay in flowering that salt stress induces[@ryu_arabidopsis_2014].
-These examples illustrate that regulating the composition of a protein complex that in turn influences gene expression for strict control of transcriptional programs.
+![**Structure of a bZIP transcription factor.** Ribbon diagram of the cAMP responsive element-binding protein bound to DNA. The leucine zipper region (purple) mediates the dimerization of the two monomers. The basic region (green) interacts with the major groove of DNA (black). Figure modified from Schumacher et al. (2000)[@schumacher_structure_2000]](figuredirectory/bzip.pdf){#figure:2xx:bzip}
 
-The function of the *FD* gene in Arabidopsis has been discussed previously in section \ref{section:spring:fd}.
-The FD protein is a bZIP transcription factor that interacts with both FT TFL1 proteins to mediate their association with DNA[@abe_fd_2005; @jaeger_interlocking_2013].
-FD protein contains a basic region leucine zipper (bZIP) domain, making it a member of the bZIP transcription factors.
-This family of transcription factors form dimers that are mediated by a coiled-coil structure of two $\alpha$-helicies.
-The interaction domain between the two helicies is hydrophobic as a result of the presence of the amino acid leucine, which gives the dimerization domain its name.
-In addition to the hydrophobic core of the interaction interface, charged amino acid residues adjacent to the core influence the dimerization affinity.
-In the case of Fos and Jun, two proteins from humans, the dimerization of the two proteins is essential to their function.
-Jun is able to form functional homodimers, whereas Fos requires the formation of heterodimers with Jun in order to bind to DNA.
-In depth protein interaction studies determined that the interaction of Fos and Jun was controlled through the interactions between the charged residues adjacent to the the hydrophobic core of the interaction domain; with Fos homodimers being considerably less favourable than the Jun homodimer or the heterodimer of the two proteins[@john_two_1994].
-Transcription factors that have bZIP domains bind DNA via a basic region that consists of an $\alpha$-helix that interacts with the major groove of DNA.
-Of the six copies of *BnaFD* that are expressed in the apex in *Brassica napus*, five of them share similar expression traces (Figure \ref{figure:230:fdapex}).
-As these genes are coregulated, it is likely that their protein products are present in the cell at the same time, and would have the potential to interact to form dimers.
-To determine whether dimerization of different FD proteins could potentially be used as a regulatory mechanism, dimerization affinities between the six copies of *BnaFD* were predicted.
-Differential binding affinities were detected, with certain dimers being more favourable than others.
-The regulatory ramifications of this represent a mechanism by which the multiple copies of *BnaFD* have been maintained in the *Brassica napus* genome.
-It also highlights that although genes may exhibit similar expression patterns, that does not indicate they are acting redundantly in the plant.
+The FD protein is a transcription factor that interacts with both FT and TFL1 proteins to mediate their association with DNA[@abe_fd_2005; @jaeger_interlocking_2013].
+The FD protein contains a basic region leucine zipper (bZIP) domain, making it a member of the bZIP transcription factor family[@abe_fd_2005].
+This family of transcription factors interact with DNA as dimers (Figure \ref{figure:2xx:bzip})[@miller_importance_2009; @ellenberger_getting_1994; @busch_dimers_1990].
+The structure of bZIP transcription factors consists of a basic region that interacts with the major groove of DNA and mediates the binding of the protein to transcription factor binding sites[@busch_dimers_1990; @miller_importance_2009].
+The dimerization of bZIP monomers is mediated by a coiled-coil structure of two $\alpha$-helicies known as the leucine zipper[@landschulz_dna_1989].
+The coiled-coil structure is stabilized by hydrophobic amino acid side chains, such as that of leucine, that form a hydrophobic core to the structure.
+In addition to the hydrophobic core of the interaction interface, charged amino acid residues adjacent to the core influence the binding of monomers through electrostatic interactions[@john_two_1994; @miller_importance_2009].
+bZIP transcription factors are able to form homodimers, a dimer made from two copies of the same monomer, or heterodimers, where the two monomers are different[@amoutzias_choose_2008].
+Indeed, the dimers formed may influence the genes that will be targeted by the transcription factor, with dimerization acting as a key regulatory mechanism[@klemm_dimerization_1998, @amoutzias_choose_2008].
+Changing dimerization and DNA-binding specificity has been found to be important in the evolution of bZIP transcription factor function[@amoutzias_one_2007].
 
-#### Protein sequence divergence exists between the six *BnaFD* copies {#section:spring:bnafddivergence}
+Five of the six copies of *BnFD* expressed in the apex in *B.\ napus* share similar expression profiles (Figure \ref{figure:230:fdapex}).
+As a result, it is likely that their protein products are present in the cell at the same time, and would have the potential to interact to form dimers.
+To determine whether the BnFD proteins are capable of dimerizing, the protein sequences were compared.
+Between homologue differences in the protein sequence were identified between BnFD proteins, with a number of polymorphic sites identified within the bZIP domain.
+Amino acid differences observed in the basic region have the potential to influence DNA binding, while differences in the leucine zipper region are predicted to influence the dimerization affinities of the BnFD proteins.
+The amino acid divergence observed within the leucine zipper region was also found in bZIP proteins of other species, suggesting that this form of divergence is frequently observed among bZIP proteins.
+Computational modelling of monomer dimerization suggests that the differences in dimerization affinity could represent an interesting regulatory mechanism.
 
-![**Multiple sequence alignment of the Arabidopsis and BnaFD proteins** The indicated regions of the protein are defined as in Tsuiji et al. (2013)[@tsuji_functional_2013]. The heptad structure of the leucine zipper region is displayed below the alignment with the coil interior amino acids and amino acids which are capable of forming electrostatic interactions shaded grey and black respectively.](figuredirectory/34_brassica_sequence_alignment.pdf){#figure:234:brassicasequence}
+#### Protein sequence divergence exists between the six *BnFD* copies {#section:spring:bnafddivergence}
 
-In order to assess the extent of amino acid divergence between six copies of *BnaFD*, their predicted protein sequences were determined and aligned (Figure \ref{figure:234:brassicasequence}).
+![**Multiple sequence alignment of the Arabidopsis and BnFD proteins** The indicated regions of the protein are defined as in Tsuiji et al. (2013)[@tsuji_functional_2013]. Between copy variation is observed in the A, BASIC, LEUCINE ZIPPER, and SAP regions. The heptad structure of the $\alpha$-helix that makes up the leucine zipper region is displayed below the alignment. Amino acid residues located in the hydrophobic core are residues `a` and `d` (black). Amino acid residues capable of forming electrostatic interactions are in positions `e` and `g` (grey), with between copy variation visible in these positions.](figuredirectory/34_brassica_sequence_alignment.pdf){#figure:234:brassicasequence}
+
+In order to assess the extent of amino acid divergence between the six copies of *BnFD*, their predicted protein sequences were determined and aligned (Figure \ref{figure:234:brassicasequence}).
 To identify polymorphisms likely to affect the molecular function of the protein, the results of a comparative study of FD-like genes from many species were used[@tsuji_functional_2013].
-The Arabidopsis FD protein was found to have four conserved regions: the A region, the LSL region, the bZIP region (composed of the basic region and a leucine zipper region) and the SAP region.
-Looking at the same regions in *Brassica napus* (Figure \ref{figure:234:brassicasequence}) identifies a number of amino acid changes and deletions in the A region, with four different forms of the region present in the six BnaFD proteins.
-Comparing the BnaFD proteins to the AtFD protein reveals that, in the A region, BnaFD.A8 and BnaFD.C3 show the greatest amino acid sequence similarity to the AtFD protein, with only a single amino acid change present.
+The Arabidopsis FD protein was found to have four conserved regions: the A region, the LSL region, the bZIP region (composed of the basic region and a leucine zipper region) and the SAP region[@tsuji_functional_2013].
+Focussing on the same regions in *B.\ napus* (Figure \ref{figure:234:brassicasequence}) identifies a number of amino acid changes and deletions in the A region, with four different forms of the region present in the six BnFD proteins.
+Comparing the BnFD proteins to the Arabidopsis FD protein reveals that, in the A region, BnFD.A8 and BnFD.C3 show the greatest amino acid sequence similarity to the Arabidopsis FD protein, with only a single amino acid change present.
 
-The LSL region displays no amino acid variation within the *Brassica napus* FD proteins or between species.
+The LSL region displays no amino acid variation within the *B.\ napus* FD proteins or between species.
 This is consistent with the findings of Tsuji et al. (2013), who suggested that the LSL region was indicative of FD-like proteins that played a role in the floral pathway[@tsuji_functional_2013].
 
-In the SAP region, there are again a number of amino acid changes between the different copies of the *BnaFD* genes (Figure \ref{figure:234:brassicasequence}).
+In the SAP region, there are again a number of amino acid changes between the BnFD proteins (Figure \ref{figure:234:brassicasequence}).
 Of note is the amino acid polymorphism at position 287 between a theonine and serine.
-This position in *Arabidopsis thaliana* becomes phosphorylated and is important for the binding of FD to the protein FT in Arabidopsis as mutation of the threonine to an alanine disrupts complex formation[@abe_fd_2005].
-Changing the threonine to a serine was found to not affect FD binding to FT in Arabidopsis, although potentially different kinases are responsible for the phosphorylation of the different residues.
+This position in Arabidopsis becomes phosphorylated and is important for the binding of FD to the protein FT in Arabidopsis, as mutation of the threonine to an alanine disrupts complex formation[@abe_fd_2005].
+Changing the threonine to a serine was found to not affect FD binding to FT in Arabidopsis, although potentially different kinases are responsible for the phosphorylation of the different residues[@abe_fd_2005].
 
-Finally, there are a number of amino acid changes within the bZIP region, in both the DNA binding basic region and the leucine zipper region that is the dimerization interface between FD monomers.
-To confirm that the polymorphisms observed in this important protein domain are present in the spring variety used for the developmental time series, copy specific primers were designed to amplify the bZIP domain of each of the six *BnFD* genes.
-Sanger sequencing was able to confirm that the polymorphisms found in the Darmor-*bzh* reference genome are also present in Westar, the spring variety that was used to generate the developmental transcriptome.
-As the effects these amino acid changes have on the function of bZIP transcription factors is better understood, these changes will be discussed in more detail in later sections.
-
-There are many amino acid changes identified both within the copies of *BnFD* and between the copies and *AtFD*.
-A number of polymorphisms occur within the regions identified as being conserved within FD-like proteins, and these are good candidates for potentially affecting the function of the proteins.
-While there are other polymorphisms outside of these conserved regions, there is currently no reported evidence to suggest that any of these other polymorphisms are having a functional effect on the proteins.
-Indeed, besides the bZIP transcription factor, the roles the identified conserved regions play in the function of FD are also yet to be fully determined.
+Finally, there are a number of amino acid changes within the bZIP region, in both the basic region and the leucine zipper region.
+To confirm that the polymorphisms observed in this protein domain are present in the spring variety, Westar, copy specific primers were designed to amplify the bZIP domain of each of the six *BnFD* genes (section TODO).
+Sanger sequencing was able to confirm that the polymorphisms found in the Darmor-*bzh* reference genome are present in Westar.
 
 #### Polymorphisms in the DNA binding interface have the potential to affect binding affinities {#section:spring:fddnabinding}
 
-![**Protein structure of the BnaFD proteins complexed with DNA** The protein structure of the CREB protein from REF was mutated to match the amino acids which are present in the BnFD proteins. The green dashed lines indicate hydrogen bonding between atoms. The colour scheme for atoms is as follows: white (carbon), dark blue (nitrogen), yellow (phosphorus), red (oxygen) and light blue (hydrogen).](figuredirectory/35_protein_structure.pdf){#figure:235:proteinstructure}
+![**Protein structure of the BnFD proteins complexed with DNA reveal different hydrogren bonding.** The protein structure of the CREB protein (PDB ID: 1DH3) from Schumacher et al. (2000)[@schumacher_structure_2000] was changed to match the amino acids present in the basic region of BnFD proteins. The green dashed lines indicate hydrogen bonding between atoms. The colour scheme for atoms is as follows: white (carbon), dark blue (nitrogen), yellow (phosphorus), red (oxygen), and light blue (hydrogen). Similar hydrogen bonding is observed between the Arabidopsis FD protein, BnFD.A1, BnFD.C1, BnFD.A8, BnFD.C7, and BnFD.Ann.Random. The BnFD.C3.Random protein is predicted to lose hydrogren bonding with the circled oxygen atom TODO of the DNA.](figuredirectory/35_protein_structure.pdf){#figure:235:proteinstructure}
 
 The basic region of bZIP transcription factors forms hydrogen bonds within the major groove of DNA and consists of the protein-DNA interaction interface.
-Within this region of the BnFD proteins, there are two positions that exhibit between copy polymorphisms; positions 222 and 223 (Figure \ref{figure:234:brassicasequence}).
-To investigate the potential effects of these mutations on the DNA binding properties of BnFD, an available crystal structure of a bZIP transcription factor bound to DNA was used.
-The crystal structure of the mammalian cAMP responsive element-binding protein (CREB) bZIP transcription factor bound to DNA revealed that position 222 is important as the amino acid side chain forms a hydrogen bond with the DNA backbone (@schumacher_structure_2000).
+To investigate whether the amino acid differences observed in the basic region of the BnFD proteins could impact DNA binding, predicted hydrogen bonding was analysed.
+Within the basic region the BnFD proteins there are two positions that exhibit between copy differences; positions 222 and 223 (Figure \ref{figure:234:brassicasequence}).
+To investigate the potential effects of these mutations on the DNA binding properties of BnFD, an available crystal structure of a bZIP transcription factor bound to DNA was used (PDB ID: 1DH3; section TODO)[@schumacher_structure_2000].
+The crystal structure of the mammalian cAMP responsive element-binding protein (CREB) bZIP transcription factor bound to DNA revealed that the arginine in position 222 is important as the amino acid side chain forms a hydrogen bond with the DNA backbone[@schumacher_structure_2000].
 Mapping the amino acids in the basic region from the BnFD proteins onto the crystal structure of the CREB transcription factor revealed that changing the amino acid in position 222 from an arginine to a histidine disrupts hydrogen bond formation between the protein and the DNA (Figure \ref{figure:235:proteinstructure}).
-Having a histidine or an asparagine in the 223 position does not seem to affect the hydrogen bonding in the $\alpha$-helix or between the protein and DNA.
-Therefore, the amino acid polymorphisms present in the basic region of BnFD proteins potentially affects the DNA binding affinity of the monomers.
+Whether a histidine or an asparagine is present in position 223 does not seem to affect the hydrogen bonding in the $\alpha$-helix or between the protein and DNA (Figure \ref{figure:235:proteinstructure}).
+Therefore, the amino acid polymorphisms present in the basic region of BnFD proteins potentially affects the DNA binding affinity of the monomers, but only for the BnFD.C3.Random protein.
 
-#### Amino acid differences in the leucine zipper region of BnaFD proteins is predicted to alter dimerization affinity {#section:spring:fddimerizationprediction}
+#### Amino acid differences in the leucine zipper region of BnFD proteins is predicted to alter dimerization affinity {#section:spring:fddimerizationprediction}
 
-![**Helical wheel representation of the homodimers and heterodimer possible with the *Brassica napus* genes XLOC_037807 and XLOC_061874** The blue coloured amino acids have positively charged side chains, the red coloured animo acids have negatively charged side chains and the orange amino acids have polar side chains. The blue and red dotted lines between helical wheels indicate attractive and repulsive electrostatic charges between the two helicies respectively.](figuredirectory/36_helical_wheels.pdf){#figure:236:helicalwheels}
+![**Amino acid differences in the leucine zipper region result in differently charged amino acids in the `e` and `g` heptad positions.** The amino acid sequence for the Arabidopsis FD protein and the six *B.\ napus* proteins are displayed. **a** Amino acids are coloured based on their residue type. **b** Amino acids are coloured based on their charge. Blue coloured amino acids have positively charged side chains while the red coloured amino acids have negatively charged side chains.](figuredirectory/brassica_zipper_alignment_with_charges.pdf){#figure:236a:leucinezipper}
 
-Considerable amino acid differences between the BnFD proteins occur in the leucine zipper region.
-To determine whether these differences have the potential to alter the dimerization affinity of the proteins, the amino acid polymorphisms were assessed in the context of the coiled-coil dimerization interface (Figure \ref{figure:236:helicalwheels}).
-Previous studies of bZIP transcription factors have revealed that amino acid residues in the `e` and `g` positions of the heptad of the $\alpha$-helix are important in the determination of dimerization specificity[@ellenberger_getting_1994; @john_two_1994].
-Specifically, when the proteins form a coiled-coil structure, the side chain of an amino acid in the `e` position on one $\alpha$-helix is able to form electrostatic bonds with the side chain of an amino acid in the `g` position on the other $\alpha$-helix.
-This is illustrated in the helical wheel representations in Figure \ref{figure:236:helicalwheels} that represent the positions of amino acids in the coiled-coil.
-An example of this, using the positions in Figure \ref{figure:235:proteinstructure} as a reference, is residue 250 (in the `g` position of the heptad) has the capacity to form electrostatic interactions with residue 255 (in the `e` position of the heptad) when in the coiled-coil arrangement.
-Therefore, the charge these residues carry is a factor which determines the dimerization energy between bZIP proteins.
-Positions 250, 255, 262 and 271 are all in either the `e` or `g` positions of the heptads and show amino acid polymorphisms which alter the charge of the amino acid side chains.
-The effect this has on the predicted electrostatic interactions is illustrated in Figure \ref{figure:236:helicalwheels}.
-The BnFD.C1 homodimer and the BnFD.C1-BnFD.C7 heterodimer are both predicted to have attractive electrostatic interactions between the two monomers, while a repulsive force is predicted for the BnFD.C7 homodimer (Figure \ref{figure:236:helicalwheels}).
-These polymorphisms suggest that certain dimer combinations of the BnaFD proteins will be more favoured than others.
+![**Helical wheel representation of the homodimers and heterodimer possible with the *Brassica napus* genes BnFD.C1 and BnFD.C7 proteins.** The coiled-coil structures of the leucine zippers are represented as helical wheels. Amino acids in the seven position of the $\alpha$-helix are displayed, with the columns of amino acids representing the amino acids the entire length of the coiled coil. The blue coloured amino acids have positively charged side chains, the red coloured animo acids have negatively charged side chains, and the orange amino acids have polar side chains. The blue and red dotted lines between helical wheels indicate attractive and repulsive electrostatic charges between the two helicies respectively. The helical wheels demonstrate that attractive forces are predicted to form between the BnFD.C1 homodimer and the BnFD.C1-BnFD.C7 heterodimer, while a repulsive force is present in the BnFD.C7 homodimer.](figuredirectory/36_helical_wheels.pdf){#figure:236b:helicalwheels}
 
-![**Heatmap of the dimerization affinity scores computed between BnaFD leucine zipper regions** The machine learning algorithm discussed in the main text was used to score the dimerization affinity of the leucine zipper regions of the proteins. Higher scoring dimers are dimers more likely to have dimerization energies that are favourable. The leucine zipper regions used for the analysis correspond to the region indicated in Figure \ref{figure:234:brassicasequence}](figuredirectory/37_fd_dimer_heatmap.pdf){#figure:237:bnafdheatmap}
+Several amino acid differences between the BnFD proteins occur in the leucine zipper region (Figure \ref{figure:236a:leucinezipper}a).
+To determine whether these differences have the potential to alter the dimerization affinity of the proteins, the amino acid polymorphisms were assessed in the context of the coiled-coil dimerization interface (Figure \ref{figure:236b:helicalwheels}).
+Previous studies of bZIP transcription factors have revealed that amino acid residues in the `e` and `g` positions of the $\alpha$-helix heptad are important in the determination of dimerization specificity[@ellenberger_getting_1994; @john_two_1994].
+Specifically, when the proteins form a coiled-coil structure, the side chain of an amino acid in the `e` position on one $\alpha$-helix is able to form electrostatic bonds with the side chain of an amino acid in the `g` position on the other $\alpha$-helix (Figure \ref{figure:236b:helicalwheels}).
+This is illustrated in the helical wheel representations in Figure \ref{figure:236b:helicalwheels}, that represent the positions of amino acids in the coiled-coil.
+An example of this is residue 250 (in the `g` position of the heptad) which has the capacity to form electrostatic interactions with residue 255 (in the `e` position of the heptad; Figure \ref{figure:236a:leucinezipper}a) due to their opposing charges.
+Therefore, the charge these residues carry is a factor which determines the dimerization affinity between bZIP proteins.
+Positions 250, 255, 262 and 271 are all in either the `e` or `g` positions of the heptads and show amino acid polymorphisms which alter the charge of the amino acid side chains (Figure \ref{figure:236a:leucinezipper}b).
+The effect this has on the predicted electrostatic interactions is illustrated in Figure \ref{figure:236b:helicalwheels}.
+The BnFD.C1 homodimer and the BnFD.C1-BnFD.C7 heterodimer are both predicted to have attractive electrostatic interactions between the two monomers, while a repulsive force is predicted for the BnFD.C7 homodimer (Figure \ref{figure:236b:helicalwheels}).
+These polymorphisms suggest that certain dimer combinations of the BnFD proteins will be more favoured than others.
+
+![**Heatmap of the dimerization affinity scores computed between BnFD leucine zipper regions.** The machine learning algorithm developed by Potapov et al. (2015)[@potapov_data_driven_2015] was used to score the dimerization affinity of the leucine zipper regions of the possible BnFD dimers. Higher scoring dimers are more likely to form than lower scoring dimers. The leucine zipper regions used for the analysis correspond to the region indicated in Figure \ref{figure:236a:leucinezipper}a. The heatmap reveals that certain BnFD dimers are predicted to be more likely to occur than others.](figuredirectory/37_fd_dimer_heatmap.pdf){#figure:237:bnafdheatmap}
 
 The sequence analysis suggests that the amino acid polymorphisms observed in the `e` and `g` positions of the heptad may affect the dimerization affinity of the proteins.
-To investigate this in a more quantitative manner, a previously published machine learning algorithm[@potapov_data_driven_2015] was used to score the potential interaction affinity of pairs of proteins (Figure \ref{figure:237:bnafdheatmap}).
-The interaction scores range from a minimum of 4.3 to a maximum of 7.2, with the higher interaction scores indicating a higher predicted affinity.
+To investigate this in a more quantitative manner, a published machine learning algorithm[@potapov_data_driven_2015] was used to score the potential interaction affinity of pairs of BnFD monomers (Figure \ref{figure:237:bnafdheatmap}).
+The interaction scores between the BnFD monomers range from 4.3 to 7.2, with the higher interaction scores indicating a higher likelihood of interaction.
 To put these scores into context, the dimerization of the bZIP transcription factors Fos and Jun have been extensively studied in terms of their dimerization affinity[@john_two_1994].
-In particular, the Fos-Jun heterodimer is more thermally stable than either the Fos or the Jun homodimer, with the Fos homodimer being particularly unfavourable.
-Using the machine learning scoring algorithm of Keating et al. (2015), Fos homodimers score 6.2, Jun homodimers score 6.3 and Fos-Jun heterodimers score 8.8.
-The score range for Fos and Jun dimers is 2.6, a similar range as that observed for the BnaFD proteins.
+It has been shown that the Fos-Jun heterodimer is more thermally stable than either the Fos homodimer or the Jun homodimer, with the Fos homodimer being particularly unfavourable[@john_two_1994].
+Using the machine learning scoring algorithm of Potapov et al. (2015)[@potapov_data_driven_2015], Fos homodimers score 6.2, Jun homodimers score 6.3 and Fos-Jun heterodimers score 8.8.
+The score range for Fos and Jun dimers is 2.6, a similar range as that observed for the BnFD proteins.
 Therefore, the differences in interactions scores observed between the BnFD proteins are large enough to suggest a functional effect.
-The heatmap of these interaction scores (Figure \ref{figure:237:bnafdheatmap}) illustrates that the six BnaFD genes fall into three interaction groups.
+The interaction scores group the six BnFD genes into three interaction groups (Figure \ref{figure:237:bnafdheatmap}).
 BnFD.C1 and BnFD.A1 form a group which have a higher affinity for forming dimers between themselves than with the remaining four proteins.
-BnFD.A8 and BnFD.C3.Random have a mild affinity to form dimers between themselves, but have a higher affinity to form dimers with both BnFD.C1 and BnFD.A1.
-Finally, BnFD.Ann.Random and BnFD.C7 have the lowest affinity to form dimers between themselves relative to the other dimers tested, and have the highest affinity to form dimers with both BnFD.C1 and BnFD.A1.
+BnFD.A8 and BnFD.C3.Random are more likely to form dimers with both BnFD.C1 and BnFD.A1 rather than themselves.
+Finally, BnFD.Ann.Random and BnFD.C7 have the lowest likelihood to form dimers between themselves relative to the other dimers tested, and have the highest likelihood to form dimers with both BnFD.C1 and BnFD.A1.
 The machine learning approach predicts that the six copies of BnFD have variation in their dimerization affinities, with four of the six copies predicted to form more stable heterodimers than homodimers.
 The range of interaction scores predicted for the BnFD proteins is similar in size to the range of interaction scores predicted for the Fos and Jun proteins, suggesting that the predicted differences have the potential to be biologically relevant.
 
-#### bZIP transcription factors in other organisms reveal that charge influencing amino acid polymorphisms in the `e` and `g` heptad positions are observed in other species
+#### Changes in dimerization affinities may be a common way of bZIP proteins diverging
 
-![**Multiple sequence alignment of the leucine zipper region of *AtFD* orthologues in *Glycine max*, *Musa acuminata subsp. malaccensis*, and *Medicago truncatula*.** The heptad positions are indicated below the alignments as in Figure \ref{figure:234:brassicasequence}. A heatmap of the predicted interaction scores for the *Musa acuminata* orthologues is also displayed. The numbers correspond to the following gene models: GLYMA02G05100.1 - 1.1; GLYMA04G02420.1 - 1.2; GLYMA06G02470.2 - 1.3; GSMUA_Achr4P05090_001 - 2.1; GSMUA_Achr9P21040_001 - 2.2; GSMUA_Achr2P03490_001 - 2.3; GSMUA_Achr5P11220_001 - 2.4; GSMUA_Achr5P11470_001 - 2.5; GSMUA_Achr5P17850_001 - 2.6; GSMUA_Achr4P29580_001 - 2.7; GSMUA_Achr2P11200_001 - 2.8; AET03736 - 3.1; KEH21752 - 3.2; AES95190 - 3.3.](figuredirectory/38_ensembl_with_heatmap.pdf){#figure:238:ensembl}
+![**Multiple sequence alignment of the leucine zipper region of Arabidopsis *FD* orthologues in *Glycine max*, *Musa acuminata subsp. malaccensis*, and *Medicago truncatula*.** Amino acids are coloured based on their residue type. Several amino acid differences resulting in side chain charge differences are observed in the `e` and `g` heptad positions. The effect these changes have on the interaction scores calculated using the method of Potapov et al. (2015)[@potapov_data_driven_2015] are displayed as a heatmap for the *M.\ acuminata* orthologues. The gene names are displayed in Table TODO.](figuredirectory/38_ensembl_with_heatmap.pdf){#figure:238:ensembl}
 
-![**Multiple sequence alignment of the leucine zipper regions of the proteins with highest amino acid similarity to AtFD from the *Zea mays* and *Triticum aestivum* proteomes.** The *Zea mays* proteins plotted were chosen by selecting the *Zea mays* protein with the highest sequence similarity to the AtFD protein and then including the paralogues of the gene as identified in the Ensembl Plants database. The *Triticum aestivum* proteins were identified in the same way, except that in addition to the paralogues, the homeologues of all proteins were also included. TRAES3BF001900070CFD_g - 1.0; Traes_3AL_58F294736 - 1.1; Traes_3DL_20ED2EA4C - 1.2; Traes_1BL_DE2CF9613 - 2.0; Traes_1AL_1FFBFB058 - 2.1; Traes_1DL_D9BA83221 - 2.2; Traes_5BL_DE53199D3 - 3.0; TRAES3BF099600130CFD_g - 4.0; TRAES3BF111600130CFD_g - 5.0; TRAES3BF099600200CFD_g - 6.0; TRAES3BF111600160CFD_g - 7.0; Traes_3AL_FC5523394 - 7.1; TRAES3BF111600080CFD_g - 8.0; TRAES3BF019000220CFD_g - 9.0; Traes_5BL_FB4EDEA83 - 10.0; Traes_5DL_73CE92096 - 10.1; Traes_2BS_84FB90D88 - 11.0; Traes_4BL_4C9A415F3 - 12.0; Traes_4DL_F38ED7FB6 - 12.1; Traes_4AS_F9C171219 - 12.2; GRMZM2G161009 - 1.0; GRMZM2G033413 - 1.1; GRMZM2G008166 - 1.2; GRMZM2G157722 - 1.3; GRMZM2G002075 - 1.4; GRMZM2G168079 - 1.5; GRMZM2G132868 - 1.6; GRMZM5G858197 - 1.7; GRMZM2G438293 - 1.8; GRMZM2G159134 - 1.9.](figuredirectory/39_brassica_wheat_maize_fd.pdf){#figure:239:wheatmaizefd}
+![**Multiple sequence alignment of the leucine zipper regions of the proteins with highest amino acid similarity to Arabidopsis FD from the *Zea mays* and *Triticum aestivum* proteomes.** Amino acids are coloured based on their residue type. Several amino acid differences resulting in side chain charge differences are observed in the `e` and `g` heptad positions. The effect these changes have on the interaction scores calculated using the method of Potapov et al. (2015)[@potapov_data_driven_2015] are displayed as heatmaps. The *Z. mays* proteins plotted were chosen by selecting the *Z. mays* protein with the highest sequence similarity to the AtFD protein and then including the paralogues of the gene as identified in the EnsemblPlants database[@kersey_ensembl_2016]. The *T. aestivum* proteins were identified in the same way, except that in addition to the paralogues, the homoeologues of all proteins were also included. The gene names are displayed in Table TODO.](figuredirectory/39_brassica_wheat_maize_fd.pdf){#figure:239:wheatmaizefd}
 
-To investigate whether polymorphisms influencing dimerization affinity were a common occurrence in organisms where gene multiplication events have occurred, sequences of *FD* orthologues identified in the Ensembl Plants database were aligned.
-Only those species containing multiple *FD* orthologues in the genome are displayed in Figure \ref{figure:238:ensembl}.
-Looking at the leucine-zipper region identifies similar charge influencing polymorphisms in the `e` and `g` heptad positions between the genes within a species.
-Charge influencing polymorphisms in the `e` and `g` heptad positions are present in *Glycine max* at positions 360, 362 and 381, *Musa acuminata* at positions 362, 367, 374 and 376 and *Medicago truncatula* at positions 360, 362, 367 and 381.
+To investigate whether polymorphisms influencing dimerization affinity were a common occurrence in organisms where gene multiplication events have occurred, sequences of *FD* orthologues identified in the EnsemblPlants database[@kersey_ensembl_2016] were aligned.
+Only those species containing multiple Arabidopsis *FD* orthologues in the genome are displayed in Figure \ref{figure:238:ensembl}.
+Focussing on the leucine zipper regions of these proteins reveals similar charge influencing polymorphisms in the `e` and `g` heptad positions between the genes within a species.
+Charge influencing polymorphisms in the `e` and `g` heptad positions are present in the *Glycine max* orthologues at positions 360, 362 and 381, *Musa acuminata* at positions 362, 367, 374 and 376 and *Medicago truncatula* at positions 360, 362, 367 and 381.
 Likewise, *Zea mays* and *Triticum aestivum* proteins with high sequence similarity to Arabidopsis *FD* also exhibit polymorphisms in the `e` and `g` heptad positions that alter the charge of the amino acid side chain.
 The machine learning algorithm[@potapov_data_driven_2015] predicts considerable variation in the dimerization affinity for the identified FD-like proteins, with the range of scores being similar to the range identified for the BnFD proteins.
-These findings suggest that changes to the dimerization affinity of bZIP transcription factors play a considerable role in their evolution following gene multiplication in many a number of species.
+These findings suggest that variation in dimerization affinities between duplicated bZIP proteins is frequently observed in different plant species.
 
-#### Computational modelling reveals that the modulation of dimerization affinity for dimerizing transcription factors...
+#### Variation in dimerization affinity influences the proportions of hetero- and homodimers expected at steady state
 
-![**Results of modelling the two monomer dimerization system.** Each column of graphs are the result of running the simulation with a certain `bb` homodimer production rate, either 0.5, 4.0, or 7.0. The x-axis corresponds to changing the `ab` heterodimer production rate. To generate these results the system of equations were modelled as ordinary differential equations and empirically solved. The concentrations plotted are the concentrations reached when the system reached a steady state.](figuredirectory/40_fd_dimerization.pdf){#figure:240:dimerizationmodelling}
+![**Dimerization affinity differences influence the dimer population expected at steady state.** The steady state concentrations of monomers and dimers are displayed. The simulation was run with different `bb` homodimer production rate, either 0.5 (**a**), 4.0 (**b**), or 7.0 (**c**), and was started with equal concentrations of each monomer. The x-axis corresponds to the `ab` heterodimer production rate. To generate these results the system of equations were modelled as ordinary differential equations and numerically solved. The concentrations plotted are steady state concentrations of the system. The simulations reveal that as the dimerization affinity of the `bb` dimer decreases, the relative concentrations of the `ab` heterodimer and `b` monomer at steady state increase.](figuredirectory/40_fd_dimerization.pdf){#figure:240:dimerizationmodelling}
 
 \ch{a + a <=>[7][1] aa}
 
@@ -198,39 +195,41 @@ These findings suggest that changes to the dimerization affinity of bZIP transcr
 
 \ch{b + b <=>[0.5/4/7][1] bb}
 
-To test some of the regulatory repercussions of altered dimerization, a system of ordinary differential equations were used to model a system of dimerization reactions.
-Two different monomer types were modelled, with the monomers able to form homodimers and a heterodimer.
-To test how the behaviour of the system depends on the dimerization affinities, three different reaction rates for the homodimerization of the `b` species were tested; 0.5, 4.0 and 7.0.
-For each of these rates, the heterodimerization rate for the monomers was varied and the steady state concentrations of the various species calculated (Figure \ref{figure:240:dimerizationmodelling}).
+To test potential regulatory repercussions of altered dimerization, a system of ordinary differential equations was used to model the dimerization reactions.
+Two different monomer types, `a` and `b`, were modelled, with the monomers able to form homodimers (`aa` and `bb`) and a heterodimer (`ab`).
+To investigate how the behaviour of the system depends on the dimerization affinities, three different reaction rates for the homodimerization of the `b` species were tested; 0.5, 4.0 and 7.0.
+For each of these rates, the heterodimerization rate for the monomers was varied and the steady state concentrations of the various species calculated.
+Equal concentrations of each monomer were used as the initial conditions of the model, and the system of equations was numerically solved until a steady state was reached (section TODO; Figure \ref{figure:240:dimerizationmodelling}).
+When all dimerization rates are 7.0, the steady state concentrations of all dimers are identical (Figure \ref{figure:240:dimerizationmodelling}c)
 For a `b` homodimerization rate of 7.0, the two homodimer species have the same steady state concentrations at all heterodimerization rates, as expected given that all dimerization reactions have the same reaction rates.
-When all dimerization rates are 7.0, the steady state concentrations of all dimers are identical.
 By setting the `b` homodimerization rate to 0.5, the `bb` homodimer is disfavoured, with an observed increase in the steady state concentration of the undimerizaed `b` monomer.
-This has has an interesting interaction with the steady state concentration of the heterodimer.
+This also affects with the steady state concentration of the heterodimer.
 Above a heterodimer formation rate of ~2.0, the heterodimer becomes more favourable than either of the homodimers.
-This implies that the presence of the `b` monomer, as a result of an unfavourable `bb` homodimer, favours the formation of the `ab` heterodimer rather than the `aa` homodimer, despite the forward reaction rate of the `aa` homodimer being 2.5 times greater than the `ab` heterodimer formation rate.
+The simulation results reveal that an unfavourable `bb` homodimer increases the `b` monomer concentration at steady state.
+A high relative concentration of the `b` monomer favours the formation of the `ab` heterodimer rather than the `aa` homodimer.
+This is despite the forward reaction rate of the `aa` homodimer being 2.5 times greater than the `ab` heterodimer formation rate.
 A similar pattern is observed when less extreme `bb` homodimer formation rate of 4.0 is used in the modelling.
 
-#### Conclusions
+### Conclusions
 
-The two examples of sequence divergence between copies of flowering time genes in *Brassica napus* presented here demonstrate the utility of the developmental transcriptome.
-In the case of the *BnaTFL1* genes, the expression traces of the genes and the work from Arabidopsis allow the different patterns of sequence conservation downstream of the *Brassica napus* genes to be considered in context.
-The conservation suggests that the spatiotemporal domains of expression defined by the cis-regulatory elements is conserved between *Brassica napus* and Arabidopsis.
-Moreover, the case study potentially provides an example of cis-regulatory element changes driving the development of novel gene functions.
-Although the relationship between the sequence conservation downstream of the *BnaTFL1* genes and the expression traces exhibited by the genes is correlative, it provides a hypothesis to be tested by future studies.
-Transgenic investigations of Arabidopsis could be used to test such hypotheses, such as transforming *tfl1* null mutant Arabidopsis lines with the *BnaTFL1* genes.
-If these insertions also included the downstream intergenic regions, the functional conservation of the cis-regulatory elements could be established.
+Analysing sequence divergence between *B.\ napus* homologues of two Arabidopsis floral integrators highlights the potential role both cis-regulatory elements and non-synonymous sequence differences play in gene divergence following duplication.
+The expression divergence observed between *BnTFL1* genes in the transcriptomic time series suggested that cis-regulatory element changes may have occurred.
+Comparing the downstream sequence of *BnTFL1* genes with Arabidopsis *TFL1* identified different patterns of sequence conservation for different homologues.
+These regions of differential sequence conservation were located in regions previously shown in Arabidopsis to contain cis-regulatory elements[@serrano_mislata_separate_2016].
+*TFL1* expression dynamics in Arabidopsis mutants lacking these cis-regulatory elements[@serrano_mislata_separate_2016] were consistent with the expression of *BnTFL1* genes lacking sequence conservation within those elements.
+A region II was found to be important for *TFL1* upregulation in the meristem during the floral transition[@serrano_mislata_separate_2016].
+The genes observed to increase during the floral transition, *BnTFL1.A10* and *BnTFL1.C3*, exhibit sequence conservation within region II, while genes that do not exhibit an increase during the floral transition, *BnTFL1.C2* and *BnTFL1.Cnn.Random*, do not.
+This conservation suggests that the spatiotemporal domains of expression defined by the cis-regulatory elements is conserved between *B.\ napus* and Arabidopsis.
+Although the relationship between the sequence conservation downstream of the *BnTFL1* genes and the expression profiles exhibited by the genes is correlative, it provides a hypothesis to be tested by future studies.
+This case study is potentially an example of cis-regulatory element changes driving the development of novel gene functions, as predicted by the DDC model[@force_preservation_1999].
 
-For the *BnaFD* genes, the expression traces suggest that the genes are expressed in similar expression domains.
-As FD is a bZIP containing protein, this prompted me to investigate whether the different copies of the gene could potentially dimerize.
-Computational predictions suggest that this is the case, with the affinity of dimers differing depending on the monomers that form the dimer.
-Looking at *FD* homologues in other species reveals that variation in dimerization affinity might be a common direction of divergence for bZIP transcription factors that are present as multiple copies in the genome.
-The regulatory ramifications of this are that a change in the concentration of one monomer has the potential of shifting the concentrations of all possible dimers.
-If the dimers regulate genes in different ways, then the change in concentration of one monomer would result in large changes in transcription.
-A caveat to this analysis would be that the spatial expression domains in which the *BnaFD* proteins are expressed may be too small to be resolved by the sampling method used.
-Therefore, although five of the six *BnaFD* genes are assigned to the same regulatory module (Figure \ref{figure:230:fdapex}), they may not be expressed in the same cells.
-If this is the case, then the dimerization dynamics and the potential regulatory consequences of them would not be applicable.
-A method of determining if the different *BnaFD* proteins do interact *in vivo* might be to introduce a transgene with the same regulatory sequences with a protein tag attached.
-Using enrichment techniques and proteomics the *in vivo* interaction partners of the tagged protein could be determined.
-The other caveat with this finding is that although certain dimers may be more favourable, the different dimers may not have differing functions.
-If this was the case, then the hypothesised regulatory mechanism outlined would not be applicable.
-This could be tested by expressing a transgenic *FD* gene in Arabidopsis, where the two FD protein monomers are forced to dimerize through a linker.
+For the *BnFD* genes, expression profiles suggest that five of the six genes are co-regulated and potentially form dimers amongst themselves[@abe_fd_2005; @miller_importance_2009].
+To investigate whether the different copies of the gene could potentially dimerize, the protein sequences of the genes were analysed.
+Amino acid differences were observed in multiple domains identified as conserved in FD-like proteins from diverse plant speciea[@tsuji_functional_2013].
+An amino acid change in the SAP domain in the BnFD.C3.Random protein corresponds to an amino acid that is important for the interaction of the protein with FT[@abe_fd_2005], suggesting this copy may have altered protein binding.
+Amino acid differences identified in the DNA binding basic region, when compared to published crystal structures of bZIP transcription factors[@schumacher_structure_2000], suggest that the BnFD.C3.Random protein may also exhibit altered DNA binding.
+However, without characterising this experimentally, it is difficult to determine whether the single amino acid changes observed would have an appreciable effect on DNA binding.
+Between homologue amino acid differences in the leucine zipper region were predicted to alter the dimerization dynamics between BnFD proteins, with certain dimers predicted to be more likely to occur than others.
+Investigating *FD* orthologues in other species revealed that variation in dimerization affinity might be a common form of divergence for bZIP transcription factors that are present as multiple copies in the genome.
+Computational modelling of the dimerization dynamics suggest that having a system of monomers with different dimerization affinities can result in interesting regulatory consequences.
+However, this is dependent on the dimers formed having different molecular activities.

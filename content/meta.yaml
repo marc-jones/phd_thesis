@@ -1,10 +1,15 @@
 ---
-title: Elucidating the gene regulatory network underlying flowering time in *Brassica napus*
-author: D. Marc Jones
+title: Effects of gene multiplication on flowering time regulation in spring and winter varieties of *Brassica\ napus*
+author: David Marc Jones
+epigraph: Out of intense complexities, intense simplicities emerge.
+epigraphauthor: Winston S. Churchill
+epigraphsource: The World Crisis
 documentclass: book
 toc: true
-lot: false
-lof: false
+lot: true
+lof: true
 numbersections: true
 fontsize: 12pt
+date: September, 2017
+thanks: University of East Anglia - John Innes Centre
 ---

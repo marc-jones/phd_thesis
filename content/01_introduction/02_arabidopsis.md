@@ -17,7 +17,7 @@ The presence of the above mentioned genetic tools has allowed a deep understandi
 Multiple pathways sense a myriad of internal and external cues to ensure that flowering in the plant is properly timed.
 The variation in floral response between different Arabidopsis accessions has also aided this work, making use of association studies to identify genes that influence the floral response most strongly[@boss_multiple_2004].
 There are five main pathways that influence flowering in Arabidopsis.
-These are the photoperiod pathway, the autonomous pathway, the vernalization pathway, the hormone pathway, and the aging pathway[@srikanth_regulation_2011].
+These are the photoperiod pathway, the autonomous pathway, the vernalization pathway, the hormone pathway, and the ageing pathway[@srikanth_regulation_2011].
 All of these pathways converge and are integrated by a central network of genes to ensure that the plant flowers at an optimal time.
 In this section current knowledge of each of the pathways, and the key genes involved in them, will be summarized.
 
@@ -27,7 +27,7 @@ The floral pathways can be divided into whether they respond to external (exogen
 The pathways that sense exogenous cues (the photoperiod and vernalization pathways) will be considered first.
 
 The photoperiod pathway allows the plant to sense the day length.
-This is achieved through close association of the plant's circadian clock and light sensing aparatus.
+This is achieved through close association of the plant's circadian clock and light sensing apparatus.
 The circadian clock is a regulatory network that maintains a consistent oscillatory signal in the plant[@mcclung_plant_2006].
 *CONSTANS* (*CO*) encodes a zinc finger transcription factor whose expression is downstream of the circadian clock, with *CO* mRNA accumulating and degrading in a regular manner each day[@an_constans_2004; @suarez_lopez_constans_2001].
 However, CO protein is only able to accumulate when the plant is exposed to light, as it is rapidly degraded during the night[@valverde_photoreceptor_2004].
@@ -37,15 +37,15 @@ However, during long days, *CO* mRNA is expressed at dusk, allowing CO protein t
 *CO* accelerates the floral transition by directly binding to and activating the expression of a floral activator called *FLOWERING LOCUS T* (*FT*)[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
 This allows Arabidopsis to sense the day length and flower when the days are long enough.
 
-Arabidopsis plants are capable of exhibiting two main life strategies.
+Arabidopsis plants are capable of exhibiting two main life strategies[@shindo_natural_2007; @koornneef_naturally_2004].
 Summer annual accessions germinate in spring, flower in the summer, and are able to set seed before winter.
-This is possible in warmer climates where the length of summer is long, but in temperate climates a winter annual strategy is followed.
+This is possible in warmer climates, such as central and southern Europe, where the length of summer is long, but in temperate climates, such as northern Europe, a winter annual strategy is followed[@thompson_spatiotemporal_1994].
 These plants germinate in late summer or autumn, remain vegetative during the winter, and flower in the spring.
 If a plant following a winter annual strategy were to rely solely on the photoperiod pathway to determine flowering time, there is a risk that the day length in autumn would be long enough to activate flowering.
 This would result in vastly reduced reproductive success for the plant, due to the seed filling period taking place during the photosynthetically poor winter months.
-The vernalization pathway ensures that winter annual plants remain vegetative until after a period of cold has been experienced by the plant.
+The vernalization pathway ensures that winter annual plants remain vegetative until after a period of cold has been experienced by the plant[@song_remembering_2013].
 The vernalization response was found to be largely determined by two genes; *FRIGIDA* (*FRI*) and *FLOWERING LOCUS C* (*FLC*)[@shindo_role_2005].
-FLC, a MADS-box containing transcription factor, acts antagonistically to CO by binding to the *FT* locus but repressing its expression, as opposed to *CO*.
+*FLC*, a MADS-box containing transcription factor[@michaels_flowering_1999], acts antagonistically to CO by binding to the *FT* locus but repressing its expression, as opposed to *CO*.
 In winter annual lines *FLC* is high when the plant germinates.
 During cold conditions the expression of *FLC* decreases.
 This repression it mitotically stable.
@@ -86,7 +86,15 @@ The regulation of *miR156* is hypothesised to be regulated by sugar or carbohydr
 
 ### Floral integrators {#section:intro:floralintegrators}
 
-![**The core network of floral integrators.** Many regulatory interactions have been found between the nine floral integrators depicted here. This results in a tightly interconnected gene regulatory network, with many possible feedback loops and control mechanisms. Adapted from Bouché et al.[@bouche_florid_2016]](figuredirectory/gene_regulatory_network.pdf){#figure:1xx:floralnetwork}
+\begin{figure}[htbp]
+\includegraphics{../content/01_introduction/figures/gene_regulatory_network.pdf}
+\caption{\textbf{The core network of floral integrators.}}{Many
+regulatory interactions have been found between the nine floral
+integrators depicted here. This results in a tightly interconnected gene
+regulatory network, with many possible feedback loops and control
+mechanisms. Adapted from Bouché et
+al.\textsuperscript{TODO}}\label{figure:1xx:floralnetwork}
+\end{figure}
 
 The pathways described above converge onto a set of floral integrator genes, that mediate the transition to flowering.
 The core of this network is composed of relatively few transcription factors with multiple regulatory links between them.
@@ -127,13 +135,13 @@ Antibodies for the FT protein were used to enrich DNA and *AP1* promoter sequenc
 
 A homeotic mutation in Arabidopsis that severely impacts the transition from vegetative to floral growth is in the *LEAFY* (*LFY*) gene.
 *LFY* was identified in a mutant screen as a mutant that produced leafy shoots in the place of flowers, with the flowers produced often lacking petals and stamens[@schultz_leafy_1991].
-The gene was found to play a role both in the transition to flowering, but also in specifying the determinacy of the floral meristem[huala_leafy_1992].
+The gene was found to play a role both in the transition to flowering, but also in specifying the determinacy of the floral meristem[@huala_leafy_1992].
 LFY binds to DNA as a dimer, with the cooperative nature of this binding suggested to facilitate a sharp developmental transition[@hames_structural_2008].
 *LFY* has been found to regulate or interact with a number of other genes involved with the floral transition.
 Increasing *LFY* expression precedes an increase in *AP1* expression[@hempel_floral_1997], with additional evidence suggesting that *AP1* is a direct target of *LFY*[@wagner_transcriptional_1999; @william_genomic_2004].
 Other genes important for flowering that are regulated by *LFY* are *TFL1*[@weigel_developmental_1995], *AG*[@weigel_activation_1993; @hong_regulatory_2003], and *CAL*[@william_genomic_2004], with *LFY* itself being regulated by *SOC1* and *AGL24*[@lee_soc1_2008].
 In addition, a suite of transcription factors and signalling molecules, both related to flowering time and not, were found to respond to *LFY* activation or have *LFY* binding detected in promoter regions[@william_genomic_2004; @winter_leafy_2011].
-Interactions between *LFY* and the photoperiod pathway[huala_leafy_1992; @blazquez_leafy_1997], and the GA pathway[@okamuro_flowers_1996; eriksson_ga4_2006], suggest that many environmental pathways that regulate flowering converge on *LFY*, underpinning its role as a floral integrator.
+Interactions between *LFY* and the photoperiod pathway[huala_leafy_1992; @blazquez_leafy_1997], and the GA pathway[@okamuro_flowers_1996; @eriksson_ga4_2006], suggest that many environmental pathways that regulate flowering converge on *LFY*, underpinning its role as a floral integrator.
 
 *AP1* is a MADS-box containing transcription factor[@alejandra_mandel_molecular_1992] important for both controlling meristem identity and floral organ specification.
 Null mutations in the *AP1* gene result in the mutant plants lacking petals[@koornneeff_ems_1982], a consequence of the role *AP1* has in specifying floral organ identity.
@@ -141,9 +149,9 @@ Additionally, the sepals that usually surround flowers in *AP1* mutant plants ar
 This particular phenotype suggests that *AP1* is important for the conversion of the inflorescence meristem into a floral meristem, as without an active version of the *AP1* protein the floral meristem partially reverts back to an inflorescence meristem[@alejandra_mandel_molecular_1992].
 This is also supported by the *AP1* overexpression phenotype, where apical and lateral shoots are converted into flowers[@mandel_gene_1995].
 The modulation of meristem activity by *AP1* is believed to be via the plant hormone cytokinin, with *AP1* affecting both the biosynthesis and degradation pathways of the hormone[@han_cytokinin_2014].
-25% of the putative targets of *AP1* are other transcription factors, such as *LFY*, explaining why mutants and overexpressors of *AP1* have such dramatic effects on flower development in Arabidopsis[@kaufmann_orchestration_2010].
+25\ % of the putative targets of *AP1* are other transcription factors, such as *LFY*, explaining why mutants and overexpressors of *AP1* have such dramatic effects on flower development in Arabidopsis[@kaufmann_orchestration_2010].
 *AP1* and *LFY* double null mutants had a significantly more severe phenotype than either of the single mutants, indicating that these genes seem to act synergistically[@weigel_leafy_1992].
-In mutant plants lacking *AP1*, *SVP*, *AGL24*, and *SOC1* become ectopically expressed[@liu_specification_2007], with further evidence suggesting that *AP1* directly represses the expression of these genes[@gregis_agamous_like24_2008].
+In mutant plants lacking *AP1*, *SHORT VEGETATIVE PHASE* (*SVP*), *AGL24*, and *SOC1* become ectopically expressed[@liu_specification_2007], with further evidence suggesting that *AP1* directly represses the expression of these genes[@gregis_agamous_like24_2008].
 *SVP* and *AGL24* maintain the vegetative and inflorescence meristems respectively[@liu_specification_2007].
 The expression of *AP1* therefore confers a floral state to the meristem.
 

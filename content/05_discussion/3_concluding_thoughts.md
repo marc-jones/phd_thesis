@@ -1,0 +1,18 @@
+## Concluding thoughts
+
+The original aim of this project was to determine the extent to which the regulatory network underlying flowering in Arabidopsis could be applied to *B. napus*.
+The intention was to use the transcriptomic time series to identify similarly expressed flowering time gene homologues and model multiple genes as single nodes in the gene regulatory network, to reduce the simulation complexity.
+The work presented in this thesis, however, revealed that regulatory divergence between homologous genes is frequently observed in *B.\ napus*.
+This introduced the challenge of how to construct simple models, despite the combinatorial explosion of regulatory possibilities.
+The obstacle of gene divergence changed the direction of the project to instead investigate how these genes have diverged.
+
+This study represents the first study in *B.\ napus* to follow the transcriptome before, during, and after vernalization.
+Arabidopsis floral genes were found to be retained in the genome more frequently than expected, with the patterns of regulation suggesting different selective pressures are acting on the genes.
+Analysis of both the leaf and apex transcriptomes revealed that these tissues are distinct in their transcriptional responses, and identified cases where floral gene homologues have diverged in terms of their spatial expression domains.
+The importance of cis-regulatory elements in the evolution of duplicated genes is highlighted, and represents an example of how research in model species can begin to be translated to a crop species.
+The findings that similarly expressed genes exhibit functionally relevant sequence differences calls into question the very assumption on which original project aim was based, namely, that similarly expressed genes can be considered as a single node in the network.
+
+Despite the value of this work in elucidating regulatory divergence between gene homologues, a key question remains: how much closer are we to a regulatory network of the *B.\ napus* floral transition?
+This project emphasizes that perhaps a single, simplified gene regulatory network will not be suitable to a crop that has experienced multiple rounds of gene duplication.
+Instead, the 'horrible mess' of regulatory interactions will have to be subsetted into biologically relevant sub-networks, that are tissue or developmentally distinct.
+This subsetting will require a better understanding of how the multiple copies have diverged, both in gene expression and protein activity, and provides a clear direction for future work in *B.\ napus*.
