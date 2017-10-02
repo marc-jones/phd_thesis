@@ -2,10 +2,10 @@
 
 From simulating cell-signalling dynamics[@kholodenko_cell_signalling_2006], patterning of biological systems[@turing_chemical_1952], up to population level models[@wangersky_lotka_volterra_1978], mathematical models have been able to capture the behaviour of a range of biological processes.
 Models allow researchers to collect potentially disparate observations together to test if they are consistent with each other.
-If they are consistent, then the researchers' assumptions about the system are correct and the model can be used to make predictions.
+If they are consistent, then the researchers' assumptions about the system are compatible with the data and the model can be used to make predictions.
 If the model does not capture the behaviour of the system, then clearly the system is more complex than originally thought.
 Either way, modelling systems can direct future research work and highlight features of the system that might not have been appreciated had a reductionist approach had been taken.
-This section will highlight models of the floral transition that have been developed, as well as how models of crop growth have been used by both the scientific and agricultural industry to direct scientific effort and farming practises.
+This section will highlight models of the floral transition that have been developed, as well as how models of crop growth have been used by both the agricultural industry and scientific community to direct scientific effort and farming practises.
 
 ### Models of the floral transition
 
@@ -22,7 +22,7 @@ The behaviours captured by the models, and the consequences of those behaviours 
 An example of particular interest to the work presented here is that of Jaeger et al. (2013), in which the floral transition was modelled[@jaeger_interlocking_2013].
 A simplified network of five floral integrators, *FT*, *SOC1*, *FD*, *TFL1*, and *AP1* were used as hubs in the network, with edges consisting of regulatory interactions determined genetically and molecularly (section \ref{section:intro:floralintegrators}).
 The model consisted of five gene hubs and was parameterized using the flowering time (measured as the number of rosette and cauline leaves present at flowering) of Arabidopsis single and double mutants in the floral integrators.
-The model was able to capture a number of dynamics of the floral transition, such as irreversibility and noise cancellation.
+The model was able to capture a number of dynamics of the floral transition, such as irreversibility and noise filtering.
 Insights from the model included the observation that the relative levels of *TFL1* and *FT* were important for determining when the floral transition occurred.
 Additional regulatory interactions involving the regulation of *TFL1* were also proposed as necessary for the maintenance of a high *TFL1* expression state[@jaeger_interlocking_2013].
 
@@ -51,7 +51,7 @@ Crop models have been studied and used in the research community for over fifty 
 These models aim to explain, or predict, the growth of plant species that are grown as crops.
 The motivation for using crop models can vary[@bouman_school_1996].
 For the scientific community, crop models allow for the integration of seemingly distinct models of processes.
-Initial models focussed on modelling photosynthesis[@de_wit_photosynthesis_1965] have been improved upon, with modern models incorporating processes such as leaf development, light interception, photosynthesis efficiency, and partitioning of biomass within the plant[@dingkuhn_improvement_1993][TODO - Maybe a better reference].
+Initial models focussed on modelling photosynthesis[@de_wit_photosynthesis_1965] have been improved upon, with modern models incorporating processes such as leaf development, light interception, photosynthesis efficiency, and partitioning of biomass within the plant[@dingkuhn_improvement_1993].
 The other use of crop models is to aid decision making, at a farm, country, and global scale[@stone_operational_2005; @boote_potential_1996].
 Such models incorporate additional processes such as nitrogen use efficiency[@shibu_lintul3_2010] and soil erosion[@kersebaum_modelling_2007], in order to take into account the effect of fertilizer use not only on the crop but to the wider environment[@keating_overview_2003; @deryng_simulating_2011].
 The incorporation of climate and weather data into these models have allowed predictions to be made about the effects of climate change on crop growth and yield.
@@ -66,21 +66,21 @@ The advantages of modelling processes explicitly is that, generally, the predict
 Specifically, the ability of the model to extrapolate and make predictions about future events is improved by effectively giving the model an understanding of how the crop plants under study will respond to particular inputs[@whisler_crop_1986].
 The downside of such models is that they often have many parameters, that either have to be measured or predicted from training sets of data.
 This parameterization often requires a lot of data to be collected, which with crop plants may be difficult or costly to do.
-The complexity of the models will also affect how quickly these parameters can be estimated and how long the model will take to run.
+The complexity of the models will also affect how quickly these parameters can be estimated, and often how long the model will take to run.
 Once trained, however, the insights from the models can be very precise.
 Modelling wheat growth in sub-tropical India found yields were very sensitive to temperature, potentially informing the selection of future varieties grown[@aggarwal_analyzing_1994].
-Modelling the growth of maize, spring wheat, and soybean revealed that an altered planting date combined with alternative varieties could reduce losses due to projected climate change by 18%.
+Modelling the growth of maize, spring wheat, and soybean revealed that an altered planting date combined with alternative varieties could reduce losses due to projected climate change by 18\ %.
 
 Statistical models, conversely, do not explicitly model processes, and instead attempt to relate model inputs, such as climate data, to model outputs, such as crop yield, in a correlative manner[@lobell_use_2010].
-This models are much simpler, with fewer parameters, than the process-led models.
+These models are much simpler, with fewer parameters, than the process-led models.
 This means the models are faster to run and potentially require less data to parameterize them.
-This makes statistical models well suited to used as summary models, that capture the general trends between variables[@bouman_school_1996].
+This makes statistical models well-suited for use as summary models, that capture the general trends between variables[@bouman_school_1996].
 However, as the models do not interpret the data in terms of plant growth, statistical models are potentially less accurate when extrapolating the data to make predictions.
-Despite their simplicity, statistical models are still capable of facilitating insight, such as predicting potato yields from satellite imaging and remote sensing data[@al_gaadi_prediction_2016]
+Despite their simplicity, statistical models are still capable of facilitating insight, such as predicting potato yields from satellite imaging and remote sensing data[@al_gaadi_prediction_2016].
 
 ### Integrating the two types of models
 
-A potential short coming of modelling plant growth responses using models that do not simulate regulatory networks is that regulatory logic may be lost.
+A potential short-coming of modelling plant growth responses using models that do not simulate regulatory networks is that regulatory logic may be lost.
 Different crop varieties and species are often incorporated into crop models through parameter changes[@boote_potential_1996; @keating_overview_2003].
 However, the regulatory logic of the crop models will remain unchanged.
 For example, the output from two signalling pathways may be required simultaneously to activate expression of a particular target pathway.
@@ -88,16 +88,16 @@ Genetic differences between varieties could potentially alter this logic, result
 This could result from differences in promoter binding sites between varieties.
 Implementing this change in logic, in the APSIM framework for example, would require writing an alternative module that integrated the responses from the input pathways in a different manner[@boote_potential_1996; @jones_approaches_2001].
 
-Integrating gene regulatory networks into crop models would only be possible for the processes where the plant genetics play a role.
+Integrating gene regulatory networks into crop models would only be beneficial for processes where the regulatory logic of the system is important.
 For example, plant developmental processes that have previously been modelled are the circadean clock[@chow_transcriptional_2014; @gould_network_2013; @pokhilko_clock_2012; @schmal_circadian_2013], auxin signalling[@grieneisen_auxin_2007; @jonsson_auxin_driven_2006; @mourik_simulation_2012; @peret_sequential_2013], floral organ development[@mendoza_dynamics_1998; @espinosa_soto_gene_2004; @sanchez_corrales_arabidopsis_2010; @van_mourik_simulation_2012], and the regulation of flowering time by photoperiod[@song_fkf1_2012; @salazar_prediction_2009].
 The gene regulatory network modelling studies discussed in the previous section required detailed information for the regulatory connections between genes, and often large numbers of parameters had to be estimated.
-To have such in depth models for each regulatory pathway that can be adequately modelled with gene regulatory networks would lead to a vast increase in complexity for the crop models.
-This could be overcome by using the more in depth regulatory modules to help parameterize the broader crop models, or identify changes in logic that will influence the results of the model.
+To have such in-depth models for each regulatory pathway that can be adequately modelled with gene regulatory networks would lead to a vast increase in complexity for the crop models.
+This could be overcome by using the more in-depth regulatory modules to help parameterize the broader crop models, or identify changes in regulatory logic that will influence the results of the model.
 Some genes may also have pleiotropic effects, influencing multiple pathways.
-Ordinarily with crop models that have a modular structure[@jones_approaches_2001], this would require multiple parameters having to be changed in each of the modules the gene plays a role.
+Ordinarily, with crop models that have a modular structure[@jones_approaches_2001], this would require multiple parameters having to be changed in each of the modules the gene plays a role.
 Being able to determine which genes are likely to exhibit pleiotropic effects by their location in regulatory networks would allow these parameters to be estimated together, or for those particular modules to be more intimately linked in the model.
 
-A number of the models discussed in the previous section were parameterized or validated using plants that lacks parts of the regulatory network.
+A number of the models discussed in the previous section were parameterized or validated using plants that lack parts of the regulatory network.
 Therefore, aspects of gene regulatory networks such as the presence or absence of nodes and edges could be estimated from both genome sequencing and transcriptome profiling.
 Sequencing of four *B. napus* varieties with varying flowering times and vernalization requirements uncovered variation in flowering time genes that were mapped onto regulatory networks[@schiessl_capturing_2014].
 This revealed which copies of the genes were likely to be causative of the phenotypes displayed by the plants.

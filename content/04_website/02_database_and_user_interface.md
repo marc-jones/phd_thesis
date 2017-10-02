@@ -19,7 +19,7 @@ Each measurement within this list comprises an individual time point in the time
 The time points contain information on the gene expression value and associated metadata, such as the size of the confidence interval for the expression value, the time point at which that value was measured, and the *B. napus* variety and tissue from which the sample was taken.
 Structuring the measurements as such allows the website to be extensible, as additional measurements can be added to the list and annotated with applicable metadata without having to change measurements already in the list.
 The final component of a gene entry is the homology information.
-This is precomputed for each gene using sequence conservation (section TODO).
+This is precomputed for each gene using sequence conservation (section \ref{section:methods:sequencesimilarity}).
 The Arabidopsis Genome Initiative (AGI) identifier and the gene symbol information allow users to search for *B. napus* genes.
 As many *B. napus* genes are reported in terms of the Arabidopsis gene to which they exhibit sequence conservation[@guo_mutations_2014; @mimida_terminal_1999; @tadege_control_2001] this seems a reasonable method by which to search for relevant *B. napus* genes.
 The Highest Scoring Pair (HSP) information is used to rank which Arabidopsis genes have the highest sequence conservation to the *B. napus* gene.
@@ -47,7 +47,7 @@ Finally, the generated plot image, the cDNA sequences of the selected genes, and
 
 ![**Screenshot of the BLAST Search page.** Inserting a nucleotide sequence into the search box prompts the server to perform a search for *B. napus* genes that exhibit sequence conservation. The result of the search is displayed on the sequence search page, and the identified *B. napus* genes are displayed on the Search page to allow users to plot the relevant expression profiles.](figuredirectory/03_blast_screen.png){#figure:website:blast}
 
-TODO% of the TODO gene models identified in the dataset do not show suitable homology to an Arabidopsis gene.
+49\ % of the 155,240 gene models identified in the dataset do not show suitable homology to an Arabidopsis gene.
 In order to allow these genes to be searched, ORDER contains a search tool that uses the BLAST algorithm to identify *B. napus* genes displaying sequence conservation to user submitted sequence (Figure \ref{figure:website:blast}).
 The number of *Brassica napus* genes found is displayed on the BLAST Search page (Figure \ref{figure:website:blast}).
 In order to plot the expression patterns of the discovered group of genes, the user returns to the Search page and selects the checkboxes corresponding to the identified genes.

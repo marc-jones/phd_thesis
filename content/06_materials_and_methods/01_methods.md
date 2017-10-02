@@ -129,7 +129,7 @@ Cufflinks[@trapnell_differential_2013] (version 2.2.1) was used to quantify the 
 Data normalisation using `cuffnorm` was performed separately for leaf and apex tissue samples.
 Aside from the named parameters, default values were used.
 
-## Identification of sequence similarity between *B.\ napus* and Arabidopsis gene models
+## Identification of sequence similarity between *B.\ napus* and Arabidopsis gene models {#section:methods:sequencesimilarity}
 
 The BLAST algorithm, using the `blastn` binary provided by NCBI[@camacho_blast_2009] (version 2.2.30+) was used to identify sequence similarity between the AUGUSTUS[@stanke_augustus_2008] derived gene models and the published Arabidopsis gene models downloaded from TAIR[@berardini_arabidopsis_2015] (version 10).
 The `blastn` algorithm was run using default parameters, with an e-value threshold of 10^-50^ used to identify sequence similarity between the AUGUSTUS derived *B.\ napus* gene models and published Arabidopsis gene models.
@@ -180,7 +180,7 @@ The number of nodes used in the SOM was chosen based on the ratio $\frac{\sum_{c
 A value of $S$ was chosen such that the above ratio was ~0.85 for both tissues.
 To adequately capture the variation present in the data, the dimensions of the SOM were set as the ratio between the first two principle component eigenvalues of the data, as has been done previously[@vesanto_self_organizing_2000].
 
-To assign probabilities of genes clustering to the same SOM cluster, a resampling procedure was employed (Figure \{figure:218:somsimilarity}). 
+To assign probabilities of genes clustering to the same SOM cluster, a resampling procedure was employed (Figure \{figure:218:somsimilarity}).
 Expression values were resampled assuming a Gaussian noise model, using the true expression value as the mean of the distribution and the true expression value uncertainty calculated by Cufflinks as the distribution variance.
 The resampled expression values for each gene, within each tissue, were normalised to a mean expression of 0.0 with a variance of 1.0 across the time series and assigned to a SOM cluster based on a minimal Euclidean distance.
 This sampling loop was repeated 500 times, and the SOM clusters to which the genes of interest mapped were recorded.
@@ -198,7 +198,7 @@ Plotting a distribution of these self-clustering probabilities (Figure \ref{figu
 To aid with visualising the average probabilities of two genes mapping to the same SOM cluster, as a consequence of this bimodality, a soft threshold based on a cumulative Gaussian density function was applied.
 The resulting value is referred to as a clustering coefficient.
 Clustering coefficients were calculated as $\frac{1}{2} \left [1 + \textup{erf} \left ( \frac{\mu_{p_{g_1,g_2}} - \theta}{\sigma_{p_{g_1,g_2}}\sqrt{2}} \right ) \right ]$ where $\textup{erf}$ is the error function defined as $\textup{erf}(x) = \frac{1}{\sqrt{\pi}}\int_{-x}^{x}e^{-t^2}\textup{d}t$, $\mu_{p_{g_1,g_2}}$ is the average probability of genes $g_1$ and $g_2$ mapping to the same cluster, $\sigma_{p_{g_1,g_2}}$ is the standard deviation of the probabilities calculated from the 100 different SOMs used in the sampling procedure, and $\theta$ is the tissue specific threshold.
-A threshold of 0.053 (apex) or 0.056 (leaf) was used in Westar and TODO in Tapidor.
+A threshold of 0.053 (apex) or 0.056 (leaf) was used in Westar.
 This threshold was calculated by taking the self-clustering probability that corresponded to the maximum of the density curve (Figure \ref{figure:methods:bimodal}) for each SOM and averaging them.
 An automated approach was taken to quantify the pattern of clustering coefficients between copies of the same gene.
 Clustering coefficients were subjected to a binary filter, such that coefficients above 0.5 were set to 1 and those below set to 0.
@@ -213,7 +213,7 @@ Regions of conserved sequence were identified using mVISTA from the VISTA suite 
 The alignment algorithm used was AVID[@bray_avid_2003], which performed global pair-wise alignments for all sequences.
 Percentage sequence conservation was calculated using a 100bp sliding window.
 
-## Quantitative PCR of BnTFL1 homologues
+## Quantitative PCR of BnTFL1 homologues {#methods:qpcr}
 
 \begin{table}[htp]
 \caption{\textbf{\emph{BnTFL1} and \emph{BnGAPDH} qPCR primer sequences.}}
@@ -243,19 +243,78 @@ Quantification was performed on a LightCycler® 480 (Roche Molecular Systems Inc
 The RT-qPCR cycle consisted of a 95\ &deg;C denaturation step for 5 minutes followed by 50 quantification cycle.
 Each cycle consisted of 15 seconds at 95\ &deg;C, 20 seconds at 58\ &deg;C, 30 seconds at 72\ &deg;C. Fluorescence was quantified at 75\ &deg;C as the temperature was ramping from 72\ &deg;C to 95\ &deg;C.
 
-## GO term enrichment
+## Gene Ontology term enrichment
 
-## Protein domain enrichment
+Gene Ontology (GO) term enrichment was performed using custom scripts written in the R statistical programming language[@r_core_team_r_2017].
+*B.\ napus* genes were first annotated with GO terms using homology to Arabidopsis genes.
+The Arabidopsis GO terms used were from the `org.At.tair.db` libray[@r_go_arabidopsis] (version 3.2.3).
+The GO terms associated with the Arabidopsis gene with the highest sequence similarity to each *B.\ napus* gene, as determined by `blastn`[@camacho_blast_2009] (version 2.2.30+), were assigned to each *B.\ napus* gene.
+The `topGO` library[@r_top_go] (version 2.22.0) was used to perform the GO term enrichment.
+The parameters used to generate the `topGO` data structure were `BP` for the `ontology` parameter and a `nodeSize` of `10`.
+For the enrichment test, the `classic` algorithm was used with a `fisher` statistic.
+The significance threshold used was 0.01.
 
-## FD Dimerization differences
+## Protein domain enrichment {#section:methods:proteinenrichment}
 
-Protein sequence was determined through alignment to Arabidopsis
+The `rpstblastn` binary provided by NCBI[@camacho_blast_2009] (version 2.2.30+), was run with the Conserved Domain Database[@marchler_bauer_cdd_sparcle_2017] (accessed 2015-04-25) to identify conserved protein domains in the *B.\ napus* gene models identified by AUGUSTUS.
+An e-value of 0.01 was used, and the `rpsbproc` utility used to filter the results by removing overlapping domain identifications.
+The `fisher.test` function in R[@r_core_team_r_2017] was used to perform Fisher's exact test to test for enrichment of protein domains of interest, with a `greater` alternative hypothesis.
+The significance threshold used was 0.01.
 
-## FD PCR
+## BnFD probability of dimerization calculation
 
-## FD Crystal Structure
+The protein sequence of *BnFD* genes was determined by performing DNA sequence alignment to the Arabidopsis *FD* gene using the MUSCLE multiple sequence alignment tool[@edgar_muscle_2004] within AliView[@larsson_aliview_2014] (version 1.16).
+Intron-exon boundaries were manually assessed and the DNA sequence translated within AliView.
+DrawCoil[@grigoryan_structural_2008] (version 1.0) was run with default parameters to generate the helical wheel diagrams depicted in figure \ref{figure:236b:helicalwheels}.
+The trained scoring script described in Potapov et al. (2015)[@potapov_data_driven_2015] (Amy E. Keating, personal communication, 2016-05-10) was run with every combination of BnFD dimer.
 
-## FD Mathematical modelling
+## BnFD DNA binding predictions {#sections:methods:fdbinding}
+
+The protein structure of the CREB protein (PDB ID: 1DH3) from Schumacher et al. (2000)[@schumacher_structure_2000] was downloaded.
+Based on sequence alignment, the amino acids in positions 286 and 287 of the crystal structure were modified to match the BnFD protein amino acids in those positions.
+For Arabidopsis FD, BnFD.A1, BnFD.C1, and BnFD.A8, an arginine was used in position 286 and a histidine in position 287.
+For BnFD.C7 and BnFD.Ann.Random, an arginine was used in position 286 and an asparagine used in position 287.
+For BnFD.C3.Random histidines were used in both positions.
+These modified structures were imported into Jmol[@jmol] and the commands `minimize ADDHYDROGENS` and `calculate HBONDS` were used consecutively to predict hydrogen bonding.
+
+## Mathematical modelling of BnFD dimerization dynamics {#sections:methods:fdmodelling}
+
+To model the dynamics of BnFD dimerization, the law of mass action was assumed.
+Concentrations of monomers and dimers were modelled using the following system of equations:
+
+\begin{center}
+    \ch{a + a <=>[ $k_{+aa}$ ][ $k_{-aa}$ ] aa}
+
+    \ch{a + b <=>[ $k_{+ab}$ ][ $k_{-ab}$ ] ab}
+
+    \ch{b + b <=>[ $k_{+bb}$ ][ $k_{-bb}$ ] bb}
+\end{center}
+
+$\frac{d[\text{a}]}{dt} = k_{-ab}[\text{ab}] + 2k_{-aa}[\text{aa}] - k_{+ab}[\text{a}][\text{b}]-2k_{+aa}[a]^2$
+
+$\frac{d[\text{b}]}{dt} = k_{-ab}[\text{ab}] + 2k_{-bb}[\text{bb}] - k_{+ab}[\text{a}][\text{b}]-2k_{+bb}[b]^2$
+
+$\frac{d[\text{aa}]}{dt} = k_{+aa}[\text{a}]^2 -  k_{-aa}[\text{aa}]$
+
+$\frac{d[\text{ab}]}{dt} = k_{+ab}[\text{a}][\text{b}] -  k_{-ab}[\text{ab}]$
+
+$\frac{d[\text{bb}]}{dt} = k_{+bb}[\text{b}]^2 -  k_{-bb}[\text{bb}]$
+
+Where $[\text{x}]$ is the concentration of the monomer `x`, $[\text{yz}]$ is the concentration of the dimer `yz`, $k_{+yz}$ is the forward reaction rate for the creation of dimer `yz`, and $k_{-yz}$ is the reverse reaction rate for the destruction of dimer `yz`.
+Initial concentrations used were 50 for each monomer, and 0 for each dimer.
+The constant reaction rates used were:
+
+$k_{+aa} = 7$
+$k_{-aa} = 1$
+$k_{-ab} = 1$
+$k_{-bb} = 1$
+
+The value of $k_{+bb}$ was either 0.5, 4, or 7, depending on the simulation run.
+Values of $k_{+ab}$ were increased from 0 to 7 in 0.2 increments.
+At each increment, the simulation was run until equilibrium and the steady state concentrations recorded.
+These simulations were performed using the `deSolve` library[@soetaert_solving_2010] (version 1.13) using the R statistical programming language[@r_core_team_r_2017].
 
 ## Correlation analysis
 
+The correlation analysis used expression levels for all genes.
+The `cor` function in the R statistical programming language[@r_core_team_r_2017] was used to calculate Pearson correlation coefficients between time points using vectors of FPKM values from each time point.

@@ -1,22 +1,15 @@
 ## Regulatory divergence at the whole genome scale {#section:spring:genomedivergence}
 
-The 
+The effects of polyploidy on gene expression are varied and seemingly influenced by the species and the time since hybridization[@osborn_understanding_2003].
+Immediately following hybridization, large transcriptional changes are observed in polyploids[@yoo_homoeolog_2013; flagel_evolutionary_2010].
+In synthetic Arabidopsis allopolyploids, Wang et al. (2006)[@wang_genomewide_2006] observed different contributions to the transcriptome from the different constituent genomes, consistent with extensive gene silencing following polyploidy[@comai_phenotypic_2000].
+These results from Arabidopsis allopolyploids demonstrate a major way in which gene expression can vary after polyploidy: genome dominance.
+Genome dominance is observed when the combined gene expression of gene pairs from the two constituent genomes of a polyploid are consistently biased towards a particular genome[@adams_genes_2003; @buggs_legacy_2014].
+These expression inequalities may influence the evolution of the polyploid, with results in maize revealing that gene loss favours copies that contribute less to overall expression[@schnable_differentiation_2011].
+In cotton (*Gossypium raimondii*) 99.4\ % of ~2,000 gene pairs exhibited biased expression in at least one of the three tissues tested[@renny_byfield_ancient_2014].
+Interestingly, this bias was found to be tissue specific, suggesting that homologous genes may diverge to become tissue specific over evolutionary time[@adams_genes_2003; @renny_byfield_ancient_2014].
 
-
-Immediately following hybridization, large transcriptional changes are observed in polyploids.
-wang_genomewide_2006
-In synthetic Arabidopsis allopolyploids, Wang et al showed 
-They showed that genes originating from A. arenosa tend to dom-
-inate over homoeologous genes from A. thaliana by contributing
-more to total gene expression in the allotetraploid
-percentages of genes in the hormonal regulation and cell defense and aging
-
-
-
-
-
-
-In order to investigate the retention of duplicated flowering time genes in the *B.\ napus* genome, and the mechanisms driving this retention, the expression of these genes in the transcriptomic time series was assessed.
+In order to investigate global differences in expression between the genomes of *B.\ napus*, the expression of genes on the separate genomes were compared using the transcriptomic time series.
 The genome of origin seems to influence the expression of genes in the *B.\ napus* genome, with different patterns of expression bias observed at the genome-wide level relative to homoeologue level comparisons.
 Investigating the retention of genes reveals that flowering time genes have been retained in the *B.\ napus* genome, and that this is also observed among the subset of expressed genes.
 This suggests that the retained gene copies may be functional.
@@ -25,14 +18,14 @@ This suggests that regulatory divergence has contributed to the retention of flo
 
 ### Genome level expression differences between the A and C genomes {#section:spring:genomelevel}
 
-![**The *B.\ napus* A and C genomes show different overall patterns of gene expression.** Density plots of transformed expression levels ($\log_{10}(FPKM)$) calculated using different subsets of genes. The expression data was sampled 1000 times using a Gaussian error model. The density plot of $\log_{10}(FPKM)$ values was calculated for each sample. The mean density and the 95\ % confidence interval estimated using the 1000 samples is displayed. Tabulated below each density plot are the number of Brassica napus genes used to calculate the density plot, separated by their genome of origin. The data used to generate the density plots consisted of expression data from: **a** all annotated *B.\ napus* genes, **b** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene, and **c** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene that is present in the FLOR-ID database[@bouche_florid_2016]. These plots are generated using apex expression data from the time point taken at day 22, but are representative of the density plots obtained for all time points across both tissue types sampled (section TODO).](figuredirectory/10i_genome_level.pdf){#figure:210:genomeexp}
+![**The *B.\ napus* A and C genomes show different overall patterns of gene expression.** Density plots of transformed expression levels ($\log_{10}(FPKM)$) calculated using different subsets of genes. The expression data was sampled 1000 times using a Gaussian error model. The density plot of $\log_{10}(FPKM)$ values was calculated for each sample. The mean density and the 95\ % confidence interval estimated using the 1000 samples is displayed. Tabulated below each density plot are the number of Brassica napus genes used to calculate the density plot, separated by their genome of origin. The data used to generate the density plots consisted of expression data from: **a** all annotated *B.\ napus* genes, **b** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene, and **c** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene that is present in the FLOR-ID database[@bouche_florid_2016]. These plots are generated using apex expression data from the time point taken at day 22, but are representative of the density plots obtained for all time points across both tissue types sampled (Figure \ref{appendixa:sampledensity}; Appendix A).](figuredirectory/10i_genome_level.pdf){#figure:210:genomeexp}
 
 Previous studies of gene expression in polyploid species have generally focussed on comparing the expression of genes on different genomes to determine whether expression was biased[@akhunova_homoeolog_2010; @bardil_genomic_2011; @ilut_comparative_2012; @wang_genomewide_2006; @yoo_homoeolog_2013].
 To determine whether such a bias was observed in the expression data from the transcriptomic time series, density plots of the gene expression data for each of the two genomes was generated (Figure \ref{figure:210:genomeexp}).
 Different regions of the density curves will hereafter be referred to as very low (below -1), low (between -1 and 0), high (between 0 and 1), and very high (above 1), relating to the expression of genes within those regions.
 The A genome has a greater proportion of genes in the high expression region relative to the C genome (Figure \ref{figure:210:genomeexp}a).
 Conversely, for genes in the very low expression region, the opposite trend is observed (Figure \ref{figure:210:genomeexp}a).
-Similar patterns are observed when only *B.\ napus* genes exhibiting sequence conservation to an annotated Arabidopsis gene are considered (Figure \ref{figure:210:genomeexp}b) and when *B.\ napus* flowering time homologues are considered (Figure \ref{figure:210:genomeexp}c). 
+Similar patterns are observed when only *B.\ napus* genes exhibiting sequence conservation to an annotated Arabidopsis gene are considered (Figure \ref{figure:210:genomeexp}b) and when *B.\ napus* flowering time homologues are considered (Figure \ref{figure:210:genomeexp}c).
 However the differences between the density plots are less apparent when these subsets are taken.
 Interestingly, the proportions of genes represented from each genome change when these subsets of genes are taken.
 When no subset is taken, approximately 40\ % of *B.\ napus* gene models are located on the A genome.
@@ -105,7 +98,7 @@ As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pa
 To compare expression changes between the A and C genomes at the gene level, as has been done previously[@grover_homoeolog_2012], a list of homoeologues was generated by genomic synteny and sequence similarly, following a published method[@napus_genome_2014].
 Pairs of homoeologues were classified as exhibiting biased expression in the direction of a particular genome if the gene on that genome had an FPKM expression value at least two-fold higher than the gene on the other genome.
 Biased expression occurs in the direction of both genomes, although there is a clear preference, with approximately double the number of pairs showing biased expression towards the C genome rather than the A genome  (16.9\ % towards the C genome relative to 9.7\ % towards the A genome in the apex, and 15.2\ % compared to 8.2\ % in the leaf; Table \ref{spring:table201:homoeologues}).
-This pattern is consistent with the findings of Chalhoub et al. (2014)[@napus_genome_2014], and is maintained across the entire time series and for both tissue types sampled (section TODO - appendix).
+This pattern is consistent with the findings of Chalhoub et al. (2014)[@napus_genome_2014], and is maintained across the entire time series and for both tissue types sampled (Figure \ref{appendixa:sampledensity}; Appendix A).
 Although more pairs of homoeologues show biased expression towards the C genome that the A genome, the pairs biased toward the A genome may exhibit larger fold differences.
 If the overall expression of homoeologues was balanced between the two genomes in this way, the geometric mean of the fold differences of the C genome genes relative to their A genome homoeologues should equal unity.
 Calculating the geometric mean reveals a value above 1 (Table \ref{spring:table201:homoeologues}) demonstrating that, on average, expression is biased towards the C genome.
@@ -113,7 +106,7 @@ When pairs of homoeologue identified as *B.\ napus* flowering time genes are tes
 
 Investigating expression differences between the two genomes of *B.\ napus* reveals expression bias, although the direction of the bias depends on the scale at which it is considered.
 The results from the genome level analysis suggest an expression bias towards the A genome, while the homoeologue level results suggest bias towards the C genome.
-This discrepancy may be due to genes with low expression levels tending to lack homoeologue pair information (section TODO - appendix).
+This discrepancy may be due to genes with low expression levels tending to lack homoeologue pair information (Figure \ref{appendixa:homoeologuedensity}; Appendix A).
 It is interesting that the bias towards the A genome observed at the genome scale is less apparent when *B.\ napus* genes lacking sequence conservation an Arabidopsis gene are removed.
 This potentially indicates a higher proportion of silenced or pseudogenes on the C genome, consistent with the higher DNA methylation levels and transposon density observed in the C genome[@napus_genome_2014].
 

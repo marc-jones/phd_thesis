@@ -1,12 +1,12 @@
 ## *Arabidopsis thaliana* as a model for flowering time {#section:intro:arabidopsis}
 
 Model species have been key to the progression of biology by allowing researchers from all over the world to collaborate and focus research effort on common systems[@flavell_role_2009].
-Although it has been worked on since the turn of the 20^th^ century it was not until the 1970s, and the desire for a plant well suited to molecular genetics, did *Arabidopsis thaliana* (hereafter Arabidopsis) cement its position as *the* model plant species[@koornneef_development_2010; @redei_arabidopsis_1975].
+Although it has been worked on since the turn of the 20^th^ century it was not until the 1970s, and the desire for a plant well-suited to molecular genetics, did *Arabidopsis thaliana* (hereafter Arabidopsis) cement its position as *the* model plant species[@koornneef_development_2010; @redei_arabidopsis_1975].
 Arabidopsis makes a good model organism due to a short generation time, a small physical size, and because it produces many seeds from a single, self-pollinated plant.
 Experimental tools have been developed to facilitate both forward genetics (identifying genotype from phenotype) and reverse genetics (identifying phenotype from genotype).
 The use of ethyl methanesulphonate to mutagenize Arabidopsis facilitated forward genetic screens to identify plants that are deficient in a phenotype of interest[@kim_ems_2006].
 Such screens allowed the identification of global regulators of floral organ identity[@weigel_abcs_1994].
-For reverese genetics, transformation methods using *Agrobacterium tumerficians* were developed in the 1980s, allowing laboratory made genetic constructs to be inserted into the plant[@nester_agrobacterium_2015].
+For reverse genetics, transformation methods using *Agrobacterium tumerficians* were developed in the 1980s, allowing laboratory made genetic constructs to be inserted into the plant[@nester_agrobacterium_2015].
 Another factor in the use of Arabidopsis as a model was the availability of a complete genome sequence, which was the first plant genome fully sequenced[@the_arabidopsis_genome_initiative_analysis_2000], and the third multicellular organism after *Caenorhabditis elegans*[@the_celegans_sequencing_consortium_genome_1998] and *Drosophila melanogaster*[@adams_genome_2000].
 This was in part possible due to the relatively small size of the Arabidopsis genome, which in hindsight also contributed to the success of mutant screens.
 The availability of these tools for manipulating the genome of Arabidopsis have allowed multiple developmental pathways to be dissected in the plant.
@@ -87,13 +87,13 @@ The regulation of *miR156* is hypothesised to be regulated by sugar or carbohydr
 ### Floral integrators {#section:intro:floralintegrators}
 
 \begin{figure}[htbp]
-\includegraphics{../content/01_introduction/figures/gene_regulatory_network.pdf}
+\includegraphics{figuredirectory/gene_regulatory_network.pdf}
 \caption{\textbf{The core network of floral integrators.}}{Many
 regulatory interactions have been found between the nine floral
 integrators depicted here. This results in a tightly interconnected gene
 regulatory network, with many possible feedback loops and control
 mechanisms. Adapted from Bouché et
-al.\textsuperscript{TODO}}\label{figure:1xx:floralnetwork}
+al.\textsuperscript{288}}\label{figure:1xx:floralnetwork}
 \end{figure}
 
 The pathways described above converge onto a set of floral integrator genes, that mediate the transition to flowering.
@@ -101,18 +101,18 @@ The core of this network is composed of relatively few transcription factors wit
 These feedback loops allow for the signals from the flowering time pathways to be appropriately interpreted and provide robustness to the system[@jaeger_interlocking_2013].
 
 Both the photoperiod and vernalization pathways converge onto the expression of the floral activator *FT*.
-Grafting experiments in a number of plant species lead to the conclusion that a floral inducer, referred to as the florigen, was transported from leaves to the shoot apex to initiate flowering[@aksenova_florigen_2006; @lang_promotion_1977].
-It later emerged that the florigen, initially hypothesised to be a plant hormone, was the gene *FT*.
+Grafting experiments in a number of plant species led to the conclusion that a floral inducer, referred to as the florigen, was transported from leaves to the shoot apex to initiate flowering[@aksenova_florigen_2006; @lang_promotion_1977].
+It later emerged that the florigen, initially hypothesised to be a plant hormone, was the protein FT.
 *FT* is expressed in the phloem companion cells, and the FT protein is transported in the plant vasculature from leaves to the apex to promote flowering[@jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008].
 The gene was identified from a photoperiod sensitive mutant plant that exhibited delayed flowering when the plants were grown in long days[@koornneef_genetic_1991].
 This photoperiod sensitivity was found to be due to *FT* being directly regulated by the circadian clock gene *CO*[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
 The vernalization pathway also influences the expression of *FT*, with *FLC* binding to a site within the first promoter of *FT* to repress its expression[@helliwell_arabidopsis_2006].
 *FT* activates the expression of three MADS-box containing proteins that promote flowering; *FUL*[@wigge_integration_2005], *SOC1*[@moon_analysis_2005], and *AP1*[@abe_fd_2005].
-These will be discussed later in more detail later in this section.
+These will be discussed in more detail later in this section.
 
 A gene found to act in an antagonistic manner to *FT* in determining the floral transition is *TERMINAL FLOWER 1* (*TFL1*).
 Wild type Arabidopsis flowers develop in an indeterminate manner[@alvarez_terminal_1992].
-When the transition to flowering occurs, the vegetative meristem converts into an inflorescence meristem that in turn generates the floral structure. 
+When the transition to flowering occurs, the vegetative meristem converts into an inflorescence meristem that in turn generates the floral structure.
 Additional inflorescence meristems, and eventually floral meristems, develop on the side of the main inflorescence stem.
 However, the shoot apical meristem, located at the top of the floral structure, remains as an inflorescence meristem, and hence floral growth is indeterminate in Arabidopsis.
 Mutants in *TFL1* result in the primary inflorescence meristem converting into a floral meristem, such that the floral structure terminates in a flower as opposed to maintaining an indeterminate state[@shannon_mutation_1991].
@@ -156,7 +156,7 @@ In mutant plants lacking *AP1*, *SHORT VEGETATIVE PHASE* (*SVP*), *AGL24*, and *
 The expression of *AP1* therefore confers a floral state to the meristem.
 
 A gene involved with integration of inputs from an array of different flowering time pathways is *SOC1*[@lee_regulation_2010].
-The gene was discovered and rediscovered in Arabidopsis through a number of different experimental methods.
+The gene was discovered[@onouchi_mutagenesis_2000] and rediscovered[@lee_agamous_like_2000] in Arabidopsis through a number of different experimental methods.
 The *SOC1* gene was found to be differentially expressed after activation of an inducible CO protein in the absence of protein translation, suggesting *SOC1* is a direct target of CO[@samach_distinct_2000] and thus downstream of the photoperiod pathway.
 Indeed, *SOC1* gets its name as a mutant in the *SOC1* gene was able to suppress the early flowering phenotype of an Arabidopsis line overexpressing *CO*[@onouchi_mutagenesis_2000].
 The overexpression of *SOC1* in a vernalization requiring line of Arabidopsis was able to overcome the vernalization requirement, suggesting that *SOC1* also is also a part of the vernalization pathway[@lee_agamous_like_2000].

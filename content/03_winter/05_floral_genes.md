@@ -14,7 +14,7 @@ In the case of the regulatory network underlying flowering, duplication and subs
 This is particularly interesting given the regulatory divergence observed in the *BnFLC* genes in Tapidor (section \ref{section:winter:vern}), as different homologues of floral integrators may be influenced by different *BnFLC* homologues.
 
 To determine if any of the duplicated floral integrators in *B. napus* have become more sensitive to the vernalization response, the expression of these copies was compared between Westar and Tapidor.
-The greatest effect on the expression of *BnFT* and *BnTFL1* genes, with the expression of *BnFT* being consistent with *BnFLC* mediated repression as observed in Arabidopsis[@helliwell_arabidopsis_2006; @searle_transcription_2006].
+The greatest effect was observed for *BnFT* and *BnTFL1* gene expression, with the expression of *BnFT* being consistent with *BnFLC* mediated repression as observed in Arabidopsis[@helliwell_arabidopsis_2006; @searle_transcription_2006].
 The regulation of *BnAP1* and *BnFD* homologues are also altered in the winter variety.
 As observed at the global level, the vernalization requirement seems to delay the upregulation of many of the floral integrators.
 However, despite differences in timing, the expression behaviours of the majority of floral integrators in the winter variety are in agreement with the spring variety, suggesting that these genes are not responsible for the flowering time differences observed between the varieties.
@@ -140,9 +140,11 @@ This is in line with the findings at the global level, where vernalization was f
 
 Although there is not evidence for a vernalization specific regulatory network, certain *B. napus* homologues of floral integrators do exhibit different regulatory behaviour in the winter variety.
 Analysis of *BnFT* copies suggests that certain copies are more vernalization sensitive than others, with the A2 and C2 copies exhibiting a more severe reduction in expression across the entire time series relative to the A7 and C6 copies.
-However, that A2 and C2 are not expressed at all, even when the Tapidor plants have undergone the floral transition, potentially suggests that the A2 and C2 copies are not required for the floral transition in *B. napus*.
+These findings contradict results from other studies of vernalization requiring lines of *B.\ napus*, where the A7 and C6 copies were silenced prior to cold, while the A2 copy was expressed[@wang_promoter_2012].
+The response of the *BnFT* genes to vernalization, therefore, may be variety specific.
+That A2 and C2 are not expressed at all, even when the Tapidor plants have undergone the floral transition, potentially suggests that the A2 and C2 copies are not required for the floral transition in *B. napus*.
 This analysis will require further validation, as potentially the reduced expression of *BnFT* genes in the Tapidor leaf is a consequence of the leaves being older when *BnFT* expression increases in Tapidor relative to Westar.
-Suppression of expression is also observed for the *BnSOC1* genes.
+Repression is also observed for the *BnSOC1* genes.
 Although the copies maintain their general expression profiles, the expression magnitude of the copies is greatly reduced in the winter variety.
 Although the *BnTFL1* genes have not been found to have a vernalization requirement in Arabidopsis, these genes also show reduced expression in the winter compared to the spring *B. napus* variety.
 This may be a result of the highly interconnected nature of the floral integrators, such that the reduction in expression is indirect (figure \ref{figure:1xx:floralnetwork}).
@@ -152,3 +154,4 @@ In both cases, the homologues with novel regulation in the winter variety acquir
 This suggests that these two genes have potentially lost regulatory elements in Westar.
 Without further work it is difficult to determine whether the differences observed between varieties are due to the vernalization requirement or due to between variety differences.
 Studies that introgress *BnFLC* genes from Tapidor to Westar would be able to discriminate between these two possibilities.
+Alternatively, assessing the expression of the floral integrators could be done in a larger collection of *B.\ napus* varieties, to determine more consistent differences between winter and spring varieties.

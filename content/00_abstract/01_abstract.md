@@ -1,16 +1,16 @@
 *Brassica napus* (oilseed rape) is an economically important crop species that exhibits considerable varietal differences in flowering behaviour.
-Efforts to translate knowledge of flowering time control from model species to *B.\ napus* are complicated by the evolutionary history of the crop.
-Multiple whole genome duplication events have resulted in multiple copies of flowering time control genes being present in the *B.\ napus* genome.
-Understanding how these copies have diverged would allow for directed breeding of varieties with flowering times optimized for particular growth locations or periods.
+Efforts to translate knowledge of flowering time control from model species are complicated by the evolutionary history of the crop.
+Whole genome duplication events have resulted in multiple copies of genes being present in the *B.\ napus* genome.
+A better understanding of the roles additional gene copies play during the floral transition would aid predictive models in directing future breeding efforts.
 
-The aim of this thesis was to understand the extent of divergence among duplicated flowering time genes in the *B.\ napus* genome.
-A transcriptomic time series was collected and used to investigate gene expression during the floral transition.
-Copies of floral genes were found to be retained in the *B.\ napus* genome, in line with expectations from the gene dosage hypothesis.
-Extensive expression differences between these retained genes indicated that subfunctionalization may also play a role in the observed retention.
-The diverged expression profiles between *B.\ napus* homologues of an Arabidopsis floral integrator, *TFL1*, correlated with sequence differences in regulatory elements, highlighting the importance of cis-regulatory elements in the evolution of gene function.
-Sequence differences between *BnFD* genes were found to alter the predicted dimerization affinities of the proteins.
+As a first step towards unravelling the regulatory network underlying the floral transition in the crop, a transcriptomic time series was conducted and used to investigate gene expression during the floral transition.
+Expression differences between homologous flowering time genes indicated that duplicated genes occupy separate locations in the gene regulatory network.
+This suggests the complexity of the regulatory network is vastly increased in *B.\ napus* relative to model species, and that the duplicated genes are likely to have different roles during the floral transition.
 
-A requirement for cold in order to flower (vernalization) is an important agronomic trait in oilseed crops.
-The vernalization pathway was investigated by comparing the transcriptomes from both a spring and a winter variety of *B.\ napus*.
-Two *BnFLC* genes, *BnFLC.A2* and *BnFLC.A10*, emerged as likely gene candidates for mediating this response in the winter variety.
-Differences in the leaf transcriptome, and in the expression of *BnFLC* genes, between varieties suggest the vernalization pathway is acting in both the leaf and apex.
+Duplicated genes were observed to diverge in different ways.
+Loss of regulatory elements surrounding certain *B.\ napus* *TFL1* homologues correlated with expression changes, highlighting the importance of cis-regulatory elements in the evolution of gene function.
+Sequence differences between *B.\ napus* *FD* homologues were found to alter the predicted dimerization affinities of the proteins.
+Expression variation between *B.\ napus* *FLC* homologues suggested only some confer a vernalization response, revealing these genes have diverged to have altered sensitivity to cold.
+
+The finding that multiple homologues of the same flowering time gene in *B.\ napus* are expressed but show different expression dynamics, reveals that the floral regulatory network from model species cannot be directly translated but will require modification.
+This added complexity likely contributes to the developmental and genetic plasticity that has been exploited in this important crop.

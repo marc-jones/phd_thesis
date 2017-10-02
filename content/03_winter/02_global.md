@@ -29,7 +29,7 @@ To investigate this, the overlap between the expressed *B. napus* genes in each 
 In the leaf 4\ % to 6\ % of genes exhibit spring specific expression, whereas 8\ % to 9\ % show winter specific expression (Figure \ref{figure:3xx:varietyvenn}).
 The bias towards Tapidor increases when floral genes are considered; there are 43\ % more Tapidor specific genes than Westar when all *B. napus* genes are considered (Figure \ref{figure:3xx:varietyvenn}a), 53\ % when only *B. napus* homologues of Arabidopsis genes are considered (Figure \ref{figure:3xx:varietyvenn}b), and 88\ % when *B. napus* floral genes are considered (Figure \ref{figure:3xx:varietyvenn}c).
 This bias was not observed to the same extent in the apex, where all *B. napus* and *B. napus* genes with identified Arabidopsis homologues only showed 2\ % and 3\ % more Tapidor specific genes relative to Westar, with 12\ % more among floral genes.
-There therefore seems to be a consistent bias towards Tapdior having more variety specific genes expressed in the leaf. 
+There therefore seems to be a consistent bias towards Tapdior having more variety specific genes expressed in the leaf.
 
 ![**Relationship between the number of expressed copies of Arabidopsis genes in Tapidor relative to Westar.** The number of expressed copies of an Arabidopsis gene in *B. napus* was determined as the number of homologues that had a maximal expression value above or equal to 2\ FPKM at at least one time point in the time series. The size and colour of the circles indicate the number of data points at that position. Points on the diagonal, grey line represent Arabidopsis genes that have equal numbers of homologues expressed in both Tapidor and Westar. The left most percentage within each graph represent the number of Arabidopsis genes that have more homologues expressed in Westar, whereas the right most percentage is the corresponding percentage for Tapidor. In both the apex (**a**) and the leaf (**b**) there are more Arabidopsis genes with more copies expressed in Tapidor relative to Westar, although this bias is exaggerated in the leaf relative to the apex.](figuredirectory/tap_vs_wes_exp_all.pdf){#figure:3xx:tapvswesall}
 
@@ -47,8 +47,8 @@ Given that the mapping of Arabidopsis genes to *B. napus* is one-to-many, this s
 ![**Relationship between the number of expressed copies of Arabidopsis floral genes in Tapidor relative to Westar.** The number of expressed copies of an Arabidopsis floral gene in *B. napus* was determined as the number of homologues that had a maximal expression value above or equal to 2\ FPKM at at least one time point in the time series. The size and colour of the circles indicate the number of data points at that position. Points on the diagonal, grey line represent Arabidopsis floral genes that have equal numbers of homologues expressed in both Tapidor and Westar. The left most percentage within each graph represent the number of Arabidopsis genes that have more homologues expressed in Westar, whereas the right most percentage is the corresponding percentage for Tapidor. In both the apex (**a**) there are equal numbers of Arabidopsis floral genes on both sides of the diagonal, whereas in the leaf (**b**) there are more Arabidopsis genes with more copies expressed in Tapidor relative to Westar.](figuredirectory/tap_vs_wes_exp_flowering.pdf){#figure:3xx:tapvswesflor}
 
 To test if the retention of flowering time genes would affect the observation of Arabidopsis genes tending to have more expressed homologues in Tapidor leaf tissue, this was tested using a subset of flowering time genes.
-In the apex (Figure \ref{figure:3xx:tapvswesflor}a) a higher percentage of Arabidopsis genes have the same number of homologues expressed in both varieties (78.4%) relative to the global percentage (75.0%).
-This suggests that the functions of multiple copies of flowering time genes may tend to be more conserved between varieties that the rest of the genes in the genome.
+In the apex (Figure \ref{figure:3xx:tapvswesflor}a) a higher percentage of Arabidopsis genes have the same number of homologues expressed in both varieties (78.4\ %) relative to the global percentage (75.0\ %).
+This suggests that the functions of multiple copies of flowering time genes may tend to be more conserved between varieties that the rest of the genes in the genome, although further validation would be required.
 An alternative explanation is that compensatory expression of homologues occurs more frequently among floral genes.
 The observed bias towards Arabidopsis genes having more expressed genes in Tapidor is slightly exaggerated when floral genes are considered separately (Figure \ref{figure:3xx:tapvswesflor}b).
 These findings reveal that flowering time genes exhibit less variety specific expressed homologue counts in the apex, yet the bias towards Arabidopsis genes having more expressed homologues in the winter variety is slightly exaggerated.
@@ -71,7 +71,7 @@ There are more *B. napus* genes expressed specifically expressed in Tapidor in t
 At the Arabidopsis gene level, approximately a quarter of Arabidopsis genes exhibit differences in the number of *B. napus* homologues expressed in each variety (Figure \ref{figure:3xx:tapvswesall}).
 Once again, the leaf specific bias towards Tapidor specific expression is maintained (Figure \ref{figure:3xx:tapvswesall}).
 This tissue dependent bias towards Tapidor having a greater number of expressed homologues in the leaf raises the possibility that the additional copies are required for processes occurring in the leaf in Tapidor that are not occurring in Westar.
-In addition, *B. napus* homologues of the same Arabidopsis gene compensating for each other between varieties is a relatively rare occurrence (Figure #figure:3xx:varspecificall).
+In addition, *B. napus* homologues of the same Arabidopsis gene compensating for each other between varieties is a relatively rare occurrence (Figure \ref{figure:3xx:varspecificall}).
 This suggests that this potential form of varietal divergence does not play a role in phenotypic differences between the varieties, or if it does play a role, that it is the effect of relatively few genes.
 
 ### Self-organizing maps reveal that a cold requirement delays developmental transcriptional programs {#section:winter:som}
@@ -128,7 +128,7 @@ The coefficients were calculated both within and across varieties for each tissu
 The first observation that stands out is the baseline similarity in expression values between samples.
 The lowest correlation coefficient observed is 0.4, which is found between the day 43 and day 83 samples within the Tapidor leaf (Figure \ref{figure:3xx:corrleaf}).
 That there is this basal level of correlation between the samples suggests that many genes are regulated similarly in both varieties.
-Calculating correlation values between tissues results in coefficients that are much lower, with a mean of TODO, suggesting that the basal level of correlation observed between varieties is a consequence of tissue specific gene expression.
+Calculating correlation values between tissues results in coefficients that are much lower, with means of 0.35 (Westar) and 0.31 (Tapidor), suggesting that the basal level of correlation observed between varieties is a consequence of tissue specific gene expression.
 
 ![**Pearson correlation coefficients between leafsamples.** Coefficients were calculated between the transcriptomes of all leaf samples, with Westar-Westar (**a**), Westar-Tapidor (**b**), and Tapidor-Tapidor (**c**) comparisons scaled individually. Coefficients between like samples (diagonal lines in **a** and **c**) have been removed for clarity. The higher the coefficient value, the more similar two samples are. The additional time point in Tapidor results in the rectangular Westar-Tapidor comparison heatmap.](figuredirectory/leaf_correlation.pdf){#figure:3xx:corrleaf}
 
@@ -159,7 +159,7 @@ Taken together these two results suggest that different factors are having influ
 The equivalent time points being most highly correlated in the leaf suggests that the age of the leaf is having the largest effect on the transcriptome.
 That there is a time delay between the most highly correlated samples in the apex suggests that age does not influence the transcriptome in the apex as strongly as the leaf.
 Instead, the pattern of correlation coefficients suggests that developmental stage influences the transcriptome in the apex.
-This is seen most clearly at the final time point, which was sampled such that the two varieties were at a similar developmental stage.
+This is seen most clearly at the final time point, which was sampled such that the two varieties were at a similar developmental stage (BBCH stage 51[@lancashire_uniform_1991]).
 
 ### Conclusions
 
@@ -168,7 +168,7 @@ Analysis of variety specific expression of *B. napus* genes, and of variety spec
 The leaf is the plant organ at which photoperiod is interpreted[@an_constans_2004; @suarez_lopez_constans_2001; @samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999] and also plays a role in sensing the vernalization response[@wellensiek_leaf_1961; @michaels_flowering_1999; @searle_transcription_2006].
 An expanded set of genes expressed exclusively in Tapidor could represent increased sensory machinery in the leaf in the winter variety relative to the spring variety, in line with the increased vernalization sensitivity of Tapidor.
 This is especially interesting given that *FLC* has been found to influence the activity of the circadian clock[@edwards_flowering_2006]
-In addition, it is interesting that the percentage of *B. napus* genes expressed in both varieties (Figure \ref{figure:3xx:varietyvennis}) is larger than the percentage of genes expressed in both tissues in Westar (Figure \ref{figure:211:venn}).
+In addition, it is interesting that the percentage of *B. napus* genes expressed in both varieties (Figure \ref{figure:3xx:varietyvenn}) is larger than the percentage of genes expressed in both tissues in Westar (Figure \ref{figure:211:venn}).
 This reveals that the occurrence of variety specific expression is lower than tissue specific expression within a variety, suggesting that the tissue dissection was successful at enriching for apex tissue.
 
 The results from the SOM clustering reveals that, in the apex, the vernalization requirement delays the upregulation of genes enriched for GO terms associated with flower development.

@@ -85,10 +85,10 @@ Of the floral integrators, *BnFT* is the most well studied, potentially because 
 All four profiles are upregulated after the cold period, as expected from Arabidopsis[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
 The A7 and C6 copies were found to exhibit divergence relative to the A2 and C2 copies.
 In the leaf these copies exhibit a greater fold different between pre-cold expression levels and post-cold peak expression levels.
-This is interesting given results from vernalization sensitive lines of *B. napus* that found A7 and C6 were silenced prior to vernalization, whereas A2 was expressed prior to vernalization[@wang_promoter_2012].
+This is interesting given results from vernalization sensitive lines of *B. napus* that found the A7 and C6 copies were silenced prior to vernalization, whereas the A2 copy was expressed prior to vernalization[@wang_promoter_2012].
 Although Westar is a spring variety, a slight vernalization response is still observed and *BnFLC* genes in the variety display expression consistent with being vernalization sensitive[@murphy_vernalization_1994] (section \ref{section:winter:flc}).
 This potentially suggests that these copies mediate are vernalization responsive in Westar.
-However, this response may be variety specific, as other findings from Guo et al. (2014)[@guo_mutations_2014] found *BnFT.A7* and *BnFT.C6* to be most highly expressed when floral buds were visible, which is not the case with result from the transcriptomic time series.
+However, this response may be variety specific, as other findings from Guo et al. (2014)[@guo_mutations_2014] found *BnFT.A7* and *BnFT.C6* to be most highly expressed when floral buds were visible, which does not agree with results from the transcriptomic time series.
 It is also interesting that *BnFT.C2.Random* is found to exhibit expression, given that multiple accounts have reported that the C2 copy of *BnFT* is not expressed[@wang_promoter_2012; @guo_mutations_2014].
 This could represent a difference between spring and winter varieties of *B.\ napus*.
 The expression of *BnFT.A7* and *BnFT.C6* in the apex is somewhat surprising, given that *FT* in Arabidopsis is not required for the function of the gene to promote flowering[@abe_fd_2005; @kobayashi_pair_1999; @mathieu_export_2007].

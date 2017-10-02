@@ -11,7 +11,7 @@
    height="585.84558"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92+devel unknown"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="34_brassica_sequence_alignment.svg"
    style="shape-rendering:auto;text-rendering:auto">
   <metadata
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,19 +35,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="845"
+     inkscape:window-width="1920"
+     inkscape:window-height="1176"
      id="namedview11892"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.75618614"
-     inkscape:cx="431.84404"
-     inkscape:cy="246.97676"
-     inkscape:window-x="1440"
-     inkscape:window-y="26"
+     inkscape:zoom="1.0694087"
+     inkscape:cx="476.72951"
+     inkscape:cy="332.02081"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:document-rotation="0" />
@@ -23282,266 +23282,293 @@
   <text
      id="text240-3"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="49.366665"
-     x="0.1493358">
+     y="48.225334"
+     x="0.1493358"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
-       id="tspan8247-6">AtFD</tspan>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       id="tspan8247-6">Arabidopsis FD</tspan>
   </text>
   <text
      id="text240-3-7"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
      y="62.388"
-     x="-0.44800001">
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5">BnFD.A1</tspan>
   </text>
   <text
      id="text240-3-7-3"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="75.388"
-     x="-0.44800001">
+     y="75.32933"
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5-5">BnFD.C1</tspan>
   </text>
   <text
      id="text240-3-7-3-6"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="88.388"
-     x="-0.44800001">
+     y="88.32933"
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5-5-2">BnFD.C7</tspan>
   </text>
   <text
      id="text240-3-7-3-6-9"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="101.34"
-     x="-0.44800001">
+     y="101.26534"
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5-5-2-1">BnFD.Ann.Random</tspan>
   </text>
   <text
      id="text240-3-7-3-6-9-2"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="114.34"
-     x="-0.44800001">
+     y="114.26534"
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5-5-2-1-7">BnFD.A8</tspan>
   </text>
   <text
      id="text240-3-7-3-6-9-2-0"
      style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-     y="127.388"
-     x="-0.44800001">
+     y="127.32933"
+     x="-0.44799754"
+     sodipodi:linespacing="0%">
     <tspan
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'"
        id="tspan8247-6-5-5-2-1-7-9">BnFD.C3.Random</tspan>
   </text>
   <g
-     id="g8443"
-     transform="translate(-77.073694,1.975901)">
+     id="g8193"
+     transform="translate(108.39043,33.887314)">
     <text
-       x="77.22303"
-       y="194.92639"
+       sodipodi:linespacing="0%"
+       x="-108.2411"
+       y="161.92697"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-4">
+      <tspan
+         id="tspan8247-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">Arabidopsis FD</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="176.08963"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-9">
+      <tspan
+         id="tspan8247-6-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="189.03096"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-5">
+      <tspan
+         id="tspan8247-6-5-5-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="202.03096"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-5">
+      <tspan
+         id="tspan8247-6-5-5-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="214.96698"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-8">
+      <tspan
+         id="tspan8247-6-5-5-2-1-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="227.96698"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-2-3">
+      <tspan
+         id="tspan8247-6-5-5-2-1-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-108.83843"
+       y="241.03096"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-2-0-6">
+      <tspan
+         id="tspan8247-6-5-5-2-1-7-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
+    </text>
+  </g>
+  <g
+     id="g8241"
+     transform="translate(115.66378,23.115784)">
+    <text
+       sodipodi:linespacing="0%"
+       x="-115.51444"
+       y="320.28745"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-45">
+      <tspan
+         id="tspan8247-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">Arabidopsis FD</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="334.4501"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-8">
+      <tspan
+         id="tspan8247-6-5-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="347.39145"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-68">
+      <tspan
+         id="tspan8247-6-5-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="360.39145"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-55">
+      <tspan
+         id="tspan8247-6-5-5-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="373.32745"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-4">
+      <tspan
+         id="tspan8247-6-5-5-2-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="386.32745"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-2-05">
+      <tspan
+         id="tspan8247-6-5-5-2-1-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
+    </text>
+    <text
+       sodipodi:linespacing="0%"
+       x="-116.11177"
+       y="399.39145"
+       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
+       id="text240-3-7-3-6-9-2-0-7">
+      <tspan
+         id="tspan8247-6-5-5-2-1-7-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
+    </text>
+  </g>
+  <g
+     id="g8289"
+     transform="translate(122.27591,97.640717)">
+    <text
+       sodipodi:linespacing="0%"
+       x="-122.12657"
+       y="393.35147"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
        id="text240-3-3">
       <tspan
          id="tspan8247-6-6"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">AtFD</tspan>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">Arabidopsis FD</tspan>
     </text>
     <text
-       x="76.625694"
-       y="207.94774"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="407.51413"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-0">
+       id="text240-3-7-4">
       <tspan
-         id="tspan8247-6-5-6"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
+         id="tspan8247-6-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
     </text>
     <text
-       x="76.625694"
-       y="220.94774"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="420.45547"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-2">
+       id="text240-3-7-3-1">
       <tspan
-         id="tspan8247-6-5-5-6"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
+         id="tspan8247-6-5-5-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
     </text>
     <text
-       x="76.625694"
-       y="233.94774"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="433.45547"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-1">
+       id="text240-3-7-3-6-6">
       <tspan
-         id="tspan8247-6-5-5-2-8"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
+         id="tspan8247-6-5-5-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
     </text>
     <text
-       x="76.625694"
-       y="246.89973"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="446.39148"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-7">
+       id="text240-3-7-3-6-9-89">
       <tspan
-         id="tspan8247-6-5-5-2-1-9"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
+         id="tspan8247-6-5-5-2-1-54"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
     </text>
     <text
-       x="76.625694"
-       y="259.89972"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="459.39148"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-2">
+       id="text240-3-7-3-6-9-2-6">
       <tspan
-         id="tspan8247-6-5-5-2-1-7-0"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
+         id="tspan8247-6-5-5-2-1-7-10"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
     </text>
     <text
-       x="76.625694"
-       y="272.94772"
+       sodipodi:linespacing="0%"
+       x="-122.7239"
+       y="472.45547"
        style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-0-2">
-      <tspan
-         id="tspan8247-6-5-5-2-1-7-9-3"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
-    </text>
-  </g>
-  <g
-     id="g8499"
-     transform="translate(-65.992533,3.7613776)">
-    <text
-       x="66.141869"
-       y="340.72983"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-75">
-      <tspan
-         id="tspan8247-6-9"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">AtFD</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="353.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-2">
-      <tspan
-         id="tspan8247-6-5-2"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="366.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-8">
-      <tspan
-         id="tspan8247-6-5-5-9"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="379.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-7">
-      <tspan
-         id="tspan8247-6-5-5-2-3"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="392.70316"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-6">
-      <tspan
-         id="tspan8247-6-5-5-2-1-1"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="405.70316"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-29">
-      <tspan
-         id="tspan8247-6-5-5-2-1-7-3"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="418.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-0-1">
+       id="text240-3-7-3-6-9-2-0-9">
       <tspan
          id="tspan8247-6-5-5-2-1-7-9-9"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
-    </text>
-  </g>
-  <g
-     style="shape-rendering:auto;text-rendering:auto"
-     id="g8499-4"
-     transform="translate(-65.992533,151.35035)">
-    <text
-       x="66.141869"
-       y="340.72983"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-75-7">
-      <tspan
-         id="tspan8247-6-9-8"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">AtFD</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="353.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-2-4">
-      <tspan
-         id="tspan8247-6-5-2-5"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A1</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="366.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-8-0">
-      <tspan
-         id="tspan8247-6-5-5-9-3"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C1</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="379.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-7-6">
-      <tspan
-         id="tspan8247-6-5-5-2-3-1"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C7</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="392.70316"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-6-0">
-      <tspan
-         id="tspan8247-6-5-5-2-1-1-6"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.Ann.Random</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="405.70316"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-29-3">
-      <tspan
-         id="tspan8247-6-5-5-2-1-7-3-2"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.A8</tspan>
-    </text>
-    <text
-       x="65.544533"
-       y="418.75116"
-       style="font-style:italic;font-size:10px;line-height:0%;font-family:sans-serif;fill:#000000;fill-opacity:1;shape-rendering:auto;text-rendering:auto"
-       id="text240-3-7-3-6-9-2-0-1-0">
-      <tspan
-         id="tspan8247-6-5-5-2-1-7-9-9-6"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.66666698px;font-family:helvetica;-inkscape-font-specification:'helvetica Bold Italic'">BnFD.C3.Random</tspan>
     </text>
   </g>
 </svg>

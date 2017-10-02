@@ -2,7 +2,7 @@
 
 A vernalization requirement is of great agronomic importance for the growth of *Brassica* crops[@friedt_oilseed_2009] and has a large effect on the floral transition[@song_remembering_2013].
 To understand the vernalization response in *B. napus*, a time series of transcriptomes were compared between a winter variety, Tapidor, and a spring variety, Westar.
-Comparing the number of expressed genes between varieties revealed that the Tapidor had a greater number of *B. napus* genes exhibiting variety specific expression in the leaf compared to Westar.
+Comparing the number of expressed genes between varieties revealed that Tapidor had a greater number of *B. napus* genes exhibiting variety specific expression in the leaf compared to Westar.
 This difference was also observed when *B. napus* genes were grouped based on sequence conservation to Arabidopsis genes, with Arabidopsis genes tending to have more expressed homologues in the leaf in Tapidor than in Westar.
 A potential hypothesis to explain this observation is that an increased number of proteins are required in Tapidor.
 Being the organ that intercepts the majority of light, the leaf senses photoperiod signals[@an_constans_2004; @suarez_lopez_constans_2001; @samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
@@ -22,13 +22,13 @@ Conversely, analysis of the Arabidopsis leaf transcriptome from early growth sta
 The authors concluded that this was due to the transcriptional changes during leaf senescence being tightly coordinated to maximise the remobilization of resources from leaves to developing tissues.
 A potential explanation for why the transcriptomes of the leaf samples remain synchronised, despite the plants being at different developmental stages, is due to artificial selection for regular leaf senescence.
 As both varieties used are oilseed rape varieties, remobilization of resources from old leaves may have been selected for.
-This might be especially relevant for oilseed crops, where the formation of the leaf canopy blocks light to older leaves.
+This might be especially relevant for oilseed crops, where the formation of the pod canopy blocks light to older leaves.
 
 Investigating the expression of *B. napus* homologues of vernalization pathway genes implicates certain copies of *BnFLC* as mediating the vernalization response in Tapidor.
 During the cold, the expression of *FLC* in vernalization sensitive lines decreases, whereas in Arabidopsis spring accessions the expression of *FLC* is low throughout development[@michaels_flowering_1999].
 The expression of two *BnFLC* copies were found that were lowly expressed in Westar and became stably repressed in Tapidor during cold; the A10 and A2 copies.
 This finding confirms results from association studies, that found regions containing these genes to be associated with flowering time.
-Using a *B. napus* Doubled Haploid mapping population between Ningyou7, with a slight vernalization response, and Tapidor (TNDH population), a region on A10 was associated with flowering time variation in unvernalized conditions[@long_flowering_2007; @zou_comparative_2012].
+Using a *B. napus* Doubled Haploid mapping population between Ningyou7, a Chinese semi-winter variety, with a slight vernalization response, and Tapidor (TNDH population), a region on A10 was associated with flowering time variation in unvernalized conditions[@long_flowering_2007; @zou_comparative_2012].
 As this region was not associated with flowering time variation when the plants were vernalized, it led the authors to propose *BnFLC.A10* as the copy conferring a vernalization requirement in *B. napus*[@zou_comparative_2012].
 The A2 copy has also been found to be associated with flowering time in *B. napus* and *B. rapa*[@lou_quantitative_2007; @osborn_comparison_1997; @kole_evidence_2001; @xiao_brassica_2013; @zhao_brflc2_2010].
 Interestingly, the effects of A10 and A2 on flowering were found to be additive in *B. napus*, suggesting that both copies are delaying the floral transition to some extent[@schranz_characterization_2002].
@@ -73,7 +73,7 @@ Alternatively, the optimum temperature at which the *BnFLC.C2* copy is repressed
 Therefore, it seems that the *BnFLC* genes have diverged to either require different lengths of cold to become stably silenced or have different optima temperatures at which the silencing occurs.
 Having multiple copies of *FLC* with potentially different requirements for cold has interesting implications for the vernalization pathway in *B. napus*, relative to Arabidopsis.
 From experiments in Arabidopsis, vernalization has been shown to be a quantitative response; the more cold experienced, the more *FLC* expression is repressed[@michaels_flowering_1999; @shindo_variation_2006].
-In addition, the severity of cold influences the rate of vernalization.
+In addition, the severity of cold influences the rate of vernalization, where severity of cold is used to refer to the temperature used for the vernalization treatment.
 In thorough experiments using five different Arabidopsis accessions, different lengths of cold, and different vernalization temperatures, Duncan et al. (2015) revealed that the efficacy of vernalization was dependent on all three factors; genotype, length of cold, and severity of cold[@duncan_seasonal_2015].
 The interaction between the length of cold and the severity of cold provides a hypothesis for the retention of *FLC* copies in *B. napus*, and their apparent divergence in vernalization response; the "underdetermined system" hypothesis.
 This hypothesis states that additional copies of *FLC* allow regulatory responses to respond separately to the length of cold and to the vernalization temperature.
@@ -107,7 +107,7 @@ In a transcriptomic analysis of the Arabidopsis apex, the upregulation of *SOC1*
 However, the overall expression of the gene was much lower[@schmid_dissection_2003].
 This same additive interaction is observed for all *BnSOC1* genes in both the apex and the leaf in *B. napus*
 Finally, in the same manner as *BnFT* and *BnSOC1*, the expression levels of *BnTFL1* were lower in Tapidor than in Westar.
-This is interesting given the relatedness of *BnFT* and *BnTFL1*[@ahn_divergent_2006; @hanzawa_single_2005; @ho_structural_2014], despite *TFL1* not previously being implicated as a direct *FLC* homologue.
+This is interesting given the relatedness of *BnFT* and *BnTFL1*[@ahn_divergent_2006; @hanzawa_single_2005; @ho_structural_2014], despite *TFL1* not previously being implicated as a direct *FLC* target.
 Indeed the *TFL1* gene is not identified when the binding of *FLC* is assessed in a genome-wide manner[@deng_flowering_2011; @mateos_combinatorial_2015].
 This therefore suggests that the *BnTFL1* genes may be downregulated indirectly by *BnFLC* genes.
 In addition, as opposed to the post-cold upregulation of *BnTFL1.C3* being delayed in the winter variety, as was seen consistently with other genes exhibiting such regulatory behaviour, it occurred days before the spring variety.
@@ -116,9 +116,14 @@ Potentially the dynamics are similar between the winter and the spring, and are 
 A more biologically relevant explanation is due to the role of *TFL1* as a repressor of floral development in the shoot meristem in Arabidopsis[@alvarez_terminal_1992].
 The earlier upregulation in the winter variety may therefore occur to maintain the indeterminate nature of the shoot apex, as the plants were not then sufficiently induced to flower.
 
-A finding from Arabidopsis found that when genes that interact are duplicated, the expression of the genes tends to diverge and form distinct regulatory networks[@blanc_functional_2004].
+A study conducted in Arabidopsis found that when genes that interact are duplicated, the expression of the genes tends to diverge and form distinct regulatory networks[@blanc_functional_2004].
 It is then possible that each of these networks becomes specialised towards particular roles.
 In the case of *B. napus*, multiple copies of floral integrators may have resulted in multiple parallel regulatory networks forming and becoming specialised to particular inputs or locations.
 However, in general the vernalization requirement in Tapidor seems to influence the expression of all copies of a floral integrator.
 Although exceptions exist in the A1 copy of *BnFD* and the A2 copy of *BnAP1*, it is difficult to determine whether this represents a difference due to a vernalization requirement or a difference due to varietal divergence.
 Testing this would require analysing the expression of these potential vernalization sensitive homologues in a larger panel of *B. napus* lines.
+
+By comparing the expression of *BnFLC* homologues between varieties and between tissues, biologically relevant differences were identified.
+These results highlight the benefits of being able to make these kinds of comparison between expression profiles.
+The next chapter will introduce a tool developed to allow such comparisons to be quickly and easily made.
+The web application, dubbed the Oilseed Rape Developmental Expression Resource, allows the vast dataset collected in this study to be searched and plotted to facilitate comparisons between genes and homologues.

@@ -40,8 +40,10 @@ This decrease in expression is not as severe for the *BnFT.A7* gene, resulting i
 In the leaf, therefore, *BnFT.A2* and *BnFT.C2* both exhibit a divergent expression trace to *BnFT.C6*, but *BnFT.A7* shows similarities in its expression trace with all homologues.
 This suggests subtle regulatory divergence between the copies of *BnFT*.
 Comparing the magnitude of expression, the A genome copies of *BnFT* are more highly expressed than the copies on the C genome.
-*BnFT.A2* is generally 5 fold more highly expressed across the time series relative to *BnFT.C2.Random*, while *BnFT.A7* is 2\ -\ 3 fold more highly expressed than *BnFT.C6*.
+*BnFT.A2* is generally 5 fold more highly expressed across the time series relative to *BnFT.C2.Random*[^napusgenomeexplanation], while *BnFT.A7* is 2\ -\ 3 fold more highly expressed than *BnFT.C6*.
 This genome of origin bias suggests that the A genome copies potentially influence flowering to a greater extent than the C genome copies.
+
+[^napusgenomeexplanation]: The *B. napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'.
 
 To determine whether the *BnFT* genes exhibit tissue specific expression, the expression of these four genes was analysed in the apex samples.
 In the apex, only two of the *BnFT* genes are expressed; *BnFT.A7* and *BnFT.C6* (Figure \ref{figure:225:ftapex}).
@@ -102,7 +104,7 @@ The expression of the A7 and C6 copies is most similar to the expression pattern
 This suggests that these copies are acting redundantly to promote floral meristem identity.
 The magnitude differences oberved between copies located on the same chromosome suggests that the genetic factors controlling this difference may have been established in an ancestral Brassica before *B.\ rapa* and *B.\ oleracea* diverged 0.12\ -\ 3.7\ million years ago[@cheung_comparative_2009; @inaba_phylogenetic_2002].
 The expression patterns of the A2, C2, and Cnn copies of *BnAP1* respond to growth in short days and cold temperatures, which is not typical of *AP1* expression in Arabidopsis.
-A potential explanation is provided by the expression profiles of *BnSVP* genes  in *B.\ napus* (Figure TODO).
+A potential explanation is provided by the expression profiles of *BnSVP* genes  in *B.\ napus* (Figure \ref{appendixa:svp}; Appendix A).
 The A4, C4, and Ann copies of *BnSVP* all exhibit a similar expression response during the vernalization period as A2, C2, and Cnn.
 As *AP1* and *SVP* form dimers[@gregis_arabidopsis_2009] in Arabidopsis, potentially this response is a consequence of those interactions.
 It should be noted, however, that the expression levels of *BnAP1.A2*, *BnAP1.C2a.Random*, and *BnAP1.Cnn.Random* are very low relative to the A7 and C6 copies, suggesting that they may not play a strong role in the apex.

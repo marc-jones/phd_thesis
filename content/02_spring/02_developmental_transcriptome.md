@@ -37,10 +37,16 @@ As angiosperms develop, two collections of stem cells give rise to the entire pl
 The shoot apical meristem generates the above ground organs of the plant, forming leaves, stems, and floral structures, while the root meristem forms the below ground organs.
 The shoot apical meristem itself is composed of a mass of stem cells surrounded by leaf primordia, with floral integrators expressed within the meristem itself[@pidkowich_making_1999].
 To ensure that the apex samples were enriched for the meristem tissue, the surrounding leaf and stem tissue was removed by hand dissection using a razor blade.
-Although the method does not achieve the spatial resolution achievable with laser microdissection[@elhiti_gene_2013], it is still able to suitably enrich for apex tissue (section TODO - Appendix QA plots).
+Although the method does not achieve the spatial resolution achievable with laser microdissection[@elhiti_gene_2013], it is still able to suitably enrich for apex tissue (Figure \ref{appendixa:qaplots}; Appendix A).
 Measuring gene expression in biologically equivalent leaf and apex tissue allowed for the genes from key flowering pathways to be studied throughout the floral transition.
 
-![**The sampling scheme for the transcriptome time series.** Red numbers displayed below the bottom axis indicate the time points at which the plants were sampled. The representations of the plants indicate the approximate number of full leaves at those time points.](figuredirectory/01_sampling_scheme.pdf){#figure:201:samplingscheme}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/01_sampling_scheme.pdf}
+\caption{\textbf{The sampling scheme for the transcriptome time series.}}{Red numbers displayed below the bottom axis indicate the time points at
+which the plants were sampled. The representations of the plants
+indicate the approximate number of full leaves at those time
+points.}\label{figure:201:samplingscheme}
+\end{figure}
 
 To capture transitions in gene expression relevant to flowering time genes, the time points during development at which plant tissue was sampled were carefully chosen.
 A schematic of the sampling scheme is displayed in Figure \ref{figure:201:samplingscheme}.
@@ -101,11 +107,26 @@ While the Darmor-*bzh* gene models were also directed by transcriptomic data, th
 Potentially important floral genes that are expressed during the period of development addressed in the current study, therefore, may not have been represented in this dataset.
 By using the short reads from the transcriptomic time series to aid the generation of gene models, however, this problem is mitigated.
 
-![**Gene density is increased consistently across chromosomes with the AUGUSTUS derived gene models relative to the published gene models.** Gene count is calculated using a 100\ kbp sliding window across the chromosome. The patterns shown here are representative of the patterns seen across all chromosomes.](figuredirectory/02_gene_position.pdf){#figure:202:geneposition}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/02_gene_position.pdf}
+\caption{\textbf{Gene density is increased consistently across
+chromosomes with the AUGUSTUS derived gene models relative to the
+published gene models.}}{Gene count is calculated using a 100~kbp sliding
+window across the chromosome. The patterns shown here are representative
+of the patterns seen across all
+chromosomes.}\label{figure:202:geneposition}
+\end{figure}
 
-![**AUGUSTUS derived gene models tend to be longer than published gene models.** Gene length is calculated as the length of the unprocessed mRNA transcript. The patterns shown here are representative of the patterns seen across all chromosomes within a genome.](figuredirectory/03_gene_length.pdf){#figure:203:genelength}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/03_gene_length.pdf}
+\caption{\textbf{AUGUSTUS derived gene models tend to be longer than
+published gene models.}}{Gene length is calculated as the length of the
+unprocessed mRNA transcript. The patterns shown here are representative
+of the patterns seen across all chromosomes within a
+genome.}\label{figure:203:genelength}
+\end{figure}
 
-The number of gene models obtained from AUGUSTUS[@stanke_augustus_2008] was TODO, while the number of published gene models for the *B. napus* reference sequence is 101,040[@napus_genome_2014].
+The number of gene models obtained from AUGUSTUS[@stanke_augustus_2008] was 155,648, while the number of published gene models for the *B. napus* reference sequence is 101,040[@napus_genome_2014].
 To investigate whether the gene models were distributed in the same way across the genome, the density of genes across the genome was calculated for both sets (Figure \ref{figure:202:geneposition}).
 The gene density across the chromosomes is correlated between the two sets of gene models (Figure \ref{figure:202:geneposition}).
 This result indicates that similar proportions of genes are located in the same regions of the genome in both gene model sets, despite the AUGUSTUS-derived models exhibiting greater gene density.
@@ -139,9 +160,35 @@ In the case of *B. napus*, splice isoforms are less well categorized than for ot
 Additionally, the downstream statistics pipeline for Kallisto[@pimentel_sleuth_2016] is designed to carry out differential expression analysis using RNA-Seq data, rather than estimating expression level taking into account technical and biological noise.
 Due to these issues with Kallisto, and as the Tuxedo suite is a mature suite previously used in other *B. napus* RNA-Seq studies[@xu_transcriptome_2015; @chan_tissue_specific_2016], the latter was used to quantify gene expression.
 
-![**Quantifying gene expression for the apex and leaf separately has little effect on FPKM values.** FPKM gene expression values were calculated using the same quantification pipeline for both the leaf and the apex samples from the first sequencing run combined (x-axis) or separately (y-axis). These values were $\log_{10}$ transformed for clarity. That the points lie along the $y = x$ line indicates that both approaches result in similar FPKM values being calculated. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/04_tissue_split_sequencing_fpkm.pdf){#figure:204:tissuesplitfpkm}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/04_tissue_split_sequencing_fpkm.pdf}
+\caption{\textbf{Quantifying gene expression for the apex and leaf
+separately has little effect on FPKM values.}}{FPKM gene expression
+values were calculated using the same quantification pipeline for both
+the leaf and the apex samples from the first sequencing run combined
+(x-axis) or separately (y-axis). These values were \(\log_{10}\)
+transformed for clarity. That the points lie along the \(y = x\) line
+indicates that both approaches result in similar FPKM values being
+calculated. The data is displayed as a two dimensional histogram, where
+the colour of the hexagonal unit indicates the number of data points
+mapping to that part of the plot.}\label{figure:204:tissuesplitfpkm}
+\end{figure}
 
-![**Calculating FPKM values for the apex and leaf separately reduces the size of the confidence intervals.** 95\ % confidence intervals were calculated using the same quantification pipeline for both the leaf and the apex samples from the first sequencing run combined (x-axis) or separately (y-axis). The ranges of these intervals were $\log_{10}$ transformed for clarity. That the majority of points lie below the $y = x$ line (red diagonal line) indicates that calculating the confidence intervals separately for each tissue reduces the uncertainty in the expression value measurement. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/05_tissue_split_sequencing_confidence_interval.pdf){#figure:205:tissuesplitconf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/05_tissue_split_sequencing_confidence_interval.pdf}
+\caption{\textbf{Calculating FPKM values for the apex and leaf
+separately reduces the size of the confidence intervals.}}{95~\%
+confidence intervals were calculated using the same quantification
+pipeline for both the leaf and the apex samples from the first
+sequencing run combined (x-axis) or separately (y-axis). The ranges of
+these intervals were \(\log_{10}\) transformed for clarity. That the
+majority of points lie below the \(y = x\) line (red diagonal line)
+indicates that calculating the confidence intervals separately for each
+tissue reduces the uncertainty in the expression value measurement. The
+data is displayed as a two dimensional histogram, where the colour of
+the hexagonal unit indicates the number of data points mapping to that
+part of the plot.}\label{figure:205:tissuesplitconf}
+\end{figure}
 
 To quantify gene expression for the the transcriptomic time series, short reads were aligned to the *B. napus* reference genome[@napus_genome_2014] using the AUGUSTUS-derived gene models (discussed in Section \ref{section:spring:genomegenemodels}).
 Initially, only short reads from a single sequencing run were available for each sample, with an average of 67\ million reads per sample obtained.
@@ -153,9 +200,36 @@ If the large confidence intervals were indeed due to the lack of repeat measurem
 Performing the analysis in this way lead to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:205:tissuesplitconf}), while not affecting the expression level estimations for genes (Figure \ref{figure:204:tissuesplitfpkm}).
 This suggests that the initial size of the confidence intervals was indeed because samples from different tissues, different varieties, and different points in development were used to calculate the uncertainty.
 
-![**Including data from a second sequencing run does not affect the majority of estimated FPKM values.** FPKM gene expression values were calculated using the same quantification pipeline for the first sequencing run only (x-axis) or both sequencing runs combined (y-axis). These values were $\log_{10}$ transformed for clarity. That the highest frequencies of points lie along the $y = x$ line indicates that both approaches result in similar FPKM values being calculated for the majority of genes. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/06_both_vs_first_sequencing_fpkm.pdf){#figure:206:repsfpkm}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/06_both_vs_first_sequencing_fpkm.pdf}
+\caption{\textbf{Including data from a second sequencing run does not
+affect the majority of estimated FPKM values.}}{FPKM gene expression
+values were calculated using the same quantification pipeline for the
+first sequencing run only (x-axis) or both sequencing runs combined
+(y-axis). These values were \(\log_{10}\) transformed for clarity. That
+the highest frequencies of points lie along the \(y = x\) line indicates
+that both approaches result in similar FPKM values being calculated for
+the majority of genes. The data is displayed as a two dimensional
+histogram, where the colour of the hexagonal unit indicates the number
+of data points mapping to that part of the
+plot.}\label{figure:206:repsfpkm}
+\end{figure}
 
-![**Including data from a second sequencing run causes a reduction in the majority of estimated confidence interval sizes.** 95\ % confidence intervals were calculated using the same quantification pipeline for the first sequencing run only (x-axis) or both sequencing runs combined (y-axis). The ranges of these intervals were $\log_{10}$ transformed for clarity. That the majority of points lie below the $y = x$ line (red diagonal line) indicates that calculating the confidence intervals with reads from biological repeats reduces uncertainty in the expression value measurements for the majority of genes. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/07_both_vs_first_sequencing_conf_interval.pdf){#figure:207:repsconf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/07_both_vs_first_sequencing_conf_interval.pdf}
+\caption{\textbf{Including data from a second sequencing run causes a
+reduction in the majority of estimated confidence interval sizes.}}{95~\%
+confidence intervals were calculated using the same quantification
+pipeline for the first sequencing run only (x-axis) or both sequencing
+runs combined (y-axis). The ranges of these intervals were \(\log_{10}\)
+transformed for clarity. That the majority of points lie below the
+\(y = x\) line (red diagonal line) indicates that calculating the
+confidence intervals with reads from biological repeats reduces
+uncertainty in the expression value measurements for the majority of
+genes. The data is displayed as a two dimensional histogram, where the
+colour of the hexagonal unit indicates the number of data points mapping
+to that part of the plot.}\label{figure:207:repsconf}
+\end{figure}
 
 Although calculating expression values separately for each tissue results in reduced confidence interval sizes relative to both tissues combined, the intervals calculated were still large.
 To reduce the size of the intervals further, a second pool of biological tissue was sequenced.
@@ -166,9 +240,35 @@ As with the first sequencing run, an average of 82\ % of reads mapped to the ref
 Incorporating the repeat measurements resulted in a large reduction in confidence interval sizes (Figure \ref{figure:207:repsconf}) while having a comparatively small effect on expression levels for the majority of measurements (Figure \ref{figure:206:repsfpkm}).
 Therefore, the second sequencing run was able to provide enough additional data to reduce the uncertainty in the gene expression level estimation to acceptable levels for further work to be carried out.
 
-![**Reads aligning to multiple regions of the genome have little effect on the estimated gene expression levels.** FPKM gene expression values were calculated using the same quantification pipeline for all reads (y-axis) or reads that only align to a single position in the reference sequence (x-axis). These values were $\log_{10}$ transformed for clarity. That the points lie along the $y = x$ line indicates that both approaches result in similar FPKM values being calculated for the majority of genes. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/08_all_vs_unique_sequencing_fpkm.pdf){#figure:208:uniquefpkm}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/08_all_vs_unique_sequencing_fpkm.pdf}
+\caption{\textbf{Reads aligning to multiple regions of the genome have
+little effect on the estimated gene expression levels.}}{FPKM gene
+expression values were calculated using the same quantification pipeline
+for all reads (y-axis) or reads that only align to a single position in
+the reference sequence (x-axis). These values were \(\log_{10}\)
+transformed for clarity. That the points lie along the \(y = x\) line
+indicates that both approaches result in similar FPKM values being
+calculated for the majority of genes. The data is displayed as a two
+dimensional histogram, where the colour of the hexagonal unit indicates
+the number of data points mapping to that part of the
+plot.}\label{figure:208:uniquefpkm}
+\end{figure}
 
-![**Multiply mapping reads have little effect on the estimated confidence interval range.** 95\ % confidence intervals were calculated using the same quantification pipeline for all reads (y-axis) or reads that only align to a single position in the reference sequence (x-axis). The ranges of these intervals were $\log_{10}$ transformed for clarity. That the majority of points lie along the $y = x$ line indicates that both approaches result in similar confidence interval ranges being calculated for the majority of genes. The data is displayed as a two dimensional histogram, where the colour of the hexagonal unit indicates the number of data points mapping to that part of the plot.](figuredirectory/09_all_vs_unique_sequencing_conf_interval.pdf){#figure:209:uniqueconf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/09_all_vs_unique_sequencing_conf_interval.pdf}
+\caption{\textbf{Multiply mapping reads have little effect on the
+estimated confidence interval range.}}{95~\% confidence intervals were
+calculated using the same quantification pipeline for all reads (y-axis)
+or reads that only align to a single position in the reference sequence
+(x-axis). The ranges of these intervals were \(\log_{10}\) transformed
+for clarity. That the majority of points lie along the \(y = x\) line
+indicates that both approaches result in similar confidence interval
+ranges being calculated for the majority of genes. The data is displayed
+as a two dimensional histogram, where the colour of the hexagonal unit
+indicates the number of data points mapping to that part of the
+plot.}\label{figure:209:uniqueconf}
+\end{figure}
 
 A potential issue with RNA-Seq are reads mapping equally likely to multiple positions in the genome.
 To alleviate this problem, previous studies investigating the differential expression of paralogous genes have only used reads that map to single positions in the genome to calculate expression levels[@renny_byfield_ancient_2014].
@@ -182,7 +282,23 @@ This result demonstrates that reads mapping to multiple positions in the genome 
 
 ### Self-organizing map based clustering of expression data {#section:spring:somexplanation}
 
-![**Self-organizing maps (SOMs) are trained to represent multidimensional datasets.** SOMs are randomly initiated. Clusters are assigned neighbours based on their Euclidean distances from one another, such that neighbouring clusters have a lower Euclidean distance between them. During the training process, the SOM (black grid) is trained to represent the dataset (blue shape). The training process begins by selecting a random data point. The SOM cluster closest to that data point (yellow triangle), determined by Euclidean distance, is translated closer to the data point. At the same time, the neighbouring clusters are also translated, although to a lesser extent. Another data point is selected and the process repeats. The training process continues until the SOM accurately represents the dataset. Image adapted from a diagram by Mcld[@som_explanation], distributed under a CC BY-SA 3.0 license](figuredirectory/10b_som_explanation.pdf){#figure:215:somexplanation}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10b_som_explanation.pdf}
+\caption{\textbf{Self-organizing maps (SOMs) are trained to represent
+multidimensional datasets.}}{SOMs are randomly initiated. Clusters are
+assigned neighbours based on their Euclidean distances from one another,
+such that neighbouring clusters have a lower Euclidean distance between
+them. During the training process, the SOM (black grid) is trained to
+represent the dataset (blue shape). The training process begins by
+selecting a random data point. The SOM cluster closest to that data
+point (yellow triangle), determined by Euclidean distance, is translated
+closer to the data point. At the same time, the neighbouring clusters
+are also translated, although to a lesser extent. Another data point is
+selected and the process repeats. The training process continues until
+the SOM accurately represents the dataset. Image adapted from a diagram
+by Mcld\textsuperscript{255}, distributed under a CC BY-SA 3.0
+license}\label{figure:215:somexplanation}
+\end{figure}
 
 Having constructed the transcriptomic time series, validation was conducted to determine if expected trends were observed in the dataset.
 In order to assess trends in the data, gene expression profiles across time were clustered using self-organizing maps (SOMs).
@@ -190,11 +306,24 @@ SOMs adaptively take into account the variation present in the data to ensure th
 When used to cluster time series data, each cluster represents an expression profile across time, with genes exhibiting a similar expression profile assigned to that cluster.
 Due to the process by which SOMs are trained to the dataset (Figure \ref{figure:215:somexplanation}), neighbouring clusters will tend to have similar expression profiles to each other.
 If particular parts of the dataset are more dense in terms of the number of data points present then the training process will explore that part of the dataset more, leading to a higher density of clusters in that area.
-The ratio of grid dimensions are set as the same ratio as the eigenvalues of the first two principal components of the data, to maximise the variation captured by the SOM (section TODO).
+The ratio of grid dimensions are set as the same ratio as the eigenvalues of the first two principal components of the data, to maximise the variation captured by the SOM (Section \ref{section:methods:somclustering}; Methods).
 These properties lead to a clustering method that allows for the time series data to be summarised and visualized in an intuitive manner.
-Only SOMs generated using data from Westar are displayed here, with SOMs generated using data from Tapidor discussed elsewhere in the thesis (section \ref{section:winter:som}).
+Only SOMs generated using data from Westar are displayed here, with SOMs generated using data from Tapidor discussed elsewhere in the thesis (Section \ref{section:winter:som}).
 
-![**SOM generated using the apex transcriptome time series in Westar.** The size of the SOM was chosen such that it captured ~85% of the global squared distance from the mean (section TODO). The grey lines within each SOM cluster indicate the normalized expression profile that particular cluster represents. The SOM is toroidal, such that clusters on the top and bottom rows are adjacent, as are clusters on the left and right hand columns. The colour of the cluster represents the number of genes mapped to that particular cluster. The graphs under the plot correspond to clusters 19 and 46, that represent areas of the SOM with high numbers of genes.](figuredirectory/10c_a_w_som_count.pdf){#figure:216:somaw}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10c_a_w_som_count.pdf}
+\caption{\textbf{SOM generated using the apex transcriptome time series
+in Westar.}}{The size of the SOM was chosen such that it captured
+\textasciitilde{}85\% of the global squared distance from the mean
+(Section \ref{section:methods:somclustering}; Methods). The grey lines
+within each SOM cluster indicate the normalized expression profile that
+particular cluster represents. The SOM is toroidal, such that clusters
+on the top and bottom rows are adjacent, as are clusters on the left and
+right hand columns. The colour of the cluster represents the number of
+genes mapped to that particular cluster. The graphs under the plot
+correspond to clusters 19 and 46, that represent areas of the SOM with
+high numbers of genes.}\label{figure:216:somaw}
+\end{figure}
 
 Within the SOM generated using the developmental transcriptome from the apex (Figure \ref{figure:216:somaw}), there are two regions that have a high number of genes mapped to them, represented by clusters 19 and 46.
 The expression profile of cluster 19 is low at the start of the time series, increases during the cold, and returning to pre-cold levels when the plants are returned to growth in warmer conditions.
@@ -203,7 +332,20 @@ These clusters exhibit an expression pattern that remains largely constant throu
 These findings suggest that in the apex a large number of genes are responding to the change in growth conditions in the vernalization treatment, that is, short days and 5\ &deg;C temperatures.
 The large number of genes that increase in expression at the final time point may be due to flower buds being formed in the apex, which would require the coordinated expression of many genes.
 
-![**SOM generated using the leaf transcriptome time series in Westar.** The size of the SOM was chosen such that it captured ~85% of the global squared distance from the mean (section TODO). The grey lines within each SOM cluster indicate the normalized expression profile that particular cluster represents. The SOM is toroidal, such that clusters on the top and bottom rows are adjacent, as are clusters on the left and right hand columns. The colour of the cluster represents the number of genes mapped to that particular cluster. The graphs under the plot correspond to clusters 19, 82, and 99, that represent areas of the SOM with high numbers of genes.](figuredirectory/10d_l_w_som_count.pdf){#figure:217:somlw}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10d_l_w_som_count.pdf}
+\caption{\textbf{SOM generated using the leaf transcriptome time series
+in Westar.}}{The size of the SOM was chosen such that it captured
+\textasciitilde{}85\% of the global squared distance from the mean
+(Section \ref{section:methods:somclustering}; Methods). The grey lines
+within each SOM cluster indicate the normalized expression profile that
+particular cluster represents. The SOM is toroidal, such that clusters
+on the top and bottom rows are adjacent, as are clusters on the left and
+right hand columns. The colour of the cluster represents the number of
+genes mapped to that particular cluster. The graphs under the plot
+correspond to clusters 19, 82, and 99, that represent areas of the SOM
+with high numbers of genes.}\label{figure:217:somlw}
+\end{figure}
 
 To determine whether trends similar to the apex would also be observed in the leaf transcriptome, a SOM was generated for the leaf transcriptome time series (Figure \ref{figure:217:somlw}).
 Three regions of the leaf SOM exhibited high numbers of genes mapping to them; represented by clusters 19, 82, and 99.
@@ -234,7 +376,16 @@ When GO gene annotations are available for a particular organism, the proportion
 If a significantly higher proportion of genes within a subset are annotated with a GO term than would be expected given the across genome proportion, then that subset of genes is said to be enriched for that GO term.
 To understand the expression dynamics of key developmental pathways during the transcriptomic time series, GO term enrichment was carried out using the clusters identified in the SOM analysis (section \ref{section:spring:somexplanation}).
 
-![**Normalized expression profiles for SOM clusters enriched for leaf senescence and regulation of flower development.** Normalized expression profiles for SOM clusters that are significantly enriched for each GO term and that also contain the most *B. napus* genes annotated with that GO term are displayed. The expression patterns of genes associated with "leaf senescence" in the leaf and regulation of flower development in the apex are consistent with phenotypic observations from those tissues.](figuredirectory/10e_go_term_enrichment_1.pdf){#figure:219:go1som}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10e_go_term_enrichment_1.pdf}
+\caption{\textbf{Normalized expression profiles for SOM clusters
+enriched for leaf senescence and regulation of flower development.}}{Normalized expression profiles for SOM clusters that are significantly
+enriched for each GO term and that also contain the most \emph{B. napus}
+genes annotated with that GO term are displayed. The expression patterns
+of genes associated with ``leaf senescence'' in the leaf and regulation
+of flower development in the apex are consistent with phenotypic
+observations from those tissues.}\label{figure:219:go1som}
+\end{figure}
 
 To establish that GO term enrichment analysis would provide reliable results, and to further validate the transcriptomic time series, the enrichment of GO terms associated with phenotypic observations were tested.
 During the time series, the first true leaf was sampled at every time point (section \ref{section:spring:experimentaldesign}).
@@ -250,7 +401,18 @@ These responses are consistent with phenotypic observations that flower buds wer
 An additional observation for the expression traces of the cluster enriched for genes associated with the positive regulation of flower development is the slight decrease in expression during the vernalization treatment (Figure \ref{#figure:219:go1som}).
 As will be discussed later in this chapter when the behaviour of key floral integrators are investigated (Section \ref{section:spring:ft}), this is likely a result of the short day conditions the plants were grown in not being conducive to flowering.
 
-![**Normalized expression profiles for SOM clusters enriched for regulation of cell cycle and defence response.** Normalized expression profiles for the top two SOM clusters that are significantly enriched for each GO term. The expression profiles of genes involved with regulating the cell cycle in the apex decrease during the cold treatment, suggesting that the cold temperature may involve a change in the rate of cell division. The response of SOMs enriched for negative regulation of defence response in the leaf suggest interplay between defence responses, cold, and flowering.](figuredirectory/10f_go_term_enrichment_2.pdf){#figure:220:go2som}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10f_go_term_enrichment_2.pdf}
+\caption{\textbf{Normalized expression profiles for SOM clusters
+enriched for regulation of cell cycle and defence response.}}{Normalized
+expression profiles for the top two SOM clusters that are significantly
+enriched for each GO term. The expression profiles of genes involved
+with regulating the cell cycle in the apex decrease during the cold
+treatment, suggesting that the cold temperature may involve a change in
+the rate of cell division. The response of SOMs enriched for negative
+regulation of defence response in the leaf suggest interplay between
+defence responses, cold, and flowering.}\label{figure:220:go2som}
+\end{figure}
 
 Having established that clustering expression profiles from the transcriptomic time series resulted in biologically relevant groupings of genes, the enrichment of other GO terms was investigated.
 Controlling the cell cycle is an integral aspect of growth that plants need to tightly control.
@@ -275,7 +437,16 @@ The other cluster enriched for genes involved with down regulating plant defence
 This cluster is not affected by the cold treatment, but exhibits a steady increase in expression after the treatment.
 Both of these observations point towards the *B. napus* defence response being modulated by temperature and flowering in a similar manner to that observed in Arabidopsis.
 
-![**Normalized expression profiles for SOM clusters enriched for genes associated with the circadian rhythm.** Normalized expression profiles for the top two SOM clusters that are significantly enriched for the GO term "circadian rhythm" in both tissues in Westar. Both expression profiles increase during the cold treatment, suggesting a response to the change in photoperiod or cold experienced during the vernalization treatment.](figuredirectory/10g_go_term_enrichment_3.pdf){#figure:221:go3som}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10g_go_term_enrichment_3.pdf}
+\caption{\textbf{Normalized expression profiles for SOM clusters
+enriched for genes associated with the circadian rhythm.}}{Normalized
+expression profiles for the top two SOM clusters that are significantly
+enriched for the GO term ``circadian rhythm'' in both tissues in Westar.
+Both expression profiles increase during the cold treatment, suggesting
+a response to the change in photoperiod or cold experienced during the
+vernalization treatment.}\label{figure:221:go3som}
+\end{figure}
 
 To ensure the vernalization treatment was physiologically accurate, plants were subjected to growth in short days at 5\ &deg;C.
 The spring variety, Westar, was subjected to the vernalization treatment alongside the winter variety, Tapidor, to allow for the transcriptomic effects of photoperiod and ambient temperature changes to be differentiated from the effects of vernalization (Section \ref{section:spring:experimentaldesign}).
@@ -297,15 +468,27 @@ Proteins are modular in structure, composed of protein domains that are often re
 As a result, particular classes of protein are associated with certain biological pathways or activities.
 This is especially true with transcription factors, with different transcription factor domains in Arabidopsis binding to distinct recognition sequences[@franco_zorrilla_dna_binding_2014] and thus having distinct sets of target genes.
 Investigating the expression of particular transcription factor families across development can reveal the roles they play in development[@adryan_developmental_2010].
-In order to take this approach using transcriptomic time series, *B. napus* gene models were annotated with protein domains using previously published tools[TODO].
+In order to take this approach using transcriptomic time series, *B. napus* gene models were annotated with protein domains using previously published tools (Section \ref{section:methods:proteinenrichment}; Methods).
 Two case studies that illustrate the insights such an analysis facilitates are MADS-box and AP2 domain containing proteins.
 
-![**Normalized expression profiles for SOM clusters enriched for MADS and AP2 protein domains in the leaf and apex tissue of Westar.** Normalized expression profiles for SOM clusters that are significantly enriched for each protein domain and that also contain the most *B. napus* genes annotated with that protein domain are displayed. The expression patterns of MADS-box containing genes exhibit different patterns of expression in each tissue, suggesting that the proteins play tissue-specific roles in development. The expression profile of AP2 containing genes suggests that the proteins play a role late in development in the leaf.](figuredirectory/10h_protein_enrichment.pdf){#figure:222:proteinsom}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10h_protein_enrichment.pdf}
+\caption{\textbf{Normalized expression profiles for SOM clusters
+enriched for MADS and AP2 protein domains in the leaf and apex tissue of
+Westar.}}{Normalized expression profiles for SOM clusters that are
+significantly enriched for each protein domain and that also contain the
+most \emph{B. napus} genes annotated with that protein domain are
+displayed. The expression patterns of MADS-box containing genes exhibit
+different patterns of expression in each tissue, suggesting that the
+proteins play tissue-specific roles in development. The expression
+profile of AP2 containing genes suggests that the proteins play a role
+late in development in the leaf.}\label{figure:222:proteinsom}
+\end{figure}
 
 The MADS-box domain is a protein domain that is conserved across a diverse array of species.
 Indeed, the MADS-box takes its name from the *MINICHROMOSOME MAINTENANCE 1* genes in yeast, the *AGAMOUS* gene in Arabidopsis, *DEFICIENS* in *Antirrhinum majus* and serum response factor in humans[@schwarz_sommer_genetic_1990].
 In Arabidopsis, MADS-box containing genes have been found to control a wide range of roles related to flowering[@ng_mads_review_2001].
-To determine the regulation of this important family of proteins in *B. napus*, the clusters enriched for genes containing the domain were found (section TODO).
+To determine the regulation of this important family of proteins in *B. napus*, the clusters enriched for genes containing the domain were found (Section \ref{section:methods:proteinenrichment}; Methods).
 In the leaf samples, 35 *B. napus* genes with detectable MADS-box domains are expressed, whereas 85 were expressed in the apex.
 The expression profiles for the SOM clusters most highly enriched for MADS-box containing proteins are quite different between the leaf and apex (Figure \ref{figure:222:proteinsom}).
 The leaf cluster peaks in expression during cold, with expression at the other time points, before and after cold, being somewhat similar.

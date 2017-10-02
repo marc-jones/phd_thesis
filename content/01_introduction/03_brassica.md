@@ -7,11 +7,13 @@ A theory proposed by Woo Jan-choon in 1935, that has become known as the triangl
 These tetraploid species are *B. napus* (oilseed rape, swede, kale), *B. carinata* (Ethiopian mustard), and *B. juncea* (Indian mustard).
 As the tetraploids are the result of interspecies hybridization events they are termed allopolyploids.
 Progenitors to modern day *B. rapa* and *B. oleracea* plants are thought to have hybridized to form ancestral *B. napus* less than 10,000 years ago[@rana_conservation_2004], with multiple hybridizations having taken place to give the modern *B. napus* gene pool[@allender_origins_2010].
-Rapeseed crops such as *B. napus*, are the second most cropped oil crop worldwide comprising 13% of the total yield[@fao_2017], with the oil being used as a vegetable oil and for industrial lubricants.
-In the UK, 13% of the total area on which crops were grown in 2016 (608,000 hectares) were used for oilseed crops, generating £541 million in income[@agriculture_uk_2017].
-Wheat grown following oilseed rape will yield 10% more than a wheat grown continuously, on average[@christen_effect_1993].
+Rapeseed crops such as *B. napus*, are the second most cropped oil crop worldwide comprising 13\ % of the total yield[@fao_2017], with the oil being used as a vegetable oil and for industrial lubricants.
+In the UK, 13\ % of the total area on which crops were grown in 2016 (608,000 hectares) were used for oilseed crops, generating £541 million in income[@agriculture_uk_2017].
+Wheat grown following oilseed rape will yield 10\ % more than a wheat grown continuously, on average[@christen_effect_1993].
 
 \begin{table}[htp]
+\caption{\textbf{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.}}{ Table obtained from Cartea et al.[TODO]}
+\label{intro:table1xx:brassicas}
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llll}
@@ -43,8 +45,6 @@ Species & Group & Common name & Organ consumed \\
 \bottomrule
 \end{tabular}%
 }
-\caption{\textbf{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.} Table obtained from Cartea et al.[TODO]}
-\label{intro:table1xx:brassicas}
 \end{table}
 
 Aside from being an economically important crop, the *Brassica* species are also a model for gene retention.
@@ -59,12 +59,12 @@ This genomic collinearity and relatedness of the two plant species has been expl
 
 ### How does flowering time affect the cultivation of *Brassica* species?
 
-The success of many *Brassica* crops is dependent on the flowering time of the crop.
+The success of many *Brassica* crops is dependent on their flowering time.
 The edible componant of both broccoli (*B. rapa* var. *botrytis italica*) and cauliflower (*B. rapa* var. *botrytis botrytis*) are the plant inflorescences, and the timing of the floral transition and floral development in general is very important for these crops as a consequence.
 Using variation in curd formation in cauliflower, a number of potential candidate genes were identified as controlling the response to temperature, with some of these genes being homologues of floral genes in Arabidopsis[@matschegewski_genetic_2015].
 With other *Brassica* crops, such as Chinese cabbage (*B. rapa* var. *pekinensis*) the prevention of flowering is desired.
 Chinese cabbage is grown for its leaves (Table \ref{intro:table1xx:brassicas}).
-If the plant transitions to floral growth it will bolt, significantly reducing its economic value.
+If the plant transitions to floral growth, it will bolt, significantly reducing its economic value.
 The expression of a floral repressor, a *B. rapa* homologue of *FLC*, was found to correlate with bolting time in different Chinese cabbage lines[@li_molecular_2005].
 
 *B. napus* crops are predominantly used as oilseed crops, in which the timing of the floral transition impacts both when the seed filling period begins and how long it progresses.
@@ -72,7 +72,7 @@ Indeed, the interconnected nature of yield and flowering has been suggested by a
 The yield of oilseed rape crops is determined by the number of seeds the plants produce per area and the weight of each seed.
 Numbers of pods and seeds are largely determined during a 3 week phase after flowers have formed[@mendham_effects_1981; @ahdb_oilseed_rape], with the quality of the seed dependent on a period of seed filling.
 The seed quality is related to temperature, with cooler conditions extending seed filling, and the rate of photosynthesis, with the majority of oil in the seed accumulated during the second half of seed filling[@ahdb_oilseed_rape].
-The effect of photosynthesis during the seed filling period is potentially of greater significance in *B. napus* relative to other crops as the remobilization of carbohydrates accumulated before flowering is ~12%, compared to 20-50% in wheat[@habekotte_quantitative_1993; @ahdb_oilseed_rape].
+The effect of photosynthesis during the seed filling period is potentially of greater significance in *B. napus* relative to other crops as the remobilization of carbohydrates accumulated before flowering is ~12\ %, compared to 20\ \ -50\ % in wheat[@habekotte_quantitative_1993; @ahdb_oilseed_rape].
 Yield of winter oilseed rape has been found to be related to the size of the crop at flowering[@mendham_effects_1981].
 This is in turn a function of the length of time between the beginning of spring, when mean growing temperatures exceeded 5 &deg;C, and when the plants flowered in late May.
 Therefore, the highest yielding years were those where spring was early and flowering late, allowing the longest period of time for growth in this critical period.
@@ -86,8 +86,8 @@ Therefore, the vernalization requirement of a variety is important to consider f
 Additionally, the length and severity of cold required by a variety will dictate whether that variety is suitable to a particular application.
 
 Finally, the availability of pollinators can significantly impact the yield of *B. napus* crops.
-Preventing pollinators visiting winter oilseed rape plants led to a 27% decrease in the number of seeds produced and a 30% decrease in the seed weight per pod[@stanley_pollinators_2013].
-In addition the diversity of those pollinators visiting the plants is related to oilseed rape yield[@zou_wild_2017]
+Preventing pollinators visiting winter oilseed rape plants led to a 27\ % decrease in the number of seeds produced and a 30\ % decrease in the seed weight per pod[@stanley_pollinators_2013].
+In addition the diversity of those pollinators visiting the plants is related to oilseed rape yield[@zou_wild_2017].
 Changes to flowering time will affect the pollinators that are available to the flowering plants.
 This has been found to profoundly affect the reproductive success of perennial wildflowers[@rafferty_pollinator_2012].
 Therefore, as the yield of oilseed rape is influenced by pollinator availability[@stanley_pollinators_2013; @zou_wild_2017], the correct timing of flowering is required.
@@ -121,8 +121,8 @@ Transposon mediated changes to the expression of an *FT* homologues were also id
 This suggested that this copy of *FT* has retained a function similar to its counterpart in Arabidopsis[@zhang_transposon_2015].
 Arrest of floral development is required in broccoli and cauliflower to form the heads correctly.
 Interestingly, the floral genes predicted to cause the arrest (*LFY*, *AP1*, and *TFL1*) were not implicated, causing the authors to suggest other floral meristem genes are mediating the change relative to Arabidopsis[@duclos_meristem_2008].
-Links between flowering time and *SOC1* homologues have been identified in *B. rapa*[@franks_variation_2015], with expression differences detected between the different homolgoues in *B. rapa* and *B. juncea*[@franks_variation_2015; @sri_sequence_2015]
+Links between flowering time and *SOC1* homologues have been identified in *B. rapa*[@franks_variation_2015], with expression differences detected between the different homolgoues in *B. rapa* and *B. juncea*[@franks_variation_2015; @sri_sequence_2015].
 
-Despite evidence of of flowering time genes homologues having similar roles in *Brassica* species, in depth analysis of how different homologues are behaving is often lacking.
-This is not the case for all genes however, with the roles of *FT*, *FLC*, and *FRI* homologues in *Brassica* species being dissected in a copy specific manner.
+Despite evidence of flowering time genes homologues having similar roles in *Brassica* species, in-depth analysis of how different homologues are behaving is often lacking.
+This is not the case for all genes however, with the roles of *FT*, *FLC*, and *FRI* homologues in *Brassica* species being dissected in a copy specific manner[@zou_comparative_2012; @wang_promoter_2012; @wang_flowering_2011; @irwin_functional_2012].
 These investigations have revealed that individual copies have indeed diverged in function and behaviour.

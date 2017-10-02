@@ -2,7 +2,7 @@
 
 The vernalization response is arguably one of the most investigated floral pathways in *Brassica* crops[@li_molecular_2005; @lin_differential_2005; @irwin_functional_2012; @schranz_characterization_2002; @okazaki_mapping_2007; @zou_comparative_2012], likely due to its agronomic importance[@friedt_oilseed_2009; @li_molecular_2005].
 Work has also been motivated by *FLC* and *FRI* homologues in *Brassica* crops being found in regions of the genome statistically associated with flowering time variation[@long_flowering_2007; @zhao_brflc2_2010; @kole_evidence_2001; @lou_quantitative_2007; @schranz_characterization_2002; @axelsson_multiple_2001; @okazaki_mapping_2007; @ridge_role_2015; @irwin_nucleotide_2016; @osborn_comparison_1997; @zou_comparative_2012; @wang_flowering_2011].
-Molecular characterisation has also identified the importance of vernalization pathway genes, with between variety polymorphisms at the *FLC* locus is responsible for heading data variation in *B. oleracea*[@irwin_nucleotide_2016].
+Molecular characterisation has also identified the importance of vernalization pathway genes, with between variety polymorphisms at the *FLC* locus responsible for heading data variation in *B. oleracea*[@irwin_nucleotide_2016].
 However, aside from the association studies, the interactions between the copies of vernalization genes *in planta* have not been assessed.
 Even within the association studies, although large phenotypic effects were attributed to certain vernalization gene homologues, more subtle variation attributable to other homologues might be masked.
 The importance of considering the effects of multiple homologues on the floral transition is perfectly exemplified with *FLC*.
@@ -26,11 +26,11 @@ In order to assess whether this is the case, it is important to consider the exp
 In the developmental time series, across both tissues and varieties, ten copies of *BnFLC* are expressed above 2.0 FPKM at at least one time point; four on the A genome and six on the C genome.
 The complement of copies expressed, however, varies based on the tissue and variety investigated.
 
-In the Tapidor apex, nine copies of *BrFLC* are expressed, and exhibit a *mixed* pattern of regulatory module assignment, indicating regulatory divergence (Figure \ref{#figure:3xx:flctapapex}).
+In the Tapidor apex, nine copies of *BrFLC* are expressed, and exhibit a *mixed* pattern of regulatory module assignment, indicating regulatory divergence (Figure \ref{figure:3xx:flctapapex}).
 The largest of these regulatory modules consist of all A genome *BnFLC* genes and the two *BnFLC.C3*.
 These genes are grouped together as all exhibit a decrease in expression during the vernalization period, with expression remaining low post cold.
 This pattern of expression mirrors that of *FLC* from Arabidopsis[@michaels_flowering_1999].
-*BnFLC.C2* also decreases during the vernalization period, but the repression is not stable, and reactivation is observed post-cold (Figure \ref{#figure:3xx:flctapapex}).
+*BnFLC.C2* also decreases during the vernalization period, but the repression is not stable, and reactivation is observed post-cold (Figure \ref{figure:3xx:flctapapex}).
 This pattern of *FLC* expression has been observed in Arabidopsis lines that have not been given sufficient cold exposure to result in the stable repression of *FLC*[@coustham_quantitative_2012; @shindo_variation_2006].
 A partial reactivation of *BnFLC.A3b*, *BnFLC.C3b*, and *BnFLC.C3c* results in the clustering coefficient of these copies and the *BnFLC.C2* copy being high.
 Finally, the *BnFLC.C9a* and *BnFLC.C9b* have similar expression traces in the time series, with both genes having relatively low expression before and during cold, with an increase in expression post-cold.
@@ -103,7 +103,7 @@ Although the *BnFLC.C9a* copy is expressed in the leaf in Westar and not Tapidor
 Like the A2, C2, and A3a copies of *BnFLC*, *BnFLC.C9b* shows a decrease during the cold treatment, but also displays a reactivation after the cold treatment.
 
 The expression traces of *BnFLC* genes in the leaf, like those from the apex, reveal that the majority of copies respond to cold treatment by decreasing in expression.
-Interestingly, the prevalence of *BnFLC* copies exhibiting reactivation in the leaf is less than in the apex, potentially indicating that the apex in *B. napus* is perennial in nature.
+Interestingly, the prevalence of *BnFLC* copies exhibiting reactivation in the leaf is less than in the apex, potentially indicating that the apex in *B.\ napus* is perennial in nature.
 The only copy that exhibits a significant change in expression pattern between tissues is *BnFLC.C9b*.
 In the apex this copy does not exhibit cold-induced silencing, whereas it does in the leaf.
 This suggests the C9b copy of *BnFLC* exhibits tissue-specific regulation in both varieties.
@@ -135,7 +135,7 @@ This suggests that one or both of these copies controls the vernalization requir
 Comparing the magnitude of expression between varieties also confirms the finding that *BnFLC.C9b* is not involved with delaying flowering time, as the gene is more highly expressed in Westar relative to Tapidor.
 
 Comparing expression data between the apex and the leaf reveals some tissue specific expression.
-More copies of *BnFLC* exhibit reactivation in the Tapidor apex (Figure \ref{#figure:3xx:flctapapex}) relative to the Tapidor leaf (Figure \ref{figure:3xx:flctapleaf}).
+More copies of *BnFLC* exhibit reactivation in the Tapidor apex (Figure \ref{figure:3xx:flctapapex}) relative to the Tapidor leaf (Figure \ref{figure:3xx:flctapleaf}).
 This supports the hypothesis that the Tapidor apex may have perennial characteristics.
 In *Arabidopsis halleri*, a perennial relative of Arabidopsis, the expression of a *FLC* homologue was found to reactivate in young leaves[@aikawa_robust_2010].
 It is therefore likely that *BnFLC* reactivation is not observed in the leaf as the first true leaf was sampled throughout the time series, such that the age related effects and leaf senescence result in the lack of expression.
@@ -159,14 +159,14 @@ Despite this complexity, it seems that one particular combination of PRC2 protei
 The gene was identified in a mutant screen for plants that had an impaired vernalization response[@chandler_arabidopsis_1996].
 In addition, in *Medicago truncatula* a mutant in a homologue of *VRN2* was found to disrupt the vernalization response in the plant[@jaudal_mtvrn2_2016].
 In order to assess whether regulatory divergence among components of the PRC2 could be influencing the vernalization response in *B. napus*, expression of *VRN2*, *SWN*, *MSI1*, and *FIE1* homologues was analysed.
-As very little regulatory and between variety divergence was observed for *SWN* and *FIE1* *B. napus* homologues, the analysis of those genes can be found in appendix TODO.
+As very little regulatory and between variety divergence was observed for *SWN* and *FIE1* *B. napus* homologues, the analysis of those genes can be found in Appendix B.
 
 ![**Expression traces for the *BnVRN2* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Within a variety, the two homoeologues retain similar expression profiles.](figuredirectory/vrn2_apex.pdf){#figure:3xx:vrn2apex}
 
 ![**Expression traces for the *BnVRN2* genes in the leaf.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Within a variety, the two homoeologues retain similar expression profiles.](figuredirectory/vrn2_leaf.pdf){#figure:3xx:vrn2leaf}
 
 Two *B. napus* homologues of *VRN2* are expressed in both the leaf (Figure \ref{figure:3xx:vrn2leaf}) and apex (Figure \ref{figure:3xx:vrn2apex}).
-The expression of the genes does not change dramatically across the itme series in either tissue or variety, although all copies of the gene exhibit an slight increase in expression during the vernalization treatment.
+The expression of the genes does not change dramatically across the time series in either tissue or variety, although all copies of the gene exhibit an slight increase in expression during the vernalization treatment.
 The magnitude of expression is largely similar between varieties also, suggesting that expression differences in *BnVRN2* genes does not influence the different vernalization requirements of Tapidor and Westar.
 However, in the apex *BnVRN2.A8* (Figure \ref{figure:3xx:vrn2apex}) is more highly expressed than the *BnVRN2.C8.Random* copy, whereas in the leaf this relationship is reversed (Figure \ref{figure:3xx:vrn2leaf}).
 This potentially indicates that the two homologues of *VRN2* have undergone spatial subfunctionalization in *B. napus*.
@@ -215,7 +215,7 @@ With *VIN3*, these *VIL* proteins form a family of proteins called the (*VERNALI
 In line with their roles with the vernalization PRC2 complex, these three PHD-finger proteins have been found to associate[@de_lucia_phd_polycomb_2008; @sung_phd_2006].
 In addition to the vernalization pathway, *VIL1* and *VIL2* have also been found to influence the photoperiod flowering pathway[@sung_phd_2006; @kim_plant_2010].
 As a result of the key roles these genes play in mediating the vernalization response, their expression profiles in the two *B. napus* varieties were investigated.
-As very little regulatory and between variety divergence was observed for *VIL1* and *VIL2* *B. napus* homologues, the analysis of those genes can be found in appendix TODO.
+As very little regulatory and between variety divergence was observed for *VIL1* and *VIL2* *B. napus* homologues, the analysis of those genes can be found in Appendix B.
 
 ![**Expression traces for the *BnVIN3* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. An upregulation of expression during the vernalization treatment is observed in all copies and in both varieties.](figuredirectory/apex_vin3.pdf){#figure:3xx:vin3apex}
 
@@ -223,7 +223,7 @@ As very little regulatory and between variety divergence was observed for *VIL1*
 
 Three copies of *BnVIN3* are expressed across both tissues and varieties; one copy on the A2, A3, and C2 chromosomes.
 In both the apex (Figure \ref{figure:3xx:vin3apex}) and the leaf (Figure \ref{figure:3xx:vin3leaf}) the expression pattern of the gene exhibits an increase during the vernalization treatment and returns to low temperatures post-cold.
-This is exactly in line with the expression of *VIN3* in Arabidopsis[@sung_vernalization_2004].
+This is in line with the expression of *VIN3* in Arabidopsis[@sung_vernalization_2004].
 Comparing the magnitude of expression, between variety differences are present, but only for certain copies.
 In the apex, *BnVIN3.A2* and *BnVIN3.A3* are 2\ -\ 3 fold more highly expressed during the cold treatment in Tapidor compared to Westar, whereas the C2 copy is similarly expressed in both (Figure \ref{figure:3xx:vin3apex}).
 In the leaf only the A3 copy exhibits similar differences in the magnitude of expression between varieties, with the A2 and C2 copy being more similarly expressed (Figure \ref{figure:3xx:vin3leaf}).
@@ -234,7 +234,7 @@ In addition, this between variety divergence is tissue specific, with both A2 an
 
 ### FRIGIDA {#section:winter:fri}
 
-Despite variation at *FRI* accounting for the majority of flowering time variation[@shindo_role_2005], the spatiotemporal expression profile of the gene has not been well elucidated.
+Despite variation at *FRI* accounting for the majority of flowering time variation in Arabidopsis[@shindo_role_2005], the spatiotemporal expression profile of the gene has not been well elucidated.
 What is known, however, is that mutations that disrupt the expression of the *FRI* gene causes early flowering through *FLC* expression being lowly expressed[@shindo_role_2005; @gazzani_analysis_2003; @le_corre_dna_2002; @johanson_molecular_2000].
 
 ![**Expression traces for the *BnFRI* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Expression of all copies are very low, with the A10 copy being expressed below the 2.0 FPKM threshold to be regarded as expressed.](figuredirectory/fri_apex.pdf){#figure:3xx:friapex}
@@ -244,7 +244,7 @@ What is known, however, is that mutations that disrupt the expression of the *FR
 The expression profiles of *BnFRI* genes in the apex (Figure \ref{figure:3xx:friapex}) and leaf (Figure \ref{figure:3xx:frileaf}) exhibit strong similarities, suggesting that the *BnFRI* genes have not diverged in terms of expression domain.
 Slight expression increases are observed for most copies in both the apex and leaf, with this not being the case for the C9 copy in the leaf (Figure \ref{figure:3xx:frileaf}).
 Comparing the magnitudes of expression between varieties reveals *BnFLC.A10* is the only copy that exhibits clear differences.
-The copy of *BnFLC* on A10 is more highly expressed in the winter variety, consistent with this copy being responsible for the higher expression of *BnFLC* genes in the winter variety (section \ref{section:winter:flc}).
+The copy of *BnFLC* on A10 is more highly expressed in the winter variety, consistent with this copy being potentially responsible for the higher expression of *BnFLC* genes in the winter variety (section \ref{section:winter:flc}).
 
 ### Conclusions
 

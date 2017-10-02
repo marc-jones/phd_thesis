@@ -571,8 +571,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="94.702434"
-     inkscape:cy="242.23043"
+     inkscape:cx="420.62601"
+     inkscape:cy="200.81418"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -581,9 +581,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1176"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1145"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata32965">
@@ -933,7 +933,7 @@
                x="434.87067"
                y="7.8644724" /></flowRegion><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:helvetica;-inkscape-font-specification:helvetica"
-             id="flowPara46303-2-3-2-44">Gene name assigned by Cufflinks</flowPara></flowRoot>      </g>
+             id="flowPara46303-2-3-2-44">The days post sowing the tissue was sampled</flowPara></flowRoot>      </g>
       <g
          transform="translate(27.857148,-1.6490431)"
          id="g47521">
@@ -961,7 +961,7 @@
                x="434.87067"
                y="7.8644724" /></flowRegion><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:helvetica;-inkscape-font-specification:helvetica"
-             id="flowPara46303-2-3-2-4-8">Chromosome on which the gene is located</flowPara></flowRoot>      </g>
+             id="flowPara46303-2-3-2-4-8">FPKM value</flowPara></flowRoot>      </g>
       <g
          transform="translate(27.857148,-4.5296631)"
          id="g47531">
@@ -989,7 +989,7 @@
                x="434.87067"
                y="7.8644724" /></flowRegion><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:helvetica;-inkscape-font-specification:helvetica"
-             id="flowPara46303-2-3-2-4-3-8">Base number at which the gene model begins</flowPara></flowRoot>      </g>
+             id="flowPara46303-2-3-2-4-3-8">Upper bound of the FPKM confidence interval</flowPara></flowRoot>      </g>
       <g
          transform="translate(27.857148,-7.4980031)"
          id="g47541">
@@ -1017,7 +1017,7 @@
                x="434.87067"
                y="7.8644724" /></flowRegion><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:helvetica;-inkscape-font-specification:helvetica"
-             id="flowPara46303-2-3-2-4-3-5-9">Base number at which the gene model ends</flowPara></flowRoot>      </g>
+             id="flowPara46303-2-3-2-4-3-5-9">Lower bound of the FPKM confidence interval</flowPara></flowRoot>      </g>
       <g
          transform="translate(27.857148,-13.006513)"
          id="g47551">
@@ -1227,7 +1227,7 @@
                x="434.87067"
                y="7.8644724" /></flowRegion><flowPara
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:helvetica;-inkscape-font-specification:helvetica"
-             id="flowPara46303-2-3-2-4-3-5-9-1">Percentage of highest scoring pair sequence identity</flowPara></flowRoot>      </g>
+             id="flowPara46303-2-3-2-4-3-5-9-1">Percentage sequence identity of highest scoring pair</flowPara></flowRoot>      </g>
       <g
          transform="translate(10.142858,-12.000002)"
          id="g47624">

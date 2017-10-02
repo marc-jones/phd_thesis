@@ -22,7 +22,7 @@ My thanks go to my peers on the Rotation PhD programme, those that run it, and t
 Thanks to Sarah O'Connor for letting me join her lab and to Richard Payne for the unenviable task of having to teach a computational biologist his way around said lab.
 Many thanks to Caroline Dean for my time in her lab and to Susan Duncan for supervising me.
 Thank you for the fantastic trip to Sweden, and to both Caroline and Susan for discussions about vernalization that have worked their way into this thesis.
-Nick Brewin, and later, Steph Bornemann both ran the Rotation PhD programme exceeding well and the Rotation retreats were always a highlight of the year.
+Nick Brewin, and later, Steph Bornemann both ran the Rotation PhD programme exceedingly well and the Rotation retreats were always a highlight of the year.
 Many thanks to the Rotation students from my year, Andrew Maclean, Nuno Leitão, Jemima Brinton, and Jie Li, for many social occasions and being great friends.
 
 The cohort of PhD students with whom I've spent my time at the John Innes Centre have been fantastic.

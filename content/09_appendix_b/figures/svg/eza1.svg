@@ -14,7 +14,7 @@
    viewBox="0 0 118.56531 73.606217"
    version="1.1"
    id="svg4834"
-   inkscape:version="0.92+devel unknown"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="eza1.svg">
   <defs
      id="defs4828" />
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="212.90688"
-     inkscape:cy="-40.946337"
+     inkscape:zoom="1.979899"
+     inkscape:cx="136.80821"
+     inkscape:cy="148.98933"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -36,10 +36,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="871"
-     inkscape:window-x="2880"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4831">
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,6 +58,19 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-40.008663,-46.745433)">
+    <text
+       sodipodi:linespacing="0%"
+       id="text13980-5-0-0"
+       style="font-variant:normal;font-weight:bold;font-size:3.38666677px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28222224"
+       x="84.05558"
+       y="49.359516">
+      <tspan
+         id="tspan13982-6-4-6"
+         sodipodi:role="line"
+         x="84.05558"
+         y="49.359516"
+         style="font-size:3.52777791px;line-height:1.25;stroke-width:0.28222224">SWN AT4G02020</tspan>
+    </text>
     <path
        d="M 47.089606,79.066948 H 73.036442 V 55.854175 H 47.089606 Z"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28222224"
@@ -461,18 +474,6 @@
          y="42.066063"
          x="-71.482216 -69.757835 -67.87542 -65.837784"
          style="font-size:2.82222223px;line-height:1.25;stroke-width:0.28222224">FPKM</tspan>
-    </text>
-    <text
-       id="text13980-5-0"
-       style="font-variant:normal;font-weight:bold;font-size:3.38666677px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28222224"
-       x="83.576492"
-       y="49.359516">
-      <tspan
-         id="tspan13982-6-4"
-         sodipodi:role="line"
-         x="83.576492"
-         y="49.359516"
-         style="font-size:3.52777791px;line-height:1.25;stroke-width:0.28222224">EZA1 AT4G02020</tspan>
     </text>
     <path
        d="m 73.22519,56.042911 v 22.835315 h 4.332113 V 56.042911 Z"
