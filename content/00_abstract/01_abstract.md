@@ -10,7 +10,7 @@ This suggests the complexity of the regulatory network is vastly increased in *B
 Duplicated genes were observed to diverge in different ways.
 Loss of regulatory elements surrounding certain *B.\ napus* *TFL1* homologues correlated with expression changes, highlighting the importance of cis-regulatory elements in the evolution of gene function.
 Sequence differences between *B.\ napus* *FD* homologues were found to alter the predicted dimerization affinities of the proteins.
-Expression variation between *B.\ napus* *FLC* homologues suggested only some confer a vernalization response, revealing these genes have diverged to have altered sensitivity to cold.
+Expression variation between *B.\ napus* *FLC* homologues suggests only some confer a vernalization response, revealing these genes have diverged to have altered sensitivity to cold.
 
-The finding that multiple homologues of the same flowering time gene in *B.\ napus* are expressed but show different expression dynamics, reveals that the floral regulatory network from model species cannot be directly translated but will require modification.
+The finding that multiple homologues of the same flowering time gene in *B.\ napus* are expressed but show different expression dynamics reveals that the floral regulatory network from model species cannot be directly translated, but will require modification.
 This added complexity likely contributes to the developmental and genetic plasticity that has been exploited in this important crop.

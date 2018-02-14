@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-513.57533"
-     inkscape:cy="19.231064"
+     inkscape:zoom="1.4"
+     inkscape:cx="185.83957"
+     inkscape:cy="265.81307"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4581"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -461,9 +461,11 @@
          y="549.41327">Number of expressed <tspan
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Italic'"
    id="tspan9909">B. napus</tspan>
+
  copies of <tspan
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Italic'"
    id="tspan9911">A. thaliana</tspan>
+
  genes</tspan>
     </text>
     <text
@@ -490,6 +492,7 @@
          y="105.25079">Genes with <tspan
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Italic'"
    id="tspan11640">A. thaliana</tspan>
+
  annotation</tspan>
     </text>
     <g
@@ -2136,5 +2139,33 @@
          x="419.84787"
          y="-559.08325">Leaf</tspan>
     </text>
+    <text
+       y="339.51175"
+       x="137.69032"
+       id="text302-9-3-2-2-0-1"
+       style="font-variant:normal;font-weight:bold;font-size:7.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         style="font-size:15px"
+         id="tspan304-92-3-4-6-7-0"
+         sodipodi:role="line"
+         x="137.69032"
+         y="339.51175">b</tspan>
+    </text>
+    <g
+       id="g4581"
+       transform="translate(0,-17.318023)">
+      <text
+         style="font-variant:normal;font-weight:bold;font-size:7.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text302-9-3-21-4-0-6"
+         x="138.15533"
+         y="141.17398">
+        <tspan
+           y="141.17398"
+           x="138.15533"
+           sodipodi:role="line"
+           id="tspan304-92-3-42-2-3-5"
+           style="font-size:15px">a</tspan>
+      </text>
+    </g>
   </g>
 </svg>

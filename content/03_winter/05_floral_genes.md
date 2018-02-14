@@ -31,7 +31,16 @@ The later upregulation of floral integrators in the winter variety during the ti
 
 ### Between variety regulatory divergence in all *BnFT* and *BnTFL1* genes and select homologues of *BnFD* and *BnAP1* {#section:winter:floraldifferences}
 
-![**Expression traces for the *BnFT* genes in the leaf of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles.](figuredirectory/exp_ft_leaf.pdf){#figure:3xx:ftleaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/exp_ft_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFT} genes in the leaf
+of Tapidor.}}{The expression values and the 95\% confidence intervals of
+those expression values as computed by Cufflinks are displayed. A
+heatmap of the clustering coefficients calculated by the SOM based
+method (discussed in section \ref{section:spring:somexplanation})
+quantifies the similarity between the expression
+profiles.}\label{figure:3xx:ftleaf}
+\end{figure}
 
 One of the ways that *FLC* acts as a floral repressor is through the repression of *FT* expression in the leaf[@helliwell_arabidopsis_2006; @searle_transcription_2006].
 To investigate how *BnFT* genes were affected by a requirement for cold, their expression was investigated.
@@ -51,7 +60,17 @@ Regardless, that the A2 and C2 copies are not observed above 2.0\ FPKM is partic
 In addition, while the spring variety had low, but detectable, expression of *BnFT.A7* and *BnFT.C6* in the apex, no such expression is observed in the winter variety.
 Taken together, this suggests that the vernalization response has greater effect on the expression of the A2 and C2 copies of *BnFT* than on the A7 and C6 copies, although lower expression is observed for all copies in both tissues in the winter variety.
 
-![**Expression traces for the *BnTFL1* genes in the apex of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles, which in this case demonstrates that the two regulatory profiles have diverged.](figuredirectory/exp_tfl1_apex.pdf){#figure:3xx:tfl1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/exp_tfl1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnTFL1} genes in the
+apex of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles, which in this case demonstrates that the two
+regulatory profiles have diverged.}\label{figure:3xx:tfl1apex}
+\end{figure}
 
 Although *TFL1* and *FT* are very highly related structurally[@ahn_divergent_2006; @hanzawa_single_2005; @ho_structural_2014] their regulation is quite distinct.
 For example, the vernalization flowering pathway has not been found to influence the expression of *TFL1*, whereas it has for *FT*[@helliwell_arabidopsis_2006; @searle_transcription_2006].
@@ -62,7 +81,7 @@ In section \ref{section:spring:tfl1} I discuss the decrease in expression of *Bn
 However, for this to be the case the expression of *BnLFY* and *BnAP1* genes in the winter variety would have to increase in expression earlier in the time series, rather than later as observed (Figure \ref{figure:3xx:lfyapex} and \ref{figure:3xx:ap1apex}).
 Another potential explanation for the earlier peak in expression may be a result of the day 69 samples from Tapidor not being included in the sequencing.
 Therefore, the expression of *BnTFL1.C3* may in fact be very similar in both varieties, with the different timings of the floral transition between the two varieties having little effect on the expression of the gene.
-Performing qPCR on the full set of samples taken from Tapidor, as was done in Westar (Figure \ref{fig:233:tfl1conservation}), would allow for this to be tested.
+Performing qPCR on the full set of samples taken from Tapidor, as was done in Westar (Figure \ref{figure:233:tfl1conservation}), would allow for this to be tested.
 The expression magnitude of the other *BnTFL1* copies is reduced in the winter variety relative to the spring variety, with *BnTFL1.Cnn.Random* being the only other copy expressed above 2.0 FPKM at at least one time point.
 In addition to being lowly expressed, *BnTFL1.Cnn.Random* lacks the peak in expression during the cold treatment in the winter compared to the spring variety.
 The cold response therefore reduces the expression of all copies of *BnTFL1*, and also influences the timing of regulatory changes.
@@ -74,7 +93,18 @@ However, an additional manner in which the *BnSOC1* genes have diverged between 
 In both the apex (Figure \ref{figure:3xx:soc1apex}) and the leaf (Figure \ref{figure:3xx:soc1leaf}), the maximal expression levels of the *BnSOC1* genes are 2\ -\ 4 fold lower in the winter variety than in the spring.
 This suggests that the vernalization requirement results in suppression of *BnSOC1* expression for all copies, while the general pattern of expression (whether the copy is expressed during cold , or increases after cold, or both) is maintained.
 
-![**Expression traces for the *BnFD* genes in Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. Regulatory divergence between some copies is observed early in the time series, although all copies increase in expression after the vernalization treatment.](figuredirectory/apex_leaf_fd.pdf){#figure:3xx:fdleafapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_leaf_fd.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFD} genes in
+Tapidor.}}{The expression values and the 95\% confidence intervals of
+those expression values as computed by Cufflinks are displayed. A
+heatmap of the clustering coefficients calculated by the SOM based
+method (discussed in section \ref{section:spring:somexplanation})
+quantifies the similarity between the expression profiles. Regulatory
+divergence between some copies is observed early in the time series,
+although all copies increase in expression after the vernalization
+treatment.}\label{figure:3xx:fdleafapex}
+\end{figure}
 
 As both *BnFT* and *BnTFL1* genes exhibit altered expression in the winter variety, the expression of *BnFD* copies was investigated as the product of the *FD* gene interacts with both FT and TFL1 in Arabidopsis[@jaeger_interlocking_2013; @abe_fd_2005; @wigge_integration_2005].
 Within the apex, five of the six *BnFD* copies display similar expression patterns between Tapidor and Westar.
@@ -96,7 +126,19 @@ The *BnAP1.A2.Random* gene in Tapidor, therefore, behaves more similarly to the 
 
 ### Similarities in floral integrator regulation between varieties {#section:winter:floralsimilarities}
 
-![**Expression traces for the *BnAP1* genes in the apex of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. The A7 and C6 copies and the A2 copy have high similarity between their expression profiles, while the C2a and Cnn copies have very low expression and do not show regulatory similarity to the other *BnAP1* copies.](figuredirectory/exp_ap1_apex.pdf){#figure:3xx:ap1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/exp_ap1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnAP1} genes in the
+apex of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. The A7 and C6 copies and the A2 copy have high
+similarity between their expression profiles, while the C2a and Cnn
+copies have very low expression and do not show regulatory similarity to
+the other \emph{BnAP1} copies.}\label{figure:3xx:ap1apex}
+\end{figure}
 
 One of the key behaviours observed in many of the expression traces of the floral integrators in Westar was an increase in expression after the vernalization treatment .
 All expressed *BnLFY* copies, the A7 and C6 copies of *BnFT* and *BnAP1* in the apex, five of the six *BnSOC1* and *BnFD* copies in the apex, and the C3 and A10 copies of *BnTFL1* all exhibit a post-cold increase in the spring variety (Section \ref{section:spring:floralintegrators}).
@@ -108,9 +150,31 @@ Likewise, the A7 and C6 copies of both *BnFT* and *BnAP1* display similar expres
 Therefore, a vernalization requirement does not seem to completely abolish the upregulation of floral integrators during the floral transition.
 This suggests that the *BnFLC* copies that exhibit expression reactivation post-cold do not repress any of the floral integrators that display upregulation in both varieties.
 
-![**Expression traces for the *BnSOC1* genes in the apex of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. Regulatory divergence between the copies is observed, both in terms of expression pattern and the magnitude of expression.](figuredirectory/apex_soc1.pdf){#figure:3xx:soc1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_soc1.pdf}
+\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+apex of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. Regulatory divergence between the copies is
+observed, both in terms of expression pattern and the magnitude of
+expression.}\label{figure:3xx:soc1apex}
+\end{figure}
 
-![**Expression traces for the *BnSOC1* genes in the leaf of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. Regulatory divergence between the copies is observed, both in terms of expression pattern and the magnitude of expression.](figuredirectory/leaf_soc1.pdf){#figure:3xx:soc1leaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/leaf_soc1.pdf}
+\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+leaf of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. Regulatory divergence between the copies is
+observed, both in terms of expression pattern and the magnitude of
+expression.}\label{figure:3xx:soc1leaf}
+\end{figure}
 
 *SOC1* is a direct target of *FLC* in Arabidopsis[@helliwell_arabidopsis_2006; @searle_transcription_2006].
 However, homologues of this gene do not seem to be impacted by the vernalization response in Tapidor.
@@ -118,7 +182,17 @@ In the apex in Westar, the *BnSOC1* genes exhibit peaks in expression during and
 In both varieties, the C4 and A3 copies exhibit the most extreme of these ratios, with *BnSOC1.A3.Random* peaking in expression post-cold and the *BnSOC1.C4* copy peaking during the cold (Figures \ref{figure:227:soc1apex} and \ref{figure:3xx:soc1apex}).
 That these observations are not altered in the winter variety suggests that the effect of a cold requirement impacts the regulation of all *BnSOC1* genes similarly.
 
-![**Expression traces for the *BnLFY* genes in the apex of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. All four copies exhibit very similar expression profiles.](figuredirectory/apex_lfy.pdf){#figure:3xx:lfyapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_lfy.pdf}
+\caption{\textbf{Expression traces for the \emph{BnLFY} genes in the
+apex of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. All four copies exhibit very similar expression
+profiles.}\label{figure:3xx:lfyapex}
+\end{figure}
 
 Expression magnitude differences between copies are also maintained in the winter variety.
 Of the A7 and C6 copies of *BnAP1*, *BnAP1.C6a* has the lowest maximum expression in both varieties.

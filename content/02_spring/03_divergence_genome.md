@@ -1,7 +1,7 @@
 ## Regulatory divergence at the whole genome scale {#section:spring:genomedivergence}
 
 The effects of polyploidy on gene expression are varied and seemingly influenced by the species and the time since hybridization[@osborn_understanding_2003].
-Immediately following hybridization, large transcriptional changes are observed in polyploids[@yoo_homoeolog_2013; flagel_evolutionary_2010].
+Immediately following hybridization, large transcriptional changes are observed in polyploids[@yoo_homoeolog_2013; @flagel_evolutionary_2010].
 In synthetic Arabidopsis allopolyploids, Wang et al. (2006)[@wang_genomewide_2006] observed different contributions to the transcriptome from the different constituent genomes, consistent with extensive gene silencing following polyploidy[@comai_phenotypic_2000].
 These results from Arabidopsis allopolyploids demonstrate a major way in which gene expression can vary after polyploidy: genome dominance.
 Genome dominance is observed when the combined gene expression of gene pairs from the two constituent genomes of a polyploid are consistently biased towards a particular genome[@adams_genes_2003; @buggs_legacy_2014].
@@ -18,7 +18,28 @@ This suggests that regulatory divergence has contributed to the retention of flo
 
 ### Genome level expression differences between the A and C genomes {#section:spring:genomelevel}
 
-![**The *B.\ napus* A and C genomes show different overall patterns of gene expression.** Density plots of transformed expression levels ($\log_{10}(FPKM)$) calculated using different subsets of genes. The expression data was sampled 1000 times using a Gaussian error model. The density plot of $\log_{10}(FPKM)$ values was calculated for each sample. The mean density and the 95\ % confidence interval estimated using the 1000 samples is displayed. Tabulated below each density plot are the number of Brassica napus genes used to calculate the density plot, separated by their genome of origin. The data used to generate the density plots consisted of expression data from: **a** all annotated *B.\ napus* genes, **b** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene, and **c** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene that is present in the FLOR-ID database[@bouche_florid_2016]. These plots are generated using apex expression data from the time point taken at day 22, but are representative of the density plots obtained for all time points across both tissue types sampled (Figure \ref{appendixa:sampledensity}; Appendix A).](figuredirectory/10i_genome_level.pdf){#figure:210:genomeexp}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/10i_genome_level.pdf}
+\caption{\textbf{The \emph{B.~napus} A and C genomes show different
+overall patterns of gene expression.}}{Density plots of transformed
+expression levels (\(\log_{10}(FPKM)\)) calculated using different
+subsets of genes. The expression data was sampled 1000 times using a
+Gaussian error model. The density plot of \(\log_{10}(FPKM)\) values was
+calculated for each sample. The mean density and the 95~\% confidence
+interval estimated using the 1000 samples is displayed. Tabulated below
+each density plot are the number of Brassica napus genes used to
+calculate the density plot, separated by their genome of origin. The
+data used to generate the density plots consisted of expression data
+from: \textbf{a} all annotated \emph{B.~napus} genes, \textbf{b}
+\emph{B.~napus} genes that show sequence conservation to an annotated
+Arabidopsis gene, and \textbf{c} \emph{B.~napus} genes that show
+sequence conservation to an annotated Arabidopsis gene that is present
+in the FLOR-ID database\textsuperscript{296}. These plots are generated
+using apex expression data from the time point taken at day 22, but are
+representative of the density plots obtained for all time points across
+both tissue types sampled (Figure \ref{appendixa:sampledensity};
+Appendix A).}\label{figure:210:genomeexp}
+\end{figure}
 
 Previous studies of gene expression in polyploid species have generally focussed on comparing the expression of genes on different genomes to determine whether expression was biased[@akhunova_homoeolog_2010; @bardil_genomic_2011; @ilut_comparative_2012; @wang_genomewide_2006; @yoo_homoeolog_2013].
 To determine whether such a bias was observed in the expression data from the transcriptomic time series, density plots of the gene expression data for each of the two genomes was generated (Figure \ref{figure:210:genomeexp}).
@@ -33,7 +54,7 @@ When subsets are taken, however, the percentage of genes on the A genome is 48\ 
 This difference reveals that there are more genes on the C genome that do not show sequence conservation to an Arabidopsis gene.
 
 \begin{table}[htp]
-\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all homoeologue pairs.} Homoeologue pairs were determined and filtered at each time point for those which both had expression levels above 2\ FPKM. The number and percentage of these genes expressed two-fold higher than their homoeologue is indicated. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all homoeologue pairs is 1.12 in the apex and 1.11 in the leaf.}
+\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all homoeologue pairs.}}{Homoeologue pairs were determined and filtered at each time point for those which both had expression levels above 2\ FPKM. The number and percentage of these genes expressed two-fold higher than their homoeologue is indicated. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all homoeologue pairs is 1.12 in the apex and 1.11 in the leaf.}
 \begin{center}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{ccccccc}
@@ -64,8 +85,7 @@ This difference reveals that there are more genes on the C genome that do not sh
 \end{table}
 
 \begin{table}[htp]
-\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}
-As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database[TODO]. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
+\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}}{As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database\textsuperscript{296}. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
 \begin{center}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{ccccccc}
@@ -112,7 +132,21 @@ This potentially indicates a higher proportion of silenced or pseudogenes on the
 
 ### Tissue specific expression is biased towards the apex {#section:spring:tissuespecfic}
 
-![**The majority of annotated *B.\ napus* genes are not expressed.** **a-c** Euler diagrams indicating the percentage of genes that are expressed and those that are not in the developmental time series. A gene was regarded as expressed if the expression level of the gene exceeded 2.0 FPKM at at least one time point in either the leaf or apex sample. **d-f** Venn diagrams indicating the number of expressed genes showing tissue specific expression. **a and d** All annotated *B.\ napus* genes; **b and e** Only *B.\ napus* genes with an identified Arabidopsis homologue are considered; **c and f** Only *B.\ napus* genes with an identified Arabidopsis homologue that is in the FLOR-ID database[@bouche_florid_2016] are considered.](figuredirectory/11_expressed_gene_venn_diagram.pdf){#figure:211:venn}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/11_expressed_gene_venn_diagram.pdf}
+\caption{\textbf{The majority of annotated \emph{B.~napus} genes are not
+expressed.}}{\textbf{a-c} Euler diagrams indicating the percentage of
+genes that are expressed and those that are not in the developmental
+time series. A gene was regarded as expressed if the expression level of
+the gene exceeded 2.0 FPKM at at least one time point in either the leaf
+or apex sample. \textbf{d-f} Venn diagrams indicating the number of
+expressed genes showing tissue specific expression. \textbf{a and d} All
+annotated \emph{B.~napus} genes; \textbf{b and e} Only \emph{B.~napus}
+genes with an identified Arabidopsis homologue are considered; \textbf{c
+and f} Only \emph{B.~napus} genes with an identified Arabidopsis
+homologue that is in the FLOR-ID database\textsuperscript{296} are
+considered.}\label{figure:211:venn}
+\end{figure}
 
 The genome level analysis uncovered expression biased expression between the two genomes of *B.\ napus*.
 In order to investigate other forms of expression bias in the data, the number of genes exhibiting tissue specific expression during the transcriptome time series was assessed.
@@ -132,7 +166,25 @@ This supports the hypothesis that it is the apex transitioning to vegetative to 
 
 ### Multiple copies of flowering time genes have been retained in the *B.\ napus* genome {#section:spring:floweringretained}
 
-![**Multiple *B.\ napus* flowering time gene homologues are expressed during the floral transition.** This plot shows the proportions of Arabidopsis genes that have particular numbers of homologues identified and expressed in *B.\ napus*. *B.\ napus* genes were considered to be expressed if their maximal expression level within a tissue across the time series was above 2.0\ FPKM. False discovery corrected *p-values* were computed by taking 1000 samples of genes from the All distribution. The mean and standard deviation of these samples were used to perform a two-tailed test of observing a proportion as extreme as the FLOR-ID value. **a** *B.\ napus* genes that show sequence conservation to an annotated Arabidopsis gene. **b** *B.\ napus* genes expressed in the apex tissue that show sequence conservation to an annotated Arabidopsis gene. **c** *B.\ napus* genes expressed in the leaf tissue that show sequence conservation to an annotated Arabidopsis gene.](figuredirectory/12_retention_distributions.pdf){#figure:212:retentiondistribution}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/12_retention_distributions.pdf}
+\caption{\textbf{Multiple \emph{B.~napus} flowering time gene homologues
+are expressed during the floral transition.}}{This plot shows the
+proportions of Arabidopsis genes that have particular numbers of
+homologues identified and expressed in \emph{B.~napus}. \emph{B.~napus}
+genes were considered to be expressed if their maximal expression level
+within a tissue across the time series was above 2.0~FPKM. False
+discovery corrected \emph{p-values} were computed by taking 1000 samples
+of genes from the All distribution. The mean and standard deviation of
+these samples were used to perform a two-tailed test of observing a
+proportion as extreme as the FLOR-ID value. \textbf{a} \emph{B.~napus}
+genes that show sequence conservation to an annotated Arabidopsis gene.
+\textbf{b} \emph{B.~napus} genes expressed in the apex tissue that show
+sequence conservation to an annotated Arabidopsis gene. \textbf{c}
+\emph{B.~napus} genes expressed in the leaf tissue that show sequence
+conservation to an annotated Arabidopsis
+gene.}\label{figure:212:retentiondistribution}
+\end{figure}
 
 Genes that have undergone duplication in the genome and have been subsequently retained are either under a selective pressure to be maintained or have not yet been lost due to genetic drift[@lynch_evolutionary_2000; @nowak_evolution_1997].
 To investigate whether the flowering time genes have been retained in the genome, distributions of Arabidopsis gene copies were calculated.
@@ -148,9 +200,25 @@ In addition, that these patterns are also observed for expressed genes suggests 
 
 ### Expression divergence in the number of expressed copies of annotated genes {#section:spring:expressedvsannotated}
 
-![**Not all copies of genes are expressed in *B.\ napus*.** Copies of Arabidopsis genes were identified in the *B.\ napus* gene models through sequence similarity. These copies were regarded as expressed if their maximum expression level during the entire time series exceeded 2.0 FPKM. The size and colour of the cirlces indicates the number of data points at that position in the graph.](figuredirectory/13_all_vs_exp_all_genes.pdf){#figure:213:allvsexp}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/13_all_vs_exp_all_genes.pdf}
+\caption{\textbf{Not all copies of genes are expressed in
+\emph{B.~napus}.}}{Copies of Arabidopsis genes were identified in the
+\emph{B.~napus} gene models through sequence similarity. These copies
+were regarded as expressed if their maximum expression level during the
+entire time series exceeded 2.0 FPKM. The size and colour of the cirlces
+indicates the number of data points at that position in the
+graph.}\label{figure:213:allvsexp}
+\end{figure}
 
-![**Not all copies of flowering time genes are expressed in *B.\ napus*.** As for figure \ref{figure:213:allvsexp}, but only using *B.\ napus* genes that have sequence similarity to annotated Arabidopsis flowering time genes in the FLOR-ID database[@bouche_florid_2016].](figuredirectory/14_all_vs_exp_flower_genes.pdf){#figure:214:allvsexpflower}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/14_all_vs_exp_flower_genes.pdf}
+\caption{\textbf{Not all copies of flowering time genes are expressed in
+\emph{B.~napus}.}}{As for figure \ref{figure:213:allvsexp}, but only
+using \emph{B.~napus} genes that have sequence similarity to annotated
+Arabidopsis flowering time genes in the FLOR-ID
+database\textsuperscript{296}.}\label{figure:214:allvsexpflower}
+\end{figure}
 
 The distributions of *B.\ napus* homologue number suggest that genes involved with the regulation of flowering time have been retained in the genome.
 Investigating the regulatory divergence between these homologues can provide clues as to the evolutionary forces maintaining them in the genome[@kafri_transcription_2005; @papp_dosage_2003].
@@ -161,9 +229,34 @@ This indicates widespread expression divergence among *B.\ napus* homologues dur
 
 ### Expressed copies of flowering time genes exhibit regulatory divergence during the floral transition {#section:spring:divergence}
 
-![**The majority of gene homologues in *B.\ napus* are assigned to different regulatory modules.** Regulatory module assignments for the apex, **a**, and leaf, **b**. The size and colour of the circles indicate the number of data points at that position in the graph. The thick lines on each graph represent two potential extremes. The dashed line represents the null hypothesis that all *B.\ napus* copies of an Arabidopsis gene are assigned to the same WGCNA cluster. The solid line represents the Arabidopsis genes that have *B.\ napus* copies that are each assigned to separate WGCNA clusters. The percentages indicated on the graph indicate the percentage of data points that agree, and the percentage that do not agree, with the null hypothesis. Only *B.\ napus* genes with expression above 2.0\ FPKM in at least one time point in the transcriptomic time series and sequence conservation to an annotated Arabidopsis gene were used.](figuredirectory/15_wgcna_cluster_all_genes.pdf){#figure:215:wgcnaall}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/15_wgcna_cluster_all_genes.pdf}
+\caption{\textbf{The majority of gene homologues in \emph{B.~napus} are
+assigned to different regulatory modules.}}{Regulatory module assignments
+for the apex, \textbf{a}, and leaf, \textbf{b}. The size and colour of
+the circles indicate the number of data points at that position in the
+graph. The thick lines on each graph represent two potential extremes.
+The dashed line represents the null hypothesis that all \emph{B.~napus}
+copies of an Arabidopsis gene are assigned to the same WGCNA cluster.
+The solid line represents the Arabidopsis genes that have
+\emph{B.~napus} copies that are each assigned to separate WGCNA
+clusters. The percentages indicated on the graph indicate the percentage
+of data points that agree, and the percentage that do not agree, with
+the null hypothesis. Only \emph{B.~napus} genes with expression above
+2.0~FPKM in at least one time point in the transcriptomic time series
+and sequence conservation to an annotated Arabidopsis gene were
+used.}\label{figure:215:wgcnaall}
+\end{figure}
 
-![**The majority of flowering time gene homologues in *B.\ napus* are assigned to different regulatory modules.** As for figure \ref{figure:215:wgcnaall}, but only using *B.\ napus* genes that have sequence similarity to annotated Arabidopsis flowering time genes in the FLOR-ID database[@bouche_florid_2016].](figuredirectory/16_wgcna_cluster_flower_genes.pdf){#figure:216:wgcnaflower}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/16_wgcna_cluster_flower_genes.pdf}
+\caption{\textbf{The majority of flowering time gene homologues in
+\emph{B.~napus} are assigned to different regulatory modules.}}{As for
+figure \ref{figure:215:wgcnaall}, but only using \emph{B.~napus} genes
+that have sequence similarity to annotated Arabidopsis flowering time
+genes in the FLOR-ID
+database\textsuperscript{296}.}\label{figure:216:wgcnaflower}
+\end{figure}
 
 In order to further investigate regulatory divergence between *B.\ napus* homologues of Arabidopsis genes, the behaviour of genes across the time series was studied.
 Different hypotheses for the retention of duplicated genes predict different patterns of co-regulation between these genes[@kafri_transcription_2005; @papp_dosage_2003; @birchler_gene_2012; @force_preservation_1999].
@@ -178,11 +271,28 @@ Most *B.\ napus* homologues exhibit regulatory divergence (69\ % in the apex, 62
 This pattern is also observed when just *B. napus* flowering time genes are considered (Figure \ref{figure:216:wgcnaflower}).
 These findings reveal that the majority of *B. napus* genes have diverged from the expression patterns of their homologues, calling into question the extent to which gene dosage effects have maintained these duplicate genes in the genome.
 
-![**Self-organizing map (SOM) based assessment of expression trace divergence uncovers widespread regulatory divergence and subtle patterns of divergence.** **a** A schematic of the SOM based clustering approach. The approach consists of two overlapping sampling loops. In loop 1, expression data from flowering time gene copies is sampled assuming a Gaussian error model. Sampled expression traces are zero mean and unit variance normalized and mapped to the SOM. This procedure is repeated 500 times to give two density plots of where in the SOM the copies map. These density plots are used to calculate the probability of the copies mapping to the same SOM cluster. As SOM clustering has a random component, loop 2 consists of regenerating the SOM using all expression data and calculating the probability of copies clustering to the same cluster 100 times. Using this, an average probability of mapping to the same cluster is calculated. *Continued on Page \pageref{figure:218:somsimilaritylegend}*](figuredirectory/18_som_similarity_measure.pdf){#figure:218:somsimilarity}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/18_som_similarity_measure.pdf}
+\caption{\textbf{Self-organizing map (SOM) based assessment of
+expression trace divergence uncovers widespread regulatory divergence
+and subtle patterns of divergence.}}{\textbf{a} A schematic of the SOM
+based clustering approach. The approach consists of two overlapping
+sampling loops. In loop 1, expression data from flowering time gene
+copies is sampled assuming a Gaussian error model. Sampled expression
+traces are zero mean and unit variance normalized and mapped to the SOM.
+This procedure is repeated 500 times to give two density plots of where
+in the SOM the copies map. These density plots are used to calculate the
+probability of the copies mapping to the same SOM cluster. As SOM
+clustering has a random component, loop 2 consists of regenerating the
+SOM using all expression data and calculating the probability of copies
+clustering to the same cluster 100 times. Using this, an average
+probability of mapping to the same cluster is calculated.
+\emph{Continued on Page
+\pageref{figure:218:somsimilaritylegend}.}}\label{figure:218:somsimilarity}
+\end{figure}
 
-\addtocounter{figure}{-1}
 \begin{figure} [t!]
-\caption{\emph{Continued from Page \pageref{figure:218:somsimilarity}} \textbf{b} Representations of the five patterns of regulatory module assignment detected by the SOM based method. High clustering coefficients between two different genes indicates that those genes have similar expression traces. Clustering coefficients between a gene and itself represent how robustly a gene maps to the SOM. A \emph{distinct} pattern indicates multiple regulatory modules being identified, with no gene occupying more than one module. A \emph{gradated} pattern represents multiple regulatory modules being detected, but genes occupy multiple modules. \emph{Redundant} patterns occur when only one regulatory module is detected, and all copies of a gene are assigned to that module. \emph{Unique} patterns are a special case of a \emph{distinct} pattern where each copy of a gene is assigned to a different regulatory module. \emph{Mixed} patterns consist of a mixture of \emph{distinct} and \emph{gradated} patterns, where the gene assignment of some modules overlap while others do not show overlap. When assessing the regulatory module assignment, gene copies that do not robustly map to the SOM are removed. \textbf{c and d} The relationships between the number of expressed \emph{B.\ napus} copies of Arabidopsis flowering time genes and the number of different types of regulatory module assignment patterns exhibited by those gene copies. This relationship is calculated using expression data from the apex (\textbf{c}) and the leaf (\textbf{d}).}%missing
+\caption*{\emph{Continued from Page \pageref{figure:218:somsimilarity}.} \textbf{b} Representations of the five patterns of regulatory module assignment detected by the SOM based method. High clustering coefficients between two different genes indicates that those genes have similar expression traces. Clustering coefficients between a gene and itself represent how robustly a gene maps to the SOM. A \emph{distinct} pattern indicates multiple regulatory modules being identified, with no gene occupying more than one module. A \emph{gradated} pattern represents multiple regulatory modules being detected, but genes occupy multiple modules. \emph{Redundant} patterns occur when only one regulatory module is detected, and all copies of a gene are assigned to that module. \emph{Unique} patterns are a special case of a \emph{distinct} pattern where each copy of a gene is assigned to a different regulatory module. \emph{Mixed} patterns consist of a mixture of \emph{distinct} and \emph{gradated} patterns, where the gene assignment of some modules overlap while others do not show overlap. When assessing the regulatory module assignment, gene copies that do not robustly map to the SOM are removed. \textbf{c and d} The relationships between the number of expressed \emph{B.\ napus} copies of Arabidopsis flowering time genes and the number of different types of regulatory module assignment patterns exhibited by those gene copies. This relationship is calculated using expression data from the apex (\textbf{c}) and the leaf (\textbf{d}).}%missing
 \label{figure:218:somsimilaritylegend}
 \end{figure}
 
@@ -202,7 +312,7 @@ A *distinct* pattern represents the identification of multiple regulatory module
 *Gradated* patterns indicate that multiple regulatory modules were identified, but the membership of those modules overlap.
 *Redundant* patterns occur when all *B.\ napus* copies of an Arabidopsis gene are assigned to the same regulatory module.
 The *unique* pattern is a special case of the *distinct* pattern, where only one gene is assigned to each regulatory module identified.
-Finally, the *mixed* pattern is observed when at least three regulatory modules are identified, with some genes assigned to multiple regulatory modules and others are not.
+Finally, the *mixed* pattern is observed when at least three regulatory modules are identified, with some genes assigned to multiple regulatory modules and others not.
 The benefit of allowing genes to occupy multiple regulatory modules is that subtle patterns can be detected.
 For example, copies exhibiting *gradated* patterns of regulatory module assignment exhibit intransitivity; although gene A and gene B are in the same regulatory module, and gene B and gene C are in the same regulatory module, gene A and gene C are not necessarily mapped to the same module.
 In this case, given that gene A and gene C are not in the same module, it is clear that gene B exhibits a regulatory trace that is intermediate between gene A and gene C.
@@ -211,8 +321,8 @@ To assess the extent of regulatory divergence among *B.\ napus* flowering time g
 As with the WGCNA-based approach, the null hypothesis considered was that of genes exhibiting co-regulation.
 In the SOM-based analysis, this hypothesis corresponds to observing a *redundant* regulatory module assignment.
 Data from the developmental time series reveals that as the number of *B.\ napus* copies of an Arabidopsis gene increases, the occurrence of *redundant* patterns decreases in both the apex and the leaf (Figures \ref{figure:218:somsimilarity}c and \ref{figure:218:somsimilarity}d).
-When three or more copies of a gene are present, regulatory module patterns over than *redundant* are observed in the majority of cases in both tissues, with no redundant patterns seen above 5 copies in the apex or 4 copies in the leaf.
-*Unique* patterns were also observed less frequently at higher numbers of copies, suggesting that as the number of homologues increases, the more likely it is that those homologues exhibit regulatory divergence.
+When three or more copies of a gene are present, regulatory module patterns other than *redundant* are observed in the majority of cases in both tissues, with no redundant patterns seen above 5 copies in the apex or 4 copies in the leaf.
+*Unique* patterns were also observed less frequently at higher numbers of copies, suggesting that as the number of homologues increases, the more likely it is that at least two homologues exhibit similar expression profiles.
 Therefore, as with the results from the WGCNA analysis, the null hypothesis ceases to be true for flowering time genes with five or more copies in the *B. napus* leaf (Figure \ref{figure:218:somsimilarity}d) or six or more copies in the apex (Figure \ref{figure:218:somsimilarity}c).
 An advantage that the SOM-based analysis has compared to the WGCNA-based analysis is that the method allows for the detection of *mixed* and *gradated* patterns.
 In the apex and leaf, *mixed* and *gradated* patterns are seen at a lower frequency than *distinct* patterns.
@@ -222,7 +332,7 @@ Gene copies with intermediate regulatory behaviour may indicate that particular 
 An interesting observation from the SOM-based analysis is the relatively large number of *distinct* patterns observed at four gene copies (Figures \ref{figure:218:somsimilarity}c and \ref{figure:218:somsimilarity}d).
 To test if this was due to homoeologous genes displaying similar expression profiles, homoeologue information was incorporated into the analysis.
 For the genes for which homoeologue information was available, the majority (76\ % in apex, 72\ % in leaf) of genes are in the same regulatory module as their homoeologue.
-More generally for all expression traces, of 85 pairs of homoeologues expressed in the apex, 67  (79\ %) are found in the same regulatory module.
+More generally, for all expression traces, of 85 pairs of homoeologues expressed in the apex, 67  (79\ %) are found in the same regulatory module.
 In the leaf, 53 of 69  (77\ %) of expressed homoeologous pairs are found in the same module, with 29 of the co-regulated pairs being common between the two tissues.
 The percentage of Arabidopsis genes with at least two expressed homologues in the apex (leaf) exhibiting each of the regulatory module assignments are 25\ % (26\ %) *distinct*, 9\ % (6\ %) *gradated*, 23\ % (23\ %) *unique*, 39\ % (33\ %) *redundant*, and 3\ % (6\ %) *mixed*.
 This reveals that although extensive regulatory divergence is observed, homoeologous genes still tend to exhibit similar expression profiles.

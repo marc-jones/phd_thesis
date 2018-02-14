@@ -1,6 +1,6 @@
 ## The origin of *Brassica napus* and why flowering time is important {#section:intro:brassica}
 
-The *Brassica* genus is in the same taxonomic family as Arabidopsis, the Brassicaceae[@al_shehbaz_generic_2012], and comprises a large number of economically important vegetable and oil crops that show broad morphological divergence.
+The *Brassica* genus is in the same taxonomic family as Arabidopsis, the Brassicaceae[@al_shehbaz_generic_2012], and comprises a large number of economically important vegetable and oil crops that show broad morphological divergence[@cartea_basic_2011].
 Among the *Brassicas* are both diploid and tetraploid species.
 Diploid species of the *Brassica* genus include *B. rapa* (Chinese cabbage, turnip, and pak choi), *B. oleracea* (kale, cabbage, broccoli, cauliflower, and Brussels sprout), and *B. nigra* (black mustard).
 A theory proposed by Woo Jan-choon in 1935, that has become known as the triangle of U, posits that ancestors of the above diploid species hybridized to give ancestors of the tetraploid species of *Brassicas*.
@@ -12,7 +12,7 @@ In the UK, 13\ % of the total area on which crops were grown in 2016 (608,000 he
 Wheat grown following oilseed rape will yield 10\ % more than a wheat grown continuously, on average[@christen_effect_1993].
 
 \begin{table}[htp]
-\caption{\textbf{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.}}{ Table obtained from Cartea et al.[TODO]}
+\caption{\textbf{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.}}{ Table obtained from Cartea et al. (2011)\textsuperscript{103}.}
 \label{intro:table1xx:brassicas}
 \centering
 \resizebox{\textwidth}{!}{%

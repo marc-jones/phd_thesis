@@ -7,7 +7,22 @@ The graphs of gene expression profiles are downloaded directly from ORDER, and t
 
 ### Regulatory interactions between floral integrators
 
-![**Expression profiles of *BnAGL24* and *BnAP1* genes reveals potential repression.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. The expression profiles of *B. napus* homologues of *ALG24* (AT4G24540.1) and *AP1* (AT1G69120.1) are plotted. In this figure, the tissue and variety divisions have been swapped relative to figure \ref{figure:website:search} using the plotting controls. Plotting the figure in this manner allows for the timing of the expression changes to be more easily compared between varieties. In the apex the expression of *BnAGL24* genes (XLOC_015069 and XLOC_120000) decreases after the cold treatment, with the expression of *BnAP1* genes (XLOC_034345 and XLOC_031958) increasing.](figuredirectory/agl24_vs_ap1.pdf){#figure:winter:agl24ap1}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/agl24_vs_ap1.png}
+\caption{\textbf{Expression profiles of \emph{BnAGL24} and \emph{BnAP1}
+genes reveals potential repression.}}{The expression values and the 95\ \%
+confidence intervals of those expression values as computed by Cufflinks
+are displayed. The expression profiles of \emph{B. napus} homologues of
+\emph{ALG24} (AT4G24540.1) and \emph{AP1} (AT1G69120.1) are plotted. In
+this figure, the tissue and variety divisions have been swapped relative
+to figure \ref{figure:website:search} using the plotting controls.
+Plotting the figure in this manner allows for the timing of the
+expression changes to be more easily compared between varieties. In the
+apex the expression of \emph{BnAGL24} genes (XLOC\_015069 and
+XLOC\_120000) decreases after the cold treatment, with the expression of
+\emph{BnAP1} genes (XLOC\_034345 and XLOC\_031958)
+increasing.}\label{figure:winter:agl24ap1}
+\end{figure}
 
 The ability to plot the expression profiles of multiple genes simultaneously facilitates similar analysis as that conducted in section \ref{section:spring:floralintegrators}.
 A floral integrator not discussed in detail in that section was *AGL24*.
@@ -25,9 +40,24 @@ Comparing between the two varieties, a delay in the timing of the expression cha
 
 ### Expression profiles of microRNA precursors
 
-![**Expression patterns of the most highly expressed *B. napus* gene showing sequence similarity to the Arabidopsis *miR156* precursor** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Expression in the leaf is relatively high before in both varieties, but decreases after the cold treatment.](figuredirectory/MIR156a.pdf){#figure:winter:mir156}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/MIR156a.png}
+\caption{\textbf{Expression patterns of the most highly expressed
+\emph{B. napus} gene showing sequence similarity to the Arabidopsis
+\emph{miR156} precursor}}{The expression values and the 95\ \% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. Expression in the leaf is relatively high before in both
+varieties, but decreases after the cold
+treatment.}\label{figure:winter:mir156}
+\end{figure}
 
-![**Expression patterns of the only *B. napus* gene showing sequence similarity to the Arabidopsis *miR172* precursor** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Expression is very low in both tissues.](figuredirectory/MIR172a.pdf){#figure:winter:mir172}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/MIR172a.png}
+\caption{\textbf{Expression patterns of the only \emph{B. napus} gene
+showing sequence similarity to the Arabidopsis \emph{miR172} precursor}}{The expression values and the 95\ \% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Expression is
+very low in both tissues.}\label{figure:winter:mir172}
+\end{figure}
 
 The age-dependent flowering pathway in Arabidopsis is mediated by microRNAs (miRNAs)[@wu_temporal_2006; @spanudakis_role_2014].
 The *miR156* and *miR172* families of miRNAs in Arabidopsis have contrasting expression patterns in that *miR156* family miRNAs are expressed highly at the beginning of development and decrease in expression as the plant ages, while the *miR172* family miRNAs are lowly expressed initially and increase during development[@yamaguchi_regulation_2012].

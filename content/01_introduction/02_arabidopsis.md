@@ -93,7 +93,7 @@ regulatory interactions have been found between the nine floral
 integrators depicted here. This results in a tightly interconnected gene
 regulatory network, with many possible feedback loops and control
 mechanisms. Adapted from Bouché et
-al.\textsuperscript{288}}\label{figure:1xx:floralnetwork}
+al. (2016)\textsuperscript{296}}\label{figure:1xx:floralnetwork}
 \end{figure}
 
 The pathways described above converge onto a set of floral integrator genes, that mediate the transition to flowering.

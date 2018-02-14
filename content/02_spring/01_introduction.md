@@ -19,8 +19,8 @@ The two main classes of gene duplication event are small scale duplications and 
 After whole genome duplication events the original protein stoichiometry is maintained.
 In this scenario, selection will tend to retain dosage sensitive genes in the genome[@birchler_gene_2012; @papp_dosage_2003; @veitia_nonlinear_2003].
 Conversely, small scale duplications of dosage sensitive genes lead to incorrect protein stoichiometry, leading to selection favouring gene loss[@veitia_gene_2015].
-Evidence from many species are consistent with gene dosage effects maintaining duplicate genes in the genome[@blomme_gain_2006; blanc_functional_2004; seoighe_genome_2004].
-An interesting observation from these species, and from simulation studies[maere_modeling_2005], is that certain classes of genes are found to be retained in the genome.
+Evidence from many species are consistent with gene dosage effects maintaining duplicate genes in the genome[@blomme_gain_2006; @blanc_functional_2004; @seoighe_genome_2004].
+An interesting observation from these species, and from simulation studies[@maere_modeling_2005], is that certain classes of genes are found to be retained in the genome.
 This includes genes whose products tend to form protein complexes, such as proteins involved with signal transduction, transcriptional regulation, protein binding and modification, and kinase activity.
 In *Saccharomyces cerevisiae*, genes retained following whole genome duplication are also genes found to have phenotypic effects when silenced or overexpressed, indicative of the genes being dosage sensitive[@wapinski_natural_2007].
 An expectation of the gene dosage hypothesis, observed in *S.\ cerevisiae*[@papp_dosage_2003], is that genes maintained via gene dosage will tend to be co-regulated[@birchler_gene_2012; @papp_dosage_2003].

@@ -19,9 +19,29 @@ In order to focus this analysis, only the floral integrator hubs included in the
 
 ### *FLOWERING LOCUS T* {#section:spring:ft}
 
-![**Expression traces for the *BnFT* genes in the Westar leaf.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. The expression patterns between the four genes are similar, yet diverge at the final time point, with the A7 and C6 copies decreasing in expression while the A2 and C2 copies do not.](figuredirectory/23_exp_ft_leaf.pdf){#figure:223:ftleaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/23_exp_ft_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFT} genes in the
+Westar leaf.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. The expression patterns between the four genes are similar,
+yet diverge at the final time point, with the A7 and C6 copies
+decreasing in expression while the A2 and C2 copies do
+not.}\label{figure:223:ftleaf}
+\end{figure}
 
-![**Expression traces for the *BnFT* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. The A7 and C6 copies exhibit very similar expression traces, increasing gradually during the time series.](figuredirectory/25_exp_ft_apex.pdf){#figure:225:ftapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/25_exp_ft_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFT} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. The A7 and C6 copies exhibit very similar expression traces,
+increasing gradually during the time series.}\label{figure:225:ftapex}
+\end{figure}
 
 *FT* is a floral activator that is induced in long day conditions to promote flowering[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
 In Arabidopsis, *FT* is primarily expressed in the phloem companion cells, with the FT protein transported in the plant vasculature to the apex to initiate flowering[@aksenova_florigen_2006; @jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008].
@@ -43,7 +63,7 @@ Comparing the magnitude of expression, the A genome copies of *BnFT* are more hi
 *BnFT.A2* is generally 5 fold more highly expressed across the time series relative to *BnFT.C2.Random*[^napusgenomeexplanation], while *BnFT.A7* is 2\ -\ 3 fold more highly expressed than *BnFT.C6*.
 This genome of origin bias suggests that the A genome copies potentially influence flowering to a greater extent than the C genome copies.
 
-[^napusgenomeexplanation]: The *B. napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'.
+[^napusgenomeexplanation]: The *B. napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'. Throughout this work, similar notation is used to indicate the scaffold on which the gene is located.
 
 To determine whether the *BnFT* genes exhibit tissue specific expression, the expression of these four genes was analysed in the apex samples.
 In the apex, only two of the *BnFT* genes are expressed; *BnFT.A7* and *BnFT.C6* (Figure \ref{figure:225:ftapex}).
@@ -80,11 +100,23 @@ However, that the expression profiles are different in the apex relative to the 
 Although expression of *FT* has been detected in the apex in Arabidopsis[@kardailsky_activation_1999; @kobayashi_pair_1999], it has been shown that *FT* mRNA is not required in the apex for its role in promoting the floral transition[@abe_fd_2005; @kobayashi_pair_1999; @mathieu_export_2007].
 This suggests that the *BnFT.A7* and *BnFT.C6* may have a functional role in the apex that is not related to the floral transition.
 The lack of a response to vernalization for the *BnFT* genes in the apex may be due to the leaf being the primary plant organ that senses photoperiod signals[@an_constans_2004; @suarez_lopez_constans_2001; @samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
-Therefore, potentially the *Arabidopsis thaliana* *FT* gene has an heretofore unknown function in the apex that is unrelated to flowering and is conserved in the A7 and C6 copies of *FT* in *B.\ napus*.
+Therefore, potentially the Arabidopsis *FT* gene has an heretofore unknown function in the apex that is unrelated to flowering and is conserved in the A7 and C6 copies of *FT* in *B.\ napus*.
 
 ### *APETALA 1* {#section:spring:ap1}
 
-![**Expression traces for the *BnAP1* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. The expression profiles of the four A7 and C6 copies are very similar to each other. The remaining copies exhibit similar expression profiles, although *BnAP1.A2.Random* diverges in expression relative to the C2 and Cnn copies towards the end of the time series.](figuredirectory/26_exp_ap1_apex.pdf){#figure:226:ap1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/26_exp_ap1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnAP1} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. The expression profiles of the four A7 and C6 copies are very
+similar to each other. The remaining copies exhibit similar expression
+profiles, although \emph{BnAP1.A2.Random} diverges in expression
+relative to the C2 and Cnn copies towards the end of the time
+series.}\label{figure:226:ap1apex}
+\end{figure}
 
 The transcription factor *AP1* controls both meristem identiy and floral organ specification[@alejandra_mandel_molecular_1992].
 In Arabidopsis, *AP1* mRNA is uniformly expressed in the floral meristem and later is localized to the sepals and petals[@alejandra_mandel_molecular_1992].
@@ -111,7 +143,21 @@ It should be noted, however, that the expression levels of *BnAP1.A2*, *BnAP1.C2
 
 ### *SUPPRESSOR OF OVEREXPRESSION OF CO 1* {#section:spring:soc1}
 
-![**Expression traces for the *BnSOC1* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. Expression profiles of *BnSOC1.A4*, *BnSOC1.A5*, *BnSOC1.C4.Random*, and *BnSOC1.Cnn.Random* are similar, increasing both during vernalization and towards the end of the time series. The other two copies only exhibit one of these increases, with *BnSOC1.C4* increasing during vernalization and *BnSOC1.A3.Random* increasing towards the end of the time series.](figuredirectory/27_exp_soc1_apex.pdf){#figure:227:soc1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/27_exp_soc1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. Expression profiles of \emph{BnSOC1.A4}, \emph{BnSOC1.A5},
+\emph{BnSOC1.C4.Random}, and \emph{BnSOC1.Cnn.Random} are similar,
+increasing both during vernalization and towards the end of the time
+series. The other two copies only exhibit one of these increases, with
+\emph{BnSOC1.C4} increasing during vernalization and
+\emph{BnSOC1.A3.Random} increasing towards the end of the time
+series.}\label{figure:227:soc1apex}
+\end{figure}
 
 *SOC1* is a gene in Arabidopsis involved with integrating the inputs from the photoperiod[@samach_distinct_2000@onouchi_mutagenesis_2000], vernalization[@lee_agamous_like_2000@helliwell_arabidopsis_2006; @hepworth_antagonistic_2002], hormone[@moon_soc1_2003] and age-dependent[@wang_mir156_2009] floral pathways.
 Expression of *SOC1* has been detected in the shoot apical meristem, leaves, stem, and roots of Arabidopsis plants[@samach_distinct_2000; @lee_agamous_like_2000], but not in vegetative meristems[@borner_mads_2000].
@@ -140,7 +186,16 @@ When the magnitude of expression between the copies, *BnSOC1.A3*, *BnSOC1.A5*, a
 However, even within these genes significant divergence is observed, with *BnSOC1.A3* and *BnSOC1.A5* expressed ~2\ fold more highly than *BnSOC1.C4.Random*.
 This suggests regulatory divergence in terms of the magnitude of expression, in addition to expression profile differences.
 
-![**Expression traces for the *BnAGL24* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. The A3 and C7 copies exhibit a decrease in expression over the time series while A1 and C1 increase over the time series. Both of these expression traces are consistent with *BnAGL24* interacting with *BnSOC1* genes.](figuredirectory/29_exp_agl24_apex.pdf){#figure:229:agl24apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/29_exp_agl24_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnAGL24} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. The A3 and C7 copies exhibit a decrease in expression over
+the time series while A1 and C1 increase over the time series. Both of
+these expression traces are consistent with \emph{BnAGL24} interacting
+with \emph{BnSOC1} genes.}\label{figure:229:agl24apex}
+\end{figure}
 
 The expression of *SOC1* in the Arabidopsis apex is proposed to occur in a positive feedback loop with the gene *AGL24*[@liu_direct_2008].
 To test if this interaction is also observed in *B. napus*, the expression profiles of *BnAGL24* were compared to those of *BnSOC1*.
@@ -151,7 +206,19 @@ Comparing these expression profiles with those of *BnSOC1* reveals that the expr
 Likewise, *BnAGL24.A3* and *BnAGL24.C7* potentially regulate all *BnSOC1* genes except *BnSOC1.A3.Random*.
 The expression profiles of *BnAGL24* suggest, therefore, that the positive feedback loop may exist between these genes in *B. napus*, but copy specificity is observed.
 
-![**Expression traces for the *BnSOC1* genes in the Westar leaf.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. The expression profiles of all *BnSOC1* genes increases during vernalization. The expression profiles exhibit a complex *gradated* pattern of regulatory module assignment, with the difference between pre- and post-cold expression levels being the main differentiator.](figuredirectory/28_exp_soc1_leaf.pdf){#figure:228:soc1leaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/28_exp_soc1_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+Westar leaf.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. The expression profiles of all \emph{BnSOC1} genes increases
+during vernalization. The expression profiles exhibit a complex
+\emph{gradated} pattern of regulatory module assignment, with the
+difference between pre- and post-cold expression levels being the main
+differentiator.}\label{figure:228:soc1leaf}
+\end{figure}
 
 To determine if the *BnSOC1* genes exhibit tissue specific regulatory divergence, the expression of the genes was assessed in the leaf.
 The same six copies of *BnSOC1* are expressed in the leaf as in the apex.
@@ -183,7 +250,19 @@ Both of these examples of regulatory divergence suggest that the *BnSOC1* genes 
 
 ### *FD* {#section:spring:fd}
 
-![**Expression traces for the *BnFD* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. Expression of five *BnFD* genes exhibit similar expression profiles, increasing in expression during the time series until day 67, and then decreasing. *BnFD.A1* exhibits a different response, staying approximately constant in expression throughout the time series.](figuredirectory/30_exp_fd_apex.pdf){#figure:230:fdapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/30_exp_fd_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFD} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. Expression of five \emph{BnFD} genes exhibit similar
+expression profiles, increasing in expression during the time series
+until day 67, and then decreasing. \emph{BnFD.A1} exhibits a different
+response, staying approximately constant in expression throughout the
+time series.}\label{figure:230:fdapex}
+\end{figure}
 
 The FD protein is a bZIP transcription factor that interacts with FT and TFL1 proteins[@jaeger_interlocking_2013; @abe_fd_2005; @wigge_integration_2005] to mediate their effect on the floral transition.
 *FD* expression in Arabidopsis is highly expressed at the shoot apex, does not exhibit circadian oscillations or photoperiod dependent expression, with *FD* expression decreasing soon after *AP1* expression begins to increase[@abe_fd_2005; @wigge_integration_2005].
@@ -210,7 +289,17 @@ Both the similar expression patterns and the similar expression magnitudes sugge
 
 ### *LEAFY* {#section:spring:lfy}
 
-![**Expression traces for the *BnLFY* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. All copies of *BnaLFY* exhibit a similar expression profile, with low initial expression and an increase in expression after vernalization.](figuredirectory/31_exp_lfy_apex.pdf){#figure:231:lfyapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/31_exp_lfy_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnLFY} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. All copies of \emph{BnaLFY} exhibit a similar expression
+profile, with low initial expression and an increase in expression after
+vernalization.}\label{figure:231:lfyapex}
+\end{figure}
 
 *LFY* is a transcription factor that acts synergistically with *AP1*[@weigel_leafy_1992] to promote the floral transition and specifiy the determinacy of the floral meristem[@huala_leafy_1992].
 The gene is expressed in the floral primordia in Arabidopsis and increases during flower development[@weigel_leafy_1992], promoting the expression of other floral integrators such as *AP1*[@hempel_floral_1997; @wagner_transcriptional_1999; @william_genomic_2004] and *TFL1*[@weigel_developmental_1995].
@@ -238,7 +327,17 @@ These findings could therefore provide a potential avenue for altering flowering
 
 ### *TERMINAL FLOWER 1* {#section:spring:tfl1}
 
-![**Expression traces for the *BnTFL1* genes in the Westar apex.** The expression values in FPKM and the 95\ % confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (Section \ref{section:spring:divergence}) is also displayed. The *BnTFL1* genes exhibit total divergence in their expression profiles, with the C genome copies of the gene being more highly expressed than the A genome copies.](figuredirectory/32_exp_tfl1_apex.pdf){#figure:232:tfl1apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/32_exp_tfl1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnTFL1} genes in the
+Westar apex.}}{The expression values in FPKM and the 95~\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (Section \ref{section:spring:divergence}) is also
+displayed. The \emph{BnTFL1} genes exhibit total divergence in their
+expression profiles, with the C genome copies of the gene being more
+highly expressed than the A genome copies.}\label{figure:232:tfl1apex}
+\end{figure}
 
 *TFL1* acts in an antagonistic manner to *FT* in Arabidopsis[@alvarez_terminal_1992], with the gene maintaining inflorescence meristem identity by limiting the expression of *AP1* and *LFY*[@shannon_genetic_1993; @gustafson_brown_regulation_1994; @ratcliffe_separation_1999].
 The expression domain is just below the growing meristem at the apex, and also in the axillary meristems[@conti_terminal_2007; @ratcliffe_separation_1999].

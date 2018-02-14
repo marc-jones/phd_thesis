@@ -9,7 +9,7 @@ Indeed, regulatory divergence between potential vernalization sensitive genes ma
 Once the samples were collected, a number of downstream quantification and quality control steps were necessary to ensure the reliability of the data.
 This section will discuss how the samples were collected, justifications for the experimental design, and the downstream analysis steps carried out.
 General regulatory trends observed in the data are also presented.
-Decisions regarding the design of the experiment, and the sample collection, were made in collaboration with Dr. Nick Pullen, Dr. Rachel Wells, Dr. Martin Trick, Dr. Judith A. Irwin, and Prof. Richard J. Morris[^bioRxiv].
+Decisions regarding the design of the experiment, and the sample collection, were made in collaboration with Dr. Rachel Wells, Dr. Nick Pullen, Dr. Martin Trick, Dr. Judith A. Irwin, and Prof. Richard J. Morris[^bioRxiv].
 
 [^bioRxiv]: Preprint paper available at [https://doi.org/10.1101/178137](https://doi.org/10.1101/178137) and Appendix C.
 
@@ -296,9 +296,11 @@ closer to the data point. At the same time, the neighbouring clusters
 are also translated, although to a lesser extent. Another data point is
 selected and the process repeats. The training process continues until
 the SOM accurately represents the dataset. Image adapted from a diagram
-by Mcld\textsuperscript{255}, distributed under a CC BY-SA 3.0
-license}\label{figure:215:somexplanation}
+by Mcld\footnotemark, distributed under a CC BY-SA 3.0
+license.}\label{figure:215:somexplanation}
 \end{figure}
+
+\footnotetext{https://commons.wikimedia.org/wiki/File:Somtraining.svg}
 
 Having constructed the transcriptomic time series, validation was conducted to determine if expected trends were observed in the dataset.
 In order to assess trends in the data, gene expression profiles across time were clustered using self-organizing maps (SOMs).
@@ -314,7 +316,7 @@ Only SOMs generated using data from Westar are displayed here, with SOMs generat
 \includegraphics{figuredirectory/10c_a_w_som_count.pdf}
 \caption{\textbf{SOM generated using the apex transcriptome time series
 in Westar.}}{The size of the SOM was chosen such that it captured
-\textasciitilde{}85\% of the global squared distance from the mean
+\textasciitilde{}85\ \% of the global squared distance from the mean
 (Section \ref{section:methods:somclustering}; Methods). The grey lines
 within each SOM cluster indicate the normalized expression profile that
 particular cluster represents. The SOM is toroidal, such that clusters
@@ -336,7 +338,7 @@ The large number of genes that increase in expression at the final time point ma
 \includegraphics{figuredirectory/10d_l_w_som_count.pdf}
 \caption{\textbf{SOM generated using the leaf transcriptome time series
 in Westar.}}{The size of the SOM was chosen such that it captured
-\textasciitilde{}85\% of the global squared distance from the mean
+\textasciitilde{}85\ \% of the global squared distance from the mean
 (Section \ref{section:methods:somclustering}; Methods). The grey lines
 within each SOM cluster indicate the normalized expression profile that
 particular cluster represents. The SOM is toroidal, such that clusters
@@ -391,14 +393,14 @@ To establish that GO term enrichment analysis would provide reliable results, an
 During the time series, the first true leaf was sampled at every time point (section \ref{section:spring:experimentaldesign}).
 As a consequence, the leaf tissue sampled was older at later time points, and some of the first true leaves had begun to visibly senesce by the final time point.
 To test if this resulted in a change in the transcriptome in the leaf, SOM clusters enriched for GO terms associated with "leaf senescence" in the leaf data were determined.
-The most highly enriched cluster identified in the leaf data for the term "leaf senescence" exhibits an expression pattern that gradually increases across the entire time series, with a large increase in expression at the final time point (Figure \ref{#figure:219:go1som}).
+The most highly enriched cluster identified in the leaf data for the term "leaf senescence" exhibits an expression pattern that gradually increases across the entire time series, with a large increase in expression at the final time point (Figure \ref{figure:219:go1som}).
 This suggests that genes associated with leaf senescence are co-expressed in *B. napus*, a finding also observed in the transcriptome of senescing Arabidopsis leaves[@woo_programming_2016].
 The time points selected for the time series were chosen to allow the progression of the floral transition to be investigated (section \ref{section:spring:experimentaldesign}).
 An expectation arising from this would be that GO terms relating to flower development would exhibit expression changes across the time series.
 To test whether this is the case, clusters enriched for the GO terms "positive regulation of flower development" and "negative regulation of flower development" were identified in the apex-derived SOM.
-The expression of genes annotated with the GO term "positive regulation of flower development" increased during the time series, while genes associated with the "negative regulation of flower development" decreased in expression across the time series in the apex (Figure \ref{#figure:219:go1som}).
+The expression of genes annotated with the GO term "positive regulation of flower development" increased during the time series, while genes associated with the "negative regulation of flower development" decreased in expression across the time series in the apex (Figure \ref{figure:219:go1som}).
 These responses are consistent with phenotypic observations that flower buds were visible from above (BBCH stage 51[@lancashire_uniform_1991]) at the final time point in the series.
-An additional observation for the expression traces of the cluster enriched for genes associated with the positive regulation of flower development is the slight decrease in expression during the vernalization treatment (Figure \ref{#figure:219:go1som}).
+An additional observation for the expression traces of the cluster enriched for genes associated with the positive regulation of flower development is the slight decrease in expression during the vernalization treatment (Figure \ref{figure:219:go1som}).
 As will be discussed later in this chapter when the behaviour of key floral integrators are investigated (Section \ref{section:spring:ft}), this is likely a result of the short day conditions the plants were grown in not being conducive to flowering.
 
 \begin{figure}[htbp]

@@ -51,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="130.68707"
-     inkscape:cy="234.47861"
+     inkscape:zoom="1.4"
+     inkscape:cx="371.42924"
+     inkscape:cy="50.020517"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -62,9 +62,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1176"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1145"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata15903">
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2271,6 +2271,46 @@
          id="tspan5672-8-9"
          x="284.67734"
          y="59.07383">Apex</tspan>
+    </text>
+    <text
+       y="83.36837"
+       x="292.39917"
+       id="text302-9-3-2-2-0-1"
+       style="font-variant:normal;font-weight:bold;font-size:7.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         style="font-size:15px"
+         id="tspan304-92-3-4-6-7-0"
+         sodipodi:role="line"
+         x="292.39917"
+         y="83.36837">b</tspan>
+    </text>
+    <g
+       id="g4581"
+       transform="translate(-51.445014,-57.805611)">
+      <text
+         style="font-variant:normal;font-weight:bold;font-size:7.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text302-9-3-21-4-0-6"
+         x="138.15533"
+         y="141.17398">
+        <tspan
+           y="141.17398"
+           x="138.15533"
+           sodipodi:role="line"
+           id="tspan304-92-3-42-2-3-5"
+           style="font-size:15px">a</tspan>
+      </text>
+    </g>
+    <text
+       y="258.58301"
+       x="293.19418"
+       id="text302-9-3-2-2-0-1-6"
+       style="font-variant:normal;font-weight:bold;font-size:7.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+      <tspan
+         style="font-size:15px"
+         id="tspan304-92-3-4-6-7-0-9"
+         sodipodi:role="line"
+         x="293.19418"
+         y="258.58301">c</tspan>
     </text>
   </g>
 </svg>

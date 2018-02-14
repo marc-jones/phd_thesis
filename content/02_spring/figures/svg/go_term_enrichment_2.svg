@@ -19,7 +19,7 @@
    inkscape:version="0.91 r13725"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath42"><path
@@ -450,18 +450,18 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1176"
      id="namedview4"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.2291667"
-     inkscape:cx="67.438439"
-     inkscape:cy="178.98919"
-     inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:zoom="1.7383042"
+     inkscape:cx="307.94793"
+     inkscape:cy="-82.442406"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10" /><g
      id="g10"
@@ -1509,17 +1509,7 @@
            inkscape:connector-curvature="0"
            id="path12595"
            style="fill:none;stroke:#000000;stroke-width:1.07000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           d="m 869.20873,99.61623 1.99,0" /><text
-           id="text12615"
-           style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="scale(1,-1)"
-           x="891.6087"
-           y="-37.79623"><tspan
-             id="tspan12613"
-             sodipodi:role="line"
-             y="-37.79623"
-             x="891.6087 896.4967 898.7207 905.8327">Time</tspan></text>
-<path
+           d="m 869.20873,99.61623 1.99,0" /><path
            d="m 948.89344,55.63623 59.50006,0 0,45.76 -59.50006,0 z"
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="path12991"
@@ -1817,16 +1807,6 @@
            id="path13199"
            style="fill:none;stroke:#000000;stroke-width:1.07000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="m 946.90344,99.61623 1.99,0" /><text
-           id="text13219"
-           style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="scale(1,-1)"
-           x="969.30341"
-           y="-37.796227"><tspan
-             id="tspan13217"
-             sodipodi:role="line"
-             y="-37.796227"
-             x="969.30341 974.19141 976.41541 983.5274">Time</tspan></text>
-<text
            y="847.7887"
            x="78.514534"
            id="text292-0-9-7-4-4"
@@ -1856,4 +1836,26 @@
              id="tspan8725-3-0-3"
              y="-1012.9084"
              x="-84.868553">Leaf</tspan></text>
-</g></g></g></svg>
+</g></g><text
+       y="-37.79623"
+       x="777.95361"
+       style="font-variant:normal;font-weight:bold;font-size:7.99999952px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+       id="text284-8-2-6"
+       transform="scale(1,-1)"><tspan
+         style="stroke-width:0.99999994"
+         sodipodi:role="line"
+         id="tspan282-71-2-1"
+         x="777.95361"
+         y="-37.79623">Days post sowing</tspan></text>
+<text
+       y="-37.79623"
+       x="855.64832"
+       style="font-variant:normal;font-weight:bold;font-size:7.99999952px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+       id="text284-8-2-6-1"
+       transform="scale(1,-1)"><tspan
+         style="stroke-width:0.99999994"
+         sodipodi:role="line"
+         id="tspan282-71-2-1-4"
+         x="855.64832"
+         y="-37.79623">Days post sowing</tspan></text>
+</g></svg>

@@ -1,11 +1,11 @@
-Some of these methods are included in a paper written in collaboration with Dr. Nick Pullen, Dr. Rachel Wells, Dr. Martin Trick, Dr. Judith A. Irwin, and Prof. Richard J. Morris[^c].
+Some of these methods are included in a paper written in collaboration with Dr. Rachel Wells, Dr. Nick Pullen, Dr. Martin Trick, Dr. Judith A. Irwin, and Prof. Richard J. Morris[^c].
 
 [^c]: Preprint paper available at [https://doi.org/10.1101/178137](https://doi.org/10.1101/178137) and Appendix C.
 
 ## Plant growth and sample preparation
 
 \begin{table}[htp]
-\caption{\textbf{Sampling and sequencing scheme for the transcriptomic time series.} Numbers in the rightmost two columns indicate the number of biological pools sampled for that time point within each tissue.}
+\caption{\textbf{Sampling and sequencing scheme for the transcriptomic time series.}}{Numbers in the rightmost two columns indicate the number of biological pools sampled for that time point within each tissue.}
 \label{methods:sampling}
 \begin{center}
 \resizebox{\textwidth}{!}{%
@@ -53,7 +53,7 @@ RNA-Seq was performed on RNA samples from six time points for leaf tissue and se
 To assess biological variation, a second RNA sample for five time points in both the leaf and apex were sequenced at a lower average coverage of 33 million reads per sample (Table \ref{methods:sampling}).
 
 \begin{sidewaystable}[htp]
-\caption{\textbf{Sequencing statistics for the two sequencing runs carried out to generate the developmental transcriptome} \emph{Continued on Page \pageref{table:readdepthlegend}}}
+\caption{\textbf{Sequencing statistics for the two sequencing runs carried out to generate the developmental transcriptome}}{\emph{Continued on Page \pageref{table:readdepthlegend}.}}
 \label{methods:readdepth}
 \begin{center}
 \resizebox{\textwidth}{!}{%
@@ -111,9 +111,8 @@ To assess biological variation, a second RNA sample for five time points in both
 \end{center}
 \end{sidewaystable}
 
-\addtocounter{table}{-1}
 \begin{table}[t!]
-\caption{\emph{Continued from Page \pageref{table:readdepth}} Reads were mapped to the Darmor-\emph{bzh} reference genome 3 using TopHat[TODO]. The percentage of mapped reads is given as the percentage of the total reads. Multiply mapped reads are defined as reads that mapped to multiple places in the genome with an equal probability. The percentages of multiply mapped reads and the percentage of reads mapping to more than 20 position in the genome are calculated as a total of the reads that were mapped to the genome, and not a percentage of the total reads.}%missing
+\caption*{\emph{Continued from Page \pageref{methods:readdepth}.} Reads were mapped to the Darmor-\emph{bzh} reference genome using TopHat\textsuperscript{248}. The percentage of mapped reads is given as the percentage of the total reads. Multiply mapped reads are defined as reads that mapped to multiple places in the genome with an equal probability. The percentages of multiply mapped reads and the percentage of reads mapping to more than 20 position in the genome are calculated as a total of the reads that were mapped to the genome, and not a percentage of the total reads.}%missing
 \label{table:readdepthlegend}
 \end{table}
 
@@ -144,7 +143,13 @@ The geometric mean of the fold change across all $n$ homoeologous gene pairs was
 
 ## Homoeologue pair identification
 
-![**Locations of identified homoeologues pairs in the *B. napus* genome** The locations of these pairs give a representation of the chromosomal rearrangements that have occurred between the A and C genomes.](figuredirectory/homoeologue_plots.pdf){#figure:methods:homoeologue}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/homoeologue_plots.pdf}
+\caption{\textbf{Locations of identified homoeologues pairs in the
+\emph{B. napus} genome}}{The locations of these pairs give a
+representation of the chromosomal rearrangements that have occurred
+between the A and C genomes.}\label{figure:methods:homoeologue}
+\end{figure}
 
 The method outlined by Chalhoub et al. (2014)[@napus_genome_2014] was used to identify pairs of homoeologues between the A and C genomes[@napus_genome_2014].
 The Darmor-*bzh* reference genome was divided into the A and C genomes, removing the reference pseudo-chromosomes which consist of sequence that is unassigned to a specific chromosome.
@@ -180,7 +185,7 @@ The number of nodes used in the SOM was chosen based on the ratio $\frac{\sum_{c
 A value of $S$ was chosen such that the above ratio was ~0.85 for both tissues.
 To adequately capture the variation present in the data, the dimensions of the SOM were set as the ratio between the first two principle component eigenvalues of the data, as has been done previously[@vesanto_self_organizing_2000].
 
-To assign probabilities of genes clustering to the same SOM cluster, a resampling procedure was employed (Figure \{figure:218:somsimilarity}).
+To assign probabilities of genes clustering to the same SOM cluster, a resampling procedure was employed (Figure \ref{figure:218:somsimilarity}).
 Expression values were resampled assuming a Gaussian noise model, using the true expression value as the mean of the distribution and the true expression value uncertainty calculated by Cufflinks as the distribution variance.
 The resampled expression values for each gene, within each tissue, were normalised to a mean expression of 0.0 with a variance of 1.0 across the time series and assigned to a SOM cluster based on a minimal Euclidean distance.
 This sampling loop was repeated 500 times, and the SOM clusters to which the genes of interest mapped were recorded.
@@ -190,7 +195,17 @@ As the SOM training process begins from a random starting point, some SOMs were 
 To overcome this, the probability of two genes of interest mapping to the same SOM cluster was calculated for 100 different SOMs.
 This probability was averaged to give the average probability of two genes of interest mapping to the same SOM cluster.
 
-![**A bimodal distribution of self-clustering probabilities necessitates the use of a threshold to visualise the probabilities** The density curves presented here represent the self-clustering probabilities calculated from a single SOM. The clustering coefficient threshold was taken by determining the self-clustering probability that corresponded to the peak of the density curve. This threshold was calculated for each SOM and averaged to give the final thresholds for the apex (0.053) and the leaf (0.056).](figuredirectory/self_clustering.png){#figure:methods:bimodal}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/self_clustering.png}
+\caption{\textbf{A bimodal distribution of self-clustering probabilities
+necessitates the use of a threshold to visualise the probabilities}}{The
+density curves presented here represent the self-clustering
+probabilities calculated from a single SOM. The clustering coefficient
+threshold was taken by determining the self-clustering probability that
+corresponded to the peak of the density curve. This threshold was
+calculated for each SOM and averaged to give the final thresholds for
+the apex (0.053) and the leaf (0.056).}\label{figure:methods:bimodal}
+\end{figure}
 
 The probability of mapping to the same cluster can also be calculated for a single gene of interest by calculating $\sum_{c=1}^{S}\left (\frac{n_{g_{1}, c}}{500} \right )^2$.
 This value is a measure of how consistently a gene maps to the same SOM cluster, giving an indication of the uncertainty in the expression values calculated for that gene.
@@ -300,13 +315,18 @@ $\frac{d[\text{ab}]}{dt} = k_{+ab}[\text{a}][\text{b}] -  k_{-ab}[\text{ab}]$
 
 $\frac{d[\text{bb}]}{dt} = k_{+bb}[\text{b}]^2 -  k_{-bb}[\text{bb}]$
 
+\clearpage
+
 Where $[\text{x}]$ is the concentration of the monomer `x`, $[\text{yz}]$ is the concentration of the dimer `yz`, $k_{+yz}$ is the forward reaction rate for the creation of dimer `yz`, and $k_{-yz}$ is the reverse reaction rate for the destruction of dimer `yz`.
 Initial concentrations used were 50 for each monomer, and 0 for each dimer.
 The constant reaction rates used were:
 
 $k_{+aa} = 7$
+
 $k_{-aa} = 1$
+
 $k_{-ab} = 1$
+
 $k_{-bb} = 1$
 
 The value of $k_{+bb}$ was either 0.5, 4, or 7, depending on the simulation run.

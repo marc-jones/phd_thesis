@@ -16,9 +16,40 @@ No apparent tissue specificity was present between the *BrFLC* genes, suggesting
 
 ### *FLOWERING LOCUS C* {#section:winter:flc}
 
-![**Expression traces for the *BnFLC* genes in the apex of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. The A2, A10, A3 and C3 copies show very similar expression traces. The C2 copy behaves similarly to the A3b and C3 copies. The C9 copies are similar to each other, but have expression profiles that are different from the other *BnFLC* copies.](figuredirectory/apex_tapidor_flc.pdf){#figure:3xx:flctapapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_tapidor_flc.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+apex of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. The A2, A10, A3 and C3 copies show very similar
+expression traces. \emph{Continued on Page
+\pageref{figure:3xx:flctapapexlegend}.}.}\label{figure:3xx:flctapapex}
+\end{figure}
 
-![**Expression traces for the *BnFLC* genes in the apex of Westar.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. All copies, except the C9b copy, show similar expression traces.](figuredirectory/apex_westar_flc.pdf){#figure:3xx:flcwesapex}
+\begin{figure} [t!]
+\caption*{\emph{Continued from Page \pageref{figure:3xx:flctapapex}.}
+The C2 copy behaves similarly to the A3b and C3
+copies. The C9 copies are similar to each other, but have expression
+profiles that are different from the other \emph{BnFLC}
+copies.}%missing
+\label{figure:3xx:flctapapexlegend}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_westar_flc.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+apex of Westar.}}{The expression values and the 95\% confidence intervals
+of those expression values as computed by Cufflinks are displayed. A
+heatmap of the clustering coefficients calculated by the SOM based
+method (discussed in section \ref{section:spring:somexplanation})
+quantifies the similarity between the expression profiles. All copies,
+except the C9b copy, show similar expression
+traces.}\label{figure:3xx:flcwesapex}
+\end{figure}
 
 The product of the *FLC* gene in Arabidopsis is the central regulator of the vernalization pathway[@michaels_memories_2000; @song_remembering_2013].
 Given that *FLC* copy number in Arabidopsis impacts floral growth in a dosage dependent manner[@michaels_memories_2000] and that the gene product seems to have contrasting roles in both the leaf and apex[@searle_transcription_2006], a key question is whether the copies in *B. napus* exhibit regulatory divergence.
@@ -47,9 +78,31 @@ The A10 and C3c copy are expressed in the winter variety, yet lack expression in
 Some copies exhibit reactivation after the cold-induced decrease, suggesting that the vernalization treatment was not sufficient to stably silence those copies.
 Interestingly, this reactivation seems to be variety specific for some genes, with the A3b, C2, and C9a copies exhibiting reactivation in the winter and not the spring variety.
 
-![**Expression traces for the A genome *BnFLC* genes commonly expressed in the apex of both varieties.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. The A2 and A3b copies exhibit varietal differences in the magnitude of expression at the pre-cold time point, in line with these copies delaying the floral transition in Tapidor relative to Westar. The A3a copy is similarly expressed in both varieties, suggesting it does not contribute to the observed delay.](figuredirectory/flc_comparison_apex_1.pdf){#figure:3xx:flcapexagenome}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/flc_comparison_apex_1.pdf}
+\caption{\textbf{Expression traces for the A genome \emph{BnFLC} genes
+commonly expressed in the apex of both varieties.}}{The expression values
+and the 95\% confidence intervals of those expression values as computed
+by Cufflinks are displayed. The A2 and A3b copies exhibit varietal
+differences in the magnitude of expression at the pre-cold time point,
+in line with these copies delaying the floral transition in Tapidor
+relative to Westar. The A3a copy is similarly expressed in both
+varieties, suggesting it does not contribute to the observed
+delay.}\label{figure:3xx:flcapexagenome}
+\end{figure}
 
-![**Expression traces for the C genome *BnFLC* genes commonly expressed in the apex of both varieties.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Variety specific differences in the magnitude of expression at the pre-cold time point are consistent with a role in the vernalization response. In contrast, the expression of the C9b copies is frequently higher across the time series in the spring variety, suggesting that these copies do not delay the floral transition.](figuredirectory/flc_comparison_apex_2.pdf){#figure:3xx:flcapexcgenome}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/flc_comparison_apex_2.pdf}
+\caption{\textbf{Expression traces for the C genome \emph{BnFLC} genes
+commonly expressed in the apex of both varieties.}}{The expression values
+and the 95\% confidence intervals of those expression values as computed
+by Cufflinks are displayed. Variety specific differences in the
+magnitude of expression at the pre-cold time point are consistent with a
+role in the vernalization response. In contrast, the expression of the
+C9b copies is frequently higher across the time series in the spring
+variety, suggesting that these copies do not delay the floral
+transition.}\label{figure:3xx:flcapexcgenome}
+\end{figure}
 
 The expression response of *FLC* in Arabidopsis is quantitative, at least at the tissue level at which we are sampling[@michaels_flowering_1999; @angel_polycomb_based_2011].
 The magnitude of expression is therefore an important aspect of *FLC* regulation.
@@ -72,9 +125,31 @@ The A3a copy, however, exhibits cold induced stable repression in both varieties
 Finally, the C9b copy is more highly expressed in the spring variety relative to the winter variety and is not repressed during the cold treatment.
 This indicates that this particular copy of *BnFLC* has diverged significantly in its regulation relative to Arabidopsis *FLC*, and is likely not involved with mediating the vernalization response in *B. napus*.
 
-![**Expression traces for the *BnFLC* genes in the leaf of Tapidor.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. All copies, except C9b, have similar expression profiles as determined by the clustering coefficients.](figuredirectory/leaf_tapidor_flc.pdf){#figure:3xx:flctapleaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/leaf_tapidor_flc.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+leaf of Tapidor.}}{The expression values and the 95\% confidence
+intervals of those expression values as computed by Cufflinks are
+displayed. A heatmap of the clustering coefficients calculated by the
+SOM based method (discussed in section
+\ref{section:spring:somexplanation}) quantifies the similarity between
+the expression profiles. All copies, except C9b, have similar expression
+profiles as determined by the clustering
+coefficients.}\label{figure:3xx:flctapleaf}
+\end{figure}
 
-![**Expression traces for the *BnFLC* genes in the leaf of Westar.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. A *mixed* pattern of clustering coefficients is observed, with C9 copies being in separate regulatory modules and A2, C2, and A3a exhibiting a gradiant of similarity.](figuredirectory/leaf_westar_flc.pdf){#figure:3xx:flcwesleaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/leaf_westar_flc.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+leaf of Westar.}}{The expression values and the 95\% confidence intervals
+of those expression values as computed by Cufflinks are displayed. A
+heatmap of the clustering coefficients calculated by the SOM based
+method (discussed in section \ref{section:spring:somexplanation})
+quantifies the similarity between the expression profiles. A
+\emph{mixed} pattern of clustering coefficients is observed, with C9
+copies being in separate regulatory modules and A2, C2, and A3a
+exhibiting a gradiant of similarity.}\label{figure:3xx:flcwesleaf}
+\end{figure}
 
 To assess whether the *BnFLC* genes exhibited tissue specific expression, the expression of the genes was analysed in the leaf tissue.
 In the Tapidor leaf samples eight copies of *BnFLC* are detected as expressed; all four copies from the A genome, *BnFLC.C2*, *BnFLC.C3a*, *BnFLC.C3c*, and *BnFLC.C9b* (Figure \ref{figure:3xx:flctapleaf}).
@@ -108,7 +183,20 @@ The only copy that exhibits a significant change in expression pattern between t
 In the apex this copy does not exhibit cold-induced silencing, whereas it does in the leaf.
 This suggests the C9b copy of *BnFLC* exhibits tissue-specific regulation in both varieties.
 
-![**Expression traces for the *BnFLC* genes commonly expressed in the leaf of both varieties.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Variety specific differences in the magnitude of expression at the pre-cold time point for *BnFLC.A2* and *BnFLC.C2* are consistent with a role in the vernalization response. The response of the A3a copy to cold treatment is similar in both varieties. In contrast, the expression of the C9b copy is more highly expressed across the time series in the spring variety, suggesting that this copy is not involved with delaying the floral transition.](figuredirectory/flc_comparison_leaf.pdf){#figure:3xx:flcleafcgenome}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/flc_comparison_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFLC} genes commonly
+expressed in the leaf of both varieties.}}{The expression values and the
+95\% confidence intervals of those expression values as computed by
+Cufflinks are displayed. Variety specific differences in the magnitude
+of expression at the pre-cold time point for \emph{BnFLC.A2} and
+\emph{BnFLC.C2} are consistent with a role in the vernalization
+response. The response of the A3a copy to cold treatment is similar in
+both varieties. In contrast, the expression of the C9b copy is more
+highly expressed across the time series in the spring variety,
+suggesting that this copy is not involved with delaying the floral
+transition.}\label{figure:3xx:flcleafcgenome}
+\end{figure}
 
 Comparing between varieties (Figure \ref{figure:3xx:flcleafcgenome}), similar differences in the magnitude of *BnFLC* gene expression were observed in the leaf as they were for the apex.
 Although *BnFLC.A2* demonstrates a similar response to cold in both Tapidor and Westar, expression is approximately four fold higher in Tapidor across the entire time series.
@@ -161,9 +249,23 @@ In addition, in *Medicago truncatula* a mutant in a homologue of *VRN2* was foun
 In order to assess whether regulatory divergence among components of the PRC2 could be influencing the vernalization response in *B. napus*, expression of *VRN2*, *SWN*, *MSI1*, and *FIE1* homologues was analysed.
 As very little regulatory and between variety divergence was observed for *SWN* and *FIE1* *B. napus* homologues, the analysis of those genes can be found in Appendix B.
 
-![**Expression traces for the *BnVRN2* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Within a variety, the two homoeologues retain similar expression profiles.](figuredirectory/vrn2_apex.pdf){#figure:3xx:vrn2apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/vrn2_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnVRN2} genes in the
+apex.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Within a
+variety, the two homoeologues retain similar expression
+profiles.}\label{figure:3xx:vrn2apex}
+\end{figure}
 
-![**Expression traces for the *BnVRN2* genes in the leaf.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Within a variety, the two homoeologues retain similar expression profiles.](figuredirectory/vrn2_leaf.pdf){#figure:3xx:vrn2leaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/vrn2_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnVRN2} genes in the
+leaf.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Within a
+variety, the two homoeologues retain similar expression
+profiles.}\label{figure:3xx:vrn2leaf}
+\end{figure}
 
 Two *B. napus* homologues of *VRN2* are expressed in both the leaf (Figure \ref{figure:3xx:vrn2leaf}) and apex (Figure \ref{figure:3xx:vrn2apex}).
 The expression of the genes does not change dramatically across the time series in either tissue or variety, although all copies of the gene exhibit an slight increase in expression during the vernalization treatment.
@@ -174,9 +276,25 @@ The expression of *VRN2* in *A. thaliana* was found to be relatively unaltered b
 The increase in expression observed for the *BnVRN2* genes during the cold is an indication, therefore, that the *BnVRN2* genes are more cold responsive than Arabidopsis.
 This is supported by results from *Medicago truncatula*, where a *VRN2* homologue was found to increase in expression during the cold and influence the timing of the floral transition when mutated[@jaudal_mtvrn2_2016].
 
-![**Expression traces for the *BnMSI1* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Largely similar patterns of expression are observed between the two varieties, although the A3 and C3a copies are much more highly expressed in Tapidor.](figuredirectory/msi1_apex.pdf){#figure:3xx:msiapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/msi1_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnMSI1} genes in the
+apex.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Largely
+similar patterns of expression are observed between the two varieties,
+although the A3 and C3a copies are much more highly expressed in
+Tapidor.}\label{figure:3xx:msiapex}
+\end{figure}
 
-![**Expression traces for the *BnMSI1* genes in the leaf.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Largely similar patterns of expression are observed between the two varieties, although the A3 and C3a copies are much more highly expressed in Tapidor.](figuredirectory/msi1_leaf.pdf){#figure:3xx:fie1msi1leaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/msi1_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnMSI1} genes in the
+leaf.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Largely
+similar patterns of expression are observed between the two varieties,
+although the A3 and C3a copies are much more highly expressed in
+Tapidor.}\label{figure:3xx:fie1msi1leaf}
+\end{figure}
 
 *MSI1* is part of a family of WD40 repeat proteins that bind to histones and are thought to act as a protein scaffold[@hennig_msi1_like_2005].
 *MSI1* is involved with the vernalization response in Arabidopsis[@derkacheva_arabidopsis_2013] and has been found to be important for the regulation of plant homeotic genes in the apex[@hennig_arabidopsis_2003].
@@ -217,9 +335,29 @@ In addition to the vernalization pathway, *VIL1* and *VIL2* have also been found
 As a result of the key roles these genes play in mediating the vernalization response, their expression profiles in the two *B. napus* varieties were investigated.
 As very little regulatory and between variety divergence was observed for *VIL1* and *VIL2* *B. napus* homologues, the analysis of those genes can be found in Appendix B.
 
-![**Expression traces for the *BnVIN3* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. An upregulation of expression during the vernalization treatment is observed in all copies and in both varieties.](figuredirectory/apex_vin3.pdf){#figure:3xx:vin3apex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_vin3.pdf}
+\caption{\textbf{Expression traces for the \emph{BnVIN3} genes in the
+apex.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. A heatmap of
+the clustering coefficients calculated by the SOM based method
+(discussed in section \ref{section:spring:somexplanation}) quantifies
+the similarity between the expression profiles. An upregulation of
+expression during the vernalization treatment is observed in all copies
+and in both varieties.}\label{figure:3xx:vin3apex}
+\end{figure}
 
-![**Expression traces for the *BnVIN3* genes in the leaf.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. A heatmap of the clustering coefficients calculated by the SOM based method (discussed in section \ref{section:spring:somexplanation}) quantifies the similarity between the expression profiles. An upregulation of expression during the vernalization treatment is observed in all copies and in both varieties.](figuredirectory/leaf_vin3.pdf){#figure:3xx:vin3leaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/leaf_vin3.pdf}
+\caption{\textbf{Expression traces for the \emph{BnVIN3} genes in the
+leaf.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. A heatmap of
+the clustering coefficients calculated by the SOM based method
+(discussed in section \ref{section:spring:somexplanation}) quantifies
+the similarity between the expression profiles. An upregulation of
+expression during the vernalization treatment is observed in all copies
+and in both varieties.}\label{figure:3xx:vin3leaf}
+\end{figure}
 
 Three copies of *BnVIN3* are expressed across both tissues and varieties; one copy on the A2, A3, and C2 chromosomes.
 In both the apex (Figure \ref{figure:3xx:vin3apex}) and the leaf (Figure \ref{figure:3xx:vin3leaf}) the expression pattern of the gene exhibits an increase during the vernalization treatment and returns to low temperatures post-cold.
@@ -237,9 +375,23 @@ In addition, this between variety divergence is tissue specific, with both A2 an
 Despite variation at *FRI* accounting for the majority of flowering time variation in Arabidopsis[@shindo_role_2005], the spatiotemporal expression profile of the gene has not been well elucidated.
 What is known, however, is that mutations that disrupt the expression of the *FRI* gene causes early flowering through *FLC* expression being lowly expressed[@shindo_role_2005; @gazzani_analysis_2003; @le_corre_dna_2002; @johanson_molecular_2000].
 
-![**Expression traces for the *BnFRI* genes in the apex.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Expression of all copies are very low, with the A10 copy being expressed below the 2.0 FPKM threshold to be regarded as expressed.](figuredirectory/fri_apex.pdf){#figure:3xx:friapex}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/fri_apex.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFRI} genes in the
+apex.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Expression of
+all copies are very low, with the A10 copy being expressed below the 2.0
+FPKM threshold to be regarded as expressed.}\label{figure:3xx:friapex}
+\end{figure}
 
-![**Expression traces for the *BnFRI* genes in the leaf.** The expression values and the 95% confidence intervals of those expression values as computed by Cufflinks are displayed. Expression of all copies are very low, with the A10 copy being expressed below the 2.0 FPKM threshold to be regarded as expressed.](figuredirectory/fri_leaf.pdf){#figure:3xx:frileaf}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/fri_leaf.pdf}
+\caption{\textbf{Expression traces for the \emph{BnFRI} genes in the
+leaf.}}{The expression values and the 95\% confidence intervals of those
+expression values as computed by Cufflinks are displayed. Expression of
+all copies are very low, with the A10 copy being expressed below the 2.0
+FPKM threshold to be regarded as expressed.}\label{figure:3xx:frileaf}
+\end{figure}
 
 The expression profiles of *BnFRI* genes in the apex (Figure \ref{figure:3xx:friapex}) and leaf (Figure \ref{figure:3xx:frileaf}) exhibit strong similarities, suggesting that the *BnFRI* genes have not diverged in terms of expression domain.
 Slight expression increases are observed for most copies in both the apex and leaf, with this not being the case for the C9 copy in the leaf (Figure \ref{figure:3xx:frileaf}).

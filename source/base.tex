@@ -207,6 +207,13 @@ $endif$
 % PREAMBLE START
 \pagestyle{plain}
 
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+% Resize figures that are too wide for the page.
+\let\oldincludegraphics\includegraphics
+\renewcommand\includegraphics[2][]{%
+  \oldincludegraphics[#1,max width=\linewidth,max height=\textheight,center]{#2}
+}
+
 \usepackage{rotating}
 
 \usepackage{nextpage}
@@ -227,6 +234,8 @@ $endif$
 % \addtolength{\textwidth}{1in}
 % \addtolength{\topmargin}{-.5in}
 % \addtolength{\textheight}{1in}
+
+\usepackage[top=1in, bottom=1.25in, left=4.5cm, right=1.25in]{geometry}
 
 % Line spacing
 \linespread{1.25}

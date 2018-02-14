@@ -68,7 +68,17 @@ Applying this to the differences in expression of *BnFLC.C2* between varieties p
 The first is that the basal level of *BnFLC.C2* silencing in Westar is higher, resulting in a shorter vernalization period being required for stable silencing of the gene.
 Alternatively, the optimum temperature at which the *BnFLC.C2* copy is repressed might be different.
 
-![**The "underdetermined system" hypothesis.** Different *FLC* copies ($\alpha$ and $\beta$) with different sensitivities to cold allow for both the length and the severity of cold to be determined. **a** FLC-$\alpha$ is repressed more strongly at 5 &deg;C relative to 14 &deg;C. The result is that the level of *FLC*-$\alpha$ expression is the same at the end of the vernalization period. **b** *FLC*-$\beta$ repression is insensitive to the ](figuredirectory/discussion_figure.pdf){#figure:3xx:underdetermined}
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/discussion_figure.pdf}
+\caption{\textbf{The ``underdetermined system'' hypothesis.}}{Different
+\emph{FLC} copies (\(\alpha\) and \(\beta\)) with different
+sensitivities to cold allow for both the length and the severity of cold
+to be determined. \textbf{a} FLC-\(\alpha\) is repressed more strongly
+at 5 °C relative to 14 °C. The result is that the level of
+\emph{FLC}-\(\alpha\) expression is the same at the end of the
+vernalization period. \textbf{b} \emph{FLC}-\(\beta\) repression is
+insensitive to the}\label{figure:3xx:underdetermined}
+\end{figure}
 
 Therefore, it seems that the *BnFLC* genes have diverged to either require different lengths of cold to become stably silenced or have different optima temperatures at which the silencing occurs.
 Having multiple copies of *FLC* with potentially different requirements for cold has interesting implications for the vernalization pathway in *B. napus*, relative to Arabidopsis.
@@ -91,7 +101,7 @@ This hypothesis assumes that *FLC* repression is the sole mediator of the vernal
 It also assumes that it would be beneficial to the plant to respond to the length and severity of cold separately.
 However, as genes in the vernalization response have been found to have pleiotropic effects, such as on plant architecture[@scarcelli_antagonistic_2007], this seems likely.
 Regardless it demonstrates a potential use for additional *FLC* copies; to allow the length of cold and the severity of cold to be dissected.
-Testing the "underdetermined system" hypothesis could be done by performing similar vernalization experiments as Duncan et al. with *B. napus*[@duncan_seasonal_2015].
+Testing the "underdetermined system" hypothesis could be done by performing similar vernalization experiments as Duncan et al. (2015) with *B. napus*[@duncan_seasonal_2015].
 
 Taking the expression of *BnFLC* genes (section \ref{section:winter:flc}) and the floral integrators (sections \ref{section:spring:floralintegrators} and \ref{section:winter:floralintegrators}) together, the effects of a vernalization requirement on the transcription of floral integrators can begin to be dissected.
 Two genes directly repressed by *FLC* in Arabidopsis are *SOC1* and *FT*[@lee_agamous_like_2000; @michaels_integration_2005].
