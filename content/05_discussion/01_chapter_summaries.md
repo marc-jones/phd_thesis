@@ -17,7 +17,7 @@ Expressed flowering time genes were found to be retained in the genome at a high
 The extensive regulatory divergence observed suggested that other processes, other than gene dosage effects, have contributed to the retention of genes in *B.\ napus*.
 
 The floral transition in Arabidopsis is controlled by a tightly interconnected regulatory network, consisting of multiple feedback loops to result in irreversible, robust flowering[@bouche_florid_2016; @jaeger_interlocking_2013].
-At least one *B.\ napus* homologue, and often more, exhibited expression profiles consistent with the gene in Arabidopsis, suggesting a general conservation between the expression domains of the genes in Arabidopsis and *B.\ napus*.
+At least one *B.\ napus* homologue, and often more, exhibited expression profiles consistent with the homologous gene in Arabidopsis, suggesting a general conservation between the expression domains of the genes in Arabidopsis and *B.\ napus*.
 A dramatic pattern of tissue specific expression of homologues was observed for *BnSOC1* genes, suggesting a partitioning of spatial expression domains between different homologues.
 The expression profiles also suggest that different *BnSOC1* genes have different sensitivities to environmental signals.
 Given the role *SOC1* plays in integrating multiple environmental signals in Arabidopsis[@lee_regulation_2010], the work presented here suggests that *BnSOC1* genes are an almost archetypal example of the ways subfunctionalization can manifest.
@@ -25,10 +25,10 @@ Given the role *SOC1* plays in integrating multiple environmental signals in Ara
 Changes to cis-regulatory elements represent a way by which the expression of genes can diverge[@force_preservation_1999].
 The expression profiles of *BnTFL1* were shown to correlate with the presence and absence of regions of sequence conservation with Arabidopsis *TFL1* downstream of the gene.
 These regions of sequence conservation occur in areas of downstream sequence identified as cis-regulatory elements in Arabidopsis[@serrano_mislata_separate_2016].
-The similarities between particular *BnTFL1* genes and the expression domains the regulatory elements define in Arabidopsis suggest conservation between how the *BnTFL1* genes and *TFL1* in Arabidopsis are regulated.
+The similarities between the expression profiles of particular *BnTFL1* genes and the expression domains the regulatory elements defined in Arabidopsis suggest conservation between how the *BnTFL1* genes and the *TFL1* in Arabidopsis are regulated.
 Although correlative, this analysis suggests that cis-regulatory element changes may represent an important driver of subfunctionalization in *B.\ napus*.
 It also highlights how studies dissecting regulatory elements in a model species can lead to insights in a crop.
-As the regulatory elements controlling more genes are elucidated to the level of *TFL1*[@serrano_mislata_separate_2016] it will be interesting to investigate whether the other cases of regulatory divergence observed in *B.\ napus* flowering time genes can be explained with regulatory element changes.
+As the regulatory elements controlling other genes are elucidated to the level of *TFL1*[@serrano_mislata_separate_2016] it will be interesting to investigate whether the other cases of regulatory divergence observed in *B.\ napus* flowering time genes can be explained with regulatory element changes.
 
 The results from analysis of *BnFD* sequence divergence demonstrate that determining gene divergence from expression data leads to an underestimation of the true divergence present.
 Sequence differences between *BnFD* homologues are predicted to alter dimerization affinities of BnFD proteins, resulting in certain BnFD dimers being more likely to occur than others.
@@ -44,18 +44,18 @@ As data on FD protein interactions become available it will be interesting to re
 The questions of gene retention raised in this chapter have to be viewed in the context of *B.\ napus* being a crop, grown under artificial selection.
 Although gene redundancy is not necessarily stable in natural conditions[@nowak_evolution_1997; @lynch_evolutionary_2000], it may be selected for in an agricultural setting where consistency is paramount.
 It is suggested that polyploidy represents a method of fixing heterosis, or hybrid vigour, in a crop[@dubcovsky_genome_2007; @comai_advantages_2005; @paterson_polyploidy_2005; @yao_genomic_2013].
-The regulatory divergence observed suggests that polyploidy may indeed lead to a 'Swiss Army knife' of similar genes to be retained in the genome, each adapted to particular growth conditions, tissue, or stage of development, which can be expressed as and when it is needed.
+The regulatory divergence observed suggests that polyploidy may indeed lead to a 'Swiss Army knife' of similar genes being retained in the genome, each adapted to particular growth conditions, tissue, or stage of development, which can be expressed as and when it is needed.
 
 ### Effects of a requirement for cold on regulatory divergence
 
-An important agronomic trait of *B. napus* is whether the plant requires a period of cold in order to flower.
-Varieties that do not require cold are often grown in Canada and Northern Europe, where harsh winters would damage crops grown during winter, whereas varieties that do require cold in order to flower are grown Europe and Asia[@friedt_oilseed_2009].
-This requirement for cold is called vernalization, and it is a pathway that is well understood at the molecular level in the model species Arabidopsis[@song_remembering_2013].
+An important agronomic trait of *B.\ napus* is whether the plant requires a period of cold in order to flower.
+Varieties that do not require cold are often grown in Canada and Northern Europe, where harsh winters would damage crops grown during winter, whereas varieties that do require cold in order to flower are grown in Europe and Asia[@friedt_oilseed_2009].
+This requirement for cold is called vernalization, and is a pathway that is well understood at the molecular level in the model species Arabidopsis[@song_remembering_2013].
 The pathway is arguably the most well understood flowering time pathway in *Brassica* crops with an array of different studies finding *B.\ napus* vernalization gene homologues associated with flowering and exhibiting sequence divergence[@zou_comparative_2012; @irwin_functional_2012; @schranz_characterization_2002].
 How a requirement for cold influences the overall transcriptome, however, and whether the *BnFLC* genes influence the expression of certain floral integrators more than others was not known.
 
 In chapter \ref{chapter:winter} the effects of a requirement for cold on the transcriptome of *B.\ napus* were assessed by comparing a winter variety, Tapidor, and spring variety, Westar.
-The potential importance of the leaf during vernalization in *B. napus* was revealed through an expansion of expressed gene number in Tapidor relative to Westar.
+The potential importance of the leaf during vernalization in *B.\ napus* was revealed through an expansion of expressed gene number in Tapidor relative to Westar.
 As the action of *FLC*, a key vernalization sensitive gene, acts at both the leaf and the apex[@searle_transcription_2006], exploring the biological significance of this increased gene set expressed in the leaf in the winter variety will be a central question motivating future work.
 Correlation analysis suggested that different factors influence the transcriptome depending on the tissue, with the leaf seemingly influenced by plant age and the apex by developmental stage.
 This is counter to expectations from Arabidopsis[@levey_natural_2005], but may represent an instance of artificial selection for leaf senescence to allow metabolites to be remobilized from leaves to the growing flowers and seeds, leading to yield increases.
@@ -65,14 +65,14 @@ Considering genes involved with the vernalization response, copies of *BnFLC* we
 The two best candidates for conferring the vernalization response in Tapidor, based on their expression profiles, are *BnFLC.A2* and *BnFLC.A10*, consistent with previous studies[@schranz_characterization_2002].
 Not all *BnFLC* genes were found to respond similarly to cold.
 *BnFLC.A3b* and *BnFLC.C2* are not stably silenced in Tapidor, revealing that expression of these genes does not prevent flowering.
-Results from Arabidopsis suggest these copies may require longer periods of cold to become fully repressed[@coustham_quantitative_2012; @duncan_seasonal_2015].
+Potentially these *BnFLC* genes may require longer periods of cold to become fully repressed, in a similar manner to certain *FLC* alleles in Arabidopsis[@coustham_quantitative_2012; @duncan_seasonal_2015].
 The experimental design decision to subject a spring variety to vernalization may initially seem strange.
 However, doing so allowed candidate *BnFLC* genes for the mild vernalization response in Westar to be identified[@murphy_vernalization_1994].
 The theoretical consequences of having differently tuned *FLC* homologues were considered, and proposed to allow plants to disentangle the length of vernalization and the temperatures experienced during cold.
 Other genes involved with the vernalization response exhibited differences in the magnitude of expression between varieties.
 However, the consequences of these observed differences are difficult to assess.
 
-The expression differences of *BnFT* and *BnSOC1* between varieties were consistent with the effects of *BnFLC* mediated repression, consistent with these regulatory interactions being present in Arabidopsis[@lee_agamous_like_2000; @michaels_integration_2005].
+The expression differences of *BnFT* and *BnSOC1* genes between varieties were consistent with the effects of *BnFLC* mediated repression, in line with findings from Arabidopsis[@lee_agamous_like_2000; @michaels_integration_2005].
 Two genes exhibited very different expression profiles in Tapidor relative to Westar.
 *BnFD.A1* and *BnAP1.A2* exhibited expression divergence in the spring variety, but the expression profiles of these genes in Tapidor were more consistent with the other homologues of those genes.
 Determining whether these differences influence the vernalization response, or represent differences due to variety, would require a more thorough assessment of transcriptomic changes involving multiple winter and spring lines.

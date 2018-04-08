@@ -10,7 +10,7 @@ This study represents the first study in *B.\ napus* to follow the transcriptome
 Arabidopsis floral genes were found to be retained in the genome more frequently than expected, with the patterns of regulation suggesting different selective pressures are acting on the genes.
 Analysis of both the leaf and apex transcriptomes revealed that these tissues are distinct in their transcriptional responses, and identified cases where floral gene homologues have diverged in terms of their spatial expression domains.
 The importance of cis-regulatory elements in the evolution of duplicated genes is highlighted, and represents an example of how research in model species can begin to be translated to a crop species.
-The findings that similarly expressed genes exhibit functionally relevant sequence differences calls into question the very assumption on which original project aim was based, namely, that similarly expressed genes can be considered as a single node in the network.
+The findings that similarly expressed genes exhibit functionally relevant sequence differences calls into question the very assumption on which the original project aim was based, namely, that similarly expressed genes can be considered as a single node in the network.
 
 Despite the value of this work in elucidating regulatory divergence between gene homologues, a key question remains: how much closer are we to a regulatory network of the *B.\ napus* floral transition?
 This project emphasizes the problems inherent to determining a simple gene regulatory network of a crop that has experienced multiple rounds of gene duplication.
