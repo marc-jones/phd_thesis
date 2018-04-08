@@ -1,7 +1,7 @@
 ## Conclusions and future directions
 
-The objective of ORDER was to facilitate access to the transcriptomic time series dataset, allowing users to easily search for *B. napus* gene of interest and plot their expression profiles.
-The dual search functions allow full access to the dataset, allowing users to search using homology to Arabidopsis genes or homology to a user submitted sequence.
+The objective of ORDER was to facilitate access to the transcriptomic time series dataset, allowing users to easily search for *B.\ napus* gene of interest and plot their expression profiles.
+The dual search functions allow full access to the dataset, allowing users to search using homology to Arabidopsis genes or homology to user submitted sequences.
 Examples of using ORDER to investigate regulation of floral development were given, emphasizing the requirement for both search methods in order to access the dataset.
 Finally, the database structure is such that new data can be easily added to the database and be plotted alongside the transcriptomic time series data currently collected.
 
