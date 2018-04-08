@@ -183,7 +183,7 @@ Self-organising maps (SOM) were generated using the `kohonen` library[@wehrens_s
 As with the WGCNA analysis, the data was filtered and normalised prior to carrying out the SOM analysis.
 The number of nodes used in the SOM was chosen based on the ratio $\frac{\sum_{c=1}^{S}N_{c}(\bar{x}_{c}-\bar{x})^2}{\sum_{g=1}^{N}(x_{g}-\bar{x})^2}$ where $N$ is the total number of genes, $S$ is the total number of SOM nodes, $N_{c}$ is the total number of genes assigned to SOM node $c$, $x_{g}$ is the expression vector for gene $g$, $x_{c}$ is the expression vector for SOM node $c$, and $\bar{x}$ is the global mean of all expression vectors.
 A value of $S$ was chosen such that the above ratio was ~0.85 for both tissues.
-To adequately capture the variation present in the data, the dimensions of the SOM were set as the ratio between the first two principle component eigenvalues of the data, as has been done previously[@vesanto_self_organizing_2000].
+To adequately capture the variation present in the data, the dimensions of the SOM were set as the ratio between the first two principal component eigenvalues of the data, as has been done previously[@vesanto_self_organizing_2000].
 
 To assign probabilities of genes clustering to the same SOM cluster, a resampling procedure was employed (Figure \ref{figure:218:somsimilarity}).
 Expression values were resampled assuming a Gaussian noise model, using the true expression value as the mean of the distribution and the true expression value uncertainty calculated by Cufflinks as the distribution variance.
@@ -252,10 +252,10 @@ Gene & Forward Primer (5'\ -\ 3') & Reverse Primer (5'\ -\ 3') & Amplicon Length
 
 Reverse transcription quantitative PCR (RT-qPCR) was carried out on copies of *BnTFL1* using custom designed primers (Table \ref{methods:qpcr}).
 The SuperScript® III First-Strand Synthesis System (Thermo Fisher Scientific Inc., USA) was used to generate cDNA, with 2 $\mu$g of RNA used as input.
-The RNA was extracted as described above.
+The RNA was extracted as described above, with all Westar apex samples, from both biological replicates, being used.
 Each RT-qPCR reaction consisted of 5 $\mu$l LightCycler® 480 SYBR Green I Master (Roche Molecular Systems Inc., USA), 4 $\mu$l cDNA, 0.125 $\mu$l of the forward and reverse primers at a concentration of 10 $\mu$M and 0.75 $\mu$l water.
 Quantification was performed on a LightCycler® 480 (Roche Molecular Systems Inc., USA).
-The RT-qPCR cycle consisted of a 95\ &deg;C denaturation step for 5 minutes followed by 50 quantification cycle.
+The RT-qPCR cycle consisted of a 95\ &deg;C denaturation step for 5 minutes followed by 50 quantification cycles.
 Each cycle consisted of 15 seconds at 95\ &deg;C, 20 seconds at 58\ &deg;C, 30 seconds at 72\ &deg;C. Fluorescence was quantified at 75\ &deg;C as the temperature was ramping from 72\ &deg;C to 95\ &deg;C.
 
 ## Gene Ontology term enrichment
@@ -266,7 +266,7 @@ The Arabidopsis GO terms used were from the `org.At.tair.db` libray[@r_go_arabid
 The GO terms associated with the Arabidopsis gene with the highest sequence similarity to each *B.\ napus* gene, as determined by `blastn`[@camacho_blast_2009] (version 2.2.30+), were assigned to each *B.\ napus* gene.
 The `topGO` library[@r_top_go] (version 2.22.0) was used to perform the GO term enrichment.
 The parameters used to generate the `topGO` data structure were `BP` for the `ontology` parameter and a `nodeSize` of `10`.
-For the enrichment test, the `classic` algorithm was used with a `fisher` statistic.
+For the enrichment test, the `classic` algorithm was used with the statistic parameter set to `fisher`.
 The significance threshold used was 0.01.
 
 ## Protein domain enrichment {#section:methods:proteinenrichment}
