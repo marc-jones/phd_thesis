@@ -44,7 +44,7 @@
       <else-if type="webpage" variable="URL" match="all">
         <text term="available at" text-case="capitalize-first" suffix=": "/>
         <text variable="URL" suffix=". "/>
-        <group prefix="(" suffix=")" delimiter=": ">
+        <group prefix="(" suffix=")." delimiter=": ">
           <text term="accessed" text-case="capitalize-first"/>
           <date variable="accessed">
             <date-part name="day" suffix=" " form="ordinal"/>
