@@ -53,6 +53,10 @@ A schematic of the sampling scheme is displayed in Figure \ref{figure:201:sampli
 As with previous studies investigating the vernalization response[@baduel_habitat_associated_2016; @qiu_comparative_2006; @long_flowering_2007], spring and winter varieties of oilseed rape, called Westar and Tapidor respectively, were grown.
 Seeds from both varieties were sown and plants grown under long day conditions (16\ hours of light) with controlled temperatures of 18\ &deg;C during the day and 15\ &deg;C at night.
 The six week vernalization treatment involved growing the plants in short day conditions (8\ hours of light) at 5\ &deg;C.
+Plants were sampled at approximately 12:00 each day.
+During long and short days, 12:00 corresponded to the midpoint of the day.
+Although this means that the time since dawn was different depending on the day length, the proportion of day elapsed was the same in both conditions.
+Sampling at a proportionally similar time each day minimizes the noise due to circadian rhythms, as the oscillations have been observed to become entrained to light and dark cycles[@salome_what_2004].
 Vernalization was necessary in order to accelerate the onset of flowering for the winter variety, Tapidor.
 Although the spring variety does not have a vernalization requirement, plants still exhibit a vernalization response[@murphy_vernalization_1994].
 To investigate the facultative vernalization response of the spring variety, and to ensure that data from the two varieties would be comparable, both Westar and Tapidor plants were vernalized.

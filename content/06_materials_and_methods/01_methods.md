@@ -37,8 +37,10 @@ Some of these methods are included in a paper written in collaboration with Dr. 
 
 *B.\ napus* cv. Westar and *B.\ napus* cv. Tapidor plants were sown on the 7^th^ May 2014 in cereals mix.
 Plants were grown in unlit glasshouses in Norwich, UK, with glasshouse temperatures set at 18\ &deg;C during the day and 15\ &deg;C at night.
-On day 22 of growth, plants were transferred to a 5\ &deg;C, short day (8\ hour) vernalization room.
-After a 42\ day period in the vernalization room, plants were transferred back to unlit glasshouses and grown until the plants flowered.
+The sunrise during the sampling period was approximately 05:00, while sunset was approximately 21:00.
+On day 22 of growth, plants were transferred to a 5\ &deg;C, short day (8\ hour) growth chamber to undergo vernalization.
+The lights in the growth chamber turned on at 08:00 and turned off at 16:00 each day.
+After a 42\ day period of vernalization, plants were transferred back to unlit glasshouses and grown until the plants flowered.
 The first true leaf of each plant and shoot apices were sampled at 22, 43, 64, 65, 67, 69, and 72 days after sowing (Table \ref{methods:sampling}).
 First true leaves were cut and immediately frozen in liquid nitrogen.
 The growing shoot apices were dissected using razor blades on a dry ice chilled tile before transfer to liquid nitrogen.
