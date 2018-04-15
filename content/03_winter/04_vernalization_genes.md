@@ -219,7 +219,8 @@ Comparing the magnitude of expression between varieties reveals copies of *BnFLC
 The A2, A3b, A10, C2, and C3c copies of *BnFLC* are all expressed more highly in the winter variety than in the spring.
 That all of these copies also exhibit cold induced silencing makes them good candidates for mediating the delay in flowering in the winter variety.
 Of particular interest are A2 and A10, as the silencing of these copies is more stable post-cold than the others.
-This suggests that one or both of these copies controls the vernalization requirement of Tapidor, while the other copies, A3b, C2, and C3c, may mediate the vernalization response.
+This suggests that one or both of these copies controls the vernalization requirement of Tapidor, that is, the expression of these copies has to be repressed in order for the plants to flower.
+The other *BnFLC* copies, A3b, C2, and C3c, may mediate the vernalization response, in that they delay flowering when expressed, but do not have to be repressed for the plant to undergo the floral transition.
 Comparing the magnitude of expression between varieties also suggests that *BnFLC.C9b* is not involved with delaying flowering time, as the gene is more highly expressed in Westar relative to Tapidor.
 
 Comparing expression data between the apex and the leaf reveals some tissue-specific expression.
