@@ -57,7 +57,7 @@ However, the roles of copies that do not seem to influence flowering, or influen
 
 A potential avenue of subfunctionalization, a partitioning of the roles of an ancestral gene, is spatial subfunctionalization[@conant_turning_2008; @force_preservation_1999].
 For example, an ancestral gene may be expressed in both leaves and roots when present as a single copy.
-Following a gene duplication event, however, evolutionary forces may lead to the presence of leaf specific and root specific gene homologues.
+Following a gene duplication event, however, evolutionary forces may lead to the presence of leaf-specific and root-specific gene homologues.
 This form of subfunctionalization is an expectation from the duplication-degeneration-complementation model[@force_preservation_1999].
 This model for gene evolution posits that after gene duplication, mutations disrupting cis-regulatory elements, which control the spatiotemporal expression of genes, are likely to be neutral.
 This is because gene copies without the mutation would complement the copy with the mutation.
@@ -70,7 +70,7 @@ In another Brassicaceae family plant, *Lunaria biennis*, plants regenerated from
 Further work indicated that, as opposed to particular tissues, mitotically dividing cells were required for vernalization to take place[@wellensiek_dividing_1962; @wellensiek_dividing_1964].
 Results from other species have reinforced that vernalization can be sensed in a range of tissues, such as flower buds[@pierik_lunaria_1966] and roots[@berry_local_2015; @pierik_cichorium_1966], with the general consensus being that the location at which vernalization is sensed in a plant is likely to be species specific[@michaels_memories_2000].
 One of the most thorough assessments of the role of *FLC* at both the apex and the leaves was performed by Searle et al. (2006).
-By expressing *FLC* in a tissue specific manner, the authors were able to deduce that *FLC* has a dual role in Arabidopsis[@searle_transcription_2006].
+By expressing *FLC* in a tissue-specific manner, the authors were able to deduce that *FLC* has a dual role in Arabidopsis[@searle_transcription_2006].
 Not only does *FLC* induce floral signals in the leaf, through the derepression of *FT*,  the product of the gene also acts on floral integrators in the apex, making the regulatory network competent to respond to the signal coming from the leaf[@searle_transcription_2006].
 Assessing divergence of *FLC* copies in *B.\ napus* is of particular interest given the "flowering rheostat" model of *FLC*[@michaels_memories_2000].
 This model is based on observations that the delay of flowering mediated by *FLC* is dosage dependent[@lee_late_flowering_1994; @sheldon_flf_1999].
@@ -89,6 +89,6 @@ This reveals *FT* and *TFL1* homologues to be most differently expressed, althou
 This provides some evidence that certain floral integrators have diverged to become biased towards, or more sensitive to, particular inputs.
 
 The comparisons made in this chapter were made between a winter and a spring variety of *B.\ napus*.
-However, the results should not be considered as general differences between spring and winter varieties of *B.\ napus*, as the observed differences may instead be due to variety specific divergence.
+However, the results should not be considered as general differences between spring and winter varieties of *B.\ napus*, as the observed differences may instead be due to variety-specific divergence.
 This limitation is a consequence of only one winter variety and one spring variety being compared in the study.
 Despite this, the results still lead to hypotheses which can be tested in a larger panel of *B.\ napus*, and in some cases are consistent with the current literature.

@@ -88,7 +88,7 @@ This finding predicts that this particular copy, therefore, would not be express
 #### Quantitative PCR validation of *BnTFL1* RNA-Seq expression levels {#section:spring:tfl1qpcr}
 
 The above observations of gene expression correlating with the presence and absence of cis-regulatory elements is dependent on the accuracy of the RNA-Seq results.
-Although findings presented in section \ref{section:spring:alignreadexplevel} suggest that spurious expression levels as a result of read mismapping are a rare occurrence (Figure \ref{figure:208:uniquefpkm}), the expression profiles of the *BnTFL1* genes were confirmed in a copy specific manner.
+Although findings presented in section \ref{section:spring:alignreadexplevel} suggest that spurious expression levels as a result of read mismapping are a rare occurrence (Figure \ref{figure:208:uniquefpkm}), the expression profiles of the *BnTFL1* genes were confirmed in a copy-specific manner.
 Quantitative PCR (qPCR) primers were designed to be specific to each of the four copies of *BnTFL1*, and qPCR performed (Section \ref{methods:qpcr}; Methods).
 The qPCR results obtained show strong similarity to the expression profiles derived from the RNA-Seq data (Figure \ref{figure:233:tfl1conservation}b).
 As the qPCR primers designed were copy specific, this suggests that the expression profile divergence observed for *BnTFL1* genes in the RNA-Seq data is not an artefact of read mismapping or incomplete gene models.

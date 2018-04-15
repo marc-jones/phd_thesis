@@ -16,7 +16,7 @@ expression values as computed by Cufflinks are displayed.}\label{figure:3xx:fie1
 
 The homologue of *D. melanogaster* Esc, *FIE1*, is the only annotated Arabidopsis homologue of the gene, and is a component of all identified PRC2 complexes in the plant[@pien_polycomb_2007; @kohler_programming_2008].
 In *B. napus* there are three copies of the gene expressed; the A1 and C1 copies are expressed in both tissues while the Ann copy is only expressed in the apex (Figure \ref{figure:3xx:fie1apex}).
-Although the copies are expressed very similarly in both varieties, the genes show tissue specific expression.
+Although the copies are expressed very similarly in both varieties, the genes show tissue-specific expression.
 In the leaf, *BnFIE1.A1* is relatively lowly expressed and exhibits a gradual increase across development.
 *BnFIE1.C1* is more highly expressed than the A1 copy, and shows more pronounced increase in expression during the time series.
 In the apex all copies of *BnFIE1* are expressed more highly (Figure \ref{figure:3xx:fie1apex}).
@@ -40,7 +40,7 @@ Due to this low expression the relevance of the gene to the vernalization respon
 
 *VIL1* shows only a slight decrease in expression during the vernalization period, with relatively constant expression after the cold (Figure \ref{figure:3xx:vil1}).
 This is the case in both varieties, with the magnitude of expression of both copies being very similar in both the winter and the spring.
-The A7b copy is expressed in both the apex and the leaf, while the C7b copy is only detected in the apex, suggesting potential tissue specific expression of the copies.
+The A7b copy is expressed in both the apex and the leaf, while the C7b copy is only detected in the apex, suggesting potential tissue-specific expression of the copies.
 The expression patterns of *BnVIL1* deviate from that of *VIL1* in Arabidopsis, in that the expression was found to increase during short day growth[@sung_phd_2006].
 However, the expression in both leaf and apex is consistent with results from the model species[@greb_phd_2007].
 
@@ -62,6 +62,6 @@ leaf.}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed.}\label{figure:3xx:vil2leaf}
 \end{figure}
 
-Interestingly, three of the copies exhibit tissue specific responses to the cold treatment.
+Interestingly, three of the copies exhibit tissue-specific responses to the cold treatment.
 The A1, A8, and Ann, and C1 copies all exhibit increases during the vernalization period in the apex (Figure \ref{figure:3xx:vil2apex}), yet show expression decreases in the leaf (Figure \ref{figure:3xx:vil2leaf}).
 As the behaviours of these genes are so similar between the varieties, however, it is unlikely that they directly contribute to the flowering time differences observed between Westar and Tapidor.

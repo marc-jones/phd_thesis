@@ -10,7 +10,7 @@ Not only have the dosage effects of the gene been revealed[@michaels_memories_20
 
 To investigate whether *B.\ napus* homologues of Arabidopsis vernalization pathway genes are mediating the difference in vernalization requirement between Tapidor and Westar, the behaviour of the genes was assessed in the transcriptomic time series.
 From analysing the expression of *FLC*, *FRI*, and PRC2 component genes, in both Westar and Tapidor, *BnFLC* genes emerge as being the most likely candidates for mediating the difference in flowering time between Tapidor and Westar.
-Specifically, *BnFLC* genes on A10, A2, and A3 show variety specific responses, suggesting these copies are responsible for the requirement for cold that Tapidor plants exhibit in order to flower.
+Specifically, *BnFLC* genes on A10, A2, and A3 show variety-specific responses, suggesting these copies are responsible for the requirement for cold that Tapidor plants exhibit in order to flower.
 *BnFLC* genes on chromosomes C2 and A3 exhibit cold induced silencing of expression in both varieties, suggesting that these copies are responsible for the vernalization response observed in Westar[@murphy_vernalization_1994].
 No apparent tissue specificity was present between the *BnFLC* genes, suggesting that spatial subfunctionalization[@conant_turning_2008; @force_preservation_1999] has not taken place.
 
@@ -76,7 +76,7 @@ As was the case in Tapidor, *BnFLC.C9b* shows a markedly different expression tr
 Analysis of the expression traces in the apex in both Tapidor and Westar reveals that all *BnFLC* genes, except *BnFLC.C9b*, decrease in expression during the cold treatment.
 The A10 and C3c copy are expressed in the winter variety, yet lack expression in the spring variety.
 Some copies exhibit reactivation after the cold-induced decrease, suggesting that the vernalization treatment was not sufficient to stably silence those copies.
-Interestingly, this reactivation seems to be variety specific for some genes, with the A3b, C2, and C9a copies exhibiting reactivation in the winter and not the spring variety.
+Interestingly, this reactivation seems to be variety-specific for some genes, with the A3b, C2, and C9a copies exhibiting reactivation in the winter and not the spring variety.
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/flc_comparison_apex_1.pdf}
@@ -96,7 +96,7 @@ delay.}\label{figure:3xx:flcapexagenome}
 \caption{\textbf{Expression traces for the C genome \emph{BnFLC} genes
 commonly expressed in the apex of both varieties.}}{The expression values
 and the 95\% confidence intervals of those expression values as computed
-by Cufflinks are displayed. Variety specific differences in the
+by Cufflinks are displayed. Variety-specific differences in the
 magnitude of expression at the pre-cold time point are consistent with a
 role in the vernalization response. In contrast, the expression of the
 C9b copies is frequently higher across the time series in the spring
@@ -151,7 +151,7 @@ copies being in separate regulatory modules and A2, C2, and A3a
 exhibiting a gradiant of similarity.}\label{figure:3xx:flcwesleaf}
 \end{figure}
 
-To assess whether the *BnFLC* genes exhibited tissue specific expression, the expression of the genes was analysed in the leaf tissue.
+To assess whether the *BnFLC* genes exhibited tissue-specific expression, the expression of the genes was analysed in the leaf tissue.
 In the Tapidor leaf samples eight copies of *BnFLC* are detected as expressed; all four copies from the A genome, *BnFLC.C2*, *BnFLC.C3a*, *BnFLC.C3c*, and *BnFLC.C9b* (Figure \ref{figure:3xx:flctapleaf}).
 The *BnFLC.C3a* copy is expressed in the leaf and not the apex, whereas two *BnFLC* genes (*BnFLC.C9a* and *BnFLC.C3b*) are expressed in the apex and not in the leaf.
 However, the expression of these genes in their respective tissues is close to the 2.0 FPKM threshold used to determine if genes are expressed or not, suggesting that the presence or absence of these genes in the set of expressed genes is more heavily influenced by noise relative to the other copies.
@@ -164,7 +164,7 @@ This reveals that in the Tapidor leaf, all expressed copies of *BnFLC* exhibit a
 
 Fewer *BnFLC* copies are expressed in the leaf in Westar relative to Tapidor.
 The A10, A3b, and C3 copies are not expressed in the spring variety, whereas the C9a copy is expressed in Westar and not Tapidor (Figure \ref{figure:3xx:flcwesleaf}).
-That A10 and C3c show variety specific expression in both the apex and leaf indicates that these copies may delay the floral transition in the winter variety.
+That A10 and C3c show variety-specific expression in both the apex and leaf indicates that these copies may delay the floral transition in the winter variety.
 In the Westar leaf, a *mixed* pattern of regulatory module assignment is observed, with four modules identified (Figure \ref{figure:3xx:flcwesleaf}).
 The *BnFLC.A2* and *BnFLC.C2* copies form one module, with both exhibiting decreases during the cold, with partial reactivation post-cold.
 *BnFLC.A2* is in another regulatory module with *BnFLC.A3a*, with the latter rapidly decreasing in expression in response to cold and staying repressed after the cold treatment.
@@ -188,7 +188,7 @@ This suggests the C9b copy of *BnFLC* exhibits tissue-specific regulation in bot
 \caption{\textbf{Expression traces for the \emph{BnFLC} genes commonly
 expressed in the leaf of both varieties.}}{The expression values and the
 95\% confidence intervals of those expression values as computed by
-Cufflinks are displayed. Variety specific differences in the magnitude
+Cufflinks are displayed. Variety-specific differences in the magnitude
 of expression at the pre-cold time point for \emph{BnFLC.A2} and
 \emph{BnFLC.C2} are consistent with a role in the vernalization
 response. The response of the A3a copy to cold treatment is similar in
@@ -222,14 +222,14 @@ Of particular interest are A2 and A10, as the silencing of these copies is more 
 This suggests that one or both of these copies controls the vernalization requirement of Tapidor, while the other copies, A3b, C2, and C3c, may mediate the vernalization response.
 Comparing the magnitude of expression between varieties also suggests that *BnFLC.C9b* is not involved with delaying flowering time, as the gene is more highly expressed in Westar relative to Tapidor.
 
-Comparing expression data between the apex and the leaf reveals some tissue specific expression.
+Comparing expression data between the apex and the leaf reveals some tissue-specific expression.
 More copies of *BnFLC* exhibit reactivation in the Tapidor apex (Figure \ref{figure:3xx:flctapapex}) relative to the Tapidor leaf (Figure \ref{figure:3xx:flctapleaf}).
 This supports the hypothesis that the Tapidor apex may have perennial characteristics.
 In *Arabidopsis halleri*, a perennial relative of Arabidopsis, the expression of a *FLC* homologue was found to reactivate in young leaves[@aikawa_robust_2010].
 It is therefore likely that *BnFLC* reactivation is not observed in the leaf as the first true leaf was sampled throughout the time series, such that the age related effects and leaf senescence result in the lack of expression.
 *BnFLC.C9b* undergoes cold-induced silencing in the leaves of both varieties, but does not do so in the apex.
 In addition, in Tapidor samples, *BnFLC.A3b* is expressed at approximately the same level as *BnFLC.A2* in the apex, whereas in the leaf the A3b copy is expressed ~2.5-fold lower than the A2 copy.
-These findings suggests that some copies of *BnFLC* are expressed in a tissue specific manner.
+These findings suggests that some copies of *BnFLC* are expressed in a tissue-specific manner.
 In the case of *BnFLC.A3b*, potentially its effect on a vernalization response is mediated predominantly in the apex.
 This is interesting given the different roles *FLC* has in the apex and leaf in Arabidopsis[@searle_transcription_2006].
 
@@ -306,7 +306,7 @@ The A3 and C3a copies exhibit very similar expression profiles to each other and
 This suggests that *BnMSI1.A3* and *BnMSI1.C3a* are cold-responsive, and potentially play a role in the vernalization response.
 In the apex, six copies of *BnMSI1* are expressed; in addition to the three expressed in the leaf there are also copies expressed from the A10, C5, and C9 chromosomes (Figure \ref{figure:3xx:msiapex}).
 Unlike in the leaf, *MSI1* homologues either do not respond to the cold, or exhibit a decrease in expression during vernalization.
-Therefore, copies of *MSI1* in *B.\ napus* seem to be cold-responsive in a tissue specific manner.
+Therefore, copies of *MSI1* in *B.\ napus* seem to be cold-responsive in a tissue-specific manner.
 Considering the magnitude of expression, *BnMSI1.A3* and *BnMSI1.C3a* are the most highly expressed copies in each tissue.
 Interestingly, these copies exhibit expression magnitude differences between varieties in both tissues.
 For example, the maximal expression value for *BnMSI1.A3* in Tapidor apex is three- to four-fold higher than the expression maxima in Westar, in both tissues.
@@ -403,7 +403,7 @@ The copy of *BnFRI* on A10 is more highly expressed in the winter variety, consi
 Analysing expression differences between *B.\ napus* homologues of genes involved with the Arabidopsis vernalization pathway identified a number of candidate genes that may be responsible for the delay in flowering observed in Tapidor.
 Among the *BnFLC* genes, the A2 and A10 copies seem most likely to mediate the cold requirement of Tapidor in order to flower.
 Both copies are lowly expressed in the spring variety throughout the time series, while in the winter variety the copies are more highly expressed initially and are stably repressed by the vernalization treatment.
-Analysis of the other key vernalization gene from Arabidopsis, *FRI*, identified the *BnFRI.A10* gene as exhibiting variety specific expression.
+Analysis of the other key vernalization gene from Arabidopsis, *FRI*, identified the *BnFRI.A10* gene as exhibiting variety-specific expression.
 Given that alleles of *FRI* that fail to confer a vernalization requirement in Arabidopsis are the result of promoter deletions that result in low expression[@shindo_role_2005; @gazzani_analysis_2003; @le_corre_dna_2002; @johanson_molecular_2000], it seems feasible that the observed difference in *BnFRI.A10* could play a role in the differences between Tapidor and Westar.
 Finally, components of the PRC2-PHD complex were more highly expressed in Tapidor than in Westar.
 While this initially seems counterintuitive, given that the complex is involved in the repression of *FLC*, it makes sense when thought of in terms of the products of these genes mediating the response to vernalization.
@@ -416,7 +416,7 @@ As with the floral integrators in Westar (section \ref{section:spring:floralinte
 This suggests that different copies have different sensitivities to cold, the ramifications of which will be discussed at the end of this chapter.
 One of the most diverged *BnFLC* genes in terms of regulation is *BnFLC.C9b*, which exhibits divergence between varieties and tissues.
 Given that MADS-box containing genes have a wide range of roles and functions in plants[@ng_mads_review_2001], it is conceivable that *BnFLC.C9b* has diverged to have a role not involved with the vernalization response.
-A number of the vernalization genes have tissue specific expression, with *BnMSI1* genes exhibiting expression responses to cold in the leaf, and not the apex, and *BnVRN2* genes potentially partitioning their expression between the apex and leaf.
+A number of the vernalization genes have tissue-specific expression, with *BnMSI1* genes exhibiting expression responses to cold in the leaf, and not the apex, and *BnVRN2* genes potentially partitioning their expression between the apex and leaf.
 This suggests that different vernalization responsive genes may be regulating the response in different tissues.
 The vernalization response in Arabidopsis is involved in both generating signals in the leaves and affecting how those signals are perceived in the apex[@searle_transcription_2006].
 Decoupling these two processes by having copies specialized towards each role could allow for greater robustness and flexibility in the system.

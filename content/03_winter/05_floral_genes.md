@@ -197,7 +197,7 @@ profiles.}\label{figure:3xx:lfyapex}
 Expression magnitude differences between copies are also maintained in the winter variety.
 Of the A7 and C6 copies of *BnAP1*, *BnAP1.C6a* has the lowest maximum expression in both varieties.
 *BnAP1.C2a.Random* and *BnAP1.Cnn.Random* are both lowly expressed copies that display a slight peak during vernalization in both varieties (Figure \ref{figure:3xx:ap1apex}).
-The tissue specific differences in *BnSOC1* expression observed in the spring variety are conserved in the winter variety, with *BnSOC1.A3.Random*, and *BnSOC1.A4.Random* and *BnSOC1.A4* being most highly expressed in the apex and leaf respectively.
+The tissue-specific differences in *BnSOC1* expression observed in the spring variety are conserved in the winter variety, with *BnSOC1.A3.Random*, and *BnSOC1.A4.Random* and *BnSOC1.A4* being most highly expressed in the apex and leaf respectively.
 
 It might be expected, given how genes have diverged in Arabidopsis[@blanc_functional_2004], that certain homologues of floral integrators would be more vernalization responsive than others.
 If this was the case, one would expect the regulatory divergence between homologues in Tapidor to be greater than that observed in Westar.
@@ -212,7 +212,7 @@ The vernalization response does not result in all floral integrators exhibiting 
 Instead, the main difference between the varieties is a delay in the increase of floral activators post-cold in the winter variety, suggesting that the vernalization requirement is acting to repress the floral transition through influencing the expression of all homologues.
 This is in line with the findings at the global level, where vernalization was found to delay development (section \ref{section:winter:som}).
 
-Although there is not evidence for a vernalization specific regulatory network, certain *B.\ napus* homologues of floral integrators do exhibit different regulatory behaviour in the winter variety.
+Although there is not evidence for a vernalization-specific regulatory network, certain *B.\ napus* homologues of floral integrators do exhibit different regulatory behaviour in the winter variety.
 Analysis of *BnFT* copies suggests that certain copies are more vernalization sensitive than others, with the A2 and C2 copies exhibiting a more severe reduction in expression across the entire time series relative to the A7 and C6 copies.
 These findings contradict with results from other studies of vernalization requiring lines of *B.\ napus*, where the A7 and C6 copies were silenced prior to cold, while the A2 copy was expressed[@wang_promoter_2012].
 The response of the *BnFT* genes to vernalization, therefore, may be variety specific.

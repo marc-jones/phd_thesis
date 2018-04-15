@@ -39,7 +39,7 @@ For flowering time genes, 61% and 69% of Arabidopsis genes in the apex and leaf,
 This potentially suggests that these genes are part of responsive backup circuits[@kafri_regulatory_2006; @kafri_transcription_2005].
 A prediction from this observation, assuming these genes are part of such backup circuits, is that these copies that are not expressed would be expressed if one of the other expressed copies became silenced[@kafri_regulatory_2006; @kafri_transcription_2005].
 A potential method of testing this would be to leverage the variation present among different *B.\ napus* varieties[@harper_associative_2012], to identify if homologue preference is observed.
-The alternative possibility is that the homologues exhibit tissue specific expression[@adams_genes_2003], and that this is not captured in the leaf or apex transcriptomes.
+The alternative possibility is that the homologues exhibit tissue-specific expression[@adams_genes_2003], and that this is not captured in the leaf or apex transcriptomes.
 Determining the expression of these homologues in other tissues besides the apex and leaf would allow this to be tested.
 
 To determine divergence among expressed genes, two clustering approaches were employed.

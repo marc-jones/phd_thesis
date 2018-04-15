@@ -18,7 +18,7 @@ The extensive regulatory divergence observed suggested that other processes, oth
 
 The floral transition in Arabidopsis is controlled by a tightly interconnected regulatory network, consisting of multiple feedback loops to result in irreversible, robust flowering[@bouche_florid_2016; @jaeger_interlocking_2013].
 At least one *B.\ napus* homologue, and often more, exhibited expression profiles consistent with the homologous gene in Arabidopsis, suggesting a general conservation between the expression domains of the genes in Arabidopsis and *B.\ napus*.
-A dramatic pattern of tissue specific expression of homologues was observed for *BnSOC1* genes, suggesting a partitioning of spatial expression domains between different homologues.
+A dramatic pattern of tissue-specific expression of homologues was observed for *BnSOC1* genes, suggesting a partitioning of spatial expression domains between different homologues.
 The expression profiles also suggest that different *BnSOC1* genes have different sensitivities to environmental signals.
 Given the role *SOC1* plays in integrating multiple environmental signals in Arabidopsis[@lee_regulation_2010], the work presented here suggests that *BnSOC1* genes are an almost archetypal example of the ways subfunctionalization can manifest.
 

@@ -2,12 +2,12 @@
 
 A vernalization requirement is of great agronomic importance for the growth of *Brassica* crops[@friedt_oilseed_2009] and has a large effect on the floral transition[@song_remembering_2013].
 To understand the vernalization response in *B.\ napus*, a time series of transcriptomes were compared between a winter variety, Tapidor, and a spring variety, Westar.
-Comparing the number of expressed genes between varieties revealed that Tapidor had a greater number of *B.\ napus* genes exhibiting variety specific expression in the leaf compared to Westar.
+Comparing the number of expressed genes between varieties revealed that Tapidor had a greater number of *B.\ napus* genes exhibiting variety-specific expression in the leaf compared to Westar.
 This difference was also observed when *B.\ napus* genes were grouped based on sequence conservation to Arabidopsis genes, with Arabidopsis genes tending to have more expressed homologues in the leaf in Tapidor than in Westar.
 A potential hypothesis to explain this observation is that an increased number of proteins are required in the leaf in Tapidor.
 Being the organ that intercepts the majority of light, the leaf senses photoperiod signals[@an_constans_2004; @suarez_lopez_constans_2001; @samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
 Combined with the expression of *FLC* in the vasculature, and the movement of FT protein from leaves to the apex[@zeevaart_florigen_2006; @zeevaart_leaf_produced_2008], this positions the leaf as the organ that mediates the vernalization and photoperiod response in Arabidopsis.
-The increased number of variety specific genes expressed in the leaf in Tapidor could potentially represent an expansion of this sensory machinery to allow the plant to respond to vernalization.
+The increased number of variety-specific genes expressed in the leaf in Tapidor could potentially represent an expansion of this sensory machinery to allow the plant to respond to vernalization.
 
 Correlation analysis of the leaf and apex revealed that the transcriptomes develop similarly in both varieties, but the rates of change are dependent on the tissue.
 In the first true leaf, samples grown for the same number of days displayed the greatest similarity in terms of correlation between varieties.

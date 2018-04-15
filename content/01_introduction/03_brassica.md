@@ -124,5 +124,5 @@ Interestingly, the floral genes predicted to cause the arrest (*LFY*, *AP1*, and
 Links between flowering time and *SOC1* homologues have been identified in *B.\ rapa*[@franks_variation_2015], with expression differences detected between the different homolgoues in *B.\ rapa* and *B.\ juncea*[@franks_variation_2015; @sri_sequence_2015].
 
 Despite evidence of flowering time genes homologues having similar roles in *Brassica* species, in-depth analysis of how different homologues are behaving is often lacking.
-This is not the case for all genes however, with the roles of *FT*, *FLC*, and *FRI* homologues in *Brassica* species being dissected in a copy specific manner[@zou_comparative_2012; @wang_promoter_2012; @wang_flowering_2011; @irwin_functional_2012].
+This is not the case for all genes however, with the roles of *FT*, *FLC*, and *FRI* homologues in *Brassica* species being dissected in a copy-specific manner[@zou_comparative_2012; @wang_promoter_2012; @wang_flowering_2011; @irwin_functional_2012].
 These investigations have revealed that individual copies have indeed diverged in function and behaviour.

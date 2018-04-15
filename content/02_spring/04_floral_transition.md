@@ -6,7 +6,7 @@ Despite the importance of this network for determining the timing of the floral 
 The work that is available reveals that the key Arabidopsis floral integrators are present as multiple copies in the *B.\ napus* genome, and that sequence variation exists both between different varieties and between homologues[@schiessl_capturing_2014; @mimida_terminal_1999].
 For *TFL1*, *FT*, and *SOC1*, sequence variation between copies has been related to functional differences between the copies, such as changes in expression pattern and different effects on plant phenotype[@guo_mutations_2014; @wang_promoter_2012; @zhang_transposon_2015; @franks_variation_2015; @sri_sequence_2015].
 However, although these studies have identified expression pattern differences between *B.\ napus* homologues of floral integrators, none have determined which copies exhibit expression consistent with the regulatory interactions identified in Arabidopsis.
-In addition, only in the case of *SOC1* homologues has the tissue specific expression of the different copies been assessed[@sri_sequence_2015].
+In addition, only in the case of *SOC1* homologues has the tissue-specific expression of the different copies been assessed[@sri_sequence_2015].
 This is of particular interest given results from Arabidopsis that suggest that duplicated regulatory networks will tend to diverge and form parallel networks that are distinct in terms of their spatiotemporal expression[@blanc_functional_2004].
 
 To investigate whether *B.\ napus* homologues of the floral integrators have diverged in *B.\ napus*, the expression profiles of these genes were assessed in the transcriptomic time series for the spring variety Westar.
@@ -67,7 +67,7 @@ This genome of origin bias suggests that the A genome copies potentially influen
 
 [^napusgenomeexplanation]: The *B.\ napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'. Throughout this work, similar notation is used to indicate the scaffold on which the gene is located.
 
-To determine whether the *BnFT* genes exhibit tissue specific expression, the expression of these four genes was analysed in the apex samples.
+To determine whether the *BnFT* genes exhibit tissue-specific expression, the expression of these four genes was analysed in the apex samples.
 In the apex, only two of the *BnFT* genes are expressed; *BnFT.A7* and *BnFT.C6* (Figure \ref{figure:225:ftapex}).
 As opposed to the expression pattern observed in the leaf (Figure \ref{figure:223:ftleaf}), the expression of both copies begins lowly expressed, gradually increasing during the time series until decreasing at the final time point.
 The magnitude of expression of both copies is similar.
@@ -96,7 +96,7 @@ An alternative explanation could be that the *BnFT* genes are responding to temp
 However, the ambient temperature pathway generally responds to less severe changes in temperature[@capovilla_control_2015], and a *BnFLC* gene with an expression profile consistent with *BnFT* repression during the cold is not present in Westar (Figure \ref{figure:3xx:flcwesleaf}).
 This suggests that all four copies of *BnFT* are influenced by the photoperiod pathway in the leaf.
 
-Finally, the copies exhibit further regulatory divergence in terms of tissue specific expression, with A7 and C6 being the only *BnFT* genes expressed in the apex.
+Finally, the copies exhibit further regulatory divergence in terms of tissue-specific expression, with A7 and C6 being the only *BnFT* genes expressed in the apex.
 A potential explanation for observing these expression patterns could be from residual leaf and stem tissue surrounding the apex due to the dissection procedure (section \ref{section:spring:experimentaldesign}).
 However, that the expression profiles are different in the apex relative to the leaf, and that *BnFT.A2*, the most highly expressed copy in the leaf, is not observed in the apex implies this is not the case.
 Although expression of *FT* has been detected in the apex in Arabidopsis[@kardailsky_activation_1999; @kobayashi_pair_1999], it has been shown that *FT* mRNA is not required in the apex for its role in promoting the floral transition[@abe_fd_2005; @kobayashi_pair_1999; @mathieu_export_2007].
@@ -224,7 +224,7 @@ difference between pre- and post-cold expression levels being the main
 differentiator.}\label{figure:228:soc1leaf}
 \end{figure}
 
-To determine if the *BnSOC1* genes exhibit tissue specific regulatory divergence, the expression of the genes was assessed in the leaf.
+To determine if the *BnSOC1* genes exhibit tissue-specific regulatory divergence, the expression of the genes was assessed in the leaf.
 The same six copies of *BnSOC1* are expressed in the leaf as in the apex.
 The *BnSOC1* copies in the leaf exhibit a *gradated* regulatory module assignment, suggesting subtle differences between the expression profiles of the *BnSOC1* genes (Figure \ref{figure:228:soc1leaf}).
 A commonality between the expression patterns is the response to the cold treatment, with all six of the copies peaking in expression at day 43 of the time series, halfway through vernalization.
@@ -235,7 +235,7 @@ This finding suggests that all copies of *BnSOC1* respond to the cold treatment 
 As observed in the apex, expression magnitude differences are also observed between the copies in the leaf.
 *BnSOC1.A4* and *BnSOC1.C4.Random* exhibit the highest expression levels, with the next most highly expressed copy, *BnSOC1.A5*, expressed three- to four-fold lower.
 
-These results from both the apex and leaf suggest regulatory divergence of the *BnSOC1* genes, both in terms of expression profile and tissue specific expression.
+These results from both the apex and leaf suggest regulatory divergence of the *BnSOC1* genes, both in terms of expression profile and tissue-specific expression.
 From Arabidopsis it has been shown that *SOC1* is activated in the apex by the photoperiod pathway downstream of *FT* and *CO*[@schmid_dissection_2003; @onouchi_mutagenesis_2000; @samach_distinct_2000; @michaels_integration_2005; @moon_analysis_2005].
 Based on the expression of *BnFT* (Figure \ref{figure:223:ftleaf}), *BnSOC1.A3.Random* is the only *BnSOC1* gene with an expression pattern consistent with this regulation (Figure \ref{figure:227:soc1apex}).
 This is also supported by the *BnSOC1.A3.Random* copy exhibiting the highest expression of all the copies in the apex.
@@ -285,7 +285,7 @@ Comparing the magnitude of expression between these five copies reveals that the
 The final copy, *BnFD.A1* exhibits a relatively noisy expression trace throughout the entire time series.
 This data suggests that, aside from the *BnFD.A1* copy, the *BnFD* genes have not diverged significantly from one another in terms of expression.
 
-The expression of the *BnFD* genes exhibits similarities to the *FD* gene in Arabidopsis; apex specific expression with an increase in expression during the floral transition[@abe_fd_2005; @wigge_integration_2005].
+The expression of the *BnFD* genes exhibits similarities to the *FD* gene in Arabidopsis; apex-specific expression with an increase in expression during the floral transition[@abe_fd_2005; @wigge_integration_2005].
 The timing of the decrease in *FD* expression after the day 67 time point corresponds with the increase in four *AP1* copies (Figure \ref{figure:226:ap1apex}), as observed in Arabidopsis[@wigge_integration_2005], and also with the increase in *BnLFY* gene expression (Figure \ref{figure:231:lfyapex}), consistent with the direct repression of *FD* by *LFY*[@jaeger_interlocking_2013].
 Therefore, five of the six *BnFD* copies seem to be regulated in a similar manner to *FD* in Arabidopsis.
 The expression levels of all six *BnFD* copies are relatively similar in the plant.

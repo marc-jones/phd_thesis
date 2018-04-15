@@ -16,15 +16,15 @@ Conducting laser microdissection of *B.\ napus* apices during the floral transit
 
 This idea of unique expression domains can be taken further: single-cell transcriptomics.
 An example of where understanding expression dynamics at the cell resolution is required is the expression of the floral repressor *FLC* in Arabidopsis.
-*FLC* is expressed and silenced in a cell specific manner, such that each particular cell is either expressing *FLC*, or it is not[@berry_local_2015; @angel_polycomb_based_2011].
+*FLC* is expressed and silenced in a cell-specific manner, such that each particular cell is either expressing *FLC*, or it is not[@berry_local_2015; @angel_polycomb_based_2011].
 However, when whole plant or leaf samples are assayed for *FLC*, a quantitative, analogue response is observed[@shindo_variation_2006], as a result of averaging at the tissue level.
 This will be important when assessing genes that seemingly have the same expression profile in the transcriptomic time series.
 Although regulatory divergence was observed between flowering time genes, there are still a significant number of homologues that exhibit similar expression profiles.
 This can be visualized in Figure\ \ref{figure:216:wgcnaflower} as any point that does not lie on the diagonal line that represents complete regulatory divergence between *B.\ napus* homologues of an Arabidopsis gene, and in expression profiles of homologues such as *BnLFY* (Figure \ref{figure:231:lfyapex}), *BnAP1* (Figure \ref{figure:226:ap1apex}), and *BnFLC* (Figure \ref{figure:3xx:flctapapex}), to name a few.
-Potentially, these seemingly co-regulated homologues are actually expressed in a cell specific manner, with only a single homologue expressed per cell.
+Potentially, these seemingly co-regulated homologues are actually expressed in a cell-specific manner, with only a single homologue expressed per cell.
 This is consistent with the framework of responsive backup circuits, that proposes that duplicated genes may autoregulate each other to provide genetic backup and regulatory robustness[@kafri_transcription_2005; @kafri_regulatory_2006].
 This theory is particularly attractive given that a number of MADS-box containing genes involved with floral development have been found to autoregulate their own expression in Arabidopsis[@samach_divergence_1997; @goto_function_1994; @gomez_mena_transcriptional_2005].
-If such regulatory interactions were present between different homologues, then potentially the cell specific 'decision' of which homologue to express would be a stochastic process.
+If such regulatory interactions were present between different homologues, then potentially the cell-specific 'decision' of which homologue to express would be a stochastic process.
 Testing such a hypothesis could be achieved by using single-cell RNA-Seq to determine cell-to-cell variability in homologue expression[@svensson_power_2017].
 
 An aspect of sampling which potentially limits the transcriptional time series in terms of the developmental responses it can be used to investigate is the change in temperature and photoperiod during the vernalization period.
@@ -59,7 +59,7 @@ The gene regulatory network for flowering in Arabidopsis was elucidated over dec
 However, computational approaches exist that allow gene regulatory networks to be inferred from time series data[@penfold_inferring_2015; @penfold_nonparametric_2012; @penfold_how_2011; @sima_inference_2009].
 Using the transcriptome time series to elucidate such regulatory networks would be a potential avenue for future work.
 Indeed, collecting transcriptomic data from additional tissues and additional developmental phases would allow for specific regulatory networks to be generated for each tissue and transition.
-The expression of floral integrators observed in the transcriptomic time series supports the notion that tissue specific expression of homologues is possible in *B.\ napus* (Section \ref{section:spring:floralintegrators}).
+The expression of floral integrators observed in the transcriptomic time series supports the notion that tissue-specific expression of homologues is possible in *B.\ napus* (Section \ref{section:spring:floralintegrators}).
 Understanding the tissue specificity of different homologues may allow more directed breeding efforts[@cai_novel_2013].
 An example of how this could be used is the floral repressor *FLC*.
 In addition to its key role in the vernalization pathway[@song_remembering_2013], the gene also plays a role in regulating seed germination[@chiang_major_2009].

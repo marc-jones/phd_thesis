@@ -7,7 +7,7 @@ These results from Arabidopsis allopolyploids demonstrate a major way in which g
 Genome dominance is observed when the combined gene expression of gene pairs from the two constituent genomes of a polyploid are consistently biased towards a particular genome[@adams_genes_2003; @buggs_legacy_2014].
 These expression inequalities may influence the evolution of the polyploid, with results in maize revealing that gene loss favours copies that contribute less to overall expression[@schnable_differentiation_2011].
 In cotton (*Gossypium raimondii*) 99.4% of ~2,000 gene pairs exhibited biased expression in at least one of the three tissues tested[@renny_byfield_ancient_2014].
-Interestingly, this bias was found to be tissue-specific, suggesting that homologous genes may diverge to become tissue-specific over evolutionary time[@adams_genes_2003; @renny_byfield_ancient_2014].
+Interestingly, this bias was found to be tissue specific, suggesting that homologous genes may diverge to become tissue specific over evolutionary time[@adams_genes_2003; @renny_byfield_ancient_2014].
 
 In order to investigate global differences in expression between the genomes of *B.\ napus*, the expression of genes on the separate genomes were compared using the transcriptomic time series.
 The genome of origin seems to influence the expression of genes in the *B.\ napus* genome, with different patterns of expression bias observed at the genome-wide level relative to homoeologue level comparisons.
@@ -130,7 +130,7 @@ This discrepancy may be due to genes with low expression levels tending to lack 
 It is interesting that the bias towards the A genome observed at the genome scale is less apparent when *B.\ napus* genes lacking sequence conservation to an Arabidopsis gene are removed.
 This potentially indicates a higher proportion of silenced or pseudogenes on the C genome, consistent with the higher DNA methylation levels and transposon density observed in the C genome[@napus_genome_2014].
 
-### Tissue specific expression is biased towards the apex {#section:spring:tissuespecfic}
+### Tissue-specific expression is biased towards the apex {#section:spring:tissuespecfic}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/11_expressed_gene_venn_diagram.pdf}

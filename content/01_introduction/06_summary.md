@@ -9,7 +9,7 @@ The chapter concludes with two case studies investigating sequence divergence fo
 In the case of *TFL1*, the sequence divergence correlates with regulatory divergence, whereas the sequence divergence in *FD* potentially influences the molecular function of the gene.
 
 The second chapter focusses on a winter variety of *B.\ napus*.
-The effects of a vernalization requirement on the global transcriptional landscape are studied by assessing the extent of variety specific expression.
+The effects of a vernalization requirement on the global transcriptional landscape are studied by assessing the extent of variety-specific expression.
 Regulatory divergence in the genes involved in the vernalization pathway are assessed and compared to the expression of the same genes in the spring variety.
 The comparison between a spring and winter variety allows the vernalization response to be assessed for each copy.
 Finally, the effects of a cold requirement for flowering on the expression of floral integrators are studied to determine if certain copies are more vernalization sensitive than others.

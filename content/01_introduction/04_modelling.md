@@ -101,7 +101,7 @@ A number of the models discussed in the previous section were parameterized or v
 Therefore, aspects of gene regulatory networks such as the presence or absence of nodes and edges could be estimated from both genome sequencing and transcriptome profiling.
 Sequencing of four *B. napus* varieties with varying flowering times and vernalization requirements uncovered variation in flowering time genes that were mapped onto regulatory networks[@schiessl_capturing_2014].
 This revealed which copies of the genes were likely to be causative of the phenotypes displayed by the plants.
-The cost of sequencing now facilitates variety specific genome sequences to be generated[@goodwin_coming_2016], as has been done with Arabidopsis[@weigel_1001_2009].
+The cost of sequencing now facilitates variety-specific genome sequences to be generated[@goodwin_coming_2016], as has been done with Arabidopsis[@weigel_1001_2009].
 Whereas crop models currently require crop growth data in order to parameterize models to particular varieties, future models may be able to combine sequencing data with gene regulatory networks to aid the process of parameterization.
 Regulatory networks therefore have the capacity to act as a bridge to allow sequencing data to be incorporated into crop models.
 The difficulty arises in translating knowledge of regulatory networks that have been elucidated in model organisms, the challenges of which will be discussed in the following section.
