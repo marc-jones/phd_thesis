@@ -104,7 +104,7 @@ variety, suggesting that these copies do not delay the floral
 transition.}\label{figure:3xx:flcapexcgenome}
 \end{figure}
 
-The expression response of *FLC* in Arabidopsis is quantitative, at least at the tissue level at which we are sampling[@michaels_flowering_1999; @angel_polycomb_based_2011].
+The expression response of *FLC* in Arabidopsis is quantitative at the tissue level[@michaels_flowering_1999; @angel_polycomb_based_2011].
 The magnitude of expression is therefore an important aspect of *FLC* regulation.
 Comparing the expression traces of the A genome copies of *BnFLC* expressed in both varieties in the apex (Figure \ref{figure:3xx:flcapexagenome}) revealed that the A2 and A3b copies are initially expressed at significantly lower levels in the spring variety relative to the winter variety.
 Therefore, although these copies both exhibit a decrease in expression during the cold treatment in both varieties, the absolute difference in expression level is greatest in the winter variety.
@@ -317,7 +317,7 @@ Among the PRC2 components found to be involved with the vernalization response i
 The *BnVRN2* genes have diverged in terms of spatial expression domains, with the A8 copy more highly expressed in the apex, and the C8 copy more highly expressed in the leaf.
 This spatial divergence may represent subfunctionalization, with each copy having become specialized towards the requirements of each tissue.
 Although there is variation in the magnitude of expression for the *BnMSI1* genes between the varieties, this variation does not account for the altered vernalization requirement between the varieties.
-If *BnMSI1* was repressing *BnFLC*, which would be expected given that the PRC2 complex is involved with the silencing of *FLC* in Arabidopsis[@bastow_vernalization_2004], the higher expression of *BnMSI1* in Tapdior would result in lower *BnFLC* expression.
+If *BnMSI1* was repressing *BnFLC*, which would be expected given that the PRC2 complex is involved with the silencing of *FLC* in Arabidopsis[@bastow_vernalization_2004], the higher expression of *BnMSI1* in Tapidor would result in lower *BnFLC* expression.
 This is not observed (Figures \ref{figure:3xx:flcapexagenome}, \ref{figure:3xx:flcapexcgenome}, and \ref{figure:3xx:flcleafcgenome}), suggesting that potentially the higher expression of *BnMSI1.A3* and *BnMSI1.C3a* in Tapidor relative to Westar has another role.
 Potentially the higher expression of *BnMSI1* is required in Tapidor to sensitize the system, such that when cold is sensed Polycomb based silencing responds quickly.
 Alternatively, the high expression of *BnMSI1* may be repressing genes other than *BnFLC* copies, such as floral activators as has been shown in Arabidopsis[@hennig_arabidopsis_2003].
