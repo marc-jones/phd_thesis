@@ -139,7 +139,7 @@ In addition, analyses of *B.\ napus* plants with null mutations in each of the *
 Transgenic investigations of Arabidopsis could be used to test such hypotheses, such as transforming *tfl1* null mutant Arabidopsis lines with the *BnTFL1* genes.
 If these insertions also included the downstream intergenic regions, the functional conservation of the cis-regulatory elements could be established.
 
-Due to the coregulation observed among *BnFD* genes, and the *FD* protein being a bZIP transcription factor that binds to DNA as a dimer[@abe_fd_2005], the possibility of the different BnFD proteins dimerizing was explored.
+Due to the co-regulation observed among *BnFD* genes, and the *FD* protein being a bZIP transcription factor that binds to DNA as a dimer[@abe_fd_2005], the possibility of the different BnFD proteins dimerizing was explored.
 Sequence variation between the copies was found to alter the predicted amino acid sequence within the dimerization interface, the leucine zipper.
 These amino acid differences resulted in positively charged amino acid side chains being present in some BnFD proteins, and negatively charged amino acids in others.
 A published machine learning algorithm was used to assess the probability of dimerization between BnFD monomers[@potapov_data_driven_2015], which identified that not all possible BnFD dimers were equally likely.
