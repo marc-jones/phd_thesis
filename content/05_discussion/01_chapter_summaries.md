@@ -78,6 +78,10 @@ Two genes exhibited very different expression profiles in Tapidor relative to We
 Determining whether these differences influence the vernalization response, or represent differences due to variety, would require a more thorough assessment of transcriptomic changes involving multiple winter and spring lines.
 Either way, given the results from chapter \ref{chapter:spring}, the altered expression of a single *BnFD* may have large impacts on the BnFD dimers observed.
 
+It should be emphasized that the differences observed between Tapidor and Westar represent a single comparison between a winter variety and a spring variety.
+Therefore, the findings presented in chapter \ref{chapter:winter} should not be extrapolated to other *B.\ napus* varieties to explain the differences between all spring and winter varieties.
+However, the results do highlight potential candidate genes consistent with the literature.
+
 ### Data dissemination using a web application
 
 An important part of the scientific process is the sharing of data.

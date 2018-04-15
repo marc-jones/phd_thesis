@@ -87,3 +87,8 @@ Specifically, which vernalization pathway genes are candidates for mediating the
 Finally, by determining which floral integrator genes are expressed differently in Tapidor relative to Westar, particular copies of floral integrators are assessed for their vernalization sensitivity.
 This reveals *FT* and *TFL1* homologues to be most differently expressed, although *B.\ napus* homologues of other floral integrators also exhibit different patterns of expression in the winter compared to the spring variety.
 This provides some evidence that certain floral integrators have diverged to become biased towards, or more sensitive to, particular inputs.
+
+The comparisons made in this chapter were made between a winter and a spring variety of *B.\ napus*.
+However, the results should not be considered as general differences between spring and winter varieties of *B.\ napus*, as the observed differences may instead be due to variety specific divergence.
+This limitation is a consequence of only one winter variety and one spring variety being compared in the study.
+Despite this, the results still lead to hypotheses which can be tested in a larger panel of *B.\ napus*, and in some cases are consistent with the current literature.

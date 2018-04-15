@@ -123,7 +123,7 @@ Comparing the magnitude of expression between the copies reveals that the A2, A3
 That these copies exhibit stable decreases in expression during cold treatment and are highly expressed in Tapidor makes them good candidates for being responsible for the delay in flowering in the winter variety.
 The A3a copy, however, exhibits cold induced stable repression in both varieties, indicating that it is potentially responsible for the vernalization response of Westar[@murphy_vernalization_1994].
 Finally, the C9b copy is more highly expressed in the spring variety relative to the winter variety and is not repressed during the cold treatment.
-This indicates that this particular copy of *BnFLC* has diverged significantly in its regulation relative to Arabidopsis *FLC*, and is likely not involved with mediating the vernalization response in *B.\ napus*.
+This indicates that this particular copy of *BnFLC* has diverged significantly in its regulation relative to Arabidopsis *FLC*, and is likely not involved with mediating the vernalization response in the *B.\ napus* varieties considered here.
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_tapidor_flc.pdf}
