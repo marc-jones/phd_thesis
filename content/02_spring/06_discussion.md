@@ -135,7 +135,7 @@ As the *TFL1* gene is involved with both of these functions in Arabidopsis[@shan
 Potentially a similar type of functional partitioning is observed among the *BnTFL1* genes.
 In order to dissect the roles these four copies play in the plant, detailed analysis of their expression domains within the apical structure, combined with the same analysis for *BnAP1* and *BnLFY* genes, would be required.
 This is due to the mutual antagonism between *TFL1*, *AP1*, and *LFY* and the small zones of the apex in which they are expressed[@shannon_genetic_1993; @liljegren_interactions_1999; @gustafson_brown_regulation_1994; @ratcliffe_separation_1999; @bradley_inflorescence_1997].
-In addition, analyses of *B.\ napus* plants with null mutations in each of the *BnTFL1* copies will help to determine whether the C3 or the A10 copy of *BnTFL1* has greatest functional similarity to *AtTFL1*, as both show expression patterns that are somewhat consistent with the expression of *TFL1* in Arabidopsis.
+In addition, analyses of *B.\ napus* plants with null mutations in each of the *BnTFL1* copies will help to determine whether the C3 or the A10 copy of *BnTFL1* has greatest functional similarity to *TFL1* in Arabidopsis, as both show expression patterns that are consistent with the observed regulation of *TFL1*.
 Transgenic investigations of Arabidopsis could be used to test such hypotheses, such as transforming *tfl1* null mutant Arabidopsis lines with the *BnTFL1* genes.
 If these insertions also included the downstream intergenic regions, the functional conservation of the cis-regulatory elements could be established.
 

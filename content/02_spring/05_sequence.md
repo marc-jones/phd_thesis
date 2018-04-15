@@ -33,7 +33,7 @@ These results are particularly interesting given the conservation of these cis-r
 \caption{\textbf{Sequence analysis reveals that cis-regulatory modules
 identified in Arabidopsis are not present downstream of some
 \emph{BnTFL1} genes.}}{\textbf{a} The degree of sequence conservation
-between the \emph{BnTFL1} genes and \emph{TFL1}. Sequence alignment and
+between the \emph{BnTFL1} genes and \emph{TFL1} from Arabidopsis. Sequence alignment and
 conservation calculations were performed using the mVISTA
 server\textsuperscript{472,473} with a sliding window size of 100~bp.
 The seven regions of high interspecies sequence conservation (green
@@ -43,7 +43,7 @@ model\textsuperscript{306} (black bars). The labelling of these regions
 follows the same conventions as the previous study. The pink shaded
 areas under the sequence conservation curves are regions above 70\%
 sequence conservation. Genomic position upstream and downstream of the
-\emph{AtTFL1} gene copies are given relative to the ATG and STOP codon
+\emph{TFL1} gene copy are given relative to the ATG and STOP codon
 sites respectively. \emph{Continued on Page
 \pageref{figure:233:tfl1conservationlegend}.}}\label{figure:233:tfl1conservation}
 \end{figure}
