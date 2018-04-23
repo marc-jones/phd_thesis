@@ -48,8 +48,15 @@ Samples were pooled and ground in preparation for RNA extraction.
 For apex tissue, ~0.1\ g of apices were ground as a pool.
 At the early time points, as the apices were smaller, this mass of tissue equated to approximately 20 plant apices, while at later time points approximately 10 apices were pooled.
 For leaf samples, between 6\ -\ 10 leaf samples from separate plants were pooled and ground.
-RNA extraction and DNase treatment was performed following the method provided with the E.Z.N.A® Plant RNA Kit (Omega Bio-tek Inc., USA).
+RNA extraction and DNase treatment was performed following the method provided with the E.Z.N.A® Plant RNA Kit (R6827-01; Omega Bio-tek Inc., USA).
 Library preparation and RNA sequencing was carried out by the Earlham Institute (Norwich, UK).
+Initial quality control of the RNA was carried out using the Quant-iT™ RNA Assay Kit (Q-33140; Thermo Fisher Scientific, USA) and the Quant-iT™ DNA Assay Kit (high sensitivity; Q-33120; Thermo Fisher Scientific, USA), and was quantified using a Tecan plate reader.
+RNA quality was further tested using the PerkinElmer GX, with high sensitivity DNA reagents and high sensitivity chips (5067-4626; PerkinElmer Inc., USA).
+Library preparation was carried out according to the TruSeq RNA protocol v2 (15026495 Rev. F; Illumina Inc., USA).
+Biotin beads were used to extract polyadenylated mRNA from the samples.
+The mRNA was fragmented and first strand cDNA was synthesized from random hexamer primers.
+Adapters were ligated to the DNA fragments, and the ligated products underwent bead-based size selection using Beckman Coulter XP beads (A63880; Beckman Coulter Inc., USA).
+PCR was used to enrich for DNA fragments that had adapter molecules on both ends.
 RNA-Seq was performed on RNA samples from six time points for leaf tissue and seven time points from apex tissue.
 100bp, single end reads were generated using an Illumina HiSeq2500, with an average of 67\ million reads per sample (Table \ref{methods:readdepth}).
 To assess biological variation, a second RNA sample for five time points in both the leaf and apex were sequenced at a lower average coverage of 33 million reads per sample (Table \ref{methods:sampling}).
