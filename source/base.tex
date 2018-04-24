@@ -251,6 +251,13 @@ $endif$
 \clubpenalty=10000
 \widowpenalty=10000
 \raggedbottom
+
+\let\oldhypertarget\hypertarget
+
+\renewcommand{\hypertarget}[2]{%
+    \leavevmode%
+    \oldhypertarget{#1}{#2}%
+}
 % PREAMBLE END
 
 \begin{document}
