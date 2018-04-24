@@ -18,7 +18,7 @@ No apparent tissue specificity was present between the *BnFLC* genes, suggesting
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_tapidor_flc.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+\caption{{Expression traces for the \emph{BnFLC} genes in the
 apex of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -41,7 +41,7 @@ copies.}%missing
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_westar_flc.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+\caption{{Expression traces for the \emph{BnFLC} genes in the
 apex of Westar.}}{The expression values and the 95\% confidence intervals
 of those expression values as computed by Cufflinks are displayed. A
 heatmap of the clustering coefficients calculated by the SOM based
@@ -80,7 +80,7 @@ Interestingly, this reactivation seems to be variety-specific for some genes, wi
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/flc_comparison_apex_1.pdf}
-\caption{\textbf{Expression traces for the A genome \emph{BnFLC} genes
+\caption{{Expression traces for the A genome \emph{BnFLC} genes
 commonly expressed in the apex of both varieties.}}{The expression values
 and the 95\% confidence intervals of those expression values as computed
 by Cufflinks are displayed. The A2 and A3b copies exhibit varietal
@@ -93,7 +93,7 @@ delay.}\label{figure:3xx:flcapexagenome}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/flc_comparison_apex_2.pdf}
-\caption{\textbf{Expression traces for the C genome \emph{BnFLC} genes
+\caption{{Expression traces for the C genome \emph{BnFLC} genes
 commonly expressed in the apex of both varieties.}}{The expression values
 and the 95\% confidence intervals of those expression values as computed
 by Cufflinks are displayed. Variety-specific differences in the
@@ -127,7 +127,7 @@ This indicates that this particular copy of *BnFLC* has diverged significantly i
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_tapidor_flc.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+\caption{{Expression traces for the \emph{BnFLC} genes in the
 leaf of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -140,7 +140,7 @@ coefficients.}\label{figure:3xx:flctapleaf}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_westar_flc.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFLC} genes in the
+\caption{{Expression traces for the \emph{BnFLC} genes in the
 leaf of Westar.}}{The expression values and the 95\% confidence intervals
 of those expression values as computed by Cufflinks are displayed. A
 heatmap of the clustering coefficients calculated by the SOM based
@@ -185,7 +185,7 @@ This suggests the C9b copy of *BnFLC* exhibits tissue-specific regulation in bot
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/flc_comparison_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFLC} genes commonly
+\caption{{Expression traces for the \emph{BnFLC} genes commonly
 expressed in the leaf of both varieties.}}{The expression values and the
 95\% confidence intervals of those expression values as computed by
 Cufflinks are displayed. Variety-specific differences in the magnitude
@@ -252,7 +252,7 @@ As very little regulatory and between variety divergence was observed for *SWN* 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/vrn2_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVRN2} genes in the
+\caption{{Expression traces for the \emph{BnVRN2} genes in the
 apex.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Within a
 variety, the two homoeologues retain similar expression
@@ -261,7 +261,7 @@ profiles.}\label{figure:3xx:vrn2apex}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/vrn2_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVRN2} genes in the
+\caption{{Expression traces for the \emph{BnVRN2} genes in the
 leaf.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Within a
 variety, the two homoeologues retain similar expression
@@ -279,7 +279,7 @@ This is supported by results from *Medicago truncatula*, where a *VRN2* homologu
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/msi1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnMSI1} genes in the
+\caption{{Expression traces for the \emph{BnMSI1} genes in the
 apex.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Largely
 similar patterns of expression are observed between the two varieties,
@@ -289,7 +289,7 @@ Tapidor.}\label{figure:3xx:msiapex}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/msi1_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnMSI1} genes in the
+\caption{{Expression traces for the \emph{BnMSI1} genes in the
 leaf.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Largely
 similar patterns of expression are observed between the two varieties,
@@ -338,7 +338,7 @@ As very little regulatory and between variety divergence was observed for *VIL1*
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_vin3.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVIN3} genes in the
+\caption{{Expression traces for the \emph{BnVIN3} genes in the
 apex.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. A heatmap of
 the clustering coefficients calculated by the SOM based method
@@ -350,7 +350,7 @@ and in both varieties.}\label{figure:3xx:vin3apex}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_vin3.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVIN3} genes in the
+\caption{{Expression traces for the \emph{BnVIN3} genes in the
 leaf.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. A heatmap of
 the clustering coefficients calculated by the SOM based method
@@ -378,7 +378,7 @@ What is known, however, is that mutations that disrupt the expression of the *FR
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/fri_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFRI} genes in the
+\caption{{Expression traces for the \emph{BnFRI} genes in the
 apex.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Expression of
 all copies are very low, with the A10 copy being expressed below the 2.0
@@ -387,7 +387,7 @@ FPKM threshold to be regarded as expressed.}\label{figure:3xx:friapex}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/fri_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFRI} genes in the
+\caption{{Expression traces for the \emph{BnFRI} genes in the
 leaf.}}{The expression values and the 95\% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Expression of
 all copies are very low, with the A10 copy being expressed below the 2.0

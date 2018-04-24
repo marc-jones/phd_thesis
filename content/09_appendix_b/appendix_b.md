@@ -2,14 +2,14 @@ Supplementary analysis of PRC2 and PHD proteins for Chapter \ref{chapter:winter}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/fie1_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFIE1} genes in the
+\caption{{Expression traces for the \emph{BnFIE1} genes in the
 leaf.}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed.}\label{figure:3xx:fie1msi1leaf}
 \end{figure}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/fie1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFIE1} genes in the
+\caption{{Expression traces for the \emph{BnFIE1} genes in the
 apex.}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed.}\label{figure:3xx:fie1apex}
 \end{figure}
@@ -25,7 +25,7 @@ Although *BnFIE1.Ann.Random* is above the expression threshold, the expression i
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/eza1.pdf}
-\caption{\textbf{Expression traces for the \emph{BnSWN} genes.}}{The expression values and the 95\ \% confidence intervals of those expression values as computed by Cufflinks are displayed.}\label{figure:3xx:eza1apex}
+\caption{{Expression traces for the \emph{BnSWN} genes.}}{The expression values and the 95\ \% confidence intervals of those expression values as computed by Cufflinks are displayed.}\label{figure:3xx:eza1apex}
 \end{figure}
 
 The histone methyltransferase *SWN* is associated with the PRC2 complex that influences the vernalization response in Arabidopsis.
@@ -35,7 +35,7 @@ Due to this low expression the relevance of the gene to the vernalization respon
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/vil1.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVIL1} genes.}}{The expression values and the 95\ \% confidence intervals of those expression values as computed by Cufflinks are displayed.}\label{figure:3xx:vil1}
+\caption{{Expression traces for the \emph{BnVIL1} genes.}}{The expression values and the 95\ \% confidence intervals of those expression values as computed by Cufflinks are displayed.}\label{figure:3xx:vil1}
 \end{figure}
 
 *VIL1* shows only a slight decrease in expression during the vernalization period, with relatively constant expression after the cold (Figure \ref{figure:3xx:vil1}).
@@ -46,7 +46,7 @@ However, the expression in both leaf and apex is consistent with results from th
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/vil2_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVIL2} genes in the
+\caption{{Expression traces for the \emph{BnVIL2} genes in the
 apex.}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed.}\label{figure:3xx:vil2apex}
 \end{figure}
@@ -57,7 +57,7 @@ Five copies of the gene are expressed in *B. napus*, all of which show remarkabl
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/vil2_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnVIL2} genes in the
+\caption{{Expression traces for the \emph{BnVIL2} genes in the
 leaf.}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed.}\label{figure:3xx:vil2leaf}
 \end{figure}

@@ -23,7 +23,7 @@ In order to focus this analysis, only the floral integrator hubs included in the
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/23_exp_ft_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFT} genes in the
+\caption{{Expression traces for the \emph{BnFT} genes in the
 Westar leaf.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -36,7 +36,7 @@ not.}\label{figure:223:ftleaf}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/25_exp_ft_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFT} genes in the
+\caption{{Expression traces for the \emph{BnFT} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -108,7 +108,7 @@ Therefore, potentially the Arabidopsis *FT* gene has an heretofore unknown funct
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/26_exp_ap1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnAP1} genes in the
+\caption{{Expression traces for the \emph{BnAP1} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -149,7 +149,7 @@ It should be noted, however, that the expression levels of *BnAP1.A2*, *BnAP1.C2
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/27_exp_soc1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+\caption{{Expression traces for the \emph{BnSOC1} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -192,7 +192,7 @@ This suggests regulatory divergence in terms of the magnitude of expression, in 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/29_exp_agl24_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnAGL24} genes in the
+\caption{{Expression traces for the \emph{BnAGL24} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. The A3 and C7 copies exhibit a decrease in expression over
@@ -212,7 +212,7 @@ The expression profiles of *BnAGL24* suggest, therefore, that the positive feedb
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/28_exp_soc1_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+\caption{{Expression traces for the \emph{BnSOC1} genes in the
 Westar leaf.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -256,7 +256,7 @@ Both of these examples of regulatory divergence suggest that the *BnSOC1* genes 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/30_exp_fd_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFD} genes in the
+\caption{{Expression traces for the \emph{BnFD} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -295,7 +295,7 @@ Both the similar expression patterns and the similar expression magnitudes sugge
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/31_exp_lfy_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnLFY} genes in the
+\caption{{Expression traces for the \emph{BnLFY} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -333,7 +333,7 @@ These findings could therefore provide a potential avenue for altering flowering
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/32_exp_tfl1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnTFL1} genes in the
+\caption{{Expression traces for the \emph{BnTFL1} genes in the
 Westar apex.}}{The expression values in FPKM and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the

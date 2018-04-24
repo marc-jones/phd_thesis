@@ -11,7 +11,7 @@ The website functionality was implemented to provide access to the entire datase
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/01_database_structure.pdf}
-\caption{\textbf{Schematic of how the database is structured.}}{On the
+\caption{{Schematic of how the database is structured.}}{On the
 left of the figure is a single entry in the database, with one entry
 present for each \emph{B.\ napus} gene. This is the entry for a \emph{B.
 napus} gene that shows sequence conservation with \emph{FLC}. As each
@@ -42,7 +42,7 @@ In addition to pages introducing the dataset and describing how to use the searc
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/02_expression_screen.png}
-\caption{\textbf{Screenshot of the Search page.}}{The search page allows
+\caption{{Screenshot of the Search page.}}{The search page allows
 for Arabidopsis gene identifiers and names to be used to search the
 transcriptome time series dataset. \emph{B.\ napus} genes that share
 sequence conservation to the Arabidopsis gene are displayed in the bar
@@ -65,7 +65,7 @@ Finally, the generated plot image, the cDNA sequences of the selected genes, and
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/03_blast_screen.png}
-\caption{\textbf{Screenshot of the BLAST Search page.}}{Inserting a
+\caption{{Screenshot of the BLAST Search page.}}{Inserting a
 nucleotide sequence into the search box prompts the server to perform a
 search for \emph{B.\ napus} genes that exhibit sequence conservation. The
 result of the search is displayed on the sequence search page, and the
@@ -82,7 +82,7 @@ This search function allows users to access the entire dataset agnostic to wheth
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/04_table_screen.png}
-\caption{\textbf{Screenshot of the Table page.}}{Selecting \emph{B.
+\caption{{Screenshot of the Table page.}}{Selecting \emph{B.
 napus} genes on the Search page creates a row in the table on this page.
 Displayed on each row is the Cufflinks\textsuperscript{253} assigned
 gene name, the chromosome and chromosome position where the gene is

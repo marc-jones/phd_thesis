@@ -42,7 +42,7 @@ Measuring gene expression in biologically equivalent leaf and apex tissue allowe
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/01_sampling_scheme.pdf}
-\caption{\textbf{The sampling scheme for the transcriptome time series.}}{Red numbers displayed below the bottom axis indicate the time points at
+\caption{{The sampling scheme for the transcriptome time series.}}{Red numbers displayed below the bottom axis indicate the time points at
 which the plants were sampled. The representations of the plants
 indicate the approximate number of full leaves at those time
 points.}\label{figure:201:samplingscheme}
@@ -113,7 +113,7 @@ By using the short reads from the transcriptomic time series to aid the generati
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/02_gene_position.pdf}
-\caption{\textbf{Gene density is increased consistently across
+\caption{{Gene density is increased consistently across
 chromosomes with the AUGUSTUS derived gene models relative to the
 published gene models.}}{Gene count is calculated using a 100~kbp sliding
 window across the chromosome. The patterns shown here are representative
@@ -123,7 +123,7 @@ chromosomes.}\label{figure:202:geneposition}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/03_gene_length.pdf}
-\caption{\textbf{AUGUSTUS derived gene models tend to be longer than
+\caption{{AUGUSTUS derived gene models tend to be longer than
 published gene models.}}{Gene length is calculated as the length of the
 unprocessed mRNA transcript. The patterns shown here are representative
 of the patterns seen across all chromosomes within a
@@ -166,7 +166,7 @@ Due to these issues with Kallisto, and as the Tuxedo suite is a mature suite pre
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/05_tissue_split_sequencing_confidence_interval.pdf}
-\caption{\textbf{Calculating FPKM values for the apex and leaf
+\caption{{Calculating FPKM values for the apex and leaf
 separately reduces the size of the confidence intervals.}}{95\%
 confidence intervals were calculated using the same quantification
 pipeline for both the leaf and the apex samples from the first
@@ -182,7 +182,7 @@ part of the plot.}\label{figure:205:tissuesplitconf}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/04_tissue_split_sequencing_fpkm.pdf}
-\caption{\textbf{Quantifying gene expression for the apex and leaf
+\caption{{Quantifying gene expression for the apex and leaf
 separately has little effect on FPKM values.}}{FPKM gene expression
 values were calculated using the same quantification pipeline for both
 the leaf and the apex samples from the first sequencing run combined
@@ -207,7 +207,7 @@ This suggests that the initial size of the confidence intervals was indeed becau
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/07_both_vs_first_sequencing_conf_interval.pdf}
-\caption{\textbf{Including data from a second sequencing run causes a
+\caption{{Including data from a second sequencing run causes a
 reduction in the majority of estimated confidence interval sizes.}}{95\%
 confidence intervals were calculated using the same quantification
 pipeline for the first sequencing run only (x-axis) or both sequencing
@@ -223,7 +223,7 @@ to that part of the plot.}\label{figure:207:repsconf}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/06_both_vs_first_sequencing_fpkm.pdf}
-\caption{\textbf{Including data from a second sequencing run does not
+\caption{{Including data from a second sequencing run does not
 affect the majority of estimated FPKM values.}}{FPKM gene expression
 values were calculated using the same quantification pipeline for the
 first sequencing run only (x-axis) or both sequencing runs combined
@@ -248,7 +248,7 @@ Therefore, the second sequencing run was able to provide enough additional data 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/09_all_vs_unique_sequencing_conf_interval.pdf}
-\caption{\textbf{Multiply mapping reads have little effect on the
+\caption{{Multiply mapping reads have little effect on the
 estimated confidence interval range.}}{95\% confidence intervals were
 calculated using the same quantification pipeline for all reads (y-axis)
 or reads that only align to a single position in the reference sequence
@@ -263,7 +263,7 @@ plot.}\label{figure:209:uniqueconf}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/08_all_vs_unique_sequencing_fpkm.pdf}
-\caption{\textbf{Reads aligning to multiple regions of the genome have
+\caption{{Reads aligning to multiple regions of the genome have
 little effect on the estimated gene expression levels.}}{FPKM gene
 expression values were calculated using the same quantification pipeline
 for all reads (y-axis) or reads that only align to a single position in
@@ -290,7 +290,7 @@ This result demonstrates that reads mapping to multiple positions in the genome 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10b_som_explanation.pdf}
-\caption{\textbf{Self-organizing maps (SOMs) are trained to represent
+\caption{{Self-organizing maps (SOMs) are trained to represent
 multidimensional datasets.}}{SOMs are randomly initiated. Clusters are
 assigned neighbours based on their Euclidean distances from one another,
 such that neighbouring clusters have a lower Euclidean distance between
@@ -320,7 +320,7 @@ Only SOMs generated using data from Westar are displayed here, with SOMs generat
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10c_a_w_som_count.pdf}
-\caption{\textbf{SOM generated using the apex transcriptome time series
+\caption{{SOM generated using the apex transcriptome time series
 in Westar.}}{The size of the SOM was chosen such that it captured
 \textasciitilde{}85\% of the global squared distance from the mean
 (Section \ref{section:methods:somclustering}; Methods). The grey lines
@@ -342,7 +342,7 @@ The large number of genes that increase in expression at the final time point ma
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10d_l_w_som_count.pdf}
-\caption{\textbf{SOM generated using the leaf transcriptome time series
+\caption{{SOM generated using the leaf transcriptome time series
 in Westar.}}{The size of the SOM was chosen such that it captured
 \textasciitilde{}85\% of the global squared distance from the mean
 (Section \ref{section:methods:somclustering}; Methods). The grey lines
@@ -386,7 +386,7 @@ To understand the expression dynamics of key developmental pathways during the t
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10e_go_term_enrichment_1.pdf}
-\caption{\textbf{Normalized expression profiles for SOM clusters
+\caption{{Normalized expression profiles for SOM clusters
 enriched for leaf senescence and regulation of flower development.}}{Normalized expression profiles for SOM clusters that are significantly
 enriched for each GO term and that also contain the most \emph{B.\ napus}
 genes annotated with that GO term are displayed. The expression patterns
@@ -411,7 +411,7 @@ As will be discussed later in this chapter when the behaviour of key floral inte
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10f_go_term_enrichment_2.pdf}
-\caption{\textbf{Normalized expression profiles for SOM clusters
+\caption{{Normalized expression profiles for SOM clusters
 enriched for regulation of cell cycle and defence response.}}{Normalized
 expression profiles for the top two SOM clusters that are significantly
 enriched for each GO term. The expression profiles of genes involved
@@ -447,7 +447,7 @@ Both of these observations point towards the *B.\ napus* defence response being 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10g_go_term_enrichment_3.pdf}
-\caption{\textbf{Normalized expression profiles for SOM clusters
+\caption{{Normalized expression profiles for SOM clusters
 enriched for genes associated with the circadian rhythm.}}{Normalized
 expression profiles for the top two SOM clusters that are significantly
 enriched for the GO term ``circadian rhythm'' in both tissues in Westar.
@@ -481,7 +481,7 @@ Two case studies that illustrate the insights such an analysis facilitates are M
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10h_protein_enrichment.pdf}
-\caption{\textbf{Normalized expression profiles for SOM clusters
+\caption{{Normalized expression profiles for SOM clusters
 enriched for MADS and AP2 protein domains in the leaf and apex tissue of
 Westar.}}{Normalized expression profiles for SOM clusters that are
 significantly enriched for each protein domain and that also contain the

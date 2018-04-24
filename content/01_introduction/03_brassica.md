@@ -12,7 +12,7 @@ In the UK, 13% of the total area on which crops were grown in 2016 (608,000 hect
 Oilseed rape is frequently grown in rotation with wheat, with wheat grown in such a way yielding 10% more than wheat grown continuously, on average[@christen_effect_1993].
 
 \begin{table}[htp]
-\caption{\textbf{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.}}{ Table obtained from Cartea et al. (2011)\textsuperscript{103}.}
+\caption{{Main \emph{Brassica} crops, their common names, and the part of the plant that is consumed.}}{ Table obtained from Cartea et al. (2011)\textsuperscript{103}.}
 \label{intro:table1xx:brassicas}
 \centering
 \resizebox{\textwidth}{!}{%

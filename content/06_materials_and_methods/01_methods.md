@@ -5,7 +5,7 @@ Some of these methods are included in a paper written in collaboration with Dr. 
 ## Plant growth and sample preparation
 
 \begin{table}[htp]
-\caption{\textbf{Sampling and sequencing scheme for the transcriptomic time series.}}{Numbers in the rightmost two columns indicate the number of biological pools sampled for that time point within each tissue.}
+\caption{{Sampling and sequencing scheme for the transcriptomic time series.}}{Numbers in the rightmost two columns indicate the number of biological pools sampled for that time point within each tissue.}
 \label{methods:sampling}
 \begin{center}
 \resizebox{\textwidth}{!}{%
@@ -62,7 +62,7 @@ RNA-Seq was performed on RNA samples from six time points for leaf tissue and se
 To assess biological variation, a second RNA sample for five time points in both the leaf and apex were sequenced at a lower average coverage of 33 million reads per sample (Table \ref{methods:sampling}).
 
 \begin{sidewaystable}[htp]
-\caption{\textbf{Sequencing statistics for the two sequencing runs carried out to generate the developmental transcriptome}}{\emph{Continued on Page \pageref{table:readdepthlegend}.}}
+\caption{{Sequencing statistics for the two sequencing runs carried out to generate the developmental transcriptome}}{\emph{Continued on Page \pageref{table:readdepthlegend}.}}
 \label{methods:readdepth}
 \begin{center}
 \resizebox{\textwidth}{!}{%
@@ -154,7 +154,7 @@ The geometric mean of the fold change across all $n$ homoeologous gene pairs was
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/homoeologue_plots.pdf}
-\caption{\textbf{Locations of identified homoeologues pairs in the
+\caption{{Locations of identified homoeologues pairs in the
 \emph{B. napus} genome}}{The locations of these pairs give a
 representation of the chromosomal rearrangements that have occurred
 between the A and C genomes.}\label{figure:methods:homoeologue}
@@ -206,7 +206,7 @@ This probability was averaged to give the average probability of two genes of in
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/self_clustering.png}
-\caption{\textbf{A bimodal distribution of self-clustering probabilities
+\caption{{A bimodal distribution of self-clustering probabilities
 necessitates the use of a threshold to visualise the probabilities}}{The
 density curves presented here represent the self-clustering
 probabilities calculated from a single SOM. The clustering coefficient
@@ -240,7 +240,7 @@ Percentage sequence conservation was calculated using a 100bp sliding window.
 ## Quantitative PCR of BnTFL1 homologues {#methods:qpcr}
 
 \begin{table}[htp]
-\caption{\textbf{\emph{BnTFL1} and \emph{BnGAPDH} qPCR primer sequences.}}
+\caption{{\emph{BnTFL1} and \emph{BnGAPDH} qPCR primer sequences.}}
 \label{methods:qpcr}
 \begin{center}
 \resizebox{\textwidth}{!}{%

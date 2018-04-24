@@ -9,7 +9,7 @@ A major challenge when translating knowledge from Arabidopsis to *B.\ napus*, th
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/network_duplication.pdf}
-\caption{\textbf{Whole genome multiplications lead to a vast increase in
+\caption{{Whole genome multiplications lead to a vast increase in
 the number of regulatory interactions.}}{\textbf{a} Regulatory links
 (arrows) between transcription factors (A\textsubscript{x}) and their
 targets (B\textsubscript{y}) increase in a quadratic manner following

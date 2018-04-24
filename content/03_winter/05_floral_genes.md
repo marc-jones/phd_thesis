@@ -33,7 +33,7 @@ The later upregulation of floral integrators in the winter variety during the ti
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/exp_ft_leaf.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFT} genes in the leaf
+\caption{{Expression traces for the \emph{BnFT} genes in the leaf
 of Tapidor.}}{The expression values and the 95\% confidence intervals of
 those expression values as computed by Cufflinks are displayed. A
 heatmap of the clustering coefficients calculated by the SOM based
@@ -62,7 +62,7 @@ Taken together, this suggests that the vernalization response has a greater effe
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/exp_tfl1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnTFL1} genes in the
+\caption{{Expression traces for the \emph{BnTFL1} genes in the
 apex of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -95,7 +95,7 @@ This suggests that the vernalization requirement results in suppression of *BnSO
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_leaf_fd.pdf}
-\caption{\textbf{Expression traces for the \emph{BnFD} genes in
+\caption{{Expression traces for the \emph{BnFD} genes in
 Tapidor.}}{The expression values and the 95\% confidence intervals of
 those expression values as computed by Cufflinks are displayed. A
 heatmap of the clustering coefficients calculated by the SOM based
@@ -128,7 +128,7 @@ The *BnAP1.A2.Random* gene in Tapidor, therefore, behaves more similarly to the 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/exp_ap1_apex.pdf}
-\caption{\textbf{Expression traces for the \emph{BnAP1} genes in the
+\caption{{Expression traces for the \emph{BnAP1} genes in the
 apex of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -152,7 +152,7 @@ This suggests that the *BnFLC* copies that exhibit expression reactivation post-
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_soc1.pdf}
-\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+\caption{{Expression traces for the \emph{BnSOC1} genes in the
 apex of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -165,7 +165,7 @@ expression.}\label{figure:3xx:soc1apex}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_soc1.pdf}
-\caption{\textbf{Expression traces for the \emph{BnSOC1} genes in the
+\caption{{Expression traces for the \emph{BnSOC1} genes in the
 leaf of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the
@@ -184,7 +184,7 @@ That these observations are not altered in the winter variety suggests that the 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_lfy.pdf}
-\caption{\textbf{Expression traces for the \emph{BnLFY} genes in the
+\caption{{Expression traces for the \emph{BnLFY} genes in the
 apex of Tapidor.}}{The expression values and the 95\% confidence
 intervals of those expression values as computed by Cufflinks are
 displayed. A heatmap of the clustering coefficients calculated by the

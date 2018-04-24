@@ -70,7 +70,7 @@ Alternatively, the optimum temperature at which the *BnFLC.C2* copy is repressed
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/discussion_figure.pdf}
-\caption{\textbf{The ``underdetermined system'' hypothesis.}}{Different
+\caption{{The ``underdetermined system'' hypothesis.}}{Different
 \emph{FLC} copies (\(\alpha\) and \(\beta\)) with different
 sensitivities to cold allow for both the length and the severity of cold
 to be determined. \textbf{a} \emph{FLC}-\(\alpha\) is repressed more strongly at 5 °C relative to 14 °C. This difference results in the expression level of \emph{FLC}-\(\alpha\) being the same after both a four week vernalization period at 5 °C and a seven week vernalization period at 14 °C. \textbf{b} \emph{FLC}-\(\beta\) repression occurs at the same rate at both 5 °C and 14 °C. This results in the expression level of the gene being different at the end of a four week vernalization period at 5 °C compared to the expression level after a seven week vernalization period at 14 °C.}\label{figure:3xx:underdetermined}

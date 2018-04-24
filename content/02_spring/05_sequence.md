@@ -30,7 +30,7 @@ These results are particularly interesting given the conservation of these cis-r
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/33_sequence_conservation_qpcr.pdf}
-\caption{\textbf{Sequence analysis reveals that cis-regulatory modules
+\caption{{Sequence analysis reveals that cis-regulatory modules
 identified in Arabidopsis are not present downstream of some
 \emph{BnTFL1} genes.}}{\textbf{a} The degree of sequence conservation
 between the \emph{BnTFL1} genes and \emph{TFL1} from Arabidopsis. Sequence alignment and
@@ -100,7 +100,7 @@ Taken together this reveals that the presence and absence of cis-regulatory elem
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/bzip.pdf}
-\caption{\textbf{Structure of a bZIP transcription factor.}}{Ribbon
+\caption{{Structure of a bZIP transcription factor.}}{Ribbon
 diagram of the cAMP responsive element-binding protein bound to DNA. The
 leucine zipper region (purple) mediates the dimerization of the two
 monomers. The basic region (green) interacts with the major groove of
@@ -132,7 +132,7 @@ Computational modelling of monomer dimerization suggests that the differences in
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/34_brassica_sequence_alignment.pdf}
-\caption{\textbf{Multiple sequence alignment of the Arabidopsis and BnFD
+\caption{{Multiple sequence alignment of the Arabidopsis and BnFD
 proteins}}{The indicated regions of the protein are defined as in Tsuji
 et al. (2013)\textsuperscript{315}. Between copy variation is observed
 in the A, BASIC, LEUCINE ZIPPER, and SAP regions, in addition to elsewhere in the protein. The heptad structure
@@ -162,7 +162,7 @@ Changing the threonine to a serine was found to not affect FD binding to FT in A
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/35_protein_structure.pdf}
-\caption{\textbf{Protein structure of the BnFD proteins complexed with
+\caption{{Protein structure of the BnFD proteins complexed with
 DNA reveal different hydrogren bonding.}}{The protein structure of the
 CREB protein (PDB ID: 1DH3) from Schumacher et al.
 (2000)\textsuperscript{316} was changed to match the amino acids present
@@ -192,7 +192,7 @@ Therefore, the amino acid polymorphisms present in the basic region of BnFD prot
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/brassica_zipper_alignment_with_charges.pdf}
-\caption{\textbf{Amino acid differences in the leucine zipper region
+\caption{{Amino acid differences in the leucine zipper region
 result in differently charged amino acids in the \texttt{e} and
 \texttt{g} heptad positions.}}{The amino acid sequence for the
 Arabidopsis FD protein and the six \emph{B.~napus} proteins are
@@ -205,7 +205,7 @@ chains.}\label{figure:236a:leucinezipper}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/36_helical_wheels.pdf}
-\caption{\textbf{Helical wheel representation of the homodimers and
+\caption{{Helical wheel representation of the homodimers and
 heterodimer possible with the BnFD.C1 and BnFD.C7 proteins.}}{The coiled-coil structures of the leucine zippers are
 represented as helical wheels. Amino acids, denoted by single letter codes, in the seven positions of the
 \(\alpha\)-helix heptad are displayed, with the columns of amino acids
@@ -236,7 +236,7 @@ These polymorphisms suggest that certain dimer combinations of the BnFD proteins
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/37_fd_dimer_heatmap.pdf}
-\caption{\textbf{Heatmap of the dimerization affinity scores computed
+\caption{{Heatmap of the dimerization affinity scores computed
 between BnFD leucine zipper regions.}}{The machine learning algorithm
 developed by Potapov et al. (2015)\textsuperscript{317} was used to
 score the dimerization affinity of the leucine zipper regions of the
@@ -267,7 +267,7 @@ The range of interaction scores predicted for the BnFD proteins is similar in si
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/38_ensembl_with_heatmap.pdf}
-\caption{\textbf{Multiple sequence alignment of the leucine zipper
+\caption{{Multiple sequence alignment of the leucine zipper
 region of Arabidopsis \emph{FD} orthologues in \emph{Glycine\ max},
 \emph{Musa\ acuminata subsp. malaccensis}, and \emph{Medicago\
 truncatula}.}}{Amino acids are coloured based on their residue type.
@@ -282,7 +282,7 @@ calculated using the method of Potapov et al.
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/39_brassica_wheat_maize_fd.pdf}
-\caption{\textbf{Multiple sequence alignment of the leucine zipper
+\caption{{Multiple sequence alignment of the leucine zipper
 regions of the proteins with highest amino acid similarity to
 Arabidopsis FD from the \emph{Zea mays} and \emph{Triticum aestivum}
 proteomes.}}{Amino acids are coloured based on their residue type.
@@ -311,7 +311,7 @@ These findings suggest that variation in dimerization affinities between duplica
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/40_fd_dimerization.pdf}
-\caption{\textbf{Dimerization affinity differences influence the dimer
+\caption{{Dimerization affinity differences influence the dimer
 population expected at steady state.}}{The steady state concentrations of
 monomers and dimers are displayed. The simulation was run with different
 \texttt{bb} homodimer production rate, either 0.5 (\textbf{a}), 4.0

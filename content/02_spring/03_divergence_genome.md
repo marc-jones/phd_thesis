@@ -20,7 +20,7 @@ This suggests that regulatory divergence has contributed to the retention of flo
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10i_genome_level.pdf}
-\caption{\textbf{The \emph{B.~napus} A and C genomes show different
+\caption{{The \emph{B.~napus} A and C genomes show different
 overall patterns of gene expression.}}{Density plots of transformed
 expression levels (\(\log_{10}(FPKM)\)) calculated using different
 subsets of genes. The expression data was sampled 1000 times using a
@@ -54,7 +54,7 @@ When subsets are taken, however, the percentage of genes on the A genome is 48% 
 This difference reveals that there are more genes on the C genome that do not show sequence similarity to an Arabidopsis gene.
 
 \begin{table}[htp]
-\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all homoeologue pairs.}}{Homoeologue pairs were determined and filtered at each time point for those which both had expression levels above 2\ FPKM. The number and percentage of these genes expressed two-fold higher than their homoeologue is indicated. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all homoeologue pairs is 1.12 in the apex and 1.11 in the leaf.}
+\caption{{Number of genes expressed two-fold higher than their homoeologue for all homoeologue pairs.}}{Homoeologue pairs were determined and filtered at each time point for those which both had expression levels above 2\ FPKM. The number and percentage of these genes expressed two-fold higher than their homoeologue is indicated. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all homoeologue pairs is 1.12 in the apex and 1.11 in the leaf.}
 \begin{center}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{ccccccc}
@@ -85,7 +85,7 @@ This difference reveals that there are more genes on the C genome that do not sh
 \end{table}
 
 \begin{table}[htp]
-\caption{\textbf{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}}{As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database\textsuperscript{296}. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
+\caption{{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}}{As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database\textsuperscript{296}. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
 \begin{center}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{ccccccc}
@@ -134,7 +134,7 @@ This potentially indicates a higher proportion of silenced or pseudogenes on the
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/11_expressed_gene_venn_diagram.pdf}
-\caption{\textbf{The majority of annotated \emph{B.~napus} genes are not
+\caption{{The majority of annotated \emph{B.~napus} genes are not
 expressed.}}{\textbf{a-c} Euler diagrams indicating the percentage of
 genes that are expressed and those that are not in the developmental
 time series. A gene was regarded as expressed if the expression level of
@@ -168,7 +168,7 @@ This supports the hypothesis that, for the transcriptomic time series collected 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/12_retention_distributions.pdf}
-\caption{\textbf{Multiple \emph{B.~napus} flowering time gene homologues
+\caption{{Multiple \emph{B.~napus} flowering time gene homologues
 are expressed during the floral transition.}}{This plot shows the
 proportions of Arabidopsis genes that have particular numbers of
 homologues identified and expressed in \emph{B.~napus}. \emph{B.~napus}
@@ -202,7 +202,7 @@ In addition, that these patterns are also observed for expressed genes suggests 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/13_all_vs_exp_all_genes.pdf}
-\caption{\textbf{Not all copies of genes are expressed in
+\caption{{Not all copies of genes are expressed in
 \emph{B.~napus}.}}{Copies of Arabidopsis genes were identified in the
 \emph{B.~napus} gene models through sequence similarity. These copies
 were regarded as expressed if their maximum expression level during the
@@ -213,7 +213,7 @@ graph.}\label{figure:213:allvsexp}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/14_all_vs_exp_flower_genes.pdf}
-\caption{\textbf{Not all copies of flowering time genes are expressed in
+\caption{{Not all copies of flowering time genes are expressed in
 \emph{B.~napus}.}}{As for figure \ref{figure:213:allvsexp}, but only
 using \emph{B.~napus} genes that have sequence similarity to annotated
 Arabidopsis flowering time genes in the FLOR-ID
@@ -231,7 +231,7 @@ This indicates widespread expression divergence among *B.\ napus* homologues dur
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/15_wgcna_cluster_all_genes.pdf}
-\caption{\textbf{The majority of gene homologues in \emph{B.~napus} are
+\caption{{The majority of gene homologues in \emph{B.~napus} are
 assigned to different regulatory modules.}}{Regulatory module assignments
 for the apex, \textbf{a}, and leaf, \textbf{b}. The size and colour of
 the circles indicate the number of data points at that position in the
@@ -250,7 +250,7 @@ used.}\label{figure:215:wgcnaall}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/16_wgcna_cluster_flower_genes.pdf}
-\caption{\textbf{The majority of flowering time gene homologues in
+\caption{{The majority of flowering time gene homologues in
 \emph{B.~napus} are assigned to different regulatory modules.}}{As for
 figure \ref{figure:215:wgcnaall}, but only using \emph{B.~napus} genes
 that have sequence similarity to annotated Arabidopsis flowering time
@@ -273,7 +273,7 @@ These findings reveal that the majority of *B.\ napus* genes have diverged from 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/18_som_similarity_measure.pdf}
-\caption{\textbf{Self-organizing map (SOM) based assessment of
+\caption{{Self-organizing map (SOM) based assessment of
 expression trace divergence uncovers widespread regulatory divergence
 and subtle patterns of divergence.}}{\textbf{a} A schematic of the SOM
 based clustering approach. The approach consists of two overlapping

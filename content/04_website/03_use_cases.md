@@ -9,7 +9,7 @@ The graphs of gene expression profiles are downloaded directly from ORDER, and t
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/agl24_vs_ap1.png}
-\caption{\textbf{Expression profiles of \emph{BnAGL24} and \emph{BnAP1}
+\caption{{Expression profiles of \emph{BnAGL24} and \emph{BnAP1}
 genes reveals potential repression.}}{The expression values and the 95\ \%
 confidence intervals of those expression values as computed by Cufflinks
 are displayed. The expression profiles of \emph{B.\ napus} homologues of
@@ -42,7 +42,7 @@ Comparing between the two varieties, a delay in the timing of the expression cha
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/MIR156a.png}
-\caption{\textbf{Expression patterns of the most highly expressed
+\caption{{Expression patterns of the most highly expressed
 \emph{B.\ napus} gene showing sequence similarity to the Arabidopsis
 \emph{miR156} precursor}}{The expression values and the 95\ \% confidence
 intervals of those expression values as computed by Cufflinks are
@@ -53,7 +53,7 @@ treatment.}\label{figure:winter:mir156}
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/MIR172a.png}
-\caption{\textbf{Expression patterns of the only \emph{B.\ napus} gene
+\caption{{Expression patterns of the only \emph{B.\ napus} gene
 showing sequence similarity to the Arabidopsis \emph{miR172} precursor}}{The expression values and the 95\ \% confidence intervals of those
 expression values as computed by Cufflinks are displayed. Expression is
 very low in both tissues.}\label{figure:winter:mir172}

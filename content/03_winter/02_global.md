@@ -23,7 +23,7 @@ Therefore, although the leaf seems to have an expanded set of expressed genes in
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/variety_venn_diagram.pdf}
-\caption{\textbf{Overlap between varieties in the sets of expressed
+\caption{{Overlap between varieties in the sets of expressed
 genes.}}{\emph{B.~napus} genes were regarded as expressed if their
 maximal expression level across the transcriptomic time series was
 greater than, or equal to, 2~FPKM. The overlaps in the leaf reveal a
@@ -48,7 +48,7 @@ There therefore seems to be a consistent bias, across all gene subsets considere
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tap_vs_wes_exp_all.pdf}
-\caption{\textbf{Relationship between the number of expressed copies of
+\caption{{Relationship between the number of expressed copies of
 Arabidopsis genes in Tapidor relative to Westar.}}{The number of
 expressed copies of an Arabidopsis gene in \emph{B.\ napus} was
 determined as the number of homologues that had a maximal expression
@@ -79,7 +79,7 @@ Given that the mapping of Arabidopsis genes to *B.\ napus* is one-to-many, this 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tap_vs_wes_exp_flowering.pdf}
-\caption{\textbf{Relationship between the number of expressed copies of
+\caption{{Relationship between the number of expressed copies of
 Arabidopsis floral genes in Tapidor relative to Westar.}}{The number of
 expressed copies of an Arabidopsis floral gene in \emph{B.\ napus} was
 determined as the number of homologues that had a maximal expression
@@ -106,7 +106,7 @@ These findings reveal that flowering time genes exhibit less variety-specific ex
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/var_specific_distribution_all.pdf}
-\caption{\textbf{Extent of compensatory homologue expression.}}{Only
+\caption{{Extent of compensatory homologue expression.}}{Only
 Arabidopsis genes that have the same number of homologues expressed in
 both Tapidor and Westar (points that lie on the diagonal grey line in
 Figure \ref{figure:3xx:tapvswesall}) are considered. These are separated
@@ -126,7 +126,7 @@ However, the instances of this are low.
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/var_specific_distribution_flowering.pdf}
-\caption{\textbf{Extent of compensatory homologue expression among
+\caption{{Extent of compensatory homologue expression among
 floral genes.}}{Only Arabidopsis flowering time genes that have the same
 number of homologues expressed in both Tapidor and Westar (points that
 lie on the diagonal grey line in Figure \ref{figure:3xx:tapvswesflor})
@@ -154,7 +154,7 @@ This suggests that this potential form of varietal divergence does not play a ro
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tapidor_apex_som.pdf}
-\caption{\textbf{Self-organizing map of the apex transcriptome in
+\caption{{Self-organizing map of the apex transcriptome in
 Tapidor.}}{Gene expression patterns were normalized to zero mean, unit
 variance across time and clustered. Nodes (coloured circles) are
 situated adjacent to nodes with a similar expression pattern. The nodes
@@ -183,7 +183,7 @@ That the expression of these clusters is very similar to clusters in Westar sugg
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tapidor_leaf_som.pdf}
-\caption{\textbf{Self-organizing map of the leaf transcriptome in
+\caption{{Self-organizing map of the leaf transcriptome in
 Tapidor.}}{Gene expression patterns were normalized to zero mean, unit
 variance across time and clustered. Nodes (coloured circles) are
 situated adjacent to nodes with a similar expression pattern. The nodes
@@ -229,7 +229,7 @@ The coefficients were calculated both within and across varieties for each tissu
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_correlation.pdf}
-\caption{\textbf{Pearson correlation coefficients between apex samples.}}{Coefficients were calculated between the transcriptomes of all apex
+\caption{{Pearson correlation coefficients between apex samples.}}{Coefficients were calculated between the transcriptomes of all apex
 samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
 and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
 Coefficients between like samples (diagonal lines in \textbf{a} and
@@ -247,7 +247,7 @@ Calculating correlation values between tissues results in coefficients that are 
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/leaf_correlation.pdf}
-\caption{\textbf{Pearson correlation coefficients between leaf samples.}}{Coefficients were calculated between the transcriptomes of all leaf
+\caption{{Pearson correlation coefficients between leaf samples.}}{Coefficients were calculated between the transcriptomes of all leaf
 samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
 and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
 Coefficients between like samples (diagonal lines in \textbf{a} and

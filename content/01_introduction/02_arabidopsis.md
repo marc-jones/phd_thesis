@@ -88,7 +88,7 @@ The regulation of *miR156* is hypothesized to be regulated by sugar or carbohydr
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/gene_regulatory_network.pdf}
-\caption{\textbf{The core network of floral integrators.}}{Many
+\caption{{The core network of floral integrators.}}{Many
 regulatory interactions have been found between the nine floral
 integrators depicted here. This results in a tightly interconnected gene
 regulatory network, with many possible feedback loops and control
