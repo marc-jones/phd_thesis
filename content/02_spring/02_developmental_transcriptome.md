@@ -136,7 +136,7 @@ The gene density across the chromosomes is correlated between the two sets of ge
 This result indicates that similar proportions of genes are located in the same regions of the genome in both gene model sets, despite the AUGUSTUS-derived models exhibiting greater gene density.
 As gene density is greater for the AUGUSTUS-derived models, one may expect that the length of the gene models would be reduced due to models being split.
 In order to test this, distributions of gene model lengths were calculated.
-The AUGUSTUS-derived gene models are on average longer than the gene models published with the Darmor-*bzh* genome sequence (Figure \ref{figure:203:genelength}).
+The AUGUSTUS-derived gene models (mean length of 363\ bases) are on average longer than the gene models published with the Darmor-*bzh* genome sequence (mean length of 245\ bases; Figure \ref{figure:203:genelength}).
 Taken together, these results suggest that the AUGUSTUS-derived gene models better represent the genes present in the *B.\ napus* genome.
 This is due to the greater number of AUGUSTUS-derived gene models relative to the published gene models, that are not a consequence of gene models becoming split.
 Additionally, the AUGUSTUS-derived gene models were able to resolve chimeric gene models formed as a result of convergent transcription of genes and tandem arrays of similar genes, discussed earlier.

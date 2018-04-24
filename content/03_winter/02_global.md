@@ -61,9 +61,8 @@ represent the number of Arabidopsis genes that have more homologues
 expressed in Westar, whereas the right most percentage is the
 corresponding percentage for Tapidor. In both the apex (\textbf{a}) and
 the leaf (\textbf{b}) there are more Arabidopsis genes with more copies
-expressed in Tapidor relative to Westar, although this bias is
-exaggerated in the leaf relative to the
-apex.}\label{figure:3xx:tapvswesall}
+expressed in Tapidor relative to Westar. Using a chi-squared goodness-of-fit
+test (using the \texttt{chisq.test} function in the R statistical programming language\textsuperscript{TODO}), reveals that the bias towards Tapidor is not significant in the apex (\emph{p}-value of 0.359) but is significant in the leaf (\emph{p}-value of < 2.2e-16), assuming a 0.05 significance threshold, with the null hypothesis assuming equal numbers of points on each side of the diagonal, grey line.}\label{figure:3xx:tapvswesall}
 \end{figure}
 
 The bias towards Tapidor-specific expression observed from the overlaps of expressed genes (Figure \ref{figure:3xx:varietyvenn}) does not take into account homologue relationships.
@@ -72,6 +71,7 @@ This phenomenon will be described as compensatory expression of homologues.
 In order to investigate whether this form of compensation takes place, the number of Tapidor expressed and the number of Westar expressed copies of each Arabidopsis gene were compared (Figure \ref{figure:3xx:tapvswesall}).
 In the apex, 12.3% of Arabidopsis genes have more copies expressed in Westar relative to Tapidor, while 12.7% show the converse relationship (Figure \ref{figure:3xx:tapvswesall}a).
 However, the percentages calculated using expression data from the leaf (Figure \ref{figure:3xx:tapvswesall}b) reveal a higher percentage of Arabidopsis genes have a greater number of homologues expressed in Tapidor (16.2%) relative to Westar (10.3%).
+Assuming the null hypothesis of no bias towards either variety, the observed difference is significant (Figure \ref{figure:3xx:tapvswesall}).
 Within the range of 0 to 9 expressed *B.\ napus* homologues, the maximal difference in the number of expressed homologues between varieties is 5 (Figure \ref{figure:3xx:tapvswesall}).
 Percentages of Arabidopsis genes exhibiting different numbers of expressed homologues in each variety are higher than the percentages of *B.\ napus* genes exhibiting variety-specific expression (Figure \ref{figure:3xx:varietyvenn}).
 For example, 10.3% of Arabidopsis genes have more homologues expressed in the leaf in Westar relative to Tapidor (Figure \ref{figure:3xx:tapvswesall}b), whereas 5% of *B.\ napus* genes are expressed specifically in Westar (Figure \ref{figure:3xx:varietyvenn}b).
@@ -90,11 +90,11 @@ Arabidopsis floral genes that have equal numbers of homologues expressed
 in both Tapidor and Westar. The left most percentage within each graph
 represent the number of Arabidopsis genes that have more homologues
 expressed in Westar, whereas the right most percentage is the
-corresponding percentage for Tapidor. In both the apex (\textbf{a})
+corresponding percentage for Tapidor. In the apex (\textbf{a})
 there are equal numbers of Arabidopsis floral genes on both sides of the
 diagonal, whereas in the leaf (\textbf{b}) there are more Arabidopsis
 genes with more copies expressed in Tapidor relative to
-Westar.}\label{figure:3xx:tapvswesflor}
+Westar. The observed difference in the leaf (\textbf{b}) is significant (\emph{p}-value of 0.026), based on the same statistical test described for Figure \ref{figure:3xx:tapvswesall}.}\label{figure:3xx:tapvswesflor}
 \end{figure}
 
 To test if the retention of flowering time genes would affect the observation of Arabidopsis genes tending to have more expressed homologues in Tapidor leaf tissue, this was tested using a subset of flowering time genes.

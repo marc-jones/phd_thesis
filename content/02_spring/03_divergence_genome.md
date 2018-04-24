@@ -174,7 +174,7 @@ proportions of Arabidopsis genes that have particular numbers of
 homologues identified and expressed in \emph{B.~napus}. \emph{B.~napus}
 genes were considered to be expressed if their maximal expression level
 within a tissue across the time series was above 2.0~FPKM. False
-discovery corrected \emph{p-values} were computed by taking 1000 samples
+discovery corrected \emph{p}-values were computed by taking 1000 samples
 of genes from the All distribution. The mean and standard deviation of
 these samples were used to perform a two-tailed test of observing a
 proportion as extreme as the FLOR-ID value. \textbf{a} \emph{B.~napus}
