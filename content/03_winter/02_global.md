@@ -65,18 +65,6 @@ expressed in Tapidor relative to Westar. Using a chi-squared goodness-of-fit
 test (using the \texttt{chisq.test} function in the R statistical programming language\textsuperscript{TODO}), reveals that the bias towards Tapidor is not significant in the apex (\emph{p}-value of 0.359) but is significant in the leaf (\emph{p}-value of < 2.2e-16), assuming a 0.05 significance threshold, with the null hypothesis assuming equal numbers of points on each side of the diagonal, grey line.}\label{figure:3xx:tapvswesall}
 \end{figure}
 
-The bias towards Tapidor-specific expression observed from the overlaps of expressed genes (Figure \ref{figure:3xx:varietyvenn}) does not take into account homologue relationships.
-For example, within a set of *B.\ napus* genes homologous to the same Arabidopsis gene, variety-specific expression of one homologue towards one variety and another homologue towards the other variety would result in the same number of homologues being  expressed in each variety.
-This phenomenon will be described as compensatory expression of homologues.
-In order to investigate whether this form of compensation takes place, the number of Tapidor expressed and the number of Westar expressed copies of each Arabidopsis gene were compared (Figure \ref{figure:3xx:tapvswesall}).
-In the apex, 12.3% of Arabidopsis genes have more copies expressed in Westar relative to Tapidor, while 12.7% show the converse relationship (Figure \ref{figure:3xx:tapvswesall}a).
-However, the percentages calculated using expression data from the leaf (Figure \ref{figure:3xx:tapvswesall}b) reveal a higher percentage of Arabidopsis genes have a greater number of homologues expressed in Tapidor (16.2%) relative to Westar (10.3%).
-Assuming the null hypothesis of no bias towards either variety, the observed difference is significant (Figure \ref{figure:3xx:tapvswesall}).
-Within the range of 0 to 9 expressed *B.\ napus* homologues, the maximal difference in the number of expressed homologues between varieties is 5 (Figure \ref{figure:3xx:tapvswesall}).
-Percentages of Arabidopsis genes exhibiting different numbers of expressed homologues in each variety are higher than the percentages of *B.\ napus* genes exhibiting variety-specific expression (Figure \ref{figure:3xx:varietyvenn}).
-For example, 10.3% of Arabidopsis genes have more homologues expressed in the leaf in Westar relative to Tapidor (Figure \ref{figure:3xx:tapvswesall}b), whereas 5% of *B.\ napus* genes are expressed specifically in Westar (Figure \ref{figure:3xx:varietyvenn}b).
-Given that the mapping of Arabidopsis genes to *B.\ napus* is one-to-many, this suggests that *B.\ napus* genes exhibiting variety-specific expression are generally well distributed among different Arabidopsis genes.
-
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tap_vs_wes_exp_flowering.pdf}
 \caption{{Relationship between the number of expressed copies of
@@ -96,6 +84,18 @@ diagonal, whereas in the leaf (\textbf{b}) there are more Arabidopsis
 genes with more copies expressed in Tapidor relative to
 Westar. The observed difference in the leaf (\textbf{b}) is significant (\emph{p}-value of 0.026), based on the same statistical test described for Figure \ref{figure:3xx:tapvswesall}.}\label{figure:3xx:tapvswesflor}
 \end{figure}
+
+The bias towards Tapidor-specific expression observed from the overlaps of expressed genes (Figure \ref{figure:3xx:varietyvenn}) does not take into account homologue relationships.
+For example, within a set of *B.\ napus* genes homologous to the same Arabidopsis gene, variety-specific expression of one homologue towards one variety and another homologue towards the other variety would result in the same number of homologues being  expressed in each variety.
+This phenomenon will be described as compensatory expression of homologues.
+In order to investigate whether this form of compensation takes place, the number of Tapidor expressed and the number of Westar expressed copies of each Arabidopsis gene were compared (Figure \ref{figure:3xx:tapvswesall}).
+In the apex, 12.3% of Arabidopsis genes have more copies expressed in Westar relative to Tapidor, while 12.7% show the converse relationship (Figure \ref{figure:3xx:tapvswesall}a).
+However, the percentages calculated using expression data from the leaf (Figure \ref{figure:3xx:tapvswesall}b) reveal a higher percentage of Arabidopsis genes have a greater number of homologues expressed in Tapidor (16.2%) relative to Westar (10.3%).
+Assuming the null hypothesis of no bias towards either variety, the observed difference is significant (Figure \ref{figure:3xx:tapvswesall}).
+Within the range of 0 to 9 expressed *B.\ napus* homologues, the maximal difference in the number of expressed homologues between varieties is 5 (Figure \ref{figure:3xx:tapvswesall}).
+Percentages of Arabidopsis genes exhibiting different numbers of expressed homologues in each variety are higher than the percentages of *B.\ napus* genes exhibiting variety-specific expression (Figure \ref{figure:3xx:varietyvenn}).
+For example, 10.3% of Arabidopsis genes have more homologues expressed in the leaf in Westar relative to Tapidor (Figure \ref{figure:3xx:tapvswesall}b), whereas 5% of *B.\ napus* genes are expressed specifically in Westar (Figure \ref{figure:3xx:varietyvenn}b).
+Given that the mapping of Arabidopsis genes to *B.\ napus* is one-to-many, this suggests that *B.\ napus* genes exhibiting variety-specific expression are generally well distributed among different Arabidopsis genes.
 
 To test if the retention of flowering time genes would affect the observation of Arabidopsis genes tending to have more expressed homologues in Tapidor leaf tissue, this was tested using a subset of flowering time genes.
 In the apex (Figure \ref{figure:3xx:tapvswesflor}a) a higher percentage of Arabidopsis genes have the same number of homologues expressed in both varieties (78.4%) relative to the global percentage (75.0%).
@@ -152,6 +152,27 @@ This suggests that this potential form of varietal divergence does not play a ro
 
 ### Self-organizing maps reveal that a cold requirement delays developmental transcriptional programs {#section:winter:som}
 
+To understand whether a vernalization requirement has large scale effects on gene expression, self-organizing maps (SOMs) were used to cluster gene expression profiles across time.
+This was done to determine if the vernalization response acts through relatively few genes that have a large effect on flowering, or by affecting gene expression on a global scale.
+SOMs were employed to allow broad comparisons in regulatory patterns to be made between the two varieties.
+The SOM clusters to which most genes mapped in Tapidor showed remarkable similarity to the SOM clusters containing most genes in the spring variety (section \ref{section:spring:experimentaldesign}).
+In the apex (Figure \ref{figure:3xx:tapsomapex}) clusters 88 and 98 both exhibit increased expression during the vernalization period, with expression returning to pre-cold levels after the treatment.
+This expression trace closely follows that of cluster 19 from the Westar apex SOM (Figure \ref{figure:216:somaw}).
+Likewise, cluster 46 from both the Tapidor and Westar apex SOMs (Figure \ref{figure:3xx:tapsomapex} and \ref{figure:216:somaw}) exhibit relatively constant expression during the entire time series, with expression increasing significantly between the penultimate and final time points.
+However, although a similar pattern is observed, the final time point in the Tapidor time series (83 days of growth) does not occur at the same time as the final time point of the Westar time series (72 days of growth).
+Therefore, the upregulation of genes in Tapidor cluster 46 is delayed relative to Westar.
+The most highly enriched GO terms for this cluster relate to carpel, gynoecium, and floral whorl development, which is consistent with the vernalization response delaying flowering in the winter variety.
+Clusters 88 and 98 are both enriched for the GO term "circadian rhythm".
+That the expression of these clusters is very similar to clusters in Westar suggests that the vernalization requirement does not influence the expression of genes associated with the circadian rhythm or the photoperiod flowering pathway.
+
+Similarities to Westar were also observed in the SOM generated using the leaf transcriptomes from Tapidor, with two clusters having many genes mapped to them (Figure \ref{figure:3xx:tapsomleaf}).
+Cluster 25 exhibits an increase in expression during the vernalization treatment (Figure \ref{figure:3xx:tapsomleaf}), similarly to cluster 99 in the Westar leaf SOM (Figure \ref{figure:217:somlw}).
+Both clusters are enriched for GO terms linked to translation and protein biosynthesis, suggesting that the response to cold in the leaf requires the synthesis of novel cellular components.
+The other cluster with a large number of genes mapped to it in the Tapidor leaf SOM is cluster 59, which exhibits a slight increase in expression post-cold and a large increase at the final time point (Figure \ref{figure:3xx:tapsomleaf}).
+This is a similar expression trace to that exhibited by cluster 19 in the Westar leaf SOM (Figure \ref{figure:217:somlw}).
+The GO terms enriched in these two clusters relate to responding to cell stress, ageing and cell death.
+As with the apex, therefore, it seems that a requirement for cold delays the expression of genes that are expressed later in development but does not affect genes expressed as a result of the cold treatment.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tapidor_apex_som.pdf}
 \caption{{Self-organizing map of the apex transcriptome in
@@ -168,19 +189,6 @@ increasing during the vernalization
 treatment.}\label{figure:3xx:tapsomapex}
 \end{figure}
 
-To understand whether a vernalization requirement has large scale effects on gene expression, self-organizing maps (SOMs) were used to cluster gene expression profiles across time.
-This was done to determine if the vernalization response acts through relatively few genes that have a large effect on flowering, or by affecting gene expression on a global scale.
-SOMs were employed to allow broad comparisons in regulatory patterns to be made between the two varieties.
-The SOM clusters to which most genes mapped in Tapidor showed remarkable similarity to the SOM clusters containing most genes in the spring variety (section \ref{section:spring:experimentaldesign}).
-In the apex (Figure \ref{figure:3xx:tapsomapex}) clusters 88 and 98 both exhibit increased expression during the vernalization period, with expression returning to pre-cold levels after the treatment.
-This expression trace closely follows that of cluster 19 from the Westar apex SOM (Figure \ref{figure:216:somaw}).
-Likewise, cluster 46 from both the Tapidor and Westar apex SOMs (Figure \ref{figure:3xx:tapsomapex} and \ref{figure:216:somaw}) exhibit relatively constant expression during the entire time series, with expression increasing significantly between the penultimate and final time points.
-However, although a similar pattern is observed, the final time point in the Tapidor time series (83 days of growth) does not occur at the same time as the final time point of the Westar time series (72 days of growth).
-Therefore, the upregulation of genes in Tapidor cluster 46 is delayed relative to Westar.
-The most highly enriched GO terms for this cluster relate to carpel, gynoecium, and floral whorl development, which is consistent with the vernalization response delaying flowering in the winter variety.
-Clusters 88 and 98 are both enriched for the GO term "circadian rhythm".
-That the expression of these clusters is very similar to clusters in Westar suggests that the vernalization requirement does not influence the expression of genes associated with the circadian rhythm or the photoperiod flowering pathway.
-
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/tapidor_leaf_som.pdf}
 \caption{{Self-organizing map of the leaf transcriptome in
@@ -196,14 +204,6 @@ vernalization treatment, and 25, the expression pattern of which
 increases during the vernalization
 treatment.}\label{figure:3xx:tapsomleaf}
 \end{figure}
-
-Similarities to Westar were also observed in the SOM generated using the leaf transcriptomes from Tapidor, with two clusters having many genes mapped to them (Figure \ref{figure:3xx:tapsomleaf}).
-Cluster 25 exhibits an increase in expression during the vernalization treatment (Figure \ref{figure:3xx:tapsomleaf}), similarly to cluster 99 in the Westar leaf SOM (Figure \ref{figure:217:somlw}).
-Both clusters are enriched for GO terms linked to translation and protein biosynthesis, suggesting that the response to cold in the leaf requires the synthesis of novel cellular components.
-The other cluster with a large number of genes mapped to it in the Tapidor leaf SOM is cluster 59, which exhibits a slight increase in expression post-cold and a large increase at the final time point (Figure \ref{figure:3xx:tapsomleaf}).
-This is a similar expression trace to that exhibited by cluster 19 in the Westar leaf SOM (Figure \ref{figure:217:somlw}).
-The GO terms enriched in these two clusters relate to responding to cell stress, ageing and cell death.
-As with the apex, therefore, it seems that a requirement for cold delays the expression of genes that are expressed later in development but does not affect genes expressed as a result of the cold treatment.
 
 In order to compare transcriptional responses between tissues, comparisons between the apex and leaf SOMs were made.
 By comparing expression differences between the tissues in both varieties, it allows for differences that are biologically relevant, and not the result of biological noise, to be highlighted.
@@ -227,35 +227,10 @@ Pearson correlation coefficients are calculated by determining how linear the re
 A coefficient of 1 indicates a positive, linear relationship between the gene FPKM values between samples, whereas a coefficient of 0 indicates that a linear relationship is not present.
 The coefficients were calculated both within and across varieties for each tissue; the within variety comparisons allow for the timing of transcriptional changes to be determined while the across variety comparisons allow for differences in these timings, if they exist, to be assessed.
 
-\begin{figure}[htbp]
-\includegraphics{figuredirectory/apex_correlation.pdf}
-\caption{{Pearson correlation coefficients between apex samples.}}{Coefficients were calculated between the transcriptomes of all apex
-samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
-and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
-Coefficients between like samples (diagonal lines in \textbf{a} and
-\textbf{c}) have been removed for clarity. The higher the coefficient
-value, the more similar two samples are. It should be noted that
-although there are seven time points for Westar and Tapidor, the final
-two time points in Westar (69 and 72 days) are different to the final
-two time points in Tapidor (72 and 83 days)}\label{figure:3xx:corrapex}
-\end{figure}
-
 The first observation that stands out is the baseline similarity in expression values between samples.
 The lowest correlation coefficient observed is 0.4, which is found between the day 43 and day 83 samples within the Tapidor leaf (Figure \ref{figure:3xx:corrleaf}).
 That there is this basal level of correlation between the samples suggests that many genes are regulated similarly in both varieties.
 Calculating correlation values between tissues results in coefficients that are much lower, with means of 0.35 (Westar) and 0.31 (Tapidor), suggesting that the basal level of correlation observed between varieties is a consequence of tissue-specific gene expression.
-
-\begin{figure}[htbp]
-\includegraphics{figuredirectory/leaf_correlation.pdf}
-\caption{{Pearson correlation coefficients between leaf samples.}}{Coefficients were calculated between the transcriptomes of all leaf
-samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
-and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
-Coefficients between like samples (diagonal lines in \textbf{a} and
-\textbf{c}) have been removed for clarity. The higher the coefficient
-value, the more similar two samples are. The additional time point in
-Tapidor results in the rectangular Westar-Tapidor comparison
-heatmap.}\label{figure:3xx:corrleaf}
-\end{figure}
 
 An expectation of a correlation analysis such as this is that time points within a variety would tend to be most similar to temporally proximal time points, with similarity decreasing as time passes.
 This is based on the assumption that global transcriptional changes take time to orchestrate.
@@ -269,6 +244,31 @@ The cold treatment results in a transcriptome distinct from the other time point
 In both varieties, and in both tissues, the day 43 time point (half way through the vernalization treatment) has the highest correlation with the other time point taken during cold; the day 64 time point sampled the day before plants were removed from cold.
 This is also exemplified by the day 22 time point exhibiting highest correlation with the day 65 time point in both varieties and tissues; the first time point sampled after the plants were removed from the cold treatment.
 This reveals both that the cold treatment has a large effect on the transcriptome, and that the transcriptome, at a global level, responds quickly to removal from cold by returning to a largely similar state as pre-cold.
+
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/apex_correlation.pdf}
+\caption{{Pearson correlation coefficients between apex samples.}}{Coefficients were calculated between the transcriptomes of all apex
+samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
+and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
+Coefficients between like samples (diagonal lines in \textbf{a} and
+\textbf{c}) have been removed for clarity. The higher the coefficient
+value, the more similar two samples are. It should be noted that
+although there are seven time points for Westar and Tapidor, the final
+two time points in Westar (69 and 72 days) are different to the final
+two time points in Tapidor (72 and 83 days)}\label{figure:3xx:corrapex}
+\end{figure}
+
+\begin{figure}[htbp]
+\includegraphics{figuredirectory/leaf_correlation.pdf}
+\caption{{Pearson correlation coefficients between leaf samples.}}{Coefficients were calculated between the transcriptomes of all leaf
+samples, with Westar-Westar (\textbf{a}), Westar-Tapidor (\textbf{b}),
+and Tapidor-Tapidor (\textbf{c}) comparisons scaled individually.
+Coefficients between like samples (diagonal lines in \textbf{a} and
+\textbf{c}) have been removed for clarity. The higher the coefficient
+value, the more similar two samples are. The additional time point in
+Tapidor results in the rectangular Westar-Tapidor comparison
+heatmap.}\label{figure:3xx:corrleaf}
+\end{figure}
 
 The most striking result from this analysis is in the comparisons between varieties for both tissues (Figures \ref{figure:3xx:corrapex}b and \ref{figure:3xx:corrleaf}b).
 In the leaf, the highest correlation coefficients are between samples taken at the same time point (Figure \ref{figure:3xx:corrleaf}b).

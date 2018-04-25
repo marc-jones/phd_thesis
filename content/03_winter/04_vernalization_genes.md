@@ -26,7 +26,7 @@ SOM based method (discussed in section
 \ref{section:spring:somexplanation}) quantifies the similarity between
 the expression profiles. The A2, A10, A3 and C3 copies show very similar
 expression traces. \emph{Continued on Page
-\pageref{figure:3xx:flctapapexlegend}.}.}\label{figure:3xx:flctapapex}
+\pageref{figure:3xx:flctapapexlegend}}.}\label{figure:3xx:flctapapex}
 \end{figure}
 
 \begin{figure} [t!]
@@ -37,7 +37,6 @@ profiles that are different from the other \emph{BnFLC}
 copies.}%missing
 \label{figure:3xx:flctapapexlegend}
 \end{figure}
-
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_westar_flc.pdf}
@@ -78,6 +77,19 @@ The A10 and C3c copy are expressed in the winter variety, yet lack expression in
 Some copies exhibit reactivation after the cold-induced decrease, suggesting that the vernalization treatment was not sufficient to stably silence those copies.
 Interestingly, this reactivation seems to be variety-specific for some genes, with the A3b, C2, and C9a copies exhibiting reactivation in the winter and not the spring variety.
 
+The expression response of *FLC* in Arabidopsis is quantitative at the tissue level[@michaels_flowering_1999; @angel_polycomb_based_2011].
+The magnitude of expression is therefore an important aspect of *FLC* regulation.
+Comparing the expression traces of the A genome copies of *BnFLC* expressed in both varieties in the apex (Figure \ref{figure:3xx:flcapexagenome}) revealed that the A2 and A3b copies are initially expressed at significantly lower levels in the spring variety relative to the winter variety.
+Therefore, although these copies both exhibit a decrease in expression during the cold treatment in both varieties, the absolute difference in expression level is greatest in the winter variety.
+The A3a copy of *BnFLC* shows remarkably similar expression traces and expression levels throughout the developmental time series in both varieties.
+Differences in the magnitude of expression are also observed for the C genome copies of *BnFLC* (Figure \ref{figure:3xx:flcapexcgenome}).
+Like the A2 and A3b copies, *BnFLC.C2* is more highly expressed pre-cold in the winter variety relative to the spring variety, suggesting a role in delaying the floral transition in Tapidor.
+The C3b copy of *BnFLC* shows very similar expression patterns and levels across the entire time series in both varieties, and is very lowly expressed in general.
+This suggests that it does not contribute to the differences in flowering observed between the two varieties.
+Finally, the C9 copies of *BnFLC* are frequently more highly expressed in the spring variety relative to the winter variety.
+This is especially true for *BnFLC.C9b*, where the expression level of the gene in the spring variety is approximately three-fold higher than the winter variety at the beginning of the time series.
+That these copies are more highly expressed in the spring variety indicates that these copies likely do not play a role in delaying the floral transition, unlike the role of *FLC* in Arabidopsis.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/flc_comparison_apex_1.pdf}
 \caption{{Expression traces for the A genome \emph{BnFLC} genes
@@ -103,19 +115,6 @@ C9b copies is frequently higher across the time series in the spring
 variety, suggesting that these copies do not delay the floral
 transition.}\label{figure:3xx:flcapexcgenome}
 \end{figure}
-
-The expression response of *FLC* in Arabidopsis is quantitative at the tissue level[@michaels_flowering_1999; @angel_polycomb_based_2011].
-The magnitude of expression is therefore an important aspect of *FLC* regulation.
-Comparing the expression traces of the A genome copies of *BnFLC* expressed in both varieties in the apex (Figure \ref{figure:3xx:flcapexagenome}) revealed that the A2 and A3b copies are initially expressed at significantly lower levels in the spring variety relative to the winter variety.
-Therefore, although these copies both exhibit a decrease in expression during the cold treatment in both varieties, the absolute difference in expression level is greatest in the winter variety.
-The A3a copy of *BnFLC* shows remarkably similar expression traces and expression levels throughout the developmental time series in both varieties.
-Differences in the magnitude of expression are also observed for the C genome copies of *BnFLC* (Figure \ref{figure:3xx:flcapexcgenome}).
-Like the A2 and A3b copies, *BnFLC.C2* is more highly expressed pre-cold in the winter variety relative to the spring variety, suggesting a role in delaying the floral transition in Tapidor.
-The C3b copy of *BnFLC* shows very similar expression patterns and levels across the entire time series in both varieties, and is very lowly expressed in general.
-This suggests that it does not contribute to the differences in flowering observed between the two varieties.
-Finally, the C9 copies of *BnFLC* are frequently more highly expressed in the spring variety relative to the winter variety.
-This is especially true for *BnFLC.C9b*, where the expression level of the gene in the spring variety is approximately three-fold higher than the winter variety at the beginning of the time series.
-That these copies are more highly expressed in the spring variety indicates that these copies likely do not play a role in delaying the floral transition, unlike the role of *FLC* in Arabidopsis.
 
 The expression of *BnFLC* genes in the apex reveals that all but one homologue decrease in expression during the cold treatment, in line with expectations from Arabidopsis[@michaels_flowering_1999].
 That some copies exhibit reactivation in the winter, and not the spring variety, suggests that potentially the length of cold was not sufficient to stably repress the expression of those copies.
@@ -336,6 +335,13 @@ In addition to the vernalization pathway, *VIL1* and *VIL2* have been found to i
 As a result of the key roles these genes play in mediating the vernalization response, their expression profiles in the two *B.\ napus* varieties were investigated.
 As very little regulatory and between variety divergence was observed for *VIL1* and *VIL2* *B.\ napus* homologues, the analysis of those genes can be found in Appendix B.
 
+Three copies of *BnVIN3* are expressed across both tissues and varieties; one copy on the A2, A3, and C2 chromosomes.
+In both the apex (Figure \ref{figure:3xx:vin3apex}) and the leaf (Figure \ref{figure:3xx:vin3leaf}) the expression pattern of the gene exhibits an increase during the vernalization treatment and returns to low temperatures post-cold.
+This is in line with the expression of *VIN3* in Arabidopsis[@sung_vernalization_2004].
+Comparing the magnitude of expression, between variety differences are present, but only for certain copies.
+In the apex, *BnVIN3.A2* and *BnVIN3.A3* are two- to three-fold more highly expressed during the cold treatment in Tapidor compared to Westar, whereas the C2 copy is similarly expressed in both (Figure \ref{figure:3xx:vin3apex}).
+In the leaf, only the A3 copy exhibits similar differences in the magnitude of expression between varieties, with the A2 and C2 copy being more similarly expressed (Figure \ref{figure:3xx:vin3leaf}).
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_vin3.pdf}
 \caption{{Expression traces for the \emph{BnVIN3} genes in the
@@ -359,13 +365,6 @@ the similarity between the expression profiles. An upregulation of
 expression during the vernalization treatment is observed in all copies
 and in both varieties.}\label{figure:3xx:vin3leaf}
 \end{figure}
-
-Three copies of *BnVIN3* are expressed across both tissues and varieties; one copy on the A2, A3, and C2 chromosomes.
-In both the apex (Figure \ref{figure:3xx:vin3apex}) and the leaf (Figure \ref{figure:3xx:vin3leaf}) the expression pattern of the gene exhibits an increase during the vernalization treatment and returns to low temperatures post-cold.
-This is in line with the expression of *VIN3* in Arabidopsis[@sung_vernalization_2004].
-Comparing the magnitude of expression, between variety differences are present, but only for certain copies.
-In the apex, *BnVIN3.A2* and *BnVIN3.A3* are two- to three-fold more highly expressed during the cold treatment in Tapidor compared to Westar, whereas the C2 copy is similarly expressed in both (Figure \ref{figure:3xx:vin3apex}).
-In the leaf, only the A3 copy exhibits similar differences in the magnitude of expression between varieties, with the A2 and C2 copy being more similarly expressed (Figure \ref{figure:3xx:vin3leaf}).
 
 Copies of *BnVIN3* exhibit between variety expression that is consistent with *VIN3* being required to direct the repression of *FLC* during cold.
 The higher expression of *BnVIN3.A2* in apex tissue, and the higher expression of *BnVIN3.A3* in both tissues, in the winter variety relative to the spring variety, may be required in order to repress the more transcriptionally active *BnFLC* copies in Tapidor.

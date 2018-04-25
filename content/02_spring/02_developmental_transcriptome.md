@@ -164,6 +164,17 @@ In the case of *B.\ napus*, splice isoforms are less well categorized than for o
 Additionally, the downstream statistics pipeline for Kallisto[@pimentel_sleuth_2016] is designed to carry out differential expression analysis using RNA-Seq data, rather than estimating expression levels taking into account technical and biological noise.
 Due to these issues with Kallisto, and as the Tuxedo suite is a mature suite previously used in other *B.\ napus* RNA-Seq studies[@xu_transcriptome_2015; @chan_tissue_specific_2016], the latter was used to quantify gene expression.
 
+To quantify gene expression for the the transcriptomic time series, short reads were aligned to the *B.\ napus* reference genome[@napus_genome_2014] using the AUGUSTUS-derived gene models (discussed in Section \ref{section:spring:genomegenemodels}).
+Initially, only short reads from a single sequencing run were available for each sample, with an average of 67\ million reads per sample obtained.
+Of these total reads, 82% were mapped to the reference genome.
+The confidence intervals calculated by Cufflinks using this sequencing data, however, were too large to allow confident conclusions to be drawn from the data.
+A hypothesis for why this was the case is that Cufflinks did not have information from biological repeats to properly calculate confidence intervals.
+In the absence of multiple measurements for a sample, Cufflinks treats all samples as repeats of each other in order to parametrize the error model used[@trapnell_differential_2013].
+To test if this was the case, gene expression values were calculated separately for the two tissues.
+If the large confidence intervals were indeed due to the lack of repeat measurements, it was expected that only using samples of the same tissue type to parameterize the error model would result in smaller confidence intervals being calculated.
+Performing the analysis in this way lead to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:205:tissuesplitconf}), while not affecting the expression level estimations for genes (Figure \ref{figure:204:tissuesplitfpkm}).
+This suggests that the initial size of the confidence intervals was indeed because samples from different tissues, different varieties, and different points in development were used to calculate the uncertainty in the data.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/05_tissue_split_sequencing_confidence_interval.pdf}
 \caption{{Calculating FPKM values for the apex and leaf
@@ -193,17 +204,6 @@ calculated. The data is displayed as a two dimensional histogram, where
 the colour of the hexagonal unit indicates the number of data points
 mapping to that part of the plot.}\label{figure:204:tissuesplitfpkm}
 \end{figure}
-
-To quantify gene expression for the the transcriptomic time series, short reads were aligned to the *B.\ napus* reference genome[@napus_genome_2014] using the AUGUSTUS-derived gene models (discussed in Section \ref{section:spring:genomegenemodels}).
-Initially, only short reads from a single sequencing run were available for each sample, with an average of 67\ million reads per sample obtained.
-Of these total reads, 82% were mapped to the reference genome.
-The confidence intervals calculated by Cufflinks using this sequencing data, however, were too large to allow confident conclusions to be drawn from the data.
-A hypothesis for why this was the case is that Cufflinks did not have information from biological repeats to properly calculate confidence intervals.
-In the absence of multiple measurements for a sample, Cufflinks treats all samples as repeats of each other in order to parametrize the error model used[@trapnell_differential_2013].
-To test if this was the case, gene expression values were calculated separately for the two tissues.
-If the large confidence intervals were indeed due to the lack of repeat measurements, it was expected that only using samples of the same tissue type to parameterize the error model would result in smaller confidence intervals being calculated.
-Performing the analysis in this way lead to a general reduction in the size of the confidence intervals calculated for each expression level estimate (Figure \ref{figure:205:tissuesplitconf}), while not affecting the expression level estimations for genes (Figure \ref{figure:204:tissuesplitfpkm}).
-This suggests that the initial size of the confidence intervals was indeed because samples from different tissues, different varieties, and different points in development were used to calculate the uncertainty in the data.
 
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/07_both_vs_first_sequencing_conf_interval.pdf}
@@ -318,6 +318,20 @@ The ratio of grid dimensions are set as the same ratio as the eigenvalues of the
 These properties lead to a clustering method that allows for the time series data to be summarized and visualized in an intuitive manner.
 Only SOMs generated using data from Westar are displayed here, with SOMs generated using data from Tapidor discussed elsewhere in the thesis (Section \ref{section:winter:som}).
 
+Within the SOM generated using the transcriptomic time series from the apex (Figure \ref{figure:216:somaw}), there are two regions that have a high number of genes mapped to them, represented by clusters 19 and 46.
+The expression profile of cluster 19 is low at the start of the time series, increases during the cold, and returns to pre-cold levels when the plants are transferred back to growth in warmer conditions.
+The other region of the map with a high number of genes mapped to it are the clusters located towards the centre of the map, represented by cluster 46.
+These clusters exhibit an expression pattern that remains largely constant throughout the developmental time series, with an increase in expression towards the final time point (Figure \ref{figure:216:somaw}).
+These findings suggest that in the apex a large number of genes are responding to the change in growth conditions in the vernalization treatment, that is, short days and 5\ &deg;C temperatures.
+The large number of genes that increase in expression at the final time point may be due to flower buds being formed in the apex, which would require the coordinated expression of many genes.
+
+To determine whether trends similar to the apex would also be observed in the leaf transcriptome, a SOM was generated for the leaf transcriptome time series (Figure \ref{figure:217:somlw}).
+High numbers of genes mapped to three regions of the leaf SOM; represented by clusters 19, 82, and 99.
+Cluster 82 exhibits an expression profile that is high initially, decreases during the vernalization period, and remains lowly expressed when plants are returned to warmer growth conditions.
+This suggests that a large number of genes are becoming stably repressed during the cold period, which may be due to a vernalization response or to effects resulting from the leaf ageing during the time series.
+Clusters 19 and 99 exhibit similar expression profiles as clusters 46 and 19 from the apex-derived SOM (Figure \ref{figure:216:somaw}).
+This suggests that, as with the apex-derived SOM, that a large subset of genes are responding to growth in the cold, short day conditions of the vernalization treatment, while another subset are potentially responding to age effects and the floral transition.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10c_a_w_som_count.pdf}
 \caption{{SOM generated using the apex transcriptome time series
@@ -333,13 +347,6 @@ correspond to clusters 19 and 46, that represent areas of the SOM with
 high numbers of genes.}\label{figure:216:somaw}
 \end{figure}
 
-Within the SOM generated using the transcriptomic time series from the apex (Figure \ref{figure:216:somaw}), there are two regions that have a high number of genes mapped to them, represented by clusters 19 and 46.
-The expression profile of cluster 19 is low at the start of the time series, increases during the cold, and returns to pre-cold levels when the plants are transferred back to growth in warmer conditions.
-The other region of the map with a high number of genes mapped to it are the clusters located towards the centre of the map, represented by cluster 46.
-These clusters exhibit an expression pattern that remains largely constant throughout the developmental time series, with an increase in expression towards the final time point (Figure \ref{figure:216:somaw}).
-These findings suggest that in the apex a large number of genes are responding to the change in growth conditions in the vernalization treatment, that is, short days and 5\ &deg;C temperatures.
-The large number of genes that increase in expression at the final time point may be due to flower buds being formed in the apex, which would require the coordinated expression of many genes.
-
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/10d_l_w_som_count.pdf}
 \caption{{SOM generated using the leaf transcriptome time series
@@ -354,13 +361,6 @@ genes mapped to that particular cluster. The graphs under the plot
 correspond to clusters 19, 82, and 99, that represent areas of the SOM
 with high numbers of genes.}\label{figure:217:somlw}
 \end{figure}
-
-To determine whether trends similar to the apex would also be observed in the leaf transcriptome, a SOM was generated for the leaf transcriptome time series (Figure \ref{figure:217:somlw}).
-High numbers of genes mapped to three regions of the leaf SOM; represented by clusters 19, 82, and 99.
-Cluster 82 exhibits an expression profile that is high initially, decreases during the vernalization period, and remains lowly expressed when plants are returned to warmer growth conditions.
-This suggests that a large number of genes are becoming stably repressed during the cold period, which may be due to a vernalization response or to effects resulting from the leaf ageing during the time series.
-Clusters 19 and 99 exhibit similar expression profiles as clusters 46 and 19 from the apex-derived SOM (Figure \ref{figure:216:somaw}).
-This suggests that, as with the apex-derived SOM, that a large subset of genes are responding to growth in the cold, short day conditions of the vernalization treatment, while another subset are potentially responding to age effects and the floral transition.
 
 SOMs have been used in previous investigations to cluster gene expression traces[@payne_npf_2017] and distil general trends from time series expression data[@kim_dampening_2013].
 To validate that the transcriptome time series accurately captures important expression profiles, SOMs were used to cluster data from the Westar leaf and apex samples.

@@ -150,6 +150,21 @@ Likewise, the A7 and C6 copies of both *BnFT* and *BnAP1* display similar expres
 Therefore, a vernalization requirement does not seem to completely abolish the upregulation of floral integrators during the floral transition.
 This suggests that the *BnFLC* copies that exhibit expression reactivation post-cold do not repress any of the floral integrators that display upregulation in both varieties.
 
+*SOC1* is a direct target of *FLC* in Arabidopsis[@helliwell_arabidopsis_2006; @searle_transcription_2006].
+However, homologues of this gene do not seem to be impacted by the vernalization response in Tapidor.
+In the apex in Westar, the *BnSOC1* genes exhibit peaks in expression during and after the vernalization treatment, with the ratio of expression magnitudes between these peaks varying between the copies (section \ref{section:spring:soc1}).
+In both varieties, the C4 and A3 copies exhibit the most extreme of these ratios, with *BnSOC1.A3.Random* peaking in expression post-cold and the *BnSOC1.C4* copy peaking during the cold (Figures \ref{figure:227:soc1apex} and \ref{figure:3xx:soc1apex}).
+That these observations are not altered in the winter variety suggests that the effect of a cold requirement impacts the regulation of all *BnSOC1* genes similarly.
+
+Expression magnitude differences between copies are also maintained in the winter variety.
+Of the A7 and C6 copies of *BnAP1*, *BnAP1.C6a* has the lowest maximum expression in both varieties.
+*BnAP1.C2a.Random* and *BnAP1.Cnn.Random* are both lowly expressed copies that display a slight peak during vernalization in both varieties (Figure \ref{figure:3xx:ap1apex}).
+The tissue-specific differences in *BnSOC1* expression observed in the spring variety are conserved in the winter variety, with *BnSOC1.A3.Random*, and *BnSOC1.A4.Random* and *BnSOC1.A4* being most highly expressed in the apex and leaf respectively.
+
+It might be expected, given how genes have diverged in Arabidopsis[@blanc_functional_2004], that certain homologues of floral integrators would be more vernalization responsive than others.
+If this was the case, one would expect the regulatory divergence between homologues in Tapidor to be greater than that observed in Westar.
+However, the expression of the floral integrator homologues in Tapidor reveals that this is not the case.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_soc1.pdf}
 \caption{{Expression traces for the \emph{BnSOC1} genes in the
@@ -176,12 +191,6 @@ observed, both in terms of expression pattern and the magnitude of
 expression.}\label{figure:3xx:soc1leaf}
 \end{figure}
 
-*SOC1* is a direct target of *FLC* in Arabidopsis[@helliwell_arabidopsis_2006; @searle_transcription_2006].
-However, homologues of this gene do not seem to be impacted by the vernalization response in Tapidor.
-In the apex in Westar, the *BnSOC1* genes exhibit peaks in expression during and after the vernalization treatment, with the ratio of expression magnitudes between these peaks varying between the copies (section \ref{section:spring:soc1}).
-In both varieties, the C4 and A3 copies exhibit the most extreme of these ratios, with *BnSOC1.A3.Random* peaking in expression post-cold and the *BnSOC1.C4* copy peaking during the cold (Figures \ref{figure:227:soc1apex} and \ref{figure:3xx:soc1apex}).
-That these observations are not altered in the winter variety suggests that the effect of a cold requirement impacts the regulation of all *BnSOC1* genes similarly.
-
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/apex_lfy.pdf}
 \caption{{Expression traces for the \emph{BnLFY} genes in the
@@ -193,15 +202,6 @@ SOM based method (discussed in section
 the expression profiles. All four copies exhibit very similar expression
 profiles.}\label{figure:3xx:lfyapex}
 \end{figure}
-
-Expression magnitude differences between copies are also maintained in the winter variety.
-Of the A7 and C6 copies of *BnAP1*, *BnAP1.C6a* has the lowest maximum expression in both varieties.
-*BnAP1.C2a.Random* and *BnAP1.Cnn.Random* are both lowly expressed copies that display a slight peak during vernalization in both varieties (Figure \ref{figure:3xx:ap1apex}).
-The tissue-specific differences in *BnSOC1* expression observed in the spring variety are conserved in the winter variety, with *BnSOC1.A3.Random*, and *BnSOC1.A4.Random* and *BnSOC1.A4* being most highly expressed in the apex and leaf respectively.
-
-It might be expected, given how genes have diverged in Arabidopsis[@blanc_functional_2004], that certain homologues of floral integrators would be more vernalization responsive than others.
-If this was the case, one would expect the regulatory divergence between homologues in Tapidor to be greater than that observed in Westar.
-However, the expression of the floral integrator homologues in Tapidor reveals that this is not the case.
 
 ### Conclusions
 

@@ -21,6 +21,28 @@ In order to focus this analysis, only the floral integrator hubs included in the
 
 ### *FLOWERING LOCUS T* {#section:spring:ft}
 
+*FT* is a floral activator that is induced in long day conditions to promote flowering[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
+In Arabidopsis, *FT* is primarily expressed in the phloem companion cells, with the FT protein transported in the plant vasculature to the apex to initiate flowering[@aksenova_florigen_2006; @jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008].
+It is likely that this mechanism of *FT* action is conserved in *B.\ napus*[@giavalisco_towards_2006].
+Although the leaf is the primary expression domain of *FT*, expression of the gene has also been observed in the shoot apex and the hypocotyl of long day grown plants[@kardailsky_activation_1999; @kobayashi_pair_1999], although the biological relevance of these observations is unknown.
+In contrast to other studies that found six copies of *FT* in *B.\ napus*[@wang_evolution_2009; @guo_mutations_2014], only four copies of *BnFT* were found in the transcriptomic time series, situated on chromosomes A2, A7, C2, and C6.
+In previous studies, two additional copies were found on A7 and C6, with these copies located in inverted blocks of duplicated sequence[@wang_evolution_2009].
+Potentially the additional copies of *BnFT* are not present in the Darmor-*bzh* reference genome as a result of genome assembly error, caused by the inverted blocks failing to be resolved.
+
+As *FT* is primarily expressed in the leaf in Arabidopsis[@aksenova_florigen_2006; @jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008], the expression of the gene in this tissue was analysed.
+The four *BnFT* homologues exhibit a *gradated* pattern of regulatory module assignment with two regulatory modules (Figure \ref{figure:223:ftleaf}).
+All four *BnFT* genes exhibit moderate expression prior to cold treatment.
+During vernalization, *BnFT* gene expression decreases to very low values, with expression increasing when plants are returned to growth in warm, long day conditions.
+Between the penultimate and final time points, the A7 and C6 copies exhibit a significant decrease in their expression, while the A2 and C2 copies do not.
+This decrease in expression is not as severe for the *BnFT.A7* gene, resulting in the gene being assigned to both regulatory modules (Figure \ref{figure:223:ftleaf}).
+In the leaf, therefore, *BnFT.A2* and *BnFT.C2* both exhibit a divergent expression trace to *BnFT.C6*, but *BnFT.A7* shows similarities in its expression trace with all homologues.
+This suggests subtle regulatory divergence between the copies of *BnFT*.
+Comparing the magnitude of expression, the A genome copies of *BnFT* are more highly expressed than the copies on the C genome.
+*BnFT.A2* is generally five-fold more highly expressed across the time series relative to *BnFT.C2.Random*[^napusgenomeexplanation], while *BnFT.A7* is two- to three-fold more highly expressed than *BnFT.C6*.
+This genome of origin bias suggests that the A genome copies potentially influence flowering to a greater extent than the C genome copies.
+
+[^napusgenomeexplanation]: The *B.\ napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'. Throughout this work, similar notation is used to indicate the scaffold on which the gene is located.
+
 \begin{figure}[htbp]
 \includegraphics{figuredirectory/23_exp_ft_leaf.pdf}
 \caption{{Expression traces for the \emph{BnFT} genes in the
@@ -44,28 +66,6 @@ SOM based method (Section \ref{section:spring:divergence}) is also
 displayed. The A7 and C6 copies exhibit very similar expression traces,
 increasing gradually during the time series.}\label{figure:225:ftapex}
 \end{figure}
-
-*FT* is a floral activator that is induced in long day conditions to promote flowering[@samach_distinct_2000; @yoo_constans_2005; @kobayashi_pair_1999].
-In Arabidopsis, *FT* is primarily expressed in the phloem companion cells, with the FT protein transported in the plant vasculature to the apex to initiate flowering[@aksenova_florigen_2006; @jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008].
-It is likely that this mechanism of *FT* action is conserved in *B.\ napus*[@giavalisco_towards_2006].
-Although the leaf is the primary expression domain of *FT*, expression of the gene has also been observed in the shoot apex and the hypocotyl of long day grown plants[@kardailsky_activation_1999; @kobayashi_pair_1999], although the biological relevance of these observations is unknown.
-In contrast to other studies that found six copies of *FT* in *B.\ napus*[@wang_evolution_2009; @guo_mutations_2014], only four copies of *BnFT* were found in the transcriptomic time series, situated on chromosomes A2, A7, C2, and C6.
-In previous studies, two additional copies were found on A7 and C6, with these copies located in inverted blocks of duplicated sequence[@wang_evolution_2009].
-Potentially the additional copies of *BnFT* are not present in the Darmor-*bzh* reference genome as a result of genome assembly error, caused by the inverted blocks failing to be resolved.
-
-As *FT* is primarily expressed in the leaf in Arabidopsis[@aksenova_florigen_2006; @jaeger_ft_2007; @mathieu_export_2007; @notaguchi_long_distance_2008], the expression of the gene in this tissue was analysed.
-The four *BnFT* homologues exhibit a *gradated* pattern of regulatory module assignment with two regulatory modules (Figure \ref{figure:223:ftleaf}).
-All four *BnFT* genes exhibit moderate expression prior to cold treatment.
-During vernalization, *BnFT* gene expression decreases to very low values, with expression increasing when plants are returned to growth in warm, long day conditions.
-Between the penultimate and final time points, the A7 and C6 copies exhibit a significant decrease in their expression, while the A2 and C2 copies do not.
-This decrease in expression is not as severe for the *BnFT.A7* gene, resulting in the gene being assigned to both regulatory modules (Figure \ref{figure:223:ftleaf}).
-In the leaf, therefore, *BnFT.A2* and *BnFT.C2* both exhibit a divergent expression trace to *BnFT.C6*, but *BnFT.A7* shows similarities in its expression trace with all homologues.
-This suggests subtle regulatory divergence between the copies of *BnFT*.
-Comparing the magnitude of expression, the A genome copies of *BnFT* are more highly expressed than the copies on the C genome.
-*BnFT.A2* is generally five-fold more highly expressed across the time series relative to *BnFT.C2.Random*[^napusgenomeexplanation], while *BnFT.A7* is two- to three-fold more highly expressed than *BnFT.C6*.
-This genome of origin bias suggests that the A genome copies potentially influence flowering to a greater extent than the C genome copies.
-
-[^napusgenomeexplanation]: The *B.\ napus* reference genome[@napus_genome_2014] constructed sequence scaffolds that were joined to generate 19 pseudochromosomes. Scaffolds that mapped to a pseudochromosome but could not be oriented were denoted 'random'. Unmapped scaffolds that could be assigned to the A or C genome were denoted 'Ann' and 'Cnn' respectively. Scaffolds that were not mapped during any of these steps were denoted 'Unn'. Throughout this work, similar notation is used to indicate the scaffold on which the gene is located.
 
 To determine whether the *BnFT* genes exhibit tissue-specific expression, the expression of these four genes was analysed in the apex samples.
 In the apex, only two of the *BnFT* genes are expressed; *BnFT.A7* and *BnFT.C6* (Figure \ref{figure:225:ftapex}).
