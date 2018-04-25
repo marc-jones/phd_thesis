@@ -84,7 +84,7 @@ This search function allows users to access the entire dataset agnostic to wheth
 \includegraphics{figuredirectory/04_table_screen.png}
 \caption{{Screenshot of the Table page.}}{Selecting \emph{B.
 napus} genes on the Search page creates a row in the table on this page.
-Displayed on each row is the Cufflinks\textsuperscript{253} assigned
+Displayed on each row is the Cufflinks\textsuperscript{256} assigned
 gene name, the chromosome and chromosome position where the gene is
 located, details about the Arabidopsis gene to which the \emph{B.\ napus}
 gene exhibits sequence conservation, and details about the degree of

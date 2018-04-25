@@ -35,11 +35,11 @@ identified in Arabidopsis are not present downstream of some
 \emph{BnTFL1} genes.}}{\textbf{a} The degree of sequence conservation
 between the \emph{BnTFL1} genes and \emph{TFL1} from Arabidopsis. Sequence alignment and
 conservation calculations were performed using the mVISTA
-server\textsuperscript{472,473} with a sliding window size of 100~bp.
+server\textsuperscript{475,476} with a sliding window size of 100~bp.
 The seven regions of high interspecies sequence conservation (green
 bars) and the five cis-regulatory regions (blue boxes) identified by
 Serrano-Mislata et al. (2016) are shown relative to the \emph{TFL1} gene
-model\textsuperscript{306} (black bars). The labelling of these regions
+model\textsuperscript{309} (black bars). The labelling of these regions
 follows the same conventions as the previous study. The pink shaded
 areas under the sequence conservation curves are regions above 70\%
 sequence conservation. Genomic position upstream and downstream of the
@@ -105,7 +105,7 @@ diagram of the cAMP responsive element-binding protein bound to DNA. The
 leucine zipper region (purple) mediates the dimerization of the two
 monomers. The basic region (green) interacts with the major groove of
 DNA (black). Figure modified from Schumacher et al.
-(2000)\textsuperscript{316}.}\label{figure:2xx:bzip}
+(2000)\textsuperscript{319}.}\label{figure:2xx:bzip}
 \end{figure}
 
 The FD protein is a transcription factor that interacts with both FT and TFL1 proteins to mediate their association with DNA[@abe_fd_2005; @jaeger_interlocking_2013].
@@ -134,7 +134,7 @@ Computational modelling of monomer dimerization suggests that the differences in
 \includegraphics{figuredirectory/34_brassica_sequence_alignment.pdf}
 \caption{{Multiple sequence alignment of the Arabidopsis and BnFD
 proteins}}{The indicated regions of the protein are defined as in Tsuji
-et al. (2013)\textsuperscript{315}. Between copy variation is observed
+et al. (2013)\textsuperscript{318}. Between copy variation is observed
 in the A, BASIC, LEUCINE ZIPPER, and SAP regions, in addition to elsewhere in the protein. The heptad structure
 of the \(\alpha\)-helix that makes up the leucine zipper region is
 displayed below the alignment of that region in the diagram. Amino acid residues located in the
@@ -165,7 +165,7 @@ Changing the threonine to a serine was found to not affect FD binding to FT in A
 \caption{{Protein structure of the BnFD proteins complexed with
 DNA reveal different hydrogren bonding.}}{The protein structure of the
 CREB protein (PDB ID: 1DH3) from Schumacher et al.
-(2000)\textsuperscript{316} was changed to match the amino acids present
+(2000)\textsuperscript{319} was changed to match the amino acids present
 in the basic region of BnFD proteins. The single letter codes of the
 amino acids replaced, and their positions in the amino acid alignment in
 Figure \ref{figure:234:brassicasequence}, are displayed above each plot.
@@ -218,7 +218,7 @@ charges between the two helicies respectively. The helical wheels
 demonstrate that attractive forces are predicted to form between the
 BnFD.C1 homodimer and the BnFD.C1-BnFD.C7 heterodimer, while a repulsive
 force is present in the BnFD.C7 homodimer. The helical wheels were drawn
-using DrawCoil\textsuperscript{480} (version
+using DrawCoil\textsuperscript{483} (version
 1.0).}\label{figure:236b:helicalwheels}
 \end{figure}
 
@@ -238,7 +238,7 @@ These polymorphisms suggest that certain dimer combinations of the BnFD proteins
 \includegraphics{figuredirectory/37_fd_dimer_heatmap.pdf}
 \caption{{Heatmap of the dimerization affinity scores computed
 between BnFD leucine zipper regions.}}{The machine learning algorithm
-developed by Potapov et al. (2015)\textsuperscript{317} was used to
+developed by Potapov et al. (2015)\textsuperscript{320} was used to
 score the dimerization affinity of the leucine zipper regions of the
 possible BnFD dimers. Higher scoring dimers are more likely to form than
 lower scoring dimers. The leucine zipper regions used for the analysis
@@ -275,7 +275,7 @@ Several amino acid differences resulting in side chain charge
 differences are observed in the \texttt{e} and \texttt{g} heptad
 positions. The effect these changes have on the interaction scores
 calculated using the method of Potapov et al.
-(2015)\textsuperscript{317} are displayed as a heatmap for the
+(2015)\textsuperscript{320} are displayed as a heatmap for the
 \emph{M.~acuminata} orthologues. The gene names are displayed in Table
 \ref{appendix:figure238table}; Appendix A.}\label{figure:238:ensembl}
 \end{figure}
@@ -290,9 +290,9 @@ Several amino acid differences, which result in side chain charge
 changes, are observed in the \texttt{e} and \texttt{g} heptad
 positions. The effect these changes have on the interaction scores
 calculated using the method of Potapov et al.
-(2015)\textsuperscript{317} are displayed as heatmaps. The \emph{Z.~mays} proteins plotted were chosen by selecting the \emph{Z.~mays}
+(2015)\textsuperscript{320} are displayed as heatmaps. The \emph{Z.~mays} proteins plotted were chosen by selecting the \emph{Z.~mays}
 protein with the highest sequence similarity to the Arabidopsis FD protein, as identified in the
-EnsemblPlants database\textsuperscript{318}. In addition, the paralogues of each gene identified in this way were also included. The \emph{T.~aestivum}
+EnsemblPlants database\textsuperscript{321}. In addition, the paralogues of each gene identified in this way were also included. The \emph{T.~aestivum}
 proteins were identified in the same way, except that in addition to the
 paralogues, the homoeologues of all proteins were also included. The
 gene names are displayed in Table \ref{appendix:figure239wheatmaizefd};

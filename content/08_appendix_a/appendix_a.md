@@ -35,7 +35,7 @@ plots consisted of expression data from: \textbf{a} all annotated
 sequence conservation to an annotated Arabidopsis thaliana gene, and
 \textbf{c} \emph{B. napus} genes that show sequence conservation to an
 annotated Arabidopsis gene that is present in the FLOR-ID
-database\textsuperscript{296}.}\label{appendixa:sampledensity}
+database\textsuperscript{299}.}\label{appendixa:sampledensity}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -48,7 +48,7 @@ the density plots consisted of expression data from: \textbf{a} all
 annotated \emph{B. napus} genes, \textbf{b} \emph{B. napus} genes that
 show sequence conservation to an annotated Arabidopsis gene, \textbf{c}
 \emph{B. napus} genes that show sequence conservation to an annotated
-Arabidopsis gene that is present in the FLOR-ID database\textsuperscript{296}, and
+Arabidopsis gene that is present in the FLOR-ID database\textsuperscript{299}, and
 \textbf{d} \emph{B. napus} genes for which homoeologue information is
 available. These plots are generated using apex expression data from the
 time point taken at day 22.}\label{appendixa:homoeologuedensity}

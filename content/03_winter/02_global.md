@@ -33,7 +33,7 @@ gene subset taken. This finding is not as evident in the apex. The gene
 subsets used to calculate the overlaps in each case are: \textbf{a} and
 \textbf{d} All \emph{B.\ napus} genes; \textbf{b} and \textbf{e} \emph{B.~napus} genes with identifiable Arabidopsis homologues; \textbf{c} and
 \textbf{f} \emph{B.~napus} genes that show sequence similarity to
-Arabidopsis genes in the FLOR-ID database of floral genes\textsuperscript{296}.
+Arabidopsis genes in the FLOR-ID database of floral genes\textsuperscript{299}.
 Percentages have been rounded to the closest
 integer.}\label{figure:3xx:varietyvenn}
 \end{figure}
@@ -62,7 +62,7 @@ expressed in Westar, whereas the right most percentage is the
 corresponding percentage for Tapidor. In both the apex (\textbf{a}) and
 the leaf (\textbf{b}) there are more Arabidopsis genes with more copies
 expressed in Tapidor relative to Westar. Using a chi-squared goodness-of-fit
-test (using the \texttt{chisq.test} function in the R statistical programming language\textsuperscript{TODO}), reveals that the bias towards Tapidor is not significant in the apex (\emph{p}-value of 0.359) but is significant in the leaf (\emph{p}-value of < 2.2e-16), assuming a 0.05 significance threshold, with the null hypothesis assuming equal numbers of points on each side of the diagonal, grey line.}\label{figure:3xx:tapvswesall}
+test (using the \texttt{chisq.test} function in the R statistical programming language\textsuperscript{467}), reveals that the bias towards Tapidor is not significant in the apex (\emph{p}-value of 0.359) but is significant in the leaf (\emph{p}-value of < 2.2e-16), assuming a 0.05 significance threshold, with the null hypothesis assuming equal numbers of points on each side of the diagonal, grey line.}\label{figure:3xx:tapvswesall}
 \end{figure}
 
 \begin{figure}[htbp]

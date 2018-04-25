@@ -34,7 +34,7 @@ from: \textbf{a} all annotated \emph{B.~napus} genes, \textbf{b}
 \emph{B.~napus} genes that show sequence conservation to an annotated
 Arabidopsis gene, and \textbf{c} \emph{B.~napus} genes that show
 sequence conservation to an annotated Arabidopsis gene that is present
-in the FLOR-ID database\textsuperscript{296}. These plots are generated
+in the FLOR-ID database\textsuperscript{299}. These plots are generated
 using apex expression data from the time point taken at day 22, but are
 representative of the density plots obtained for all time points across
 both tissue types sampled (Figure \ref{appendixa:sampledensity};
@@ -85,7 +85,7 @@ This difference reveals that there are more genes on the C genome that do not sh
 \end{table}
 
 \begin{table}[htp]
-\caption{{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}}{As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database\textsuperscript{296}. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
+\caption{{Number of genes expressed two-fold higher than their homoeologue for all flowering time gene homoeologue pairs.}}{As for Table \ref{spring:table201:homoeologues}, calculated using homoeologue pairs that showed sequence similarity to Arabidopsis flowering time genes from the FLOR-ID database\textsuperscript{299}. The geometric mean of the fold difference of the C genome gene relative to the A genome homoeologue for all flowering time homoeologue pairs is 1.10 in the apex and 1.04 in the leaf.}
 \begin{center}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{ccccccc}
@@ -144,7 +144,7 @@ expressed genes showing tissue-specific expression. \textbf{a and d} All
 annotated \emph{B.~napus} genes; \textbf{b and e} Only \emph{B.~napus}
 genes with an identified Arabidopsis homologue are considered; \textbf{c
 and f} Only \emph{B.~napus} genes with an identified Arabidopsis
-homologue that is in the FLOR-ID database\textsuperscript{296} are
+homologue that is in the FLOR-ID database\textsuperscript{299} are
 considered.}\label{figure:211:venn}
 \end{figure}
 
@@ -217,7 +217,7 @@ graph.}\label{figure:213:allvsexp}
 \emph{B.~napus}.}}{As for figure \ref{figure:213:allvsexp}, but only
 using \emph{B.~napus} genes that have sequence similarity to annotated
 Arabidopsis flowering time genes in the FLOR-ID
-database\textsuperscript{296}.}\label{figure:214:allvsexpflower}
+database\textsuperscript{299}.}\label{figure:214:allvsexpflower}
 \end{figure}
 
 The distributions of *B.\ napus* homologue number suggest that genes involved with the regulation of flowering time have been retained in the genome.
@@ -255,7 +255,7 @@ used.}\label{figure:215:wgcnaall}
 figure \ref{figure:215:wgcnaall}, but only using \emph{B.~napus} genes
 that have sequence similarity to annotated Arabidopsis flowering time
 genes in the FLOR-ID
-database\textsuperscript{296}.}\label{figure:216:wgcnaflower}
+database\textsuperscript{299}.}\label{figure:216:wgcnaflower}
 \end{figure}
 
 In order to further investigate regulatory divergence between *B.\ napus* homologues of Arabidopsis genes, the behaviour of genes across the time series was studied.

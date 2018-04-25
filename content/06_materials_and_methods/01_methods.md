@@ -121,7 +121,7 @@ To assess biological variation, a second RNA sample for five time points in both
 \end{sidewaystable}
 
 \begin{table}[t!]
-\caption*{\emph{Continued from Page \pageref{methods:readdepth}.} Reads were mapped to the Darmor-\emph{bzh} reference genome using TopHat\textsuperscript{248}. The percentage of mapped reads is given as the percentage of the total reads. Multiply mapped reads are defined as reads that mapped to multiple places in the genome with an equal probability. The percentages of multiply mapped reads and the percentage of reads mapping to more than 20 position in the genome are calculated as a total of the reads that were mapped to the genome, and not a percentage of the total reads.}%missing
+\caption*{\emph{Continued from Page \pageref{methods:readdepth}.} Reads were mapped to the Darmor-\emph{bzh} reference genome using TopHat\textsuperscript{251}. The percentage of mapped reads is given as the percentage of the total reads. Multiply mapped reads are defined as reads that mapped to multiple places in the genome with an equal probability. The percentages of multiply mapped reads and the percentage of reads mapping to more than 20 position in the genome are calculated as a total of the reads that were mapped to the genome, and not a percentage of the total reads.}%missing
 \label{table:readdepthlegend}
 \end{table}
 
